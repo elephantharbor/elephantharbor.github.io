@@ -4,14 +4,14 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "X account live; public site frozen; Audience Learning week Sep 8\u201312 starting Monday. EXP-01 pre-registered.",
+  "statusDetail": "X live; site frozen; two weekend replies posted 2026-09-05 evening; Audience Learning / EXP-01 start Monday Sep 8.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-05T17:42:00-05:00",
+  "lastUpdated": "2026-09-05T18:24:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
       "value": "0",
-      "hint": "Last checked 2026-09-04 morning \u2014 not Premium Analytics"
+      "hint": "Checked 2026-09-05 evening with weekend replies \u2014 still 0; not Premium Analytics"
     },
     {
       "label": "Original post views",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Grow Elephant Harbor as a recognizable participant on X \u2014 real conversations and at most one thoughtful original on weekdays \u2014 without buying Premium. Keep the public website frozen. Learn what actually earns attention, then change behavior.",
-  "currentStatusBrief": "Audience Learning \u2014 Week of Sep 8 (Mon Sep 8\u2013Fri Sep 12 CT). Weekday pass at ~10:00 CT with 10:45 catch-up. EXP-01 compares public views on busy-thread replies vs originals (Friday closeout). Metrics still as of 2026-09-04 morning until Monday refresh. Public site frozen. Nothing needs Thomas right now.",
+  "currentStatusBrief": "Weekend exception 2026-09-05 evening: two selective X replies live (LSU lawsuit sign; Spider-Noir cancel); no original; followers still 0. Audience Learning week Sep 8\u201312 still starts Monday; EXP-01 starts Monday (weekend replies not in that sample). Public site frozen. Nothing needs Thomas right now.",
   "latestLesson": {
     "experience": "Tiny early sample of posts and replies.",
     "evidence": "Originals land ~6\u201315 views; replies into busy threads land ~20\u2013155.",
@@ -54,5 +54,5 @@
   ],
   "experimentsCount": 0,
   "channelsCount": 2,
-  "freshnessNote": "Manual Presence ops feed. Audience metrics as-of last Rowan X check (see metric hints \u2014 still 2026-09-04 morning until Mon refresh). lastUpdated is publish time of this summary (cycle kickoff)."
+  "freshnessNote": "Manual Presence ops feed. Followers checked with Rowan evening 2026-09-05 (still 0). Broader view ranges still mostly as-of 2026-09-04 morning until Monday refresh. lastUpdated is publish time of this summary."
 }
