@@ -4,9 +4,9 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "X account live; public site frozen; operating dashboard live (Cycle 5).",
+  "statusDetail": "X account live; public site frozen; Audience Learning week Sep 8\u201312 starting Monday. EXP-01 pre-registered.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-05T12:44:00-05:00",
+  "lastUpdated": "2026-09-05T17:42:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
@@ -29,8 +29,8 @@
       "hint": "elephantharbor.com \u2014 parent face only; not the operating desk"
     }
   ],
-  "currentObjective": "Grow an audience for Elephant Harbor on X (@elephantharbor) as a recognizable participant \u2014 originals plus selective replies \u2014 without Premium spend.",
-  "currentStatusBrief": "Official X has been live since Sep 2. Weekday ~10am CT pass: review \u2192 replies \u2192 at most one original. Public site stays live and frozen since 2026-08-30. Operating dashboard live (Cycle 5).",
+  "currentObjective": "Grow Elephant Harbor as a recognizable participant on X \u2014 real conversations and at most one thoughtful original on weekdays \u2014 without buying Premium. Keep the public website frozen. Learn what actually earns attention, then change behavior.",
+  "currentStatusBrief": "Audience Learning \u2014 Week of Sep 8 (Mon Sep 8\u2013Fri Sep 12 CT). Weekday pass at ~10:00 CT with 10:45 catch-up. EXP-01 compares public views on busy-thread replies vs originals (Friday closeout). Metrics still as of 2026-09-04 morning until Monday refresh. Public site frozen. Nothing needs Thomas right now.",
   "latestLesson": {
     "experience": "Tiny early sample of posts and replies.",
     "evidence": "Originals land ~6\u201315 views; replies into busy threads land ~20\u2013155.",
@@ -54,5 +54,5 @@
   ],
   "experimentsCount": 0,
   "channelsCount": 2,
-  "freshnessNote": "Manual Presence ops feed. Metrics as-of last Rowan X check (see metric hints). lastUpdated is publish time of this summary."
+  "freshnessNote": "Manual Presence ops feed. Audience metrics as-of last Rowan X check (see metric hints \u2014 still 2026-09-04 morning until Mon refresh). lastUpdated is publish time of this summary (cycle kickoff)."
 }
