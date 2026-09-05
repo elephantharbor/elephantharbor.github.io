@@ -32,4 +32,4 @@ python3 -m http.server 8080
 
 ## Cycles
 
-1 Foundation · 2 Portfolio landing (this) · 3 Foundry dashboard · 4 Presence dashboard · 5 Integration
+1 Foundation · 2 Portfolio landing (this) · 3 Foundry dashboard (live) · 4 Presence dashboard · 5 Integration
