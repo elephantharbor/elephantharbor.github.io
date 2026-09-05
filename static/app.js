@@ -80,7 +80,6 @@ function tileHtml(s) {
     fmtWhen(s.lastUpdated)
   )}</span></p>
     ${s.freshnessNote ? `<p class="meta"><span>${escapeHtml(s.freshnessNote)}</span></p>` : ""}
-    ${s.freshnessNote ? `<p class="meta"><span>${escapeHtml(s.freshnessNote)}</span></p>` : ""}
     <ul class="metrics">${metrics}</ul>
     <div>
       <p class="block-label">Current objective</p>
