@@ -4,7 +4,7 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "X account live; public site frozen. Detailed operating dashboard planned (Cycle 4).",
+  "statusDetail": "X account live; public site frozen; operating dashboard live (Cycle 4).",
   "owner": "Maren (Harbor Presence - CEO)",
   "lastUpdated": "2026-09-05T11:41:00-05:00",
   "headlineMetrics": [
@@ -30,22 +30,28 @@
     }
   ],
   "currentObjective": "Grow an audience for Elephant Harbor on X (@elephantharbor) as a recognizable participant \u2014 originals plus selective replies \u2014 without Premium spend.",
-  "currentStatusBrief": "Official X has been live since Sep 2 (Harbor mark; bio: \u201cParent company. The kids don't take our last name.\u201d; website elephantharbor.com). Weekday ~10am CT pass: review \u2192 replies \u2192 at most one original. Public site stays live and frozen. Operating dashboard not built yet (Cycle 4).",
+  "currentStatusBrief": "Official X has been live since Sep 2. Weekday ~10am CT pass: review \u2192 replies \u2192 at most one original. Public site stays live and frozen since 2026-08-30. Operating dashboard live (Cycle 4).",
   "latestLesson": {
     "experience": "Tiny early sample of posts and replies.",
     "evidence": "Originals land ~6\u201315 views; replies into busy threads land ~20\u2013155.",
     "learning": "Replies in live rooms currently outperform broadcast originals for visibility.",
-    "change": "Keep range on originals; don\u2019t chase volume or overfit one quiet day."
+    "change": "Bias replies toward busy genuine threads; keep originals for range; don't chase volume or overfit silence."
   },
   "needsHumanAction": false,
   "humanAction": null,
-  "dashboardUrl": null,
-  "dashboardState": "planned",
+  "dashboardUrl": "https://elephantharbor.github.io/harbor-presence/",
+  "dashboardState": "live",
   "publicLinks": [
     {
       "label": "Public website",
       "url": "https://elephantharbor.com",
       "note": "Public-facing company site \u2014 not the operating dashboard"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/elephantharbor"
     }
-  ]
+  ],
+  "experimentsCount": 0,
+  "channelsCount": 2
 }
