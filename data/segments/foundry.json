@@ -1,0 +1,35 @@
+{
+  "segmentId": "foundry",
+  "segmentName": "Harbor Foundry",
+  "description": "Software venture creation.",
+  "mission": "Find weak or dated incumbent software markets, validate opportunities to replace them, and build substantial new software businesses where evidence warrants it.",
+  "status": "Building",
+  "statusDetail": "One operating venture and one active validation sprint. Detailed operating dashboard planned (Cycle 3).",
+  "owner": "Calder (Harbor Foundry - CEO)",
+  "lastUpdated": "2026-09-05T11:40:00-05:00",
+  "headlineMetrics": [
+    {
+      "label": "Operating ventures",
+      "value": "1",
+      "hint": "Setaside Designs (Etsy)"
+    },
+    {
+      "label": "Active validation sprints",
+      "value": "1",
+      "hint": "Bullhorn \u2014 Thomas-approved; interviews deferred"
+    },
+    {
+      "label": "Operating dashboard",
+      "value": "Planned",
+      "hint": "Cycle 3 \u2014 not built yet"
+    }
+  ],
+  "currentObjective": "Deepen the Bullhorn validation prototype (Latch) at $0 and keep Setaside healthy for realized-cash evidence.",
+  "currentStatusBrief": "Setaside is the live operating venture on Etsy. Bullhorn is an active validation sprint (prototype/build continuing; customer interviews deferred until a later outreach rail). Detailed Foundry dashboard is not built yet.",
+  "latestLesson": null,
+  "needsHumanAction": false,
+  "humanAction": null,
+  "dashboardUrl": null,
+  "dashboardState": "planned",
+  "publicLinks": []
+}

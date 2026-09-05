@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elephant Harbor — Portfolio operating console</title>
+  <meta name="description" content="Elephant Harbor portfolio operating console for Capital, Presence, and Foundry." />
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">EH</span>
+      <div>
+        <h1>Elephant Harbor</h1>
+        <p class="sub">Portfolio operating console</p>
+      </div>
+    </div>
+    <div class="updated" id="updated">—</div>
+  </header>
+
+  <nav class="nav" aria-label="Portfolio">
+    <a class="active" href="/">Portfolio</a>
+    <span class="sep" aria-hidden="true">/</span>
+    <a href="https://elephantharbor.github.io/harbor-capital-desk/">Harbor Capital</a>
+    <a href="#presence" title="Operating dashboard planned — public site is separate">Harbor Presence</a>
+    <a href="#foundry" title="Operating dashboard planned">Harbor Foundry</a>
+  </nav>
+
+  <main id="app">
+    <p class="lede">What am I looking at?</p>
+    <p class="intro" id="status-brief">Loading…</p>
+    <div class="note" id="public-note"></div>
+
+    <h2 class="section-title">Portfolio status</h2>
+    <div id="stats" class="stats"></div>
+
+    <h2 class="section-title">Needs your attention</h2>
+    <p class="section-help">Only genuine decisions, gates, or blockers — not routine agent activity.</p>
+    <div id="attention" class="attention empty">Loading…</div>
+
+    <h2 class="section-title" id="segments">Segments</h2>
+    <p class="section-help">Each tile: what this segment is, what it is trying to do, what is happening now, key numbers, lessons, and whether you need to act.</p>
+    <div id="tiles" class="grid"><p class="loading">Loading segments…</p></div>
+    
+  </main>
+
+  <footer class="foot">
+    Shell: Portfolio Systems · Segment data owned by each segment · Capital desk remains a separate site · Do not publish credentials or account IDs here
+  </footer>
+  <script src="static/app.js"></script>
+</body>
+</html>

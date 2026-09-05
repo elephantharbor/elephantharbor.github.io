@@ -1,0 +1,41 @@
+{
+  "segmentId": "presence",
+  "segmentName": "Harbor Presence",
+  "description": "Audience and public presence.",
+  "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
+  "status": "Operating",
+  "statusDetail": "X operations active under Presence Lead. Detailed operating dashboard planned (Cycle 4).",
+  "owner": "Maren (Harbor Presence - CEO)",
+  "lastUpdated": "2026-09-05T11:40:00-05:00",
+  "headlineMetrics": [
+    {
+      "label": "Public website",
+      "value": "Live",
+      "hint": "elephantharbor.com \u2014 public company site, not the operating desk"
+    },
+    {
+      "label": "X operations",
+      "value": "Active",
+      "hint": "Rowan operates day-to-day"
+    },
+    {
+      "label": "Operating dashboard",
+      "value": "Planned",
+      "hint": "Cycle 4 \u2014 not built yet"
+    }
+  ],
+  "currentObjective": "Learn what content earns attention for Elephant Harbor without corporate tone or engagement bait.",
+  "currentStatusBrief": "Presence Lead runs the official X account as a single operator. The public website stays live. A detailed Presence operating dashboard is not built yet \u2014 this tile is the summary for now.",
+  "latestLesson": null,
+  "needsHumanAction": false,
+  "humanAction": null,
+  "dashboardUrl": null,
+  "dashboardState": "planned",
+  "publicLinks": [
+    {
+      "label": "Public website",
+      "url": "https://elephantharbor.com",
+      "note": "Public-facing company site \u2014 not the operating dashboard"
+    }
+  ]
+}

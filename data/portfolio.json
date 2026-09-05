@@ -1,0 +1,19 @@
+{
+  "title": "Elephant Harbor",
+  "subtitle": "Portfolio operating console",
+  "statusBrief": "Three operating segments. This page is the parent operating surface for Thomas and the autonomous organization \u2014 not the public company website.",
+  "publicSiteUrl": "https://elephantharbor.com",
+  "publicSiteNote": "elephantharbor.com is the public-facing company site (Harbor Presence). This github.io site is the internal operating console.",
+  "segments": [
+    "capital",
+    "presence",
+    "foundry"
+  ],
+  "lastUpdated": "2026-09-05T11:40:00-05:00",
+  "stats": {
+    "activeSegments": 3,
+    "segmentsNeedingHumanAction": 0,
+    "activeSprints": 1,
+    "operatingVentures": 1
+  }
+}
