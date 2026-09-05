@@ -68,7 +68,7 @@ function tileHtml(s) {
   const actionFlag = s.needsHumanAction
     ? `<p class="meta"><span>Action needed:</span> ${escapeHtml(s.humanAction || "Human decision required")}</p>`
     : "";
-  return `<article class="tile" data-segment="${escapeHtml(s.segmentId)}">
+  return `<article class="tile" id="${escapeHtml(s.segmentId)}" data-segment="${escapeHtml(s.segmentId)}">
     <div class="tile-head">
       <div>
         <h2>${escapeHtml(s.segmentName)}</h2>
