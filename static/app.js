@@ -78,7 +78,8 @@ function tileHtml(s) {
     </div>
     <p class="meta">Owner: <span>${escapeHtml(s.owner)}</span> · Updated <span>${escapeHtml(
     fmtWhen(s.lastUpdated)
-  )}</span>${s.freshnessNote ? ` · <span title="${escapeHtml(s.freshnessNote)}">freshness note</span>` : ""}</p>
+  )}</span></p>
+    ${s.freshnessNote ? `<p class="meta"><span>${escapeHtml(s.freshnessNote)}</span></p>` : ""}
     <ul class="metrics">${metrics}</ul>
     <div>
       <p class="block-label">Current objective</p>
