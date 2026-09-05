@@ -4,9 +4,9 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "X live; site frozen; two weekend replies posted 2026-09-05 evening; Audience Learning / EXP-01 start Monday Sep 8.",
+  "statusDetail": "X live; site frozen; cadence = study others\u2019 replies then 2\u20134 Harbor replies; Audience Learning / EXP-01 start Monday Sep 8.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-05T18:24:00-05:00",
+  "lastUpdated": "2026-09-05T18:34:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
@@ -29,13 +29,13 @@
       "hint": "elephantharbor.com \u2014 parent face only; not the operating desk"
     }
   ],
-  "currentObjective": "Grow Elephant Harbor as a recognizable participant on X \u2014 real conversations and at most one thoughtful original on weekdays \u2014 without buying Premium. Keep the public website frozen. Learn what actually earns attention, then change behavior.",
-  "currentStatusBrief": "Weekend exception 2026-09-05 evening: two selective X replies live (LSU lawsuit sign; Spider-Noir cancel); no original; followers still 0. Audience Learning week Sep 8\u201312 still starts Monday; EXP-01 starts Monday (weekend replies not in that sample). Public site frozen. Nothing needs Thomas right now.",
+  "currentObjective": "Grow Elephant Harbor as a recognizable participant on X \u2014 real conversations first \u2014 without buying Premium. Weekday pass: study what others\u2019 high-engagement replies are doing in live rooms, then ship 2\u20134 selective Harbor replies; at most one original for range. Keep the public website frozen. Learn what earns attention, then change behavior.",
+  "currentStatusBrief": "Cadence update (Thomas 2026-09-05): weekday passes start by studying other people\u2019s high-engagement replies, then 2\u20134 selective Harbor replies (\u22641 original). Audience Learning / EXP-01 still Mon\u2013Fri Sep 8\u201312. Followers still 0; site frozen. Nothing needs Thomas right now.",
   "latestLesson": {
-    "experience": "Tiny early sample of posts and replies.",
-    "evidence": "Originals land ~6\u201315 views; replies into busy threads land ~20\u2013155.",
-    "learning": "Replies in live rooms currently outperform broadcast originals for visibility.",
-    "change": "Bias replies toward busy genuine threads; keep originals for range; don't chase volume or overfit silence."
+    "experience": "Early posts and sparse replies got little traction; busy rooms already beat broadcast originals.",
+    "evidence": "Originals ~6\u201315 public views; busy-thread replies ~20\u2013155; followers still 0.",
+    "learning": "What other people\u2019s replies earn in a live room is a better guide than posting in isolation.",
+    "change": "Weekday pass starts with studying others\u2019 high-engagement replies, then targets 2\u20134 selective Harbor replies."
   },
   "needsHumanAction": false,
   "humanAction": null,
@@ -54,5 +54,5 @@
   ],
   "experimentsCount": 0,
   "channelsCount": 2,
-  "freshnessNote": "Manual Presence ops feed. Followers checked with Rowan evening 2026-09-05 (still 0). Broader view ranges still mostly as-of 2026-09-04 morning until Monday refresh. lastUpdated is publish time of this summary."
+  "freshnessNote": "Manual Presence ops feed. Cadence/strategy updated 2026-09-05 evening. Audience metrics still largely as-of 2026-09-04 morning / followers checked evening Sep 5 (0). lastUpdated is publish time of this summary."
 }
