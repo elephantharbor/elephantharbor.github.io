@@ -41,5 +41,6 @@
   "humanAction": null,
   "dashboardUrl": "https://elephantharbor.github.io/harbor-foundry/",
   "dashboardState": "live",
-  "publicLinks": []
+  "publicLinks": [],
+  "freshnessNote": "Manual Foundry ops feed. lastUpdated is when Foundry last published this summary \u2014 not a live broker clock."
 }

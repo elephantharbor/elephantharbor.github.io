@@ -53,5 +53,6 @@
     }
   ],
   "experimentsCount": 0,
-  "channelsCount": 2
+  "channelsCount": 2,
+  "freshnessNote": "Manual Presence ops feed. Metrics as-of last Rowan X check (see metric hints). lastUpdated is publish time of this summary."
 }

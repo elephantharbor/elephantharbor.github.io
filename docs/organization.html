@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How Elephant Harbor is organized</title>
+  <link rel="stylesheet" href="/shared/eh-console.css" />
+</head>
+<body class="eh-portfolio">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">EH</span>
+      <div>
+        <h1>How Elephant Harbor is organized</h1>
+        <p class="sub">Portfolio operating system · Concise map</p>
+      </div>
+    </div>
+  </header>
+  <nav class="wayhome" aria-label="Elephant Harbor">
+    <a href="/">Elephant Harbor / Portfolio</a>
+    <span class="sep" aria-hidden="true">/</span>
+    <a href="https://elephantharbor.github.io/harbor-capital-desk/">Capital</a>
+    <a href="https://elephantharbor.github.io/harbor-presence/">Presence</a>
+    <a href="https://elephantharbor.github.io/harbor-foundry/">Foundry</a>
+    <span class="sep" aria-hidden="true">·</span>
+    <a class="active" href="/docs/organization.html" aria-current="page">How EH is organized</a>
+  </nav>
+  <main id="main">
+    <p class="lede">One company, three operating segments, one shared console.</p>
+    <p class="intro">This github.io surface is the internal operating console for Thomas and the autonomous organization. It is not the public company website.</p>
+
+    <h2 class="section-title">Surfaces</h2>
+    <div class="card">
+      <p><strong>elephantharbor.com</strong> — Public company site. Owned by Harbor Presence.</p>
+      <p><strong>elephantharbor.github.io</strong> — Portfolio operating console (shell: Portfolio Systems). Segment desks are linked rooms.</p>
+    </div>
+
+    <h2 class="section-title">Segments</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+      <div class="card"><h3 style="margin:0 0 6px">Harbor Capital</h3><p class="muted" style="margin:0">Capital allocation and trading. Desk: <a href="https://elephantharbor.github.io/harbor-capital-desk/">/harbor-capital-desk/</a>. CEO: Holt.</p></div>
+      <div class="card"><h3 style="margin:0 0 6px">Harbor Presence</h3><p class="muted" style="margin:0">Audience and public presence. Desk: <a href="https://elephantharbor.github.io/harbor-presence/">/harbor-presence/</a>. Public site: elephantharbor.com. CEO: Maren · Lead: Rowan.</p></div>
+      <div class="card"><h3 style="margin:0 0 6px">Harbor Foundry</h3><p class="muted" style="margin:0">Software venture creation. Desk: <a href="https://elephantharbor.github.io/harbor-foundry/">/harbor-foundry/</a>. CEO: Calder · Ops: Fernando.</p></div>
+    </div>
+
+    <h2 class="section-title">Portfolio layer</h2>
+    <div class="card">
+      <p><strong>Hayes (Portfolio - CEO)</strong> — Portfolio structure, cross-segment priorities, conventions.</p>
+      <p><strong>Wells (Portfolio - Systems)</strong> — Shared shell, design system, navigation, segment-summary contract, Needs Your Attention presentation.</p>
+      <p>Segments own their canonical data and detailed dashboards. Portfolio Systems owns the framework and visual language.</p>
+    </div>
+
+    <h2 class="section-title">Data flow</h2>
+    <div class="card">
+      <p>Segment canonical state → <code>segment-summary.json</code> → portfolio homepage tiles + Needs Your Attention.</p>
+      <p>Design system source: <a href="/shared/">/shared/eh-console.css</a> (do not fork tokens across desks).</p>
+    </div>
+
+    <h2 class="section-title">Adding a future segment</h2>
+    <div class="card">
+      <ol>
+        <li>Register the segment and publish a standard summary.</li>
+        <li>Ship a desk URL under the shared design system + way-home nav.</li>
+        <li>Add a portfolio tile/nav entry — no redesign of the shell.</li>
+      </ol>
+    </div>
+  </main>
+  <footer class="foot">Cycle 5 · Portfolio Systems</footer>
+</body>
+</html>

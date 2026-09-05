@@ -4,38 +4,36 @@
   "description": "Capital allocation and trading.",
   "mission": "Grow a finite bankroll through disciplined market participation, controlled risk, and continuous learning.",
   "status": "Operating",
-  "statusDetail": "LIVE. Waiting on first fill to start the 30-day viability review.",
+  "statusDetail": "Await first live fill (order [order redacted] PreSubmitted) \u2014 viability clock starts on fill",
   "owner": "Holt (Harbor Capital - CEO)",
-  "lastUpdated": "2026-09-05T11:41:00-05:00",
+  "lastUpdated": "2026-09-05T10:07:00-05:00",
+  "freshnessNote": "Desk snapshot generated 2026-09-05 10:07:00 CT. Funding excess above C is reserve, not trading return.",
   "headlineMetrics": [
     {
       "label": "Mode",
-      "value": "LIVE",
-      "hint": "Live trading authorized"
+      "value": "LIVE"
     },
     {
       "label": "Bankroll (C)",
-      "value": "$200",
-      "hint": "Funded starting bankroll for display"
+      "value": "$200"
     },
     {
       "label": "Net trading P&L",
       "value": "$0.00",
-      "hint": "Funding excess above $200 sits in reserve \u2014 not performance"
+      "hint": "Funding excess above C is reserve \u2014 not performance"
     },
     {
       "label": "Open positions",
-      "value": "0",
-      "hint": "No open risk positions"
+      "value": "0"
     }
   ],
-  "currentObjective": "Complete the live ops plumbing test and learn from the first fill under LIVE rules.",
-  "currentStatusBrief": "Live ops plumbing test submitted (small SGOV reserve buy). Waiting on first fill to start the 30-day viability review. No human action blocking capital ops right now.",
+  "currentObjective": "Complete live ops plumbing and learn from the first fill under LIVE rules.",
+  "currentStatusBrief": "LIVE. Await first live fill (order [order redacted] PreSubmitted) \u2014 viability clock starts on fill",
   "latestLesson": {
-    "experience": "Correlated forecasts were treated like independent evidence.",
-    "evidence": "That inflated the clean calibration sample.",
-    "learning": "Correlated forecasts are not independent evidence.",
-    "change": "Journal now blocks correlated groups from inflating the clean sample."
+    "experience": "Wave1 forecasts locked after looking at Kalshi mids",
+    "evidence": "Contaminated rows cannot support beat-the-market claims",
+    "learning": "Clean vs contaminated must be hard-split; never mix for edge claims",
+    "change": "Added calibration_clean vs calibration_contaminated; looked_at_market_first required"
   },
   "needsHumanAction": false,
   "humanAction": null,

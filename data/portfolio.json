@@ -1,7 +1,7 @@
 {
   "title": "Elephant Harbor",
   "subtitle": "Portfolio operating console",
-  "statusBrief": "Three operating segments. This page is the parent operating surface for Thomas and the autonomous organization \u2014 not the public company website.",
+  "statusBrief": "Three operating segments on one shared console design system. Segment desks own truth; Portfolio Systems owns shell, nav, and summary presentation.",
   "publicSiteUrl": "https://elephantharbor.com",
   "publicSiteNote": "elephantharbor.com is the public-facing company site (Harbor Presence). This github.io site is the internal operating console.",
   "segments": [
@@ -9,7 +9,7 @@
     "presence",
     "foundry"
   ],
-  "lastUpdated": "2026-09-05T12:44:00-05:00",
+  "lastUpdated": "2026-09-05T12:52:00-05:00",
   "stats": {
     "activeSegments": 3,
     "segmentsNeedingHumanAction": 0,
