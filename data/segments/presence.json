@@ -4,29 +4,39 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "X operations active under Presence Lead. Detailed operating dashboard planned (Cycle 4).",
+  "statusDetail": "X account live; public site frozen. Detailed operating dashboard planned (Cycle 4).",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-05T11:40:00-05:00",
+  "lastUpdated": "2026-09-05T11:41:00-05:00",
   "headlineMetrics": [
     {
+      "label": "X followers",
+      "value": "0",
+      "hint": "Last checked 2026-09-04 morning \u2014 not Premium Analytics"
+    },
+    {
+      "label": "Original post views",
+      "value": "~6\u201315",
+      "hint": "Typical range so far; zero likes/replies/reposts/bookmarks yet"
+    },
+    {
+      "label": "Reply reach",
+      "value": "~20\u2013155 views",
+      "hint": "Replies into busy threads currently outperform standalone originals"
+    },
+    {
       "label": "Public website",
-      "value": "Live",
-      "hint": "elephantharbor.com \u2014 public company site, not the operating desk"
-    },
-    {
-      "label": "X operations",
-      "value": "Active",
-      "hint": "Rowan operates day-to-day"
-    },
-    {
-      "label": "Operating dashboard",
-      "value": "Planned",
-      "hint": "Cycle 4 \u2014 not built yet"
+      "value": "Live / frozen",
+      "hint": "elephantharbor.com \u2014 parent face only; not the operating desk"
     }
   ],
-  "currentObjective": "Learn what content earns attention for Elephant Harbor without corporate tone or engagement bait.",
-  "currentStatusBrief": "Presence Lead runs the official X account as a single operator. The public website stays live. A detailed Presence operating dashboard is not built yet \u2014 this tile is the summary for now.",
-  "latestLesson": null,
+  "currentObjective": "Grow an audience for Elephant Harbor on X (@elephantharbor) as a recognizable participant \u2014 originals plus selective replies \u2014 without Premium spend.",
+  "currentStatusBrief": "Official X has been live since Sep 2 (Harbor mark; bio: \u201cParent company. The kids don't take our last name.\u201d; website elephantharbor.com). Weekday ~10am CT pass: review \u2192 replies \u2192 at most one original. Public site stays live and frozen. Operating dashboard not built yet (Cycle 4).",
+  "latestLesson": {
+    "experience": "Tiny early sample of posts and replies.",
+    "evidence": "Originals land ~6\u201315 views; replies into busy threads land ~20\u2013155.",
+    "learning": "Replies in live rooms currently outperform broadcast originals for visibility.",
+    "change": "Keep range on originals; don\u2019t chase volume or overfit one quiet day."
+  },
   "needsHumanAction": false,
   "humanAction": null,
   "dashboardUrl": null,
