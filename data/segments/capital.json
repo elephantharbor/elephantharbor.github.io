@@ -4,38 +4,38 @@
   "description": "Capital allocation and trading.",
   "mission": "Grow a finite bankroll through disciplined market participation, controlled risk, and continuous learning.",
   "status": "Operating",
-  "statusDetail": "LIVE book authorized. Waiting on first live fill before the viability clock starts.",
+  "statusDetail": "LIVE. Waiting on first fill to start the 30-day viability review.",
   "owner": "Holt (Harbor Capital - CEO)",
-  "lastUpdated": "2026-09-05T10:07:00-05:00",
+  "lastUpdated": "2026-09-05T11:41:00-05:00",
   "headlineMetrics": [
+    {
+      "label": "Mode",
+      "value": "LIVE",
+      "hint": "Live trading authorized"
+    },
     {
       "label": "Bankroll (C)",
       "value": "$200",
-      "hint": "Confirmed trading bankroll"
+      "hint": "Funded starting bankroll for display"
     },
     {
-      "label": "Account value",
-      "value": "$210",
-      "hint": "Includes $10 funding reserve above C \u2014 not trading return"
-    },
-    {
-      "label": "Net P&L",
-      "value": "$0",
-      "hint": "No live fills yet"
+      "label": "Net trading P&L",
+      "value": "$0.00",
+      "hint": "Funding excess above $200 sits in reserve \u2014 not performance"
     },
     {
       "label": "Open positions",
       "value": "0",
-      "hint": "100% cash/reserve until first fill"
+      "hint": "No open risk positions"
     }
   ],
-  "currentObjective": "Place and learn from the first live fill under LIVE rules; keep risk capped to confirmed C.",
-  "currentStatusBrief": "LIVE trading is authorized with a $200 bankroll. The book is funded; an order is submitted but not filled yet. Automated execution stays Holt-gated. No open risk positions.",
+  "currentObjective": "Complete the live ops plumbing test and learn from the first fill under LIVE rules.",
+  "currentStatusBrief": "Live ops plumbing test submitted (small SGOV reserve buy). Waiting on first fill to start the 30-day viability review. No human action blocking capital ops right now.",
   "latestLesson": {
-    "experience": "Early forecasts were locked after looking at market mids.",
-    "evidence": "Those rows cannot support beat-the-market claims.",
-    "learning": "Clean vs contaminated forecasts must be hard-split.",
-    "change": "Calibration now separates clean vs contaminated; market-first lookups are flagged."
+    "experience": "Correlated forecasts were treated like independent evidence.",
+    "evidence": "That inflated the clean calibration sample.",
+    "learning": "Correlated forecasts are not independent evidence.",
+    "change": "Journal now blocks correlated groups from inflating the clean sample."
   },
   "needsHumanAction": false,
   "humanAction": null,
