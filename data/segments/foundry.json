@@ -4,29 +4,39 @@
   "description": "Software venture creation.",
   "mission": "Find weak or dated incumbent software markets, validate opportunities to replace them, and build substantial new software businesses where evidence warrants it.",
   "status": "Building",
-  "statusDetail": "One operating venture and one active validation sprint. Detailed operating dashboard planned (Cycle 3).",
+  "statusDetail": "One operating venture and one active validation sprint. Hunt pipeline currently cold. Detailed operating dashboard planned (Cycle 3).",
   "owner": "Calder (Harbor Foundry - CEO)",
-  "lastUpdated": "2026-09-05T11:40:00-05:00",
+  "lastUpdated": "2026-09-05T11:41:00-05:00",
   "headlineMetrics": [
     {
       "label": "Operating ventures",
       "value": "1",
-      "hint": "Setaside Designs (Etsy)"
+      "hint": "Setaside Designs on Etsy \u2014 live, $0 sales so far"
     },
     {
       "label": "Active validation sprints",
       "value": "1",
-      "hint": "Bullhorn \u2014 Thomas-approved; interviews deferred"
+      "hint": "Bullhorn \u2192 Latch (Thomas-approved; interviews deferred)"
     },
     {
-      "label": "Operating dashboard",
-      "value": "Planned",
-      "hint": "Cycle 3 \u2014 not built yet"
+      "label": "Prospects under research",
+      "value": "0",
+      "hint": "Hunt pipeline cold after EMPTY screens Sep 3\u20134"
+    },
+    {
+      "label": "Awaiting approval",
+      "value": "0",
+      "hint": "No investment memos pending Thomas"
     }
   ],
-  "currentObjective": "Deepen the Bullhorn validation prototype (Latch) at $0 and keep Setaside healthy for realized-cash evidence.",
-  "currentStatusBrief": "Setaside is the live operating venture on Etsy. Bullhorn is an active validation sprint (prototype/build continuing; customer interviews deferred until a later outreach rail). Detailed Foundry dashboard is not built yet.",
-  "latestLesson": null,
+  "currentObjective": "Find dated paid software customers dislike, validate a modern replacement, and build only where evidence warrants.",
+  "currentStatusBrief": "Hunt pipeline is cold after two EMPTY screens. Setaside is live on Etsy ($24 self-employed books) with $0 sales so far. Bullhorn \u2192 Latch sprint is in build under Wren (prototype owns search \u2192 candidate \u2192 job \u2192 submit); interviews deferred \u2014 not a build gate. No Proceed/Retarget/Kill yet. Detailed Foundry dashboard is planned for Cycle 3.",
+  "latestLesson": {
+    "experience": "Screens keep dying when the incumbent already has a vendor-owned modern successor or leftover overlays (Eagle\u2192Propello; Concur NextGen class).",
+    "evidence": "EMPTY hunt outcomes after occupancy looked promising.",
+    "learning": "Occupancy alone is not a kill \u2014 but a foothold that cannot become the desk system of record is.",
+    "change": "Scout/challenge keep destination-SoR potential as a hard filter, not just \u201cpeople hate this product.\u201d"
+  },
   "needsHumanAction": false,
   "humanAction": null,
   "dashboardUrl": null,
