@@ -141,7 +141,7 @@ function renderStats(portfolio, segments) {
 
 
 async function loadNextUpAreas() {
-  const areaIds = ["capital", "presence", "foundry"];
+  const areaIds = ["portfolio", "capital", "presence", "foundry"];
   const areas = [];
   for (const id of areaIds) {
     try {
