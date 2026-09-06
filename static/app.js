@@ -139,6 +139,81 @@ function renderStats(portfolio, segments) {
     .join("");
 }
 
+
+async function loadNextUpAreas() {
+  const areaIds = ["capital", "presence", "foundry"];
+  const areas = [];
+  for (const id of areaIds) {
+    try {
+      areas.push(await loadJSON(`data/next-up/${id}.json`));
+    } catch (_) {
+      /* missing file = treat as empty */
+      areas.push({ areaId: id, areaName: id, items: [] });
+    }
+  }
+  return areas;
+}
+
+function fmtNextRun(iso) {
+  if (!iso) return "—";
+  try {
+    const d = new Date(iso);
+    return d.toLocaleString("en-US", {
+      timeZone: "America/Chicago",
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZoneName: "short",
+    });
+  } catch {
+    return iso;
+  }
+}
+
+function renderOrgNextUp(areas) {
+  const el = document.getElementById("next-up");
+  if (!el) return;
+  const flat = [];
+  for (const area of areas) {
+    for (const item of area.items || []) {
+      if (!item || !item.title || !item.nextRunAt) continue;
+      flat.push({
+        ...item,
+        areaName: area.areaName || area.areaId,
+        areaId: area.areaId,
+      });
+    }
+  }
+  flat.sort((a, b) => String(a.nextRunAt).localeCompare(String(b.nextRunAt)));
+  const top = flat.slice(0, 5);
+  if (!top.length) {
+    el.className = "next-up empty";
+    el.innerHTML = `<p class="next-up-empty">Nothing scheduled.</p>`;
+    return;
+  }
+  el.className = "next-up";
+  el.innerHTML =
+    "<ol>" +
+    top
+      .map((it) => {
+        const meta = [
+          it.scheduleLabel ? escapeHtml(it.scheduleLabel) : "",
+          it.owner ? escapeHtml(it.owner) : "",
+        ]
+          .filter(Boolean)
+          .join(" · ");
+        return `<li>
+          <div class="nu-title"><span class="nu-area">${escapeHtml(it.areaName)}</span>${escapeHtml(it.title)}</div>
+          <div class="nu-when">${escapeHtml(fmtNextRun(it.nextRunAt))}</div>
+          ${meta ? `<div class="nu-meta">${meta}</div>` : ""}
+        </li>`;
+      })
+      .join("") +
+    "</ol>";
+}
+
 async function main() {
   try {
     const portfolio = await loadJSON("data/portfolio.json");
@@ -155,6 +230,16 @@ async function main() {
     renderStats(portfolio, segments);
     renderAttention(segments);
     document.getElementById("tiles").innerHTML = segments.map(tileHtml).join("");
+    try {
+      const nextAreas = await loadNextUpAreas();
+      renderOrgNextUp(nextAreas);
+    } catch (e) {
+      const el = document.getElementById("next-up");
+      if (el) {
+        el.className = "next-up empty";
+        el.innerHTML = `<p class="next-up-empty">Nothing scheduled.</p>`;
+      }
+    }
   } catch (err) {
     document.getElementById("app").innerHTML = `<p class="error">Could not load portfolio data. ${escapeHtml(
       err.message

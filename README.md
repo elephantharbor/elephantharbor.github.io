@@ -24,3 +24,7 @@ Source of truth: [`shared/eh-console.css`](shared/eh-console.css) — loaded by 
 ## Segment summaries
 
 `data/segments/*.json` — Cycle 1 contract. See `docs/SYNC.md`.
+
+## Next Up
+
+Scheduled routines per area: `data/next-up/<areaId>.json`. Contract: portfolio-systems `docs/NEXT-UP-CONTRACT.md`. Empty lists show “Nothing scheduled.”

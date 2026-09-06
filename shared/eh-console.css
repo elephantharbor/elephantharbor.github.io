@@ -163,3 +163,37 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
   .topbar { flex-wrap: wrap; }
   .updated { white-space: normal; }
 }
+
+/* Next Up (scheduled routines) */
+.next-up {
+  border: 1px solid var(--border); border-radius: 8px; background: var(--bg2);
+  padding: 12px 14px; margin: 0 0 14px;
+}
+.next-up h2, .next-up .next-up-title {
+  margin: 0 0 8px; font-size: 12px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--dim); font-weight: 600;
+}
+.next-up .next-up-help { margin: -4px 0 10px; color: var(--muted); font-size: 12px; }
+.next-up.empty .next-up-empty { color: var(--dim); font-size: 13px; margin: 0; }
+.next-up ol {
+  list-style: none; margin: 0; padding: 0; display: grid; gap: 8px;
+}
+.next-up li {
+  display: grid; grid-template-columns: 1fr auto; gap: 4px 12px;
+  border-top: 1px solid var(--border); padding-top: 8px;
+}
+.next-up li:first-child { border-top: none; padding-top: 0; }
+.next-up .nu-title { font-size: 13px; font-weight: 550; color: var(--text); }
+.next-up .nu-meta { font-size: 12px; color: var(--muted); grid-column: 1 / -1; }
+.next-up .nu-when {
+  font-size: 12px; color: var(--accent); font-variant-numeric: tabular-nums;
+  white-space: nowrap; text-align: right;
+}
+.next-up .nu-area {
+  display: inline-block; font-size: 11px; color: var(--dim);
+  border: 1px solid var(--border); border-radius: 3px; padding: 1px 6px; margin-right: 6px;
+}
+@media (max-width: 520px) {
+  .next-up li { grid-template-columns: 1fr; }
+  .next-up .nu-when { text-align: left; }
+}
