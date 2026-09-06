@@ -43,6 +43,10 @@
   "dashboardState": "live",
   "publicLinks": [
     {
+      "label": "Presence operating dashboard",
+      "url": "https://elephantharbor.github.io/harbor-presence/"
+    },
+    {
       "label": "Public website",
       "url": "https://elephantharbor.com",
       "note": "Public-facing company site \u2014 not the operating dashboard"
