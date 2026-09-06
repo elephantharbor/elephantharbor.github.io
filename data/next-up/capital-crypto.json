@@ -1,6 +1,28 @@
 {
   "areaId": "capital-crypto",
-  "areaName": "Capital \u2014 Crypto",
-  "lastUpdated": "2026-09-06T13:00:00-05:00",
-  "items": []
+  "areaName": "Crypto",
+  "lastUpdated": "2026-09-06T14:33:07-05:00",
+  "items": [
+    {
+      "id": "crypto-am",
+      "title": "Crypto morning observe (quiet if nothing clears)",
+      "nextRunAt": "2026-09-07T07:30:00-05:00",
+      "scheduleLabel": "Weekdays 7:30 AM CT",
+      "owner": "Cole (Harbor Capital - Crypto Spot)"
+    },
+    {
+      "id": "crypto-pm",
+      "title": "Crypto evening observe (quiet if nothing clears)",
+      "nextRunAt": "2026-09-07T19:00:00-05:00",
+      "scheduleLabel": "Weekdays 7:00 PM CT",
+      "owner": "Cole (Harbor Capital - Crypto Spot)"
+    },
+    {
+      "id": "weekly-portfolio-review",
+      "title": "Weekly portfolio review (allocation questions)",
+      "nextRunAt": "2026-09-11T17:00:00-05:00",
+      "scheduleLabel": "Fridays 5:00 PM CT",
+      "owner": "Holt (Harbor Capital - CEO)"
+    }
+  ]
 }
