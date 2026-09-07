@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Launch Plan ready. Growth prep + Platform HVAC template spike both shipped. Brand/entity still open. No outbound.",
+  "statusDetail": "Cycle 1.1 underway. Scoring v2 live in Growth docs; Action Heating rescore shows preview suitability without punishing null reviews. Premium HVAC elevation in progress. Brand Round 2 open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T08:50:00-05:00",
+  "lastUpdated": "2026-09-07T09:10:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -14,23 +14,23 @@
       "hint": "No outbound"
     },
     {
-      "label": "MRR",
-      "value": "$0",
-      "hint": "No customers"
+      "label": "Scoring",
+      "value": "v2",
+      "hint": "4-concept model; Action Opp 80 / Preview Yes"
     },
     {
-      "label": "Growth prep",
-      "value": "Ready",
-      "hint": "Scoring + pull method + draft templates"
+      "label": "Platform",
+      "value": "Elevating",
+      "hint": "Premium HVAC design families"
     },
     {
-      "label": "Platform spike",
-      "value": "Local preview",
-      "hint": "HVAC Astro template + generate-preview pipeline"
+      "label": "Brand",
+      "value": "Round 2",
+      "hint": "12 candidates; none locked"
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Kit: Astro HVAC preview viewable locally (brand-agnostic, watermarked). Lane: Growth prep ready; tiny scoring dry-run in flight. Brand/entity/ESP held with Thomas.",
+  "currentStatusBrief": "Building. Lane: Opportunity/Confidence/Preview Suitability/Contact Readiness + Action rescore (Opp 80, Preview Yes). Kit: premium template elevation. Brand candidates Round 2 with Thomas. LLC prep parallel.",
   "latestLesson": {
     "experience": "Skipped brand widget was misread as Sitekeep approval.",
     "evidence": "Hayes: Thomas wants brand/entity discussion first.",
@@ -38,7 +38,7 @@
     "change": "Growth/Platform artifacts use {{brand}}; Sitekeep only as internal proposal."
   },
   "needsHumanAction": true,
-  "humanAction": "Discuss/decide customer brand + entity path with Hayes before domain/DBA/ESP. First-send remains a later gate.",
+  "humanAction": "Brand path (Round 2); EH LLC formation gates; then domain/ESP/first-send.",
   "dashboardUrl": null,
   "dashboardState": "planned",
   "publicLinks": [
