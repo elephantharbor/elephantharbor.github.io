@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.4: Modern Bold distinctiveness + conceptual Action Heating identity. Building on 1.3 foundation (not redesign). Brand open. No outbound.",
+  "statusDetail": "Cycle 1.4 Modern Bold distinctiveness delivered for Thomas review (1977 identity, louver services, proposed Action mark). LLC binder drafts in parallel for Hayes. Brand open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T15:45:00-05:00",
+  "lastUpdated": "2026-09-07T16:00:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -20,8 +20,8 @@
     },
     {
       "label": "Platform",
-      "value": "1.4 craft",
-      "hint": "Distinctiveness + conceptual identity"
+      "value": "1.4 review",
+      "hint": "Distinctiveness pass up"
     },
     {
       "label": "Brand",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Cycle 1.4 distinctiveness pass on Modern Bold (conceptual logo, editorial services, residential HVAC hero). Brand open. No outbound.",
+  "currentStatusBrief": "Building. Cycle 1.4 awaiting Thomas freeze/refine. LLC binder drafts for Hayes in flight. Brand open. No outbound.",
   "latestLesson": {
     "experience": "1.3 cleared competence but still risked reading as a good generic contractor template.",
     "evidence": "Thomas Cycle 1.4 brief \u2014 distinctiveness gate.",
@@ -38,7 +38,7 @@
     "change": "1.4 distinctiveness pass on Modern Bold foundation; Classic still secondary."
   },
   "needsHumanAction": true,
-  "humanAction": "Await Cycle 1.4 distinctiveness pass; brand path; EH LLC gates; then domain/ESP/first-send.",
+  "humanAction": "Gate Cycle 1.4 (freeze or refine); brand path; EH LLC binder/counsel; then domain/ESP/first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
