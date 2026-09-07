@@ -4,33 +4,33 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Launch Plan ready. Growth prep artifacts shipped (ICP/scoring, STL HVAC pull method, unsent EXP-01 templates). Brand/entity still open with Thomas. No outbound.",
+  "statusDetail": "Launch Plan ready. Growth prep + Platform HVAC template spike both shipped. Brand/entity still open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T08:45:00-05:00",
+  "lastUpdated": "2026-09-07T08:50:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
       "value": "0",
-      "hint": "No outbound \u2014 awaiting brand/entity + first-send"
+      "hint": "No outbound"
     },
     {
       "label": "MRR",
       "value": "$0",
-      "hint": "No active customers"
+      "hint": "No customers"
     },
     {
       "label": "Growth prep",
       "value": "Ready",
-      "hint": "ICP scoring + pull method + draft templates"
+      "hint": "Scoring + pull method + draft templates"
     },
     {
-      "label": "Human actions",
-      "value": "Open",
-      "hint": "Brand/entity discussion; then domain/ESP/first-send"
+      "label": "Platform spike",
+      "value": "Local preview",
+      "hint": "HVAC Astro template + generate-preview pipeline"
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Lane delivered brand-agnostic Growth prep under growth/. Kit HVAC template spike in progress. Brand/entity/ESP held. Planned portfolio tile live; desk not published yet.",
+  "currentStatusBrief": "Building. Kit: Astro HVAC preview viewable locally (brand-agnostic, watermarked). Lane: Growth prep ready; tiny scoring dry-run in flight. Brand/entity/ESP held with Thomas.",
   "latestLesson": {
     "experience": "Skipped brand widget was misread as Sitekeep approval.",
     "evidence": "Hayes: Thomas wants brand/entity discussion first.",
