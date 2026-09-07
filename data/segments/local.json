@@ -3,9 +3,9 @@
   "segmentName": "Harbor Local",
   "mission": "Agent-operated digital presence and automation for established local service businesses (HVAC/plumbing wedge first).",
   "status": "Launch Plan",
-  "statusDetail": "Fourth Elephant Harbor segment (working name). Launch Plan only \u2014 no outbound. Plumbing ready; homepage tile held until Hayes confirms their given name + planned-tile preference.",
-  "owner": "Harbor Local - CEO",
-  "lastUpdated": "2026-09-07T08:20:57-05:00",
+  "statusDetail": "Fourth Elephant Harbor segment (working name). Launch Plan only \u2014 no outbound. Planned portfolio tile; live desk held until operating room is useful.",
+  "owner": "Blair (Harbor Local - CEO)",
+  "lastUpdated": "2026-09-07T08:21:29-05:00",
   "headlineMetrics": [
     {
       "label": "Stage",
@@ -31,5 +31,5 @@
   "dashboardUrl": null,
   "dashboardState": "planned",
   "publicLinks": [],
-  "freshnessNote": "Portfolio Systems registered the segment; Harbor Local owns operating truth once the desk ships."
+  "freshnessNote": "Portfolio Systems shell registration; Harbor Local owns operating truth once the desk ships."
 }
