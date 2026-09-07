@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Elephant Harbor mark">
+  <!-- Left pillar -->
+  <rect x="28" y="18" width="22" height="48" fill="#10262C"/>
+  <path d="M28 66 C28 66 22 88 18 102 C28 98 42 92 50 66 Z" fill="#236B6A"/>
+  <!-- Right pillar (mirror) -->
+  <rect x="70" y="18" width="22" height="48" fill="#10262C"/>
+  <path d="M92 66 C92 66 98 88 102 102 C92 98 78 92 70 66 Z" fill="#236B6A"/>
+</svg>

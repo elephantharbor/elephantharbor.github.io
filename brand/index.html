@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elephant Harbor — Brand</title>
+  <meta name="description" content="Canonical Elephant Harbor parent brand guide." />
+  <link rel="icon" href="exports/favicon-32.png" />
+  <link rel="stylesheet" href="tokens.css" />
+  <style>
+    body { margin: 0; }
+    header.top { border-bottom: 1px solid var(--eh-border); }
+    .hero { display: grid; gap: 1.5rem; grid-template-columns: 1.2fr 1fr; align-items: center; }
+    @media (max-width: 800px) { .hero { grid-template-columns: 1fr; } }
+    .swatches { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.75rem; }
+    @media (max-width: 700px) { .swatches { grid-template-columns: 1fr 1fr; } }
+    .swatch { border-radius: var(--eh-radius); overflow: hidden; border: 1px solid var(--eh-border); background: #fff; }
+    .swatch .chip { height: 72px; }
+    .swatch .meta { padding: 0.65rem 0.75rem; font-size: 0.8rem; }
+    .asset-row { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+    .asset-row img { max-height: 96px; background: var(--eh-fog); padding: 0.5rem; border-radius: 8px; }
+    .ink-panel { background: var(--eh-harbor-ink); color: var(--eh-canvas); padding: 1.5rem; border-radius: var(--eh-radius-lg); }
+    .tide-panel { background: var(--eh-deep-tide); color: #fff; padding: 1.5rem; border-radius: var(--eh-radius-lg); }
+    footer { border-top: 1px solid var(--eh-border); padding: 1rem 1.25rem; font-size: 0.85rem; color: var(--eh-text-muted); }
+    ul.clean { padding-left: 1.1rem; }
+    code { font-size: 0.9em; }
+  </style>
+</head>
+<body class="eh-page">
+  <header class="top eh-nav">
+    <a href="./" aria-current="page"><strong>Elephant Harbor</strong> / Brand</a>
+    <nav style="display:flex;gap:1rem">
+      <a href="../">Portfolio</a>
+      <a href="./voice.md">Voice</a>
+      <a href="./endorsement.md">Endorsement</a>
+      <a href="./tokens.css">Tokens</a>
+    </nav>
+  </header>
+  <main class="eh-layout">
+    <p class="eh-kicker">Canonical parent identity</p>
+    <div class="hero">
+      <div>
+        <h1 class="eh-display" style="font-size: var(--eh-fs-2xl); margin: 0.25rem 0 0.75rem">Elephant Harbor brand</h1>
+        <p>Institutional credibility × technical competence × quiet eccentricity. A sophisticated operating company — not an AI startup, agency, accelerator, or whimsical elephant brand.</p>
+        <hr class="eh-brass-rule" />
+        <p style="margin:0;color:var(--eh-text-muted);font-size:0.9rem">Steward: Maren (Harbor Presence - CEO) · Technical assets: Wells (Portfolio - Systems) · Adoption: Hayes (Portfolio - CEO)</p>
+      </div>
+      <div class="eh-card asset-row" style="justify-content:center">
+        <img src="assets/lockup.svg" alt="Elephant Harbor lockup" style="max-width:100%;height:auto;max-height:140px;background:var(--eh-canvas)" />
+      </div>
+    </div>
+
+    <h2 style="margin-top:2.5rem">Logo</h2>
+    <p>Approved abstract Harbor Gate / elephant-trunk mark. Wordmark is title case <strong>Elephant Harbor</strong> (Modern Operator) — not all-caps.</p>
+    <div class="asset-row">
+      <img src="assets/mark.svg" alt="Mark" height="80" />
+      <img src="assets/icon-ink.svg" alt="Icon on Ink" height="80" />
+      <img src="assets/icon-canvas.svg" alt="Icon on Canvas" height="80" />
+      <img src="assets/lockup-on-ink.svg" alt="Lockup on Ink" style="max-height:80px;max-width:280px" />
+      <img src="assets/endorsement.svg" alt="Endorsement" style="max-height:56px;max-width:320px" />
+    </div>
+
+    <h2 style="margin-top:2.5rem">Palette</h2>
+    <div class="swatches">
+      <div class="swatch"><div class="chip" style="background:#10262C"></div><div class="meta"><strong>Harbor Ink</strong><br/><code>#10262C</code><br/>Depth, discipline</div></div>
+      <div class="swatch"><div class="chip" style="background:#236B6A"></div><div class="meta"><strong>Deep Tide</strong><br/><code>#236B6A</code><br/>Momentum</div></div>
+      <div class="swatch"><div class="chip" style="background:#D49A45"></div><div class="meta"><strong>Signal Brass</strong><br/><code>#D49A45</code><br/>Craft, distinction</div></div>
+      <div class="swatch"><div class="chip" style="background:#F5F2EA"></div><div class="meta"><strong>Canvas</strong><br/><code>#F5F2EA</code><br/>Clarity</div></div>
+      <div class="swatch"><div class="chip" style="background:#E8EFED"></div><div class="meta"><strong>Fog</strong><br/><code>#E8EFED</code><br/>Breathing room</div></div>
+    </div>
+
+    <h2 style="margin-top:2.5rem">Typography</h2>
+    <div class="eh-card">
+      <p style="font-family:var(--eh-font-sans);font-size:1.35rem;font-weight:700;margin:0 0 0.35rem">Manrope — clean, modern, versatile</p>
+      <p style="margin:0 0 1rem;color:var(--eh-text-muted)">Primary sans for interface, wordmark, and body.</p>
+      <p class="eh-display" style="font-size:1.5rem;margin:0 0 0.35rem">Source Serif 4 — considered, enduring, human</p>
+      <p style="margin:0;color:var(--eh-text-muted)">Editorial and display.</p>
+    </div>
+
+    <h2 style="margin-top:2.5rem">Voice & architecture</h2>
+    <div style="display:grid;gap:1rem;grid-template-columns:1fr 1fr">
+      <div class="ink-panel">
+        <p class="eh-display" style="font-size:1.35rem;margin-top:0">A harbor for what’s next.</p>
+        <p style="opacity:0.9">Clear, concise, competent, understated, mildly distinctive. See <a href="./voice.md" style="color:var(--eh-signal-brass)">voice.md</a>.</p>
+      </div>
+      <div class="tide-panel">
+        <hr class="eh-brass-rule" style="background:var(--eh-signal-brass)" />
+        <p style="letter-spacing:0.12em;font-weight:700;text-transform:uppercase">Different companies. Further together.</p>
+        <p>Ventures keep independent names. Optional endorsement: <span class="eh-endorsement" style="color:#fff"><span>An</span> <strong style="color:#fff">Elephant Harbor</strong> <span>company.</span></span></p>
+        <p style="margin-bottom:0"><a href="./endorsement.md" style="color:var(--eh-signal-brass)">endorsement.md</a></p>
+      </div>
+    </div>
+
+    <h2 style="margin-top:2.5rem">For agents</h2>
+    <ul class="clean">
+      <li>Treat this folder as canonical — do not invent alternate parent marks, palettes, or all-caps wordmarks.</li>
+      <li>Import <code>tokens.css</code> for customer-facing parent surfaces.</li>
+      <li>Parent brand changes go through Maren; Wells translates into shared technical assets.</li>
+    </ul>
+
+    <p style="margin-top:2rem;font-size:0.85rem;color:var(--eh-text-muted)">Reference sheet: <a href="assets/brand-sheet.png">assets/brand-sheet.png</a> · PNG exports in <code>exports/</code></p>
+  </main>
+  <footer>
+    Elephant Harbor / Brand · BUILD OPERATE ENDURE · <a href="../">Back to Portfolio</a>
+  </footer>
+</body>
+</html>
