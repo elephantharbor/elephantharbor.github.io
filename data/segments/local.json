@@ -6,7 +6,7 @@
   "status": "Building",
   "statusDetail": "Cycle 1.1 underway. Scoring v2 live in Growth docs; Action Heating rescore shows preview suitability without punishing null reviews. Premium HVAC elevation in progress. Brand Round 2 open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T09:10:00-05:00",
+  "lastUpdated": "2026-09-07T09:15:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -16,7 +16,7 @@
     {
       "label": "Scoring",
       "value": "v2",
-      "hint": "4-concept model; Action Opp 80 / Preview Yes"
+      "hint": "4-concept model; Action Opp 84 / Preview High"
     },
     {
       "label": "Platform",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Lane: Opportunity/Confidence/Preview Suitability/Contact Readiness + Action rescore (Opp 80, Preview Yes). Kit: premium template elevation. Brand candidates Round 2 with Thomas. LLC prep parallel.",
+  "currentStatusBrief": "Building. Lane: scoring v2 + Action rescore (Opp 84, Preview High). Kit: premium HVAC elevation. Brand Round 2 (+ optional 2B). LLC prep parallel. No outbound.",
   "latestLesson": {
     "experience": "Skipped brand widget was misread as Sitekeep approval.",
     "evidence": "Hayes: Thomas wants brand/entity discussion first.",
