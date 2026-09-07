@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.2: HVAC prototypes rebuilding to sendable quality bar. Fixture = Action Heating (verified public facts only). Classic Trust vs Modern Bold as genuinely different strategies. Softer disclaimer + upgraded compare. Brand still open. No outbound.",
+  "statusDetail": "Cycle 1.2 polished HVAC prototypes (Action Heating) ready for Thomas review. Classic/Modern structurally distinct; verified facts only; soft disclaimer. Brand still open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T14:35:00-05:00",
+  "lastUpdated": "2026-09-07T15:15:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -20,8 +20,8 @@
     },
     {
       "label": "Platform",
-      "value": "Cycle 1.2",
-      "hint": "Sendable-quality HVAC rebuild"
+      "value": "1.2 polish",
+      "hint": "Sendable-candidate HVAC families"
     },
     {
       "label": "Brand",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Cycle 1.2 premium prototype rebuild in progress (Action Heating fixture). Scoring v2 done. Brand Round 2 open. No outbound.",
+  "currentStatusBrief": "Building. Cycle 1.2 polish landed \u2014 awaiting Thomas gate on Classic/Modern baseline. Brand open. No outbound.",
   "latestLesson": {
     "experience": "Classic/Modern v1 still read as polished templates, not commissioned contractor sites.",
     "evidence": "Thomas Cycle 1.2 quality bar + \u00a716 gate.",
@@ -38,9 +38,9 @@
     "change": "Rebuild families against Action Heating verified pack; omit unverified claims."
   },
   "needsHumanAction": true,
-  "humanAction": "Brand path (Round 2); EH LLC formation gates; then domain/ESP/first-send. Prototype review pending Cycle 1.2 deliverables.",
-  "dashboardUrl": null,
-  "dashboardState": "planned",
+  "humanAction": "Review Cycle 1.2 prototypes (freeze or refine); brand path; EH LLC gates; then domain/ESP/first-send.",
+  "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
+  "dashboardState": "scaffolded",
   "publicLinks": [
     {
       "label": "Local operating dashboard",
