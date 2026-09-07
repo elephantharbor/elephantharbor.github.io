@@ -4,9 +4,9 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "X live; site frozen; engage gated on Auto-review approval; Next Up refreshed after morning pass.",
+  "statusDetail": "X live with brand avatar; site frozen; engage drafts held pending explicit go.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-07T10:52:53-05:00",
+  "lastUpdated": "2026-09-07T11:10:47-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
@@ -30,15 +30,15 @@
     }
   ],
   "currentObjective": "Grow Elephant Harbor as a recognizable participant on X \u2014 real conversations first \u2014 without buying Premium. Weekday pass: study what others\u2019 high-engagement replies are doing in live rooms, then ship 2\u20134 selective Harbor replies; at most one original for range. Keep the public website frozen. Learn what earns attention, then change behavior.",
-  "currentStatusBrief": "2026-09-07: weekday X review ran; public posts blocked by Auto-review pending approval. Followers still 0; views still thin. Three reply drafts queued. EXP-01 starts measurement 2026-09-08. Site frozen.",
+  "currentStatusBrief": "Avatar updated to brand Harbor Gate (2026-09-07). Three weekday reply drafts on hold after Auto-review was dismissed \u2014 republish only on explicit go. Followers still 0; site frozen.",
   "latestLesson": {
     "experience": "Early posts and sparse replies got little traction; busy rooms already beat broadcast originals.",
     "evidence": "Originals ~6\u201315 public views; busy-thread replies ~20\u2013155; followers still 0.",
     "learning": "What other people\u2019s replies earn in a live room is a better guide than posting in isolation.",
     "change": "Weekday pass starts with studying others\u2019 high-engagement replies, then targets 2\u20134 selective Harbor replies."
   },
-  "needsHumanAction": true,
-  "humanAction": "Approve Auto-review so Presence can publish weekday X replies (drafts queued; no Premium/spend).",
+  "needsHumanAction": false,
+  "humanAction": null,
   "dashboardUrl": "https://elephantharbor.github.io/harbor-presence/",
   "dashboardState": "live",
   "publicLinks": [
@@ -58,7 +58,7 @@
   ],
   "experimentsCount": 0,
   "channelsCount": 2,
-  "freshnessNote": "Manual Presence ops feed. Metrics refreshed 2026-09-07 morning from Rowan. lastUpdated is publish time of this summary (includes Next Up bump after morning pass).",
+  "freshnessNote": "Manual Presence ops feed. Avatar confirmed live 2026-09-07. Metrics last Rowan check morning 2026-09-07. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "presence",
     "areaName": "Harbor Presence",
