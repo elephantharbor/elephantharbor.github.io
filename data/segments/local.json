@@ -3,38 +3,42 @@
   "segmentName": "Harbor Local",
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
-  "status": "Launch Plan",
-  "statusDetail": "Building. Launch Plan only \u2014 no outbound until Thomas clears brand, entity, and ESP. Planned portfolio tile; live desk held until /harbor-local/ is useful.",
+  "status": "Building",
+  "statusDetail": "Launch Plan ready. Customer brand NOT locked (Sitekeep etc. proposals only \u2014 Thomas discussing with Hayes). No outbound; non-gated build continues.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T08:26:25-05:00",
+  "lastUpdated": "2026-09-07T08:40:00-05:00",
   "headlineMetrics": [
     {
-      "label": "Stage",
-      "value": "Building"
+      "label": "Funnel (contacted)",
+      "value": "0",
+      "hint": "No outbound yet \u2014 Launch Plan stage"
     },
     {
-      "label": "Wedge",
-      "value": "STL HVAC"
+      "label": "MRR",
+      "value": "$0",
+      "hint": "No active customers"
     },
     {
-      "label": "Outbound",
-      "value": "Blocked \u2014 awaiting brand/entity/ESP"
+      "label": "Experiments",
+      "value": "0",
+      "hint": "Pilot EXP-01 (40 prospects) not started"
     },
     {
-      "label": "Desk",
-      "value": "Planned"
+      "label": "Human actions",
+      "value": "7",
+      "hint": "Entity, DBA, domain, ESP, enrichment, first send, portfolio publish"
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Sitekeep is working brand assumption. Autonomous next: HVAC template spike (Kit), scoring/pull method (Lane). Human gates: domain, LLC/DBA, ESP, first-send.",
+  "currentStatusBrief": "Building. Brand/entity held for Thomas discussion. Autonomous: ICP/scoring, HVAC template spike (brand-agnostic), desk scaffold. No domain spend.",
   "latestLesson": {
-    "experience": "Obvious trade names (Fieldline, Tradefront, Sitewright, Lintel, Cairn, Joist) collide with same-ICP products.",
-    "evidence": "Web search collision screen 2026-09-07.",
-    "learning": "Prefer coined/managed-care names; always collision-screen before domain spend.",
-    "change": "Working brand = Sitekeep (skipped widget treated as proceed); Ownfront/Frontkeep backups; no domain spend until Thomas buys."
+    "experience": "Treating a skipped brand widget as Sitekeep lock was wrong.",
+    "evidence": "Hayes relay 2026-09-07: Thomas chose discuss brand/entity more before deciding.",
+    "learning": "Skipped UI \u2260 approval. Brand stays proposal until explicit pick or hold.",
+    "change": "Sitekeep/Ownfront/Frontkeep = proposals only; no domain next step; keep build brand-agnostic."
   },
   "needsHumanAction": true,
-  "humanAction": "Approvals: Sitekeep domain purchase (or alt), EH LLC/DBA, outbound ESP/sending domain, enrichment if needed, first-send later. Wells planned tile already registered.",
+  "humanAction": "Brand + entity discussion with Hayes/Thomas before domain or DBA. Then: outbound ESP/sending domain, enrichment if needed, first-send later.",
   "dashboardUrl": null,
   "dashboardState": "planned",
   "publicLinks": [
@@ -45,12 +49,11 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Registered by Portfolio Systems from Hayes/Blair lock. Harbor Local owns operating truth once the desk ships.",
+  "freshnessNote": "Manual Local ops feed. Cycle-1 scaffolding 2026-09-07. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
     "lastUpdated": "2026-09-07T08:20:00-05:00",
     "items": []
-  },
-  "currentStatus": "Visible on portfolio as planned. Desk scaffold in progress; no customer outreach yet."
+  }
 }
