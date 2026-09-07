@@ -29,3 +29,8 @@ Source of truth: [`shared/eh-console.css`](shared/eh-console.css) — loaded by 
 ## Next Up
 
 Scheduled routines per area: `data/next-up/<areaId>.json`. Contract: portfolio-systems `docs/NEXT-UP-CONTRACT.md`. Empty lists show “Nothing scheduled.”
+
+## Brand
+
+Canonical parent identity: [`/brand/`](https://elephantharbor.github.io/brand/) (steward: Maren).  
+Operating console (`shared/eh-console.css`) stays dark-desk and bridges brand color primitives — it does not import the light brand page theme.

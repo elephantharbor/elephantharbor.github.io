@@ -1,8 +1,20 @@
 /* Elephant Harbor operating-console design system
    Source of truth: elephantharbor.github.io/shared/eh-console.css
    Segment sites load this file; keep only thin segment accents locally.
+
+   Brand kinship: canonical parent tokens at /brand/tokens.css (Maren steward).
+   Console stays dark-desk for operating clarity — do not import brand light
+   page styles here. Bridge Harbor Ink / Deep Tide / Signal Brass into accents.
 */
 :root {
+  /* Canonical brand primitives (from /brand/tokens.css) */
+  --eh-harbor-ink: #10262C;
+  --eh-deep-tide: #236B6A;
+  --eh-signal-brass: #D49A45;
+  --eh-canvas: #F5F2EA;
+  --eh-fog: #E8EFED;
+
+  /* Dark desk surfaces (operating console — not brand canvas) */
   --bg: #0f1216;
   --bg2: #161b22;
   --bg3: #1c2330;
@@ -10,15 +22,20 @@
   --text: #e6edf3;
   --muted: #8b9aab;
   --dim: #5c6b7a;
-  --accent: #6ea8d9;
+
+  /* Accents: Deep Tide family for readability on dark; brass for warn/paper */
+  --accent: #4a9e9c;
   --live: #3d9a6a;
-  --warn: #c98a3a;
+  --warn: var(--eh-signal-brass);
   --danger: #c45c5c;
   --ok: #5a9a6e;
-  --paper: #c9a227;
+  --paper: var(--eh-signal-brass);
+
+  /* Segment marks */
   --capital: #6ea8d9;
   --presence: #9a7fd4;
   --foundry: #c98a3a;
+  --local: #4a9e9c;
   --font: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
   --segment: var(--accent);
@@ -27,6 +44,7 @@
 body.eh-capital { --segment: var(--capital); }
 body.eh-presence { --segment: var(--presence); }
 body.eh-foundry { --segment: var(--foundry); }
+body.eh-local { --segment: var(--local); }
 body.eh-portfolio { --segment: var(--accent); }
 
 * { box-sizing: border-box; }
