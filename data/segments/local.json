@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.1 underway. Scoring v2 live in Growth docs; Action Heating rescore shows preview suitability without punishing null reviews. Premium HVAC elevation in progress. Brand Round 2 open. No outbound.",
+  "statusDetail": "Cycle 1.2: HVAC prototypes rebuilding to sendable quality bar. Fixture = Action Heating (verified public facts only). Classic Trust vs Modern Bold as genuinely different strategies. Softer disclaimer + upgraded compare. Brand still open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T09:15:00-05:00",
+  "lastUpdated": "2026-09-07T14:35:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -16,29 +16,29 @@
     {
       "label": "Scoring",
       "value": "v2",
-      "hint": "4-concept model; Action Opp 84 / Preview High"
+      "hint": "Action Opp 84 / Preview High"
     },
     {
       "label": "Platform",
-      "value": "Elevating",
-      "hint": "Premium HVAC design families"
+      "value": "Cycle 1.2",
+      "hint": "Sendable-quality HVAC rebuild"
     },
     {
       "label": "Brand",
-      "value": "Round 2",
-      "hint": "12 candidates; none locked"
+      "value": "Open",
+      "hint": "Round 2; none locked"
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Lane: scoring v2 + Action rescore (Opp 84, Preview High). Kit: premium HVAC elevation. Brand Round 2 (+ optional 2B). LLC prep parallel. No outbound.",
+  "currentStatusBrief": "Building. Cycle 1.2 premium prototype rebuild in progress (Action Heating fixture). Scoring v2 done. Brand Round 2 open. No outbound.",
   "latestLesson": {
-    "experience": "Skipped brand widget was misread as Sitekeep approval.",
-    "evidence": "Hayes: Thomas wants brand/entity discussion first.",
-    "learning": "UI dismiss \u2260 decision; keep customer creative brand-agnostic until explicit pick.",
-    "change": "Growth/Platform artifacts use {{brand}}; Sitekeep only as internal proposal."
+    "experience": "Classic/Modern v1 still read as polished templates, not commissioned contractor sites.",
+    "evidence": "Thomas Cycle 1.2 quality bar + \u00a716 gate.",
+    "learning": "Differentiate by structure/strategy, not just color/type; personalize from verified facts only.",
+    "change": "Rebuild families against Action Heating verified pack; omit unverified claims."
   },
   "needsHumanAction": true,
-  "humanAction": "Brand path (Round 2); EH LLC formation gates; then domain/ESP/first-send.",
+  "humanAction": "Brand path (Round 2); EH LLC formation gates; then domain/ESP/first-send. Prototype review pending Cycle 1.2 deliverables.",
   "dashboardUrl": null,
   "dashboardState": "planned",
   "publicLinks": [
@@ -49,7 +49,7 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Manual Local ops feed. Growth prep landed 2026-09-07. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Manual Local ops feed. Cycle 1.2 prototype rebuild started 2026-09-07. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
