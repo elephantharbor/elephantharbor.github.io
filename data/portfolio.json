@@ -1,7 +1,7 @@
 {
   "title": "Elephant Harbor",
   "subtitle": "Portfolio operating console",
-  "statusBrief": "Four operating segments on one shared console design system (list-driven). Segment desks own truth; Portfolio Systems owns shell, nav, and summary presentation. Harbor Local: Launch Plan only \u2014 planned tile; live desk when useful. No outbound yet.",
+  "statusBrief": "Four operating segments on one shared console design system (list-driven). Harbor Local: planned/building tile (STL HVAC wedge); live desk held; no outbound until Thomas clears brand/entity/ESP.",
   "publicSiteUrl": "https://elephantharbor.com",
   "publicSiteNote": "elephantharbor.com is the public-facing company site (Harbor Presence). This github.io site is the internal operating console.",
   "segments": [
@@ -10,7 +10,7 @@
     "foundry",
     "local"
   ],
-  "lastUpdated": "2026-09-07T08:21:29-05:00",
+  "lastUpdated": "2026-09-07T08:26:25-05:00",
   "stats": {
     "activeSegments": 4,
     "segmentsNeedingHumanAction": 0,

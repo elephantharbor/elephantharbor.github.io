@@ -1,35 +1,56 @@
 {
   "segmentId": "local",
   "segmentName": "Harbor Local",
-  "mission": "Agent-operated digital presence and automation for established local service businesses (HVAC/plumbing wedge first).",
+  "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
+  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Launch Plan",
-  "statusDetail": "Fourth Elephant Harbor segment (working name). Launch Plan only \u2014 no outbound. Planned portfolio tile; live desk held until operating room is useful.",
+  "statusDetail": "Building. Launch Plan only \u2014 no outbound until Thomas clears brand, entity, and ESP. Planned portfolio tile; live desk held until /harbor-local/ is useful.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T08:21:29-05:00",
+  "lastUpdated": "2026-09-07T08:26:25-05:00",
   "headlineMetrics": [
     {
       "label": "Stage",
-      "value": "Launch Plan"
+      "value": "Building"
     },
     {
       "label": "Wedge",
-      "value": "HVAC / plumbing"
+      "value": "STL HVAC"
     },
     {
       "label": "Outbound",
-      "value": "Not started"
+      "value": "Blocked \u2014 awaiting brand/entity/ESP"
     },
     {
       "label": "Desk",
       "value": "Planned"
     }
   ],
-  "currentStatus": "Authorized. Building the segment plan. No live customer work.",
-  "latestLesson": "Not yet \u2014 segment just authorized.",
-  "needsHumanAction": false,
-  "humanActionSummary": null,
+  "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
+  "currentStatusBrief": "Building. Sitekeep is working brand assumption. Autonomous next: HVAC template spike (Kit), scoring/pull method (Lane). Human gates: domain, LLC/DBA, ESP, first-send.",
+  "latestLesson": {
+    "experience": "Obvious trade names (Fieldline, Tradefront, Sitewright, Lintel, Cairn, Joist) collide with same-ICP products.",
+    "evidence": "Web search collision screen 2026-09-07.",
+    "learning": "Prefer coined/managed-care names; always collision-screen before domain spend.",
+    "change": "Working brand = Sitekeep (skipped widget treated as proceed); Ownfront/Frontkeep backups; no domain spend until Thomas buys."
+  },
+  "needsHumanAction": true,
+  "humanAction": "Approvals: Sitekeep domain purchase (or alt), EH LLC/DBA, outbound ESP/sending domain, enrichment if needed, first-send later. Wells planned tile already registered.",
   "dashboardUrl": null,
   "dashboardState": "planned",
-  "publicLinks": [],
-  "freshnessNote": "Portfolio Systems shell registration; Harbor Local owns operating truth once the desk ships."
+  "publicLinks": [
+    {
+      "label": "Local operating dashboard",
+      "url": "https://elephantharbor.github.io/harbor-local/",
+      "note": "Preferred desk path when published \u2014 not live until Pages publish"
+    }
+  ],
+  "experimentsCount": 0,
+  "freshnessNote": "Registered by Portfolio Systems from Hayes/Blair lock. Harbor Local owns operating truth once the desk ships.",
+  "nextUp": {
+    "areaId": "local",
+    "areaName": "Harbor Local",
+    "lastUpdated": "2026-09-07T08:20:00-05:00",
+    "items": []
+  },
+  "currentStatus": "Visible on portfolio as planned. Desk scaffold in progress; no customer outreach yet."
 }
