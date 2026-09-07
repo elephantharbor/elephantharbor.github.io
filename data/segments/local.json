@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.3 Modern Bold craft pass delivered for Thomas review (condenser hero, rust accent, editorial trust, no owner on site). Awaiting freeze vs refine. Classic secondary. Brand open. No outbound.",
+  "statusDetail": "Cycle 1.4: Modern Bold distinctiveness + conceptual Action Heating identity. Building on 1.3 foundation (not redesign). Brand open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-07T15:32:00-05:00",
+  "lastUpdated": "2026-09-07T15:45:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -20,8 +20,8 @@
     },
     {
       "label": "Platform",
-      "value": "1.3 review",
-      "hint": "Modern Bold craft pass up"
+      "value": "1.4 craft",
+      "hint": "Distinctiveness + conceptual identity"
     },
     {
       "label": "Brand",
@@ -30,15 +30,15 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Cycle 1.3 Modern Bold awaiting Thomas gate (freeze or refine). Brand open. No outbound.",
+  "currentStatusBrief": "Building. Cycle 1.4 distinctiveness pass on Modern Bold (conceptual logo, editorial services, residential HVAC hero). Brand open. No outbound.",
   "latestLesson": {
-    "experience": "1.2 polish still read as strong template; orange chips + owner name + weak HVAC hero failed the agency-portfolio bar.",
-    "evidence": "Thomas Cycle 1.3 brief.",
-    "learning": "Personalize the business not the owner on-site; hero must read HVAC with copy hidden; editorial trust over SaaS chips.",
-    "change": "Modern Bold primary; Classic secondary; craft-only slice until portfolio gate passes."
+    "experience": "1.3 cleared competence but still risked reading as a good generic contractor template.",
+    "evidence": "Thomas Cycle 1.4 brief \u2014 distinctiveness gate.",
+    "learning": "Memorable creative direction + conceptual identity + editorial services; quality bar travels across verticals, not the HVAC look.",
+    "change": "1.4 distinctiveness pass on Modern Bold foundation; Classic still secondary."
   },
   "needsHumanAction": true,
-  "humanAction": "Gate Cycle 1.3 Modern Bold (freeze or refine); brand path; EH LLC gates; then domain/ESP/first-send.",
+  "humanAction": "Await Cycle 1.4 distinctiveness pass; brand path; EH LLC gates; then domain/ESP/first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
