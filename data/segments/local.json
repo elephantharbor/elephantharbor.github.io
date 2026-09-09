@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.5: Modern Bold immersive premium redesign in progress (Thomas brief: glass/depth/bento/amber+cyan). Verified facts locked. Brand open. No outbound.",
+  "statusDetail": "Cycle 1.5 Modern Bold immersive redesign delivered for Thomas review (amber/cyan, glass, bento, Established 1977 bar). Brand Round 3 open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-09T16:50:00-05:00",
+  "lastUpdated": "2026-09-09T17:01:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -20,25 +20,26 @@
     },
     {
       "label": "Platform",
-      "value": "1.5 craft",
-      "hint": "Immersive Modern Bold redesign"
+      "value": "1.5 review",
+      "hint": "Immersive Modern Bold up"
     },
     {
       "label": "Brand",
-      "value": "Open",
-      "hint": "Round 2; none locked"
+      "value": "Round 3",
+      "hint": "Round 3 open; none locked"
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Cycle 1.5 Modern Bold immersive redesign underway. Brand open. No outbound.",
+  "currentStatusBrief": "Building. Cycle 1.5 awaiting Thomas freeze vs blend. Brand open (Round 3). No outbound.",
   "latestLesson": {
-    "experience": "1.3 cleared competence but still risked reading as a good generic contractor template.",
-    "evidence": "Thomas Cycle 1.4 brief \u2014 distinctiveness gate.",
-    "learning": "Memorable creative direction + conceptual identity + editorial services; quality bar travels across verticals, not the HVAC look.",
-    "change": "1.4 distinctiveness pass on Modern Bold foundation; Classic still secondary."
+    "experience": "Thomas directed a full immersive UI pivot (glass/glow/bento) away from Cycle 1.4 editorial restraint.",
+    "evidence": "Cycle 1.5 brief + delivered Modern Bold compare build 2026-09-09.",
+    "learning": "Two competing bars now exist: contractor-editorial distinctiveness vs premium product immersion \u2014 freeze needs an explicit pick.",
+    "change": "Delivered 1.5 as directed; asking Thomas freeze vs blend before scaling the family.",
+    "originationDate": "2026-09-09"
   },
   "needsHumanAction": true,
-  "humanAction": "Await Cycle 1.5 Modern Bold redesign; brand path; EH LLC gates; then domain/ESP/first-send.",
+  "humanAction": "Gate Cycle 1.5 (freeze immersive, revert/blend with 1.4, or refine); brand path; EH LLC gates; then domain/ESP/first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
@@ -49,7 +50,7 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Manual Local ops feed. Cycle 1.2 prototype rebuild started 2026-09-07. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Manual Local ops feed. 2026-09-09: Hayes/Thomas session-log + lessons standard adopted (data/session-log.json; snapshot.sessionLog + lessons; Log/Lessons tabs). Cycle 1.5 immersive work + Brand Round 3 open. No outbound. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",

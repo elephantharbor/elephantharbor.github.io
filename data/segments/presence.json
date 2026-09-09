@@ -4,9 +4,9 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "EXP-01 Day 2 complete (2 replies + Venus original); followers 0; posts 25; no human gates.",
+  "statusDetail": "EXP-01 Day 2 complete (2 replies + Venus original); followers 0; posts 25; no human gates. Session Log + lesson origination dates live (Thomas standard 2026-09-09).",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-09T13:16:00-05:00",
+  "lastUpdated": "2026-09-09T16:56:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
@@ -32,11 +32,11 @@
   "currentObjective": "EXP-01 week (Sep 8\u201312): selective busy-thread replies (2\u20134) after studying others\u2019 high-engagement reply structures; \u22641 original/day for range; $0 / no Premium. Public site live (rebrand); domain email post-cutover.",
   "currentStatusBrief": "Day 2 complete: 2 replies + Venus original live. Followers 0. Day 1 overnight still favors busy-thread replies. Next pass Thu 10:00 CT. Nothing needs Thomas.",
   "latestLesson": {
-    "id": "study-others-replies",
     "experience": "Early Harbor posts and sparse replies got little traction; busy rooms already outperform broadcast originals.",
     "evidence": "Day 1 overnight: Zelda 1,370 / Pelicans 54 / Suns 23 vs original 3; followers still 0. Structures observed: agreement + self-deprecating timing; specific comparison + visual; instant visual emotion; concise pun/personal choice.",
     "learning": "Scouting what other people\u2019s replies are earning in a live room is a better guide than inventing a post in isolation.",
-    "change": "Weekday pass starts by studying others\u2019 high-engagement replies (steal structure not voice), then 2\u20134 selective Harbor replies (\u22641 original)."
+    "change": "Weekday pass starts by studying others\u2019 high-engagement replies (steal structure not voice), then 2\u20134 selective Harbor replies (\u22641 original).",
+    "originationDate": "2026-09-05"
   },
   "needsHumanAction": false,
   "humanAction": null,
