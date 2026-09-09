@@ -1,9 +1,6 @@
 /* Portfolio homepage — thin layer on eh-console.css */
 body.eh-portfolio { font-size: 14px; }
-.tile { border-top: 3px solid var(--border); display: flex; flex-direction: column; gap: 10px; }
-.tile[data-segment="capital"] { border-top-color: var(--capital); }
-.tile[data-segment="presence"] { border-top-color: var(--presence); }
-.tile[data-segment="foundry"] { border-top-color: var(--foundry); }
+.tile { display: flex; flex-direction: column; gap: 10px; }
 .tile-head { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
 .tile h2 { margin: 0; font-size: 16px; font-weight: 600; }
 .mission { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
@@ -22,3 +19,8 @@ body.eh-portfolio { font-size: 14px; }
 .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
 .planned { font-size: 12px; color: var(--dim); align-self: center; }
 .grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.attention .seg { font-weight: 650; }
+.attention li[data-segment="capital"] .seg { color: var(--capital); }
+.attention li[data-segment="presence"] .seg { color: var(--presence); }
+.attention li[data-segment="foundry"] .seg { color: var(--foundry); }
+.attention li[data-segment="local"] .seg { color: var(--local); }

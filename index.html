@@ -6,6 +6,9 @@
   <title>Elephant Harbor — Portfolio operating console</title>
   <meta name="description" content="Elephant Harbor portfolio operating console for Capital, Presence, and Foundry." />
   <link rel="stylesheet" href="shared/eh-console.css" />
+  <script>
+    (function(){try{var t=localStorage.getItem('eh-console-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);else document.documentElement.setAttribute('data-theme','dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
+  </script>
   <link rel="stylesheet" href="static/segment.css" />
 </head>
 <body class="eh-portfolio">
@@ -17,17 +20,17 @@
         <p class="sub">Portfolio operating console</p>
       </div>
     </div>
-    <div class="updated" id="updated">—</div>
+    <div class="updated" id="updated"><span id="updated-text">—</span></div>
   </header>
 
   <a class="skip-link" href="#app">Skip to content</a>
   <nav class="wayhome" aria-label="Elephant Harbor">
-    <a class="active" href="/" aria-current="page">Elephant Harbor / Portfolio</a>
+    <a class="active" data-segment="portfolio" href="/" aria-current="page">Elephant Harbor / Portfolio</a>
     <span class="sep" aria-hidden="true">/</span>
-    <a href="https://elephantharbor.github.io/harbor-capital-desk/">Capital</a>
-    <a href="https://elephantharbor.github.io/harbor-presence/">Presence</a>
-    <a href="https://elephantharbor.github.io/harbor-foundry/">Foundry</a>
-    <a href="#local" title="Operating dashboard planned">Local</a>
+    <a data-segment="capital" href="https://elephantharbor.github.io/harbor-capital-desk/">Capital</a>
+    <a data-segment="presence" href="https://elephantharbor.github.io/harbor-presence/">Presence</a>
+    <a data-segment="foundry" href="https://elephantharbor.github.io/harbor-foundry/">Foundry</a>
+    <a data-segment="local" href="#local" title="Operating dashboard planned">Local</a>
     <span class="sep" aria-hidden="true">·</span>
     <a href="/docs/organization.html">How EH is organized</a>
   </nav>
@@ -59,6 +62,7 @@
     Shell: Portfolio Systems · Segment data owned by each segment · Capital desk remains a separate site · Do not publish credentials or account IDs here
     <p class="brand-link" style="margin:0"><a href="/brand/">Brand</a></p>
 </footer>
+  <script src="shared/eh-theme.js"></script>
   <script src="static/app.js"></script>
 </body>
 </html>

@@ -2,28 +2,29 @@
    Source of truth: elephantharbor.github.io/shared/eh-console.css
    Segment sites load this file; keep only thin segment accents locally.
 
-   Brand kinship: canonical parent tokens at /brand/tokens.css (Maren steward).
-   Console stays dark-desk for operating clarity — do not import brand light
-   page styles here. Bridge Harbor Ink / Deep Tide / Signal Brass into accents.
+   Brand kinship: /brand/tokens.css (Maren steward) — Harbor Ink, Deep Tide,
+   Signal Brass, Canvas, Fog. Console supports dark (default) + light themes.
+   Theme toggle: shared/eh-theme.js (localStorage eh-console-theme).
+   See docs/CONSOLE-THEME.md
 */
-:root {
-  /* Canonical brand primitives (from /brand/tokens.css) */
+:root,
+html[data-theme="dark"] {
+  /* Canonical brand primitives */
   --eh-harbor-ink: #10262C;
   --eh-deep-tide: #236B6A;
   --eh-signal-brass: #D49A45;
   --eh-canvas: #F5F2EA;
   --eh-fog: #E8EFED;
 
-  /* Dark desk surfaces (operating console — not brand canvas) */
-  --bg: #0f1216;
-  --bg2: #161b22;
-  --bg3: #1c2330;
+  /* Dark desk surfaces */
+  --bg: #0c1014;
+  --bg2: #141a22;
+  --bg3: #1c2430;
   --border: #2a3340;
-  --text: #e6edf3;
+  --text: #e8eef4;
   --muted: #8b9aab;
   --dim: #5c6b7a;
 
-  /* Accents: Deep Tide family for readability on dark; brass for warn/paper */
   --accent: #4a9e9c;
   --live: #3d9a6a;
   --warn: var(--eh-signal-brass);
@@ -31,27 +32,102 @@
   --ok: #5a9a6e;
   --paper: var(--eh-signal-brass);
 
-  /* Segment marks */
-  --capital: #6ea8d9;
-  --presence: #9a7fd4;
-  --foundry: #c98a3a;
-  --local: #4a9e9c;
-  --font: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  /* Segment identity (distinctive, readable on dark) */
+  --portfolio: #3db8b4;
+  --capital: #5ba3e0;
+  --presence: #a78bfa;
+  --foundry: #d4a05a;
+  --local: #2ec4a8;
+
+  /* Capital markets — related family, mutually distinct */
+  --market-securities: #60a5fa;
+  --market-options: #c084fc;
+  --market-event: #4ade80;
+  --market-crypto: #f59e0b;
+  --market-sports: #38bdf8;
+  --market-cash: #94a3b8;
+
+  --font: "Manrope", "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
-  --segment: var(--accent);
+  --segment: var(--portfolio);
+  --atmosphere: var(--segment);
+  --atmosphere-rgb: 61, 184, 180;
 }
 
-body.eh-capital { --segment: var(--capital); }
-body.eh-presence { --segment: var(--presence); }
-body.eh-foundry { --segment: var(--foundry); }
-body.eh-local { --segment: var(--local); }
-body.eh-portfolio { --segment: var(--accent); }
+html[data-theme="light"] {
+  --bg: var(--eh-canvas);
+  --bg2: #ffffff;
+  --bg3: var(--eh-fog);
+  --border: color-mix(in srgb, var(--eh-harbor-ink) 14%, transparent);
+  --text: var(--eh-harbor-ink);
+  --muted: color-mix(in srgb, var(--eh-harbor-ink) 62%, white);
+  --dim: color-mix(in srgb, var(--eh-harbor-ink) 48%, white);
+  --accent: var(--eh-deep-tide);
+  --live: #1f7a4d;
+  --danger: #b33b3b;
+  --ok: #2f7a4a;
+  --portfolio: #1a7a76;
+  --capital: #2b6ea8;
+  --presence: #6d4fc4;
+  --foundry: #a67a2e;
+  --local: #0f8f78;
+  --market-securities: #2563eb;
+  --market-options: #7c3aed;
+  --market-event: #15803d;
+  --market-crypto: #b45309;
+  --market-sports: #0284c7;
+  --market-cash: #475569;
+}
+
+/* Segment / market → atmosphere */
+body.eh-portfolio { --segment: var(--portfolio); --atmosphere: var(--portfolio); --atmosphere-rgb: 61, 184, 180; }
+body.eh-capital { --segment: var(--capital); --atmosphere: var(--capital); --atmosphere-rgb: 91, 163, 224; }
+body.eh-presence { --segment: var(--presence); --atmosphere: var(--presence); --atmosphere-rgb: 167, 139, 250; }
+body.eh-foundry { --segment: var(--foundry); --atmosphere: var(--foundry); --atmosphere-rgb: 212, 160, 90; }
+body.eh-local { --segment: var(--local); --atmosphere: var(--local); --atmosphere-rgb: 46, 196, 168; }
+
+body.eh-market-securities { --atmosphere: var(--market-securities); --atmosphere-rgb: 96, 165, 250; --segment: var(--market-securities); }
+body.eh-market-options { --atmosphere: var(--market-options); --atmosphere-rgb: 192, 132, 252; --segment: var(--market-options); }
+body.eh-market-event { --atmosphere: var(--market-event); --atmosphere-rgb: 74, 222, 128; --segment: var(--market-event); }
+body.eh-market-crypto { --atmosphere: var(--market-crypto); --atmosphere-rgb: 245, 158, 11; --segment: var(--market-crypto); }
+body.eh-market-sports { --atmosphere: var(--market-sports); --atmosphere-rgb: 56, 189, 248; --segment: var(--market-sports); }
+body.eh-market-cash { --atmosphere: var(--market-cash); --atmosphere-rgb: 148, 163, 184; --segment: var(--market-cash); }
 
 * { box-sizing: border-box; }
 html, body {
   margin: 0; padding: 0;
   background: var(--bg); color: var(--text);
   font: 13px/1.45 var(--font);
+  min-height: 100%;
+  position: relative;
+}
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(var(--atmosphere-rgb), 0.28), transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, rgba(var(--atmosphere-rgb), 0.16), transparent 50%),
+    linear-gradient(165deg, color-mix(in srgb, var(--atmosphere) 18%, var(--bg)) 0%, var(--bg) 42%, var(--bg) 100%);
+  background-attachment: fixed;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.45;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(var(--atmosphere-rgb), 0.22), transparent 42%),
+    radial-gradient(circle at 80% 70%, rgba(var(--atmosphere-rgb), 0.14), transparent 46%);
+  animation: eh-aurora 28s ease-in-out infinite alternate;
+}
+body > * { position: relative; z-index: 1; }
+@keyframes eh-aurora {
+  0% { transform: translate3d(0, 0, 0) scale(1); opacity: 0.35; }
+  50% { transform: translate3d(2%, -1.5%, 0) scale(1.05); opacity: 0.5; }
+  100% { transform: translate3d(-2%, 2%, 0) scale(1.02); opacity: 0.4; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body::before { animation: none; }
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -89,7 +165,15 @@ button { font: inherit; cursor: pointer; }
 }
 .wayhome a:hover { color: var(--text); background: var(--bg2); text-decoration: none; }
 .wayhome a.active {
-  color: var(--text); background: var(--bg3); border-color: var(--border);
+  color: var(--text); background: var(--bg3); border-color: color-mix(in srgb, var(--segment) 45%, var(--border));
+  box-shadow: inset 0 -2px 0 var(--segment);
+}
+.wayhome a[data-segment="capital"], .wayhome a[href*="harbor-capital"] { color: color-mix(in srgb, var(--capital) 75%, var(--muted)); }
+.wayhome a[data-segment="presence"], .wayhome a[href*="harbor-presence"] { color: color-mix(in srgb, var(--presence) 75%, var(--muted)); }
+.wayhome a[data-segment="foundry"], .wayhome a[href*="harbor-foundry"] { color: color-mix(in srgb, var(--foundry) 75%, var(--muted)); }
+.wayhome a[data-segment="local"], .wayhome a[href*="harbor-local"], .wayhome a[href="#local"] { color: color-mix(in srgb, var(--local) 75%, var(--muted)); }
+.wayhome a[data-segment="portfolio"], .wayhome a.active[href="/"], .wayhome a.active[href="./"] {
+  color: color-mix(in srgb, var(--portfolio) 80%, var(--text));
 }
 .wayhome .sep { color: var(--dim); padding: 0 4px; font-size: 12px; }
 
@@ -129,6 +213,8 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
 .badge-capital { color: var(--capital); border-color: #3a5a78; }
 .badge-presence { color: var(--presence); border-color: #4a3a68; }
 .badge-foundry { color: var(--foundry); border-color: #5a4020; }
+.badge-local { color: var(--local); border-color: #2a5a50; }
+.badge-portfolio { color: var(--portfolio); border-color: #2a5a58; }
 .badge-paper { color: var(--paper); border-color: #5a4a20; background: #241e10; }
 
 .card, .tile, .attention, .note, .stat, .empty, .callout {
@@ -298,4 +384,86 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
 }
 .lesson .origination.missing, .lesson-origination.missing {
   color: var(--warn);
+}
+
+
+/* —— Theme toggle —— */
+.eh-theme-toggle {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--bg3);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.eh-theme-toggle:hover {
+  color: var(--text);
+  border-color: color-mix(in srgb, var(--segment) 50%, var(--border));
+}
+.eh-theme-toggle:focus-visible {
+  outline: 2px solid var(--segment);
+  outline-offset: 2px;
+}
+.top-meta, .updated {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* —— Segment tiles (aggregate pages) —— */
+.tile {
+  border-top: 3px solid var(--border);
+  box-shadow: inset 0 0 0 1px transparent;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--tile-accent, var(--border)) 14%, var(--bg2)) 0%, var(--bg2) 48%),
+    var(--bg2);
+}
+.tile[data-segment="capital"], .tile.seg-capital { --tile-accent: var(--capital); border-top-color: var(--capital); }
+.tile[data-segment="presence"], .tile.seg-presence { --tile-accent: var(--presence); border-top-color: var(--presence); }
+.tile[data-segment="foundry"], .tile.seg-foundry { --tile-accent: var(--foundry); border-top-color: var(--foundry); }
+.tile[data-segment="local"], .tile.seg-local { --tile-accent: var(--local); border-top-color: var(--local); }
+.tile[data-segment="portfolio"], .tile.seg-portfolio { --tile-accent: var(--portfolio); border-top-color: var(--portfolio); }
+
+.mark {
+  border-color: color-mix(in srgb, var(--segment) 40%, var(--border));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--segment) 25%, transparent);
+}
+
+.nav button.active, .nav > a.active {
+  border-color: color-mix(in srgb, var(--segment) 40%, var(--border));
+  box-shadow: inset 0 -2px 0 var(--segment);
+}
+
+/* Capital market subnav / cards */
+.markets-subnav button.active,
+.nav button[data-view^="market-"].active {
+  color: var(--text);
+  border-color: color-mix(in srgb, var(--atmosphere) 50%, var(--border));
+  box-shadow: inset 0 -2px 0 var(--atmosphere);
+}
+.market-accent-securities, [data-market="securities"] { --tile-accent: var(--market-securities); border-top-color: var(--market-securities); }
+.market-accent-options, [data-market="options"] { --tile-accent: var(--market-options); border-top-color: var(--market-options); }
+.market-accent-event, [data-market="event"] { --tile-accent: var(--market-event); border-top-color: var(--market-event); }
+.market-accent-crypto, [data-market="crypto"] { --tile-accent: var(--market-crypto); border-top-color: var(--market-crypto); }
+.market-accent-sports, [data-market="sports"] { --tile-accent: var(--market-sports); border-top-color: var(--market-sports); }
+
+html[data-theme="light"] body {
+  background:
+    radial-gradient(1000px 520px at 8% -8%, rgba(var(--atmosphere-rgb), 0.18), transparent 55%),
+    radial-gradient(800px 420px at 92% 0%, rgba(var(--atmosphere-rgb), 0.10), transparent 50%),
+    linear-gradient(165deg, color-mix(in srgb, var(--atmosphere) 10%, var(--eh-canvas)) 0%, var(--eh-canvas) 40%, var(--eh-canvas) 100%);
+}
+html[data-theme="light"] .card,
+html[data-theme="light"] .tile,
+html[data-theme="light"] .attention,
+html[data-theme="light"] .next-up,
+html[data-theme="light"] .session-log {
+  box-shadow: 0 1px 2px rgba(16, 38, 44, 0.06);
 }

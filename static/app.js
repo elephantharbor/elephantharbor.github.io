@@ -112,7 +112,7 @@ function renderAttention(segments) {
     needs
       .map(
         (s) =>
-          `<li><span class="seg">${escapeHtml(s.segmentName)}</span> — ${escapeHtml(
+          `<li data-segment="${escapeHtml(s.segmentId)}"><span class="seg">${escapeHtml(s.segmentName)}</span> — ${escapeHtml(
             s.humanAction || "Human decision required"
           )}</li>`
       )
@@ -218,7 +218,7 @@ async function main() {
   try {
     const portfolio = await loadJSON("data/portfolio.json");
     document.getElementById("status-brief").textContent = portfolio.statusBrief;
-    document.getElementById("updated").textContent = "Updated " + fmtWhen(portfolio.lastUpdated);
+    (document.getElementById("updated-text") || document.getElementById("updated")).textContent = "Updated " + fmtWhen(portfolio.lastUpdated);
     document.getElementById("public-note").innerHTML = `<strong>Public vs operating:</strong> ${escapeHtml(
       portfolio.publicSiteNote
     )} <a href="${escapeHtml(portfolio.publicSiteUrl)}" rel="noopener">elephantharbor.com</a>`;
