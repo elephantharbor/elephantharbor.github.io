@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.5 Modern Bold immersive redesign delivered for Thomas review (amber/cyan, glass, bento, Established 1977 bar). Brand Round 3 open. No outbound.",
+  "statusDetail": "Cycle 1.5.1: Modern Bold frontend polish in progress (bento balance, WCAG card text, unified icons, blueprint/hero clip). Brand open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-09T17:01:00-05:00",
+  "lastUpdated": "2026-09-09T17:05:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -20,8 +20,8 @@
     },
     {
       "label": "Platform",
-      "value": "1.5 review",
-      "hint": "Immersive Modern Bold up"
+      "value": "1.5.1",
+      "hint": "Frontend reskin polish"
     },
     {
       "label": "Brand",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Cycle 1.5 awaiting Thomas freeze vs blend. Brand open (Round 3). No outbound.",
+  "currentStatusBrief": "Building. Cycle 1.5.1 frontend reskin underway on Modern Bold. Brand open. No outbound.",
   "latestLesson": {
     "experience": "Thomas directed a full immersive UI pivot (glass/glow/bento) away from Cycle 1.4 editorial restraint.",
     "evidence": "Cycle 1.5 brief + delivered Modern Bold compare build 2026-09-09.",
@@ -39,7 +39,7 @@
     "originationDate": "2026-09-09"
   },
   "needsHumanAction": true,
-  "humanAction": "Gate Cycle 1.5 (freeze immersive, revert/blend with 1.4, or refine); brand path; EH LLC gates; then domain/ESP/first-send.",
+  "humanAction": "Await Cycle 1.5.1 polish; then freeze/blend gate; brand path; EH LLC gates; then domain/ESP/first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
