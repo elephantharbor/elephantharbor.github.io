@@ -4,42 +4,42 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "EXP-01 Day 1 complete (3 replies + 1 original); followers 0; posts 22; site rebrand live (Gmail temporary).",
+  "statusDetail": "EXP-01 Day 2: 2 replies live; original awaiting Thomas (Auto-review). Day 1 overnight strongly favors busy-thread replies.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-08T11:30:00-05:00",
+  "lastUpdated": "2026-09-09T10:30:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
       "value": "0",
-      "hint": "Checked 2026-09-08 Mon pass \u2014 not Premium Analytics"
+      "hint": "Checked 2026-09-09 Day 2 pass"
     },
     {
       "label": "X posts",
-      "value": "22",
-      "hint": "Public post count"
+      "value": "24",
+      "hint": "After Day 2 replies; Day 2 original not live yet"
     },
     {
       "label": "Reply reach",
-      "value": "~1\u2013208 views",
-      "hint": "Post-time ~1; Sep 7 Spider-Noir overnight ~207\u2013208 (outside EXP-01)"
+      "value": "23\u20131,370",
+      "hint": "Sep 8 overnight range; Zelda reply 1,370"
     },
     {
       "label": "Public website",
       "value": "Live (rebrand)",
-      "hint": "elephantharbor.com \u2014 Gmail temporary; domain email post-cutover"
+      "hint": "Gmail temporary; domain email post-cutover"
     }
   ],
-  "currentObjective": "Grow Elephant Harbor as a recognizable participant on X \u2014 real conversations first \u2014 without buying Premium. Weekday pass: study what others\u2019 high-engagement replies are doing in live rooms, then ship 2\u20134 selective Harbor replies; at most one original for range. Learn what earns attention, then change behavior. Public site is live (rebrand); domain email is post-cutover.",
-  "currentStatusBrief": "EXP-01 Day 1 (Mon): 3 replies + 1 original live; views ~1 at post (too early). Sep 7 Spider-Noir reply ~207\u2013208 overnight \u2014 keep busy-thread bias, don\u2019t overfit. Next pass Tue 10:00 CT. Nothing needs Thomas.",
+  "currentObjective": "EXP-01 week (Sep 8\u201312): selective busy-thread replies (2\u20134) after studying others\u2019 high-engagement reply structures; \u22641 original/day for range; $0 / no Premium. Public site live (rebrand); domain email post-cutover.",
+  "currentStatusBrief": "Day 2: 2 replies live (~2 at post). Original (Venus calendar) blocked by Auto-review \u2014 needs Thomas. Day 1 overnight: replies beat original hard (median 54 vs 3). Next pass Thu 10:00 CT.",
   "latestLesson": {
-    "id": "dont-overfit-spike",
-    "experience": "One Sep 7 entertainment-room reply (Spider-Noir) climbed overnight to ~207\u2013208 views while sibling replies stayed low.",
-    "evidence": "Spider-Noir ~207\u2013208; other Sep 7 replies remained low; followers still 0.",
-    "learning": "A single overnight spike in a busy room is a surface signal, not proof to chase volume or change the whole cadence.",
-    "change": "Keep selective busy-thread replies (2\u20134); \u22641 original; don\u2019t overfit one spike. Logged 2026-09-08 from Rowan Day 1 delta."
+    "id": "study-others-replies",
+    "experience": "Early Harbor posts and sparse replies got little traction; busy rooms already outperform broadcast originals.",
+    "evidence": "Day 1 overnight: Zelda 1,370 / Pelicans 54 / Suns 23 vs original 3; followers still 0. Structures observed: agreement + self-deprecating timing; specific comparison + visual; instant visual emotion; concise pun/personal choice.",
+    "learning": "Scouting what other people\u2019s replies are earning in a live room is a better guide than inventing a post in isolation.",
+    "change": "Weekday pass starts by studying others\u2019 high-engagement replies (steal structure not voice), then 2\u20134 selective Harbor replies (\u22641 original)."
   },
-  "needsHumanAction": false,
-  "humanAction": null,
+  "needsHumanAction": true,
+  "humanAction": "Approve or reject Day 2 original draft (Auto-review blocked). Draft: \u201cA day on Venus lasts longer than a year on Venus. Product managers hate this one simple calendar.\u201d",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-presence/",
   "dashboardState": "live",
   "publicLinks": [
@@ -63,17 +63,17 @@
   "nextUp": {
     "areaId": "presence",
     "areaName": "Harbor Presence",
-    "lastUpdated": "2026-09-08T11:30:00-05:00",
+    "lastUpdated": "2026-09-09T10:30:00-05:00",
     "items": [
       {
         "title": "Weekday X pass",
-        "nextRunAt": "2026-09-09T10:00:00-05:00",
+        "nextRunAt": "2026-09-10T10:00:00-05:00",
         "scheduleLabel": "Weekdays 10:00 AM CT",
         "owner": "Rowan (Harbor Presence - Lead)"
       },
       {
         "title": "X missed-pass catch-up",
-        "nextRunAt": "2026-09-09T10:45:00-05:00",
+        "nextRunAt": "2026-09-10T10:45:00-05:00",
         "scheduleLabel": "Weekdays 10:45 AM CT (only if morning pass missed)",
         "owner": "Rowan (Harbor Presence - Lead)"
       }
