@@ -1,0 +1,39 @@
+{
+  "areaId": "presence",
+  "areaName": "Harbor Presence",
+  "lastUpdated": "2026-09-09T16:56:00-05:00",
+  "entries": [
+    {
+      "at": "2026-09-09T16:56:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Adopted Thomas\u2019s Session Log & Lessons standard: added origination dates to all Presence lessons (backfilled older ones), opened a Presence Session Log, and asked Rowan to append after every material X pass.",
+      "deskChanges": "Lessons gained originationDate; new Log tab + data/session-log.json; docs note on standard."
+    },
+    {
+      "at": "2026-09-09T13:16:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Closed the human gate after Rowan\u2019s Venus original published. Marked EXP-01 Day 2 complete (two replies + original).",
+      "deskChanges": "Cleared needsHumanAttention; logged Venus original; posts \u2192 25; segment summary gate off."
+    },
+    {
+      "at": "2026-09-09T10:30:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Refreshed the desk from Rowan\u2019s Day 2 weekday pass. Logged overnight Day 1 view counts (Zelda reply 1,370 vs jellyfish original 3) and flagged the Venus original waiting on Auto-review / Thomas.",
+      "deskChanges": "Next Up \u2192 Thu Sep 10; metrics/growth/EXP-01 Day 2; needsHumanAttention for original; lesson evidence updated for study-others-replies.",
+      "lessonId": "study-others-replies"
+    },
+    {
+      "at": "2026-09-08T11:30:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Refreshed the desk from Rowan\u2019s EXP-01 Day 1 weekday pass (three replies + immortal jellyfish original). Recorded the don\u2019t-overfit overnight spike lesson from the Sep 7 Spider-Noir reply.",
+      "deskChanges": "Next Up \u2192 Tue Sep 9; Day 1 content logged; new lesson dont-overfit-spike; site channel marked live rebrand.",
+      "lessonId": "dont-overfit-spike"
+    },
+    {
+      "at": "2026-09-07T15:00:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Thomas greenlit elephantharbor.com rebrand cutover with temporary Gmail; domain email left as post-cutover work with Wells.",
+      "deskChanges": "Public site status moved from frozen to live rebrand on a later desk refresh (Sep 8)."
+    }
+  ]
+}

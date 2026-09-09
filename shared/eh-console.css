@@ -215,3 +215,87 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
   .next-up li { grid-template-columns: 1fr; }
   .next-up .nu-when { text-align: left; }
 }
+
+/* —— Session Log (Thomas standard 2026-09-09) —— */
+.session-log {
+  margin: 12px 0 18px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg2);
+}
+.session-log h2, .session-log .session-log-title {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.session-log .session-log-help {
+  margin: 0 0 12px;
+  color: var(--dim);
+  font-size: 12px;
+}
+.session-log.empty .session-log-empty {
+  margin: 0;
+  color: var(--dim);
+  font-size: 13px;
+}
+.session-log ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.session-log li {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 4px 14px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+.session-log li:first-child { border-top: none; padding-top: 0; }
+.session-log .sl-when {
+  font-size: 12px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.session-log .sl-actor {
+  font-size: 12px;
+  color: var(--muted);
+  grid-column: 2;
+}
+.session-log .sl-summary {
+  grid-column: 1 / -1;
+  font-size: 13px;
+  font-weight: 550;
+  color: var(--text);
+}
+.session-log .sl-desk {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  color: var(--muted);
+}
+.session-log .sl-lesson {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  color: var(--dim);
+}
+@media (max-width: 640px) {
+  .session-log li { grid-template-columns: 1fr; }
+  .session-log .sl-actor { grid-column: 1; }
+}
+
+/* Lesson origination date */
+.lesson .origination, .lesson-origination {
+  display: inline-block;
+  margin: 0 0 8px;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--dim);
+  font-variant-numeric: tabular-nums;
+}
+.lesson .origination.missing, .lesson-origination.missing {
+  color: var(--warn);
+}
