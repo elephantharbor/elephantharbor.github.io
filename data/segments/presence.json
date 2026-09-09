@@ -4,19 +4,19 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "EXP-01 Day 2: 2 replies live; original awaiting Thomas (Auto-review). Day 1 overnight strongly favors busy-thread replies.",
+  "statusDetail": "EXP-01 Day 2 complete (2 replies + Venus original); followers 0; posts 25; no human gates.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-09T10:30:00-05:00",
+  "lastUpdated": "2026-09-09T13:16:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
       "value": "0",
-      "hint": "Checked 2026-09-09 Day 2 pass"
+      "hint": "Checked 2026-09-09 after Venus original"
     },
     {
       "label": "X posts",
-      "value": "24",
-      "hint": "After Day 2 replies; Day 2 original not live yet"
+      "value": "25",
+      "hint": "Day 2 complete"
     },
     {
       "label": "Reply reach",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "EXP-01 week (Sep 8\u201312): selective busy-thread replies (2\u20134) after studying others\u2019 high-engagement reply structures; \u22641 original/day for range; $0 / no Premium. Public site live (rebrand); domain email post-cutover.",
-  "currentStatusBrief": "Day 2: 2 replies live (~2 at post). Original (Venus calendar) blocked by Auto-review \u2014 needs Thomas. Day 1 overnight: replies beat original hard (median 54 vs 3). Next pass Thu 10:00 CT.",
+  "currentStatusBrief": "Day 2 complete: 2 replies + Venus original live. Followers 0. Day 1 overnight still favors busy-thread replies. Next pass Thu 10:00 CT. Nothing needs Thomas.",
   "latestLesson": {
     "id": "study-others-replies",
     "experience": "Early Harbor posts and sparse replies got little traction; busy rooms already outperform broadcast originals.",
@@ -38,8 +38,8 @@
     "learning": "Scouting what other people\u2019s replies are earning in a live room is a better guide than inventing a post in isolation.",
     "change": "Weekday pass starts by studying others\u2019 high-engagement replies (steal structure not voice), then 2\u20134 selective Harbor replies (\u22641 original)."
   },
-  "needsHumanAction": true,
-  "humanAction": "Approve or reject Day 2 original draft (Auto-review blocked). Draft: \u201cA day on Venus lasts longer than a year on Venus. Product managers hate this one simple calendar.\u201d",
+  "needsHumanAction": false,
+  "humanAction": null,
   "dashboardUrl": "https://elephantharbor.github.io/harbor-presence/",
   "dashboardState": "live",
   "publicLinks": [
@@ -63,7 +63,7 @@
   "nextUp": {
     "areaId": "presence",
     "areaName": "Harbor Presence",
-    "lastUpdated": "2026-09-09T10:30:00-05:00",
+    "lastUpdated": "2026-09-09T13:16:00-05:00",
     "items": [
       {
         "title": "Weekday X pass",
