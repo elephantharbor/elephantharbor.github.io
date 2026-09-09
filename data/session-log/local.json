@@ -1,8 +1,15 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-09T17:00:00-05:00",
+  "lastUpdated": "2026-09-09T17:15:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-09T17:11:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "Cycle 1.5.1 frontend polish delivered on Modern Bold: bento padding and type balance, WCAG-darker card body text, ExtraBold headings, unified circular icon badges, blueprint at 3%, hero 48px clip with AVIF/WebP. Classic unchanged.",
+      "deskChanges": "STATUS Cycle 1.5.1; notes and before/after shots published. Segment summary marked 1.5.1 delivered. Still awaiting freeze vs blend.",
+      "lessonId": "wcag-after-aesthetic-pivot"
+    },
     {
       "at": "2026-09-09T16:58:00-05:00",
       "actor": "Kit (Harbor Local - Platform)",

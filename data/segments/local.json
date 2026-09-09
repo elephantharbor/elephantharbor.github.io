@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.5.1: Modern Bold frontend polish in progress (bento balance, WCAG card text, unified icons, blueprint/hero clip). Brand open. No outbound.",
+  "statusDetail": "Cycle 1.5.1 Modern Bold frontend polish delivered (bento balance, WCAG card text, unified icons, hero clip/WebP). Awaiting Thomas freeze vs blend. Brand Round 3 open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-09T17:05:00-05:00",
+  "lastUpdated": "2026-09-09T17:15:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -21,7 +21,7 @@
     {
       "label": "Platform",
       "value": "1.5.1",
-      "hint": "Frontend reskin polish"
+      "hint": "Frontend polish delivered"
     },
     {
       "label": "Brand",
@@ -30,16 +30,16 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Cycle 1.5.1 frontend reskin underway on Modern Bold. Brand open. No outbound.",
+  "currentStatusBrief": "Building. Cycle 1.5.1 delivered \u2014 awaiting freeze/blend. Brand open. No outbound.",
   "latestLesson": {
-    "experience": "Thomas directed a full immersive UI pivot (glass/glow/bento) away from Cycle 1.4 editorial restraint.",
-    "evidence": "Cycle 1.5 brief + delivered Modern Bold compare build 2026-09-09.",
-    "learning": "Two competing bars now exist: contractor-editorial distinctiveness vs premium product immersion \u2014 freeze needs an explicit pick.",
-    "change": "Delivered 1.5 as directed; asking Thomas freeze vs blend before scaling the family.",
+    "experience": "Immersive bento had empty featured-card space and weak card text contrast after the 1.5 aesthetic pivot.",
+    "evidence": "Thomas frontend brief + measured contrast fix to #334155 / #1E293B; pad 2.5rem; install-first mobile stack.",
+    "learning": "Treat WCAG card text and asymmetric grid balance as first-class after aesthetic pivots.",
+    "change": "Platform ships a 1.5.1 polish pass before freeze/blend decision.",
     "originationDate": "2026-09-09"
   },
   "needsHumanAction": true,
-  "humanAction": "Await Cycle 1.5.1 polish; then freeze/blend gate; brand path; EH LLC gates; then domain/ESP/first-send.",
+  "humanAction": "Gate Cycle 1.5.1 (freeze immersive, blend with 1.4, or refine); brand path; EH LLC gates; then domain/ESP/first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
