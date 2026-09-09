@@ -1,6 +1,47 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-09T16:55:00-05:00",
-  "entries": []
+  "lastUpdated": "2026-09-09T16:59:00-05:00",
+  "entries": [
+    {
+      "at": "2026-09-09T16:45:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "Cycle 1.5 immersive redesign started from Thomas\u2019s brief: Modern Bold premium with glass, depth, bento layout, and amber/cyan accents. Pivot away from Cycle 1.4\u2019s oversized 1977 editorial story toward a floating glass credibility bar.",
+      "deskChanges": "Platform STATUS and Cycle 1.5 plan updated; segment-summary statusDetail notes 1.5 in progress. No outbound; metrics unchanged (zeros)."
+    },
+    {
+      "at": "2026-09-09T14:30:00-05:00",
+      "actor": "Blair (Harbor Local - CEO)",
+      "summary": "Brand Round 3 published \u2014 24 name candidates across descriptive, evocative, and coined buckets. Prior Round 1\u20132 stems excluded. Prototype screenshot refresh for desk review alongside the open brand path.",
+      "deskChanges": "docs/cycle-1-1/BRAND-CANDIDATES-ROUND-3.md added; brand remains Open (no lock, no domain buy). Segment summary brand hint can say Round 3 open."
+    },
+    {
+      "at": "2026-09-07T16:20:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "Cycle 1.4 distinctiveness pass on Modern Bold: \u201cSince 1977\u201d editorial year identity, restrained louver geometry, and a proposed Action Heating wordmark/mark (labeled creative direction, not theirs).",
+      "deskChanges": "Compare shots and concept note updated; quality-bar / distinctiveness rules codified for future verticals.",
+      "lessonId": "distinctiveness-travels"
+    },
+    {
+      "at": "2026-09-07T14:00:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "Cycle 1.3 craft pass on Modern Bold (primary) with Classic Trust secondary \u2014 photography, type hierarchy, trust strip honesty, and visual rules tightened before the distinctiveness gate.",
+      "deskChanges": "Visual notes and STATUS Cycle 1.3 recorded; still template-based Action Heating fixture.",
+      "lessonId": "verified-facts-quality-bar"
+    },
+    {
+      "at": "2026-09-07T12:30:00-05:00",
+      "actor": "Blair (Harbor Local - CEO)",
+      "summary": "LLC binder drafts \u00a7\u00a707\u201311 (MSA, WaaS SOW, hosting addendum, IP framework, customer readiness) prepared for Hayes review. Brand stays {{brand}} / proposal-only; Sitekeep not treated as locked.",
+      "deskChanges": "docs/llc-binder/ 07\u201311 drafts on desk; human legal gates still pending.",
+      "lessonId": "brand-widget-not-lock"
+    },
+    {
+      "at": "2026-09-07T10:00:00-05:00",
+      "actor": "Lane (Harbor Local - Growth) + Kit (Harbor Local - Platform)",
+      "summary": "Cycle 1.2 Action Heating verified-facts pack and fixture rebuild: public BBB/site facts only, explicit omit list, River City fiction retired for prospect builds. Scoring v2 dry-run clarified null reviews must not kill preview suitability.",
+      "deskChanges": "Verified facts + OMITTED docs; Action Heating STL fixtures; scoring architecture v2 referenced for EXP-01.",
+      "lessonId": "null-reviews-scoring-v2"
+    }
+  ]
 }
