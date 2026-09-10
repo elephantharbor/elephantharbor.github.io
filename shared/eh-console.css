@@ -112,41 +112,44 @@ body::before,
 body::after {
   content: "";
   position: fixed;
-  inset: -12%;
+  inset: -18%;
   pointer-events: none;
   z-index: 0;
 }
 body::before {
-  opacity: 0.55;
+  opacity: 0.85;
   background:
-    radial-gradient(circle at 18% 28%, rgba(var(--atmosphere-rgb), 0.32), transparent 44%),
-    radial-gradient(circle at 78% 18%, rgba(var(--atmosphere-rgb), 0.18), transparent 40%),
-    radial-gradient(circle at 72% 78%, rgba(var(--atmosphere-rgb), 0.22), transparent 46%);
-  animation: eh-aurora 18s ease-in-out infinite alternate;
+    radial-gradient(circle at 16% 26%, rgba(var(--atmosphere-rgb), 0.55), transparent 46%),
+    radial-gradient(circle at 82% 14%, rgba(var(--atmosphere-rgb), 0.38), transparent 42%),
+    radial-gradient(circle at 70% 82%, rgba(var(--atmosphere-rgb), 0.42), transparent 48%),
+    radial-gradient(circle at 48% 48%, rgba(var(--atmosphere-rgb), 0.18), transparent 55%);
+  animation: eh-aurora 12s ease-in-out infinite alternate;
+  will-change: transform, opacity;
 }
 body::after {
-  opacity: 0.22;
+  opacity: 0.55;
   background-image:
-    linear-gradient(rgba(var(--atmosphere-rgb), 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(var(--atmosphere-rgb), 0.07) 1px, transparent 1px);
-  background-size: 56px 56px;
-  mask-image: radial-gradient(ellipse at center, #000 35%, transparent 75%);
-  -webkit-mask-image: radial-gradient(ellipse at center, #000 35%, transparent 75%);
-  animation: eh-drift 42s linear infinite;
+    linear-gradient(rgba(var(--atmosphere-rgb), 0.22) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--atmosphere-rgb), 0.22) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, #000 45%, transparent 82%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 45%, transparent 82%);
+  animation: eh-drift 18s linear infinite;
+  will-change: transform;
 }
 body > * { position: relative; z-index: 1; }
 @keyframes eh-aurora {
-  0% { transform: translate3d(-1.5%, 1%, 0) scale(1); opacity: 0.4; }
-  50% { transform: translate3d(3.5%, -2.5%, 0) scale(1.08); opacity: 0.62; }
-  100% { transform: translate3d(-3%, 2.5%, 0) scale(1.04); opacity: 0.48; }
+  0% { transform: translate3d(-4%, 3%, 0) scale(1); opacity: 0.55; }
+  50% { transform: translate3d(6%, -5%, 0) scale(1.14); opacity: 0.95; }
+  100% { transform: translate3d(-5%, 4%, 0) scale(1.08); opacity: 0.7; }
 }
 @keyframes eh-drift {
   0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(56px, 28px, 0); }
+  100% { transform: translate3d(48px, 48px, 0); }
 }
 @media (prefers-reduced-motion: reduce) {
   body::before,
-  body::after { animation: none; }
+  body::after { animation: none; opacity: 0.35; }
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
