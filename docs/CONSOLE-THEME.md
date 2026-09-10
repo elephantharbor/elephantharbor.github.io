@@ -4,7 +4,7 @@ Owner: Wells (Portfolio - Systems)
 Brand tokens steward: Maren (`/brand/tokens.css`)
 
 ## What ships in shared CSS/JS
-- `shared/eh-console.css` — surfaces, segment/market identity colors, page atmosphere gradients, ambient aurora (`prefers-reduced-motion` respected), tile/nav accents, theme tokens for dark (default) and light (brand Canvas).
+- `shared/eh-console.css` — surfaces, segment/market identity colors, page atmosphere gradients, ambient aurora + soft drifting grid (`prefers-reduced-motion` respected), tile/nav accents, theme tokens for dark (default) and light (brand Canvas).
 - `shared/eh-theme.js` — persists `localStorage.eh-console-theme` (`light`|`dark`), sets `html[data-theme]`, injects **Light/Dark** toggle into the topbar.
 
 ## Body classes (desks must set)
