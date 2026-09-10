@@ -228,6 +228,17 @@ async function main() {
       segments.push(await loadJSON(`data/segments/${id}.json`));
     }
     renderStats(portfolio, segments);
+    try {
+      const tcHost = document.getElementById("trial-clock");
+      if (tcHost && window.EH && EH.loadTrialClock) {
+        const tc = await EH.loadTrialClock("data/trial-clock.json");
+        tcHost.innerHTML = EH.renderTrialClock(tc);
+      }
+    } catch (e) {
+      const tcHost = document.getElementById("trial-clock");
+      if (tcHost && window.EH && EH.renderTrialClock) tcHost.innerHTML = EH.renderTrialClock(null);
+    }
+
     renderAttention(segments);
     document.getElementById("tiles").innerHTML = segments.map(tileHtml).join("");
     try {

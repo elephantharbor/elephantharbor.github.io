@@ -28,3 +28,13 @@ Brand tokens steward: Maren (`/brand/tokens.css`)
 
 ## Light theme
 Uses brand Canvas / Harbor Ink / Deep Tide. Toggle label shows the theme you can switch **to**.
+
+
+## Official logo
+`eh-theme.js` replaces `.topbar .mark` with Harbor Gate SVG:
+- dark theme → `shared/mark-on-ink.svg`
+- light theme → `shared/mark-on-canvas.svg`
+
+## Trial clock
+Canonical JSON: `data/trial-clock.json` on the portfolio site.
+Overview pages + homepage host `#trial-clock` and call `EH.loadTrialClock` / `EH.renderTrialClock`.
