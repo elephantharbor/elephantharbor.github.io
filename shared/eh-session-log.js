@@ -113,11 +113,13 @@
             : "";
         return (
           "<li>" +
+          '<div class="sl-head">' +
           '<div class="sl-when">' +
           esc(EH.formatChicago(e.at)) +
           "</div>" +
           '<div class="sl-actor">' +
           esc(e.actor || "—") +
+          "</div>" +
           "</div>" +
           '<div class="sl-summary">' +
           esc(e.summary || "") +
