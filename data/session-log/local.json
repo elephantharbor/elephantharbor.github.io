@@ -1,8 +1,21 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-09T17:15:00-05:00",
+  "lastUpdated": "2026-09-10T15:12:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-10T15:10:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "Cycle 1.6 Classic Trust elevation delivered: heritage warm/serif strategy brought to Modern Bold\u2019s craft bar (HVAC hero pipeline, WCAG text, 2-line H1, Established 1977 + A+ BBB masthead, Lucide badges). Modern Bold left untouched as primary.",
+      "deskChanges": "STATUS Cycle 1.6; Classic vs Modern note; before/after shots. Segment summary marked both at craft bar.",
+      "lessonId": "shared-craft-not-shared-look"
+    },
+    {
+      "at": "2026-09-10T14:57:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "Thomas micro-fix on Modern Bold: hero H1 forced to two lines (Heating & cooling / for St. Louis homes) and Featured Install badge cleaned (solid peach pill, rust text, no clipping).",
+      "deskChanges": "Compare rebuild at :4173/modern-bold/; microfix screenshot saved. No lesson (small craft fix)."
+    },
     {
       "at": "2026-09-09T17:11:00-05:00",
       "actor": "Kit (Harbor Local - Platform)",

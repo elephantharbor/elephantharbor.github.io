@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.6: Classic Trust elevating to Modern Bold craft bar (heritage strategy retained). Modern 1.5.1+microfix held. Brand Round 3 open. No outbound.",
+  "statusDetail": "Cycle 1.6 Classic Trust elevated to Modern craft bar (heritage strategy retained). Modern 1.5.1+microfix primary. Brand Round 3 open. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-10T15:02:42-05:00",
+  "lastUpdated": "2026-09-10T15:13:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -20,8 +20,8 @@
     },
     {
       "label": "Platform",
-      "value": "1.6 craft",
-      "hint": "Classic Trust elevation"
+      "value": "1.6 done",
+      "hint": "Classic elevated; both at craft bar"
     },
     {
       "label": "Brand",
@@ -30,16 +30,16 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Cycle 1.6 Classic elevation underway. Brand open. No outbound.",
+  "currentStatusBrief": "Building. Classic + Modern both at production craft bar. Awaiting freeze. Brand open. No outbound.",
   "latestLesson": {
-    "experience": "Immersive bento had empty featured-card space and weak card text contrast after the 1.5 aesthetic pivot.",
-    "evidence": "Thomas frontend brief + measured contrast fix to #334155 / #1E293B; pad 2.5rem; install-first mobile stack.",
-    "learning": "Treat WCAG card text and asymmetric grid balance as first-class after aesthetic pivots.",
-    "change": "Platform ships a 1.5.1 polish pass before freeze/blend decision.",
-    "originationDate": "2026-09-09"
+    "experience": "Classic lagged Modern craft after 1.5.x while staying secondary/heritage.",
+    "evidence": "Cycle 1.6 elevation + compare; Modern left intact.",
+    "learning": "Shared craft bar \u2260 shared visual language \u2014 Classic keeps warm paper + serif + editorial masthead; Modern keeps immersive slate + glass + bento.",
+    "change": "Both variants now meet production craft; Modern remains primary.",
+    "originationDate": "2026-09-10"
   },
   "needsHumanAction": true,
-  "humanAction": "Await Cycle 1.6 Classic elevation; then freeze/blend gates; brand path; EH LLC; then domain/ESP/first-send.",
+  "humanAction": "Freeze Classic/Modern craft bar or refine; brand path; EH LLC gates; then domain/ESP/first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
@@ -50,7 +50,7 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Manual Local ops feed. Cycle 1.6 Classic Trust elevating to Modern Bold craft bar (heritage strategy, not clone). Brand Round 3 open. No outbound. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Manual Local ops feed. Cycle 1.6 Classic elevation delivered (Classic + Modern at production craft bar). Brand Round 3 open. No outbound. Session-log mirrored. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
