@@ -4,9 +4,9 @@
   "description": "Capital allocation and trading.",
   "mission": "Grow a finite bankroll through disciplined market participation, controlled risk, and continuous learning.",
   "status": "Operating",
-  "statusDetail": "LIVE. Waiting on first fill to start the 30-day viability review. IBKR reconcile stamp not yet set this Gateway session (re-login before weekday fill check is optional \u2014 not blocking).",
+  "statusDetail": "LIVE. Waiting on first fill to start the 30-day viability review.",
   "owner": "Holt (Harbor Capital - CEO)",
-  "lastUpdated": "2026-09-06T14:34:15-05:00",
+  "lastUpdated": "2026-09-10T15:02:17-05:00",
   "headlineMetrics": [
     {
       "label": "Mode",
@@ -20,17 +20,17 @@
     },
     {
       "label": "Net trading P&L",
-      "value": "$0.00",
+      "value": "$-0.02",
       "hint": "Funding excess above $200 sits in reserve \u2014 not performance"
     },
     {
       "label": "Open positions",
-      "value": "0",
-      "hint": "No open risk positions"
+      "value": "1",
+      "hint": "Open risk positions"
     }
   ],
   "currentObjective": "Complete the live ops plumbing test and learn from the first fill under LIVE rules.",
-  "currentStatusBrief": "Live ops plumbing test submitted (small SGOV reserve buy). Waiting on first fill to start the 30-day viability review. Automated execution: Ready \u2014 Holt-gated. No human action blocking capital ops right now. Freshness: lastUpdated uses dashboard generated time \u2014 Gateway auth not green for a live account poll this session.",
+  "currentStatusBrief": "Live ops plumbing test submitted (small SGOV reserve buy). Waiting on first fill to start the 30-day viability review. Automated execution: Ready \u2014 Holt-gated. No human action blocking capital ops right now.",
   "latestLesson": {
     "experience": "Claims ladder F7\u2013F9 treated as three independent events",
     "evidence": "One labor surprise moves all three \u2014 correlated factor",
@@ -43,37 +43,37 @@
   "dashboardState": "live",
   "publicLinks": [],
   "freshness": {
-    "source": "generated_at_ct",
-    "reconcileStampPresent": false,
-    "generatedAtCt": "2026-09-06 14:34:15 CT",
-    "lastReconciledIbkrCt": null,
-    "viabilityClock": "NOT_STARTED",
+    "source": "last_reconciled_ibkr_ct",
+    "reconcileStampPresent": true,
+    "generatedAtCt": "2026-09-10 15:02:19 CT",
+    "lastReconciledIbkrCt": "2026-09-10 15:02:17 CT",
+    "viabilityClock": "IN_PROGRESS",
     "automatedExecution": "Ready \u2014 Holt-gated"
   },
   "nextUp": {
     "areaId": "capital",
     "areaName": "Harbor Capital",
-    "lastUpdated": "2026-09-06T14:34:15-05:00",
+    "lastUpdated": "2026-09-10T15:02:19-05:00",
     "items": [
+      {
+        "id": "eod-reconcile",
+        "title": "End-of-day reconcile",
+        "nextRunAt": "2026-09-10T16:00:00-05:00",
+        "scheduleLabel": "Weekdays 4:00 PM CT",
+        "owner": "Holt"
+      },
       {
         "id": "gateway-health",
         "title": "Gateway health check",
-        "nextRunAt": "2026-09-07T09:00:00-05:00",
+        "nextRunAt": "2026-09-11T09:00:00-05:00",
         "scheduleLabel": "Weekdays 9 / 12 / 3 CT",
         "owner": "Holt"
       },
       {
-        "id": "sgov-ops-fill-check",
-        "title": "SGOV ops fill check",
-        "nextRunAt": "2026-09-07T09:00:00-05:00",
-        "scheduleLabel": "Mondays 9:00 AM CT",
-        "owner": "Holt"
-      },
-      {
-        "id": "ibg-cutover-nudge",
-        "title": "IB Gateway cutover nudge",
-        "nextRunAt": "2026-09-07T10:00:00-05:00",
-        "scheduleLabel": "Mon\u2013Tue 10:00 AM CT",
+        "id": "viability-evidence",
+        "title": "Viability evidence (Day 1 \u00b7 30d left)",
+        "nextRunAt": "2026-09-11T09:30:00-05:00",
+        "scheduleLabel": "Weekdays \u2014 evidence checklist (banner SoT)",
         "owner": "Holt"
       }
     ]
