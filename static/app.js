@@ -142,6 +142,30 @@ function renderStats(portfolio, segments) {
 }
 
 
+
+async function loadActiveVentureAreas() {
+  const areaIds = ["capital", "presence", "foundry", "local"];
+  const docs = [];
+  for (const id of areaIds) {
+    try {
+      docs.push(await loadJSON(`data/active-ventures/${id}.json`));
+    } catch (_) {
+      docs.push({ areaId: id, items: [], emptyReason: null });
+    }
+  }
+  return docs;
+}
+
+function renderOrgActiveVentures(docs) {
+  const host = document.getElementById("active-ventures-host");
+  if (!host) return;
+  if (window.EH && EH.aggregateActiveVentures) {
+    host.innerHTML = EH.aggregateActiveVentures(docs);
+  } else {
+    host.innerHTML = `<section class="active-ventures"><h2 class="section-title">Active ventures</h2><div class="empty"><strong>No active ventures</strong>Shared renderer unavailable.</div></section>`;
+  }
+}
+
 async function loadNextUpAreas() {
   const areaIds = ["portfolio", "capital", "presence", "foundry", "local"];
   const areas = [];
@@ -251,6 +275,14 @@ async function main() {
       if (el) {
         el.className = "next-up empty";
         el.innerHTML = `<p class="next-up-empty">Nothing scheduled.</p>`;
+      }
+    }
+    try {
+      renderOrgActiveVentures(await loadActiveVentureAreas());
+    } catch (e) {
+      const host = document.getElementById("active-ventures-host");
+      if (host) {
+        host.innerHTML = `<section class="active-ventures"><h2 class="section-title">Active ventures</h2><div class="empty"><strong>No active ventures</strong>Could not load feeds.</div></section>`;
       }
     }
   } catch (err) {

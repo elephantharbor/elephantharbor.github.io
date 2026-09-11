@@ -609,3 +609,47 @@ html[data-theme="light"] .mark.eh-logo { background: var(--eh-canvas); }
 .seg-accent { color: var(--segment); }
 .seg-rule { border-left: 3px solid var(--segment); padding-left: 10px; }
 .kpi .val { color: var(--segment); }
+
+/* —— Active Ventures (V1) —— */
+.active-ventures { margin: 0 0 18px; }
+.av-stack { display: flex; flex-direction: column; gap: 10px; }
+.av-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  border-left: 3px solid var(--segment, var(--accent));
+  padding: 12px 14px;
+}
+.av-head { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; justify-content: space-between; }
+.av-head h3 { margin: 0; font-size: 15px; font-weight: 650; color: var(--text); }
+.av-status {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--segment, var(--accent));
+  border: 1px solid color-mix(in srgb, var(--segment, var(--accent)) 45%, var(--border));
+  border-radius: 3px; padding: 2px 6px; white-space: nowrap;
+}
+.av-sub { margin: 4px 0 0; font-size: 11px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.04em; }
+.av-desc { margin: 8px 0 0; font-size: 13px; color: var(--muted); line-height: 1.45; max-width: 72ch; }
+.av-meta {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px;
+  margin: 10px 0 0; padding: 0;
+}
+.av-meta .av-span { grid-column: 1 / -1; }
+.av-meta dt {
+  margin: 0; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--dim);
+}
+.av-meta dd { margin: 2px 0 0; font-size: 12px; color: var(--text); }
+.av-foot {
+  display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; justify-content: space-between;
+  margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--border);
+}
+.av-link { font-size: 12px; font-weight: 650; color: var(--segment, var(--accent)); text-decoration: none; }
+.av-link:hover { text-decoration: underline; }
+.av-updated { font-size: 11px; color: var(--dim); }
+@media (max-width: 640px) {
+  .av-meta { grid-template-columns: 1fr; }
+}
+html[data-theme="light"] .av-card {
+  background: var(--bg2);
+  box-shadow: 0 1px 2px rgba(16, 38, 44, 0.06);
+}
