@@ -1,8 +1,22 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-11T08:42:00-05:00",
+  "lastUpdated": "2026-09-11T08:47:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T08:46:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "First real-prospect populated preview (Action Heating) is on the authenticated Local desk Platform tab \u2014 Modern Bold primary, Classic available. Placeholders and auto-preview rule documented. Local-only host; not github.io.",
+      "deskChanges": "desk-previews/ gallery + Platform tab wiring. Cycle 1.7 STATUS. Lesson desk-private-previews.",
+      "lessonId": "desk-private-previews"
+    },
+    {
+      "at": "2026-09-11T08:52:00-05:00",
+      "actor": "Kit (Harbor Local - Platform)",
+      "summary": "Cycle 1.7 portfolio previews: documented reusable verified-JSON placeholders; copied Action Heating Modern Bold (primary) + Classic Trust into private desk-previews for Tom\u2019s local review. Trailmark stamped as temporary unofficial working brand on desk chrome and preview footers only \u2014 not as Action Heating\u2019s logo. Auto-preview rule uses Preview Suitability High + Opportunity + Confidence, not a naive \u226580 composite.",
+      "deskChanges": "Platform tab gallery + data/desk-previews.json; placeholders + AUTO-PREVIEW-RULE docs; snapshot platform block factual (1 HVAC family, 1 populated preview / 2 variants, local desk-previews only).",
+      "lessonId": "working-brand-unblocks-desk"
+    },
     {
       "at": "2026-09-11T08:38:00-05:00",
       "actor": "Lane (Harbor Local - Growth)",

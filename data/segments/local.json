@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard: Trailmark working brand. Private prospect table seeded (11 STL HVAC; Action Opp 84 / Preview High / Outreach Hold). Action Heating desk preview still in flight. No outbound.",
+  "statusDetail": "Internal-hard: Trailmark working. Action Heating populated preview on authenticated Local desk (Modern primary) for Thomas review. Private prospect table 11. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-11T08:42:31-05:00",
+  "lastUpdated": "2026-09-11T08:47:12-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -20,8 +20,8 @@
     },
     {
       "label": "Platform",
-      "value": "Preview",
-      "hint": "Action Heating desk preview in flight"
+      "value": "Desk preview",
+      "hint": "Action Heating ready for Tom review"
     },
     {
       "label": "Brand",
@@ -30,16 +30,16 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Prospect table live (private). Kit preview next. Trailmark temporary. No outbound.",
+  "currentStatusBrief": "Building. Action Heating desk preview ready for Thomas. Trailmark temporary. No outbound.",
   "latestLesson": {
-    "experience": "v1 dry-run left Action preview-ineligible on a single \u226580 composite while null reviews docked business quality; no private prospect table.",
-    "evidence": "Action v2 Opportunity 84 / Preview High; Cycle 1.1 scoring rewrite; 2026-09-11 execution brief.",
-    "learning": "Desk must show Business Quality, Digital Deficiency, Commercial Opportunity, Trigger, Total, and Recommend Outreach separately, with Confidence / Preview / Contact in evidence \u2014 not Opportunity \u226580 alone.",
-    "change": "Private growth/desk SoR seeded; weekday discovery routine armed.",
+    "experience": "Thomas needs to review populated previews on an authenticated desk, not public Pages.",
+    "evidence": "Cycle 1.7 desk-previews gallery + Platform tab; no github.io sync.",
+    "learning": "Keep populated previews off github.io; desk-private paths + Trailmark as temporary product chrome.",
+    "change": "Platform ships desk-previews/ as the Tom-review surface until a real preview host exists.",
     "originationDate": "2026-09-11"
   },
   "needsHumanAction": true,
-  "humanAction": "None to start internal phase. Watson identity verify before any future contact list. Still gated: final brand, LLC, domain/ESP, first-send.",
+  "humanAction": "Review Action Heating Modern Bold (primary) on local desk. Still gated: final brand, LLC, domain/ESP, first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
@@ -50,7 +50,7 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Manual Local ops feed. Internal-hard; Trailmark temporary; private prospect table; no outbound. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Manual Local ops feed. Action Heating preview on auth desk; private table 11; no outbound. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
