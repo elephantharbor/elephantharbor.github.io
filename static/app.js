@@ -44,10 +44,12 @@ function actionsHtml(s) {
   } else {
     bits.push(`<span class="planned">Detailed operating dashboard: planned</span>`);
   }
-  for (const link of s.publicLinks || []) {
+  const links = Array.isArray(s.publicLinks) ? s.publicLinks : [];
+  for (const link of links) {
+    if (!link || !link.url) continue;
     bits.push(
       `<a class="btn ghost" href="${escapeHtml(link.url)}" rel="noopener">${escapeHtml(
-        link.label
+        link.label || link.url
       )}</a>`
     );
   }

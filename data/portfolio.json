@@ -1,7 +1,7 @@
 {
   "title": "Elephant Harbor",
   "subtitle": "Portfolio operating console",
-  "statusBrief": "Four operating segments on one shared console (list-driven). Harbor Local: Building \u2014 planned tile visible; live desk held; outbound blocked pending brand/entity/ESP.",
+  "statusBrief": "Four operating segments on shared authenticated console (console.elephantharbor.com). Harbor Local desk live behind auth; outbound still blocked pending brand/entity/ESP.",
   "publicSiteUrl": "https://elephantharbor.com",
   "publicSiteNote": "elephantharbor.com is the public-facing company site (Harbor Presence). This github.io site is the internal operating console.",
   "segments": [
@@ -10,7 +10,7 @@
     "foundry",
     "local"
   ],
-  "lastUpdated": "2026-09-07T14:38:24-05:00",
+  "lastUpdated": "2026-09-11T09:27:34-05:00",
   "stats": {
     "activeSegments": 4,
     "segmentsNeedingHumanAction": 1,

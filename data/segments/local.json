@@ -6,7 +6,7 @@
   "status": "Building",
   "statusDetail": "Internal-hard: Trailmark working. Action Heating populated preview on authenticated Local desk (Modern primary) for Thomas review. Private prospect table 11. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-11T09:23:30-05:00",
+  "lastUpdated": "2026-09-11T09:27:34-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -41,11 +41,13 @@
   "needsHumanAction": true,
   "humanAction": "Review Action Heating Modern Bold (primary) on local desk. Still gated: final brand, LLC, domain/ESP, first-send.",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
-  "dashboardState": "scaffolded",
-  "publicLinks": {
-    "desk": "https://console.elephantharbor.com/harbor-local/",
-    "note": "Authenticated console only \u2014 not on public github.io"
-  },
+  "dashboardState": "live",
+  "publicLinks": [
+    {
+      "label": "Open Local desk (auth)",
+      "url": "https://console.elephantharbor.com/harbor-local/"
+    }
+  ],
   "experimentsCount": 0,
   "freshnessNote": "Manual Local ops feed. Action Heating preview on auth desk; private table 11; no outbound. lastUpdated is publish time of this summary.",
   "nextUp": {
