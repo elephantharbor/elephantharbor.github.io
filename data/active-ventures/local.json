@@ -1,7 +1,8 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-11T10:20:00-05:00",
+  "lastUpdated": "2026-09-11T10:24:00-05:00",
   "items": [],
-  "emptyReason": "No active customer ventures yet. Scored HVAC prospects are on the Prospects tab \u2014 not Active Ventures."
+  "emptyReason": "No active customer ventures yet. Scored HVAC prospects are on the Prospects tab \u2014 not Active Ventures.",
+  "detailLink": "https://console.elephantharbor.com/harbor-local/#overview"
 }

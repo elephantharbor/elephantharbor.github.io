@@ -1,7 +1,7 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-11T10:19:00-05:00",
+  "lastUpdated": "2026-09-11T10:24:00-05:00",
   "items": [
     {
       "id": "exp-01-busy-thread",
@@ -15,8 +15,8 @@
       "exposure": "$0 / no Premium; public view counts only",
       "performance": "Aged sample through Sep 11 morning: busy replies include ~1.3K and ~627 views; originals this week aged ~2–8. Hypothesis still holding pending formal median closeout.",
       "nextMilestone": "Sat 2026-09-12 ~10:00 CT metrics-only closeout (median reply vs original on Sep 8–11 aged posts)",
-      "detailUrl": "https://elephantharbor.github.io/harbor-presence/#experiments",
-      "lastUpdated": "2026-09-11T10:19:00-05:00"
+      "lastUpdated": "2026-09-11T10:24:00-05:00",
+      "detailLink": "https://elephantharbor.github.io/harbor-presence/#experiments"
     },
     {
       "id": "x-volume-bar",
@@ -30,8 +30,8 @@
       "exposure": "$0 / no Premium; weekday passes; weekends quiet unless asked",
       "performance": "Day 1 under bar (Fri Sep 11): 10 replies + 1 original; followers still 0; posts ~40. Busy-room aged replies still dominate.",
       "nextMilestone": "Mon 2026-09-14 weekday pass under the volume bar; keep measuring public views/likes/replies/follows",
-      "detailUrl": "https://elephantharbor.github.io/harbor-presence/#overview",
-      "lastUpdated": "2026-09-11T10:19:00-05:00"
+      "lastUpdated": "2026-09-11T10:24:00-05:00",
+      "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview"
     }
   ],
   "emptyReason": null
