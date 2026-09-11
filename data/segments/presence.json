@@ -4,39 +4,39 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "Execution directive live: ~8\u201315 replies/day + regular originals; Rowan instructed; today\u2019s pass under new bar.",
+  "statusDetail": "Day 4 under volume bar (10 replies + 1 original); followers 0; posts ~40; EXP-01 closeout Sat Sep 12 metrics-only.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-11T08:42:31-05:00",
+  "lastUpdated": "2026-09-11T09:03:26-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
       "value": "0",
-      "hint": "Checked 2026-09-10 Day 3 pass"
+      "hint": "Checked 2026-09-11 after Fri pass"
     },
     {
       "label": "X posts",
-      "value": "~29",
-      "hint": "After Day 3 pass"
+      "value": "~40",
+      "hint": "After first high-volume day"
     },
     {
       "label": "Reply reach",
-      "value": "26\u20131,374",
-      "hint": "Week overnight aged posts; Zelda 1,374 \u00b7 Schefter 615"
+      "value": "2\u20131.3K",
+      "hint": "Aged busy rooms still lead; Day 4 pending"
     },
     {
       "label": "Public website",
       "value": "Live (rebrand)",
-      "hint": "Gmail temporary; domain email post-cutover"
+      "hint": "Gmail temporary"
     }
   ],
-  "currentObjective": "Execute on X: ~8\u201315 thoughtful human replies/day into live rooms + regular originals. Short/sharp, no AI mini-essays. Experiment on threads/topics/timing/form; measure public views/likes/replies/follows; replace near-zero methods. Loop observe\u2192act\u2192measure\u2192lesson\u2192change. Escalate only genuine human gates. EXP-01 closeout still Fri Sep 12 for the Sep 8\u201312 sample; operating volume follows the new bar from today.",
-  "currentStatusBrief": "Aggressive execution from today: ~8\u201315 human replies/day + regular originals. Rowan briefed. EXP-01 sample still closes Fri Sep 12. Nothing needs Thomas to start.",
+  "currentObjective": "Execute ~8\u201315 thoughtful human replies/day + regular originals; experiment systematically; measure public engagement; replace near-zero methods. EXP-01 posting week ended Fri Sep 11; closeout review Sat Sep 12 (metrics only) for median reply-vs-original on the Sep 8\u201311 aged sample.",
+  "currentStatusBrief": "Fri: 10 replies + 1 original under the new bar. Aged busy rooms still beat originals. EXP-01 closeout Sat morning (metrics only). Next weekday pass Mon 10:00 CT. Nothing needs Thomas.",
   "latestLesson": {
-    "experience": "Sep 8\u20139 overnight, the Zelda remake reply reached 1,374 views and the Schefter Super Bowl LXI reply 615, while the Venus original stayed at 3 and the jellyfish original at 7.",
-    "evidence": "Same @elephantharbor account, same week, public view counts without Premium. Likes/replies/reposts still 0 where shown.",
-    "learning": "For a zero-follower account, a specific dry line in an already-busy room still outperforms standalone curiosities by a large margin.",
-    "change": "Keep prioritizing 2\u20134 selective replies in busy threads; treat originals as optional range, not the growth lever, through EXP-01 closeout Fri Sep 12.",
-    "originationDate": "2026-09-10"
+    "experience": "Raised reply volume into mixed rooms while aged busy-thread replies (Zelda 1.3K, Schefter 627) still dwarf quiet originals (Venus 6, chess 2, jellyfish 8).",
+    "evidence": "Same @elephantharbor account, public view counts, Sep 8\u201311 sample.",
+    "learning": "Higher reply volume is compatible with the busy-room bias; originals remain optional range, not the growth lever, for a zero-follower account.",
+    "change": "Keep shipping toward ~8\u201315 replies with busy-room preference; keep originals as range, not the main bet, through EXP-01 closeout.",
+    "originationDate": "2026-09-11"
   },
   "needsHumanAction": false,
   "humanAction": null,

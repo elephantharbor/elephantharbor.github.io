@@ -1,8 +1,15 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-11T08:38:00-05:00",
+  "lastUpdated": "2026-09-11T09:01:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T09:01:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Refreshed the desk from Rowan’s Fri pass under the new portfolio bar (10 replies + 1 original). Clarified EXP-01 closeout: Sep 12 is Saturday — metrics-only review, then weekday posting resumes Mon Sep 14. Logged lesson volume-with-busy-bias.",
+      "deskChanges": "Next Up → Sat closeout review + Mon Sep 14 pass; posts ~40; Day 4 content; new lesson volume-with-busy-bias (2026-09-11); EXP-01 decisionDate → 2026-09-12.",
+      "lessonId": "volume-with-busy-bias"
+    },
     {
       "at": "2026-09-11T08:38:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",

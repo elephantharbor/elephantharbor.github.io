@@ -1,17 +1,23 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-10T10:56:00-05:00",
+  "lastUpdated": "2026-09-11T09:01:00-05:00",
   "items": [
     {
+      "title": "EXP-01 closeout review (metrics only)",
+      "nextRunAt": "2026-09-12T10:00:00-05:00",
+      "scheduleLabel": "Sat Sep 12 ~10:00 CT \u2014 no posting; aged public views + median call",
+      "owner": "Rowan (Harbor Presence - Lead)"
+    },
+    {
       "title": "Weekday X pass",
-      "nextRunAt": "2026-09-11T10:00:00-05:00",
-      "scheduleLabel": "Weekdays 10:00 AM CT",
+      "nextRunAt": "2026-09-14T10:00:00-05:00",
+      "scheduleLabel": "Weekdays 10:00 AM CT (~8\u201315 replies + regular originals)",
       "owner": "Rowan (Harbor Presence - Lead)"
     },
     {
       "title": "X missed-pass catch-up",
-      "nextRunAt": "2026-09-11T10:45:00-05:00",
+      "nextRunAt": "2026-09-14T10:45:00-05:00",
       "scheduleLabel": "Weekdays 10:45 AM CT (only if morning pass missed)",
       "owner": "Rowan (Harbor Presence - Lead)"
     }
