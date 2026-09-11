@@ -1,8 +1,29 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-11T09:49:00-05:00",
+  "lastUpdated": "2026-09-11T10:05:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T10:05:00-05:00",
+      "actor": "Blair (Harbor Local - CEO); Lane (Harbor Local - Growth)",
+      "summary": "Scheduled weekday HVAC discovery+scoring first fire (scheduled-2026-09-11-daily): appended 5 net-new St. Louis metro HVAC rows preferring thin/no-site digital presence. Private table n=21. Recommend Yes 0 / Hold 17 / No 4. Preview Suitability High=15. NEW human-verify flags: Click (NAP/ownership), Comfort Life (Houston collision + phone). Also flagged Mr. Heating unpublished-404 site and Fleddermann BBB A+ claim mismatch. No outbound.",
+      "deskChanges": "growth/desk prospect-table + PROSPECT-TABLE.md; segment-summary scored aggregates 16\u219221; snapshot + github.io session-log/local.json; console private-local mirror; Wells republish requested.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-11T10:06:00-05:00",
+      "actor": "Blair (Harbor Local - CEO)",
+      "summary": "Thomas required outreach contact capture on discovery. Routine + SoR now store outreachEmail (prefer owner/named, else best generic); not_found still keeps the row. No outbound send. Prospects UI adds Outreach email column. Lane tasked to backfill existing rows.",
+      "deskChanges": "local-daily-hvac-discovery routine; prospect-table contact fields; static/app.js Outreach email; Wells republish requested.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-11T09:58:00-05:00",
+      "actor": "Blair (Harbor Local - CEO)",
+      "summary": "Prospects tab: added Discovered (discoveredAt) column; backfilled seed dry-run rows to 2026-09-07; today\u2019s discovery rows keep 2026-09-11. Contact Readiness remains readiness notes only \u2014 no structured outreach email vault.",
+      "deskChanges": "growth/desk prospect-table + PROSPECT-TABLE.md; static/app.js + segment.css Prospects Discovered column; Wells republish requested.",
+      "lessonId": null
+    },
     {
       "at": "2026-09-11T09:49:00-05:00",
       "actor": "Lane (Harbor Local - Growth); Blair (Harbor Local - CEO)",

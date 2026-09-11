@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard: Trailmark working. Console desk live (auth). Private scored HVAC n=16 (Yes 0 / Hold 12 / No 4). Manual discovery 2026-09-11 (+5). Public github.io Local Pages still absent (correct). No outbound.",
+  "statusDetail": "Internal-hard: Trailmark working. Console desk live (auth). Private scored HVAC n=21 (Yes 0 / Hold 17 / No 4). Scheduled discovery 2026-09-11 (+5). Public github.io Local Pages still absent (correct). No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-11T09:49:00-05:00",
+  "lastUpdated": "2026-09-11T10:05:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -15,8 +15,8 @@
     },
     {
       "label": "Scored (private)",
-      "value": "16",
-      "hint": "Recommend Yes 0 / Hold 12 / No 4 \u00b7 Preview High 10"
+      "value": "21",
+      "hint": "Recommend Yes 0 / Hold 17 / No 4 \u00b7 Preview High 15"
     },
     {
       "label": "Platform",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Console desk live. Scored 16 STL HVAC (private). Trailmark temporary. No outbound.",
+  "currentStatusBrief": "Building. Console desk live. Scored 21 STL HVAC (private). Trailmark temporary. No outbound.",
   "latestLesson": {
     "experience": "Thomas needs to review populated previews on an authenticated desk, not public Pages.",
     "evidence": "Cycle 1.7 desk-previews gallery + Platform tab; no github.io sync.",
@@ -39,7 +39,7 @@
     "originationDate": "2026-09-11"
   },
   "needsHumanAction": true,
-  "humanAction": "Review Action Heating Modern Bold on console desk. Still gated: final brand, LLC, domain/ESP, first-send. Human-verify before any contact list (Harris / American / Belking / Watson).",
+  "humanAction": "Review Action Heating Modern Bold on console desk. Still gated: final brand, LLC, domain/ESP, first-send. Human-verify before any contact list (Harris / American / Belking / Watson / Click / Comfort Life).",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "dashboardState": "console-auth",
   "publicLinks": [
@@ -50,7 +50,7 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Manual Local ops feed. 2026-09-11: discovery pass +5 \u2192 n=16; Kit Cycle 1.7 desk-previews + Trailmark. No outbound. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Scheduled Local discovery 2026-09-11 (+5 \u2192 n=21). Kit Cycle 1.7 desk-previews + Trailmark. No outbound. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
