@@ -4,24 +4,24 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard: Trailmark working. Console desk live (auth). Private scored HVAC n=21 (Yes 0 / Hold 17 / No 4). Scheduled discovery 2026-09-11 (+5). Public github.io Local Pages still absent (correct). No outbound.",
+  "statusDetail": "Internal-hard. Scored HVAC n=21. Outreach emails 16 found / 5 not_found (store-only). Console desk live. No outbound send.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-11T10:05:00-05:00",
+  "lastUpdated": "2026-09-11T10:07:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
       "value": "0",
-      "hint": "No outbound"
+      "hint": "No outbound send"
     },
     {
       "label": "Scored (private)",
       "value": "21",
-      "hint": "Recommend Yes 0 / Hold 17 / No 4 \u00b7 Preview High 15"
+      "hint": "Recommend Yes 0 / Hold 17 / No 4"
     },
     {
-      "label": "Platform",
-      "value": "Desk preview",
-      "hint": "Action Heating ready for Tom review"
+      "label": "Emails stored",
+      "value": "16/21",
+      "hint": "Private SoR only; not_found kept"
     },
     {
       "label": "Brand",
@@ -50,7 +50,7 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Scheduled Local discovery 2026-09-11 (+5 \u2192 n=21). Kit Cycle 1.7 desk-previews + Trailmark. No outbound. lastUpdated is publish time of this summary.",
+  "freshnessNote": "2026-09-11: contact backfill + Discovered column. lastUpdated 2026-09-11T10:07:00-05:00.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
