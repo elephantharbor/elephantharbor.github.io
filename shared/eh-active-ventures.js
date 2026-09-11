@@ -53,6 +53,67 @@
     return v.detailLink || v.detailUrl || "";
   }
 
+  var SEGMENT_LABELS = {
+    capital: "Capital",
+    presence: "Presence",
+    foundry: "Foundry",
+    local: "Local",
+    portfolio: "Portfolio",
+  };
+
+  var MARKET_LABELS = {
+    securities: "Securities",
+    options: "Options",
+    event: "Event",
+    crypto: "Crypto",
+    sports: "Sports",
+    cash: "Cash",
+  };
+
+  function normSegment(raw) {
+    var s = String(raw || "").trim().toLowerCase();
+    if (!s) return "";
+    if (SEGMENT_LABELS[s]) return s;
+    if (s.indexOf("capital") >= 0) return "capital";
+    if (s.indexOf("presence") >= 0) return "presence";
+    if (s.indexOf("foundry") >= 0) return "foundry";
+    if (s.indexOf("local") >= 0) return "local";
+    if (s.indexOf("portfolio") >= 0) return "portfolio";
+    return "";
+  }
+
+  function normMarket(raw) {
+    var s = String(raw || "").trim().toLowerCase();
+    if (!s) return "";
+    if (MARKET_LABELS[s]) return s;
+    if (s.indexOf("securit") >= 0) return "securities";
+    if (s.indexOf("option") >= 0) return "options";
+    if (s.indexOf("event") >= 0) return "event";
+    if (s.indexOf("crypto") >= 0) return "crypto";
+    if (s.indexOf("sport") >= 0) return "sports";
+    if (s.indexOf("cash") >= 0 || s.indexOf("reserve") >= 0) return "cash";
+    return "";
+  }
+
+  function stampHtml(kind, id, label) {
+    if (!id || !label) return "";
+    return (
+      '<span class="av-stamp av-stamp-' +
+      kind +
+      " av-" +
+      kind +
+      "-" +
+      esc(id) +
+      '" data-' +
+      kind +
+      '="' +
+      esc(id) +
+      '">' +
+      esc(label) +
+      "</span>"
+    );
+  }
+
   function cardHtml(v) {
     var href = detailHref(v);
     var link = href
@@ -60,9 +121,25 @@
         esc(href) +
         '" target="_blank" rel="noopener noreferrer">Open detail</a>'
       : "";
-    var sub = [v.segment, v.submarket].filter(Boolean).join(" · ");
+    var seg = normSegment(v.segment);
+    var mkt = normMarket(v.submarket);
+    var stamps =
+      '<div class="av-stamps">' +
+      stampHtml("segment", seg, SEGMENT_LABELS[seg] || "") +
+      stampHtml("market", mkt, MARKET_LABELS[mkt] || "") +
+      "</div>";
+    var accentClass = mkt
+      ? "av-accent-market-" + mkt
+      : seg
+        ? "av-accent-segment-" + seg
+        : "";
     return (
-      '<article class="av-card">' +
+      '<article class="av-card ' +
+      accentClass +
+      '"' +
+      (seg ? ' data-segment="' + esc(seg) + '"' : "") +
+      (mkt ? ' data-market="' + esc(mkt) + '"' : "") +
+      ">" +
       '<div class="av-head">' +
       "<h3>" +
       esc(v.title || "Untitled venture") +
@@ -71,7 +148,7 @@
       esc(v.status || "—") +
       "</span>" +
       "</div>" +
-      (sub ? '<p class="av-sub">' + esc(sub) + "</p>" : "") +
+      stamps +
       '<p class="av-desc">' +
       esc(v.description || "") +
       "</p>" +

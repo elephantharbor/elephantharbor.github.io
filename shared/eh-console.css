@@ -646,6 +646,92 @@ html[data-theme="light"] .mark.eh-logo { background: var(--eh-canvas); }
 .av-link { font-size: 12px; font-weight: 650; color: var(--segment, var(--accent)); text-decoration: none; }
 .av-link:hover { text-decoration: underline; }
 .av-updated { font-size: 11px; color: var(--dim); }
+
+.av-stamps { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; }
+.av-stamp {
+  display: inline-flex; align-items: center;
+  font-size: 10px; font-weight: 650; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 2px 7px; border-radius: 999px; border: 1px solid transparent;
+  line-height: 1.3; white-space: nowrap;
+}
+.av-stamp-segment.av-segment-capital,
+.av-stamp-segment[data-segment="capital"] {
+  color: var(--capital);
+  border-color: color-mix(in srgb, var(--capital) 45%, var(--border));
+  background: color-mix(in srgb, var(--capital) 14%, transparent);
+}
+.av-stamp-segment.av-segment-presence,
+.av-stamp-segment[data-segment="presence"] {
+  color: var(--presence);
+  border-color: color-mix(in srgb, var(--presence) 45%, var(--border));
+  background: color-mix(in srgb, var(--presence) 14%, transparent);
+}
+.av-stamp-segment.av-segment-foundry,
+.av-stamp-segment[data-segment="foundry"] {
+  color: var(--foundry);
+  border-color: color-mix(in srgb, var(--foundry) 45%, var(--border));
+  background: color-mix(in srgb, var(--foundry) 14%, transparent);
+}
+.av-stamp-segment.av-segment-local,
+.av-stamp-segment[data-segment="local"] {
+  color: var(--local);
+  border-color: color-mix(in srgb, var(--local) 45%, var(--border));
+  background: color-mix(in srgb, var(--local) 14%, transparent);
+}
+.av-stamp-segment.av-segment-portfolio,
+.av-stamp-segment[data-segment="portfolio"] {
+  color: var(--portfolio);
+  border-color: color-mix(in srgb, var(--portfolio) 45%, var(--border));
+  background: color-mix(in srgb, var(--portfolio) 14%, transparent);
+}
+.av-stamp-market.av-market-securities,
+.av-stamp-market[data-market="securities"] {
+  color: var(--market-securities);
+  border-color: color-mix(in srgb, var(--market-securities) 45%, var(--border));
+  background: color-mix(in srgb, var(--market-securities) 14%, transparent);
+}
+.av-stamp-market.av-market-options,
+.av-stamp-market[data-market="options"] {
+  color: var(--market-options);
+  border-color: color-mix(in srgb, var(--market-options) 45%, var(--border));
+  background: color-mix(in srgb, var(--market-options) 14%, transparent);
+}
+.av-stamp-market.av-market-event,
+.av-stamp-market[data-market="event"] {
+  color: var(--market-event);
+  border-color: color-mix(in srgb, var(--market-event) 45%, var(--border));
+  background: color-mix(in srgb, var(--market-event) 14%, transparent);
+}
+.av-stamp-market.av-market-crypto,
+.av-stamp-market[data-market="crypto"] {
+  color: var(--market-crypto);
+  border-color: color-mix(in srgb, var(--market-crypto) 45%, var(--border));
+  background: color-mix(in srgb, var(--market-crypto) 14%, transparent);
+}
+.av-stamp-market.av-market-sports,
+.av-stamp-market[data-market="sports"] {
+  color: var(--market-sports);
+  border-color: color-mix(in srgb, var(--market-sports) 45%, var(--border));
+  background: color-mix(in srgb, var(--market-sports) 14%, transparent);
+}
+.av-stamp-market.av-market-cash,
+.av-stamp-market[data-market="cash"] {
+  color: var(--market-cash);
+  border-color: color-mix(in srgb, var(--market-cash) 45%, var(--border));
+  background: color-mix(in srgb, var(--market-cash) 14%, transparent);
+}
+.av-card.av-accent-segment-capital { border-left-color: var(--capital); }
+.av-card.av-accent-segment-presence { border-left-color: var(--presence); }
+.av-card.av-accent-segment-foundry { border-left-color: var(--foundry); }
+.av-card.av-accent-segment-local { border-left-color: var(--local); }
+.av-card.av-accent-segment-portfolio { border-left-color: var(--portfolio); }
+.av-card.av-accent-market-securities { border-left-color: var(--market-securities); }
+.av-card.av-accent-market-options { border-left-color: var(--market-options); }
+.av-card.av-accent-market-event { border-left-color: var(--market-event); }
+.av-card.av-accent-market-crypto { border-left-color: var(--market-crypto); }
+.av-card.av-accent-market-sports { border-left-color: var(--market-sports); }
+.av-card.av-accent-market-cash { border-left-color: var(--market-cash); }
+
 @media (max-width: 640px) {
   .av-meta { grid-template-columns: 1fr; }
 }
