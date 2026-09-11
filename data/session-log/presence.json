@@ -1,8 +1,26 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-11T09:01:00-05:00",
+  "lastUpdated": "2026-09-11T10:56:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T10:56:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Published the elephantharbor.com elevation to production (PR #2 merged). Positioning live; Setaside-only portfolio; Gmail temporary.",
+      "deskChanges": "Public website channel/metrics updated to elevated live status."
+    },
+    {
+      "at": "2026-09-11T10:24:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Aligned Active Ventures field name to Wells’s contract: detailLink (was detailUrl).",
+      "deskChanges": "Renamed detailUrl → detailLink on both Active Ventures items."
+    },
+    {
+      "at": "2026-09-11T10:19:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Published Presence Active Ventures for Thomas’s console: EXP-01 busy-thread experiment (closeout Sat) and the X volume bar (~8–15 replies/day + regular originals). Not every daily post — measurable growth initiatives only.",
+      "deskChanges": "Added data/active-ventures/presence.json and snapshot.activeVentures (2 items)."
+    },
     {
       "at": "2026-09-11T09:01:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
