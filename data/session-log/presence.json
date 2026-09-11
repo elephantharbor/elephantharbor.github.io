@@ -1,13 +1,19 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-10T10:56:00-05:00",
+  "lastUpdated": "2026-09-11T08:38:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T08:38:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Received portfolio execution directive (Thomas via Hayes): raise X to ~8–15 thoughtful replies/day plus regular originals; human/short/sharp voice; systematic experiments; measure and replace near-zero methods. Acked Hayes (no Tom actions to start). Issued new operating instructions to Rowan for today’s pass.",
+      "deskChanges": "Updated cycle/objective/status and X channel cadence to the new volume bar; Next Up still Fri Sep 11 morning pass."
+    },
     {
       "at": "2026-09-10T10:56:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
-      "summary": "Refreshed the desk from Rowan\u2019s EXP-01 Day 3 weekday pass (three selective replies + chess original). Recorded overnight view tally and a new lesson: busy-room replies beat standalone curiosities for a zero-follower account.",
-      "deskChanges": "Next Up \u2192 Fri Sep 11; metrics/posts ~29; Day 3 content logged; new lesson busy-room-beats-curiosity (originationDate 2026-09-10); EXP-01 Day 3 status.",
+      "summary": "Refreshed the desk from Rowan’s EXP-01 Day 3 weekday pass (three selective replies + chess original). Recorded overnight view tally and a new lesson: busy-room replies beat standalone curiosities for a zero-follower account.",
+      "deskChanges": "Next Up → Fri Sep 11; metrics/posts ~29; Day 3 content logged; new lesson busy-room-beats-curiosity (originationDate 2026-09-10); EXP-01 Day 3 status.",
       "lessonId": "busy-room-beats-curiosity"
     },
     {
@@ -19,27 +25,27 @@
     {
       "at": "2026-09-09T16:56:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
-      "summary": "Adopted Thomas\u2019s Session Log & Lessons standard: added origination dates to all Presence lessons (backfilled older ones), opened a Presence Session Log, and asked Rowan to append after every material X pass.",
+      "summary": "Adopted Thomas’s Session Log & Lessons standard: added origination dates to all Presence lessons (backfilled older ones), opened a Presence Session Log, and asked Rowan to append after every material X pass.",
       "deskChanges": "Lessons gained originationDate; new Log tab + data/session-log.json; docs note on standard."
     },
     {
       "at": "2026-09-09T13:16:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
-      "summary": "Closed the human gate after Rowan\u2019s Venus original published. Marked EXP-01 Day 2 complete (two replies + original).",
-      "deskChanges": "Cleared needsHumanAttention; logged Venus original; posts \u2192 25; segment summary gate off."
+      "summary": "Closed the human gate after Rowan’s Venus original published. Marked EXP-01 Day 2 complete (two replies + original).",
+      "deskChanges": "Cleared needsHumanAttention; logged Venus original; posts → 25; segment summary gate off."
     },
     {
       "at": "2026-09-09T10:30:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
-      "summary": "Refreshed the desk from Rowan\u2019s Day 2 weekday pass. Logged overnight Day 1 view counts (Zelda reply 1,370 vs jellyfish original 3) and flagged the Venus original waiting on Auto-review / Thomas.",
-      "deskChanges": "Next Up \u2192 Thu Sep 10; metrics/growth/EXP-01 Day 2; needsHumanAttention for original; lesson evidence updated for study-others-replies.",
+      "summary": "Refreshed the desk from Rowan’s Day 2 weekday pass. Logged overnight Day 1 view counts (Zelda reply 1,370 vs jellyfish original 3) and flagged the Venus original waiting on Auto-review / Thomas.",
+      "deskChanges": "Next Up → Thu Sep 10; metrics/growth/EXP-01 Day 2; needsHumanAttention for original; lesson evidence updated for study-others-replies.",
       "lessonId": "study-others-replies"
     },
     {
       "at": "2026-09-08T11:30:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
-      "summary": "Refreshed the desk from Rowan\u2019s EXP-01 Day 1 weekday pass (three replies + immortal jellyfish original). Recorded the don\u2019t-overfit overnight spike lesson from the Sep 7 Spider-Noir reply.",
-      "deskChanges": "Next Up \u2192 Tue Sep 9; Day 1 content logged; new lesson dont-overfit-spike; site channel marked live rebrand.",
+      "summary": "Refreshed the desk from Rowan’s EXP-01 Day 1 weekday pass (three replies + immortal jellyfish original). Recorded the don’t-overfit overnight spike lesson from the Sep 7 Spider-Noir reply.",
+      "deskChanges": "Next Up → Tue Sep 9; Day 1 content logged; new lesson dont-overfit-spike; site channel marked live rebrand.",
       "lessonId": "dont-overfit-spike"
     },
     {

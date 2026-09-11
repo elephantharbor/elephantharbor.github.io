@@ -1,8 +1,28 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-10T15:12:00-05:00",
+  "lastUpdated": "2026-09-11T08:42:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T08:38:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "Private prospect table seeded from the St. Louis HVAC dry-run (11 rows). Action Heating is the first high-quality row (Opportunity 84, Preview High, outreach Hold until email/contact readiness). Zero Recommend Yes. Watson flagged for human identity verify. Public desk shows aggregates only.",
+      "deskChanges": "growth/desk/prospect-table.json + PROSPECT-TABLE.md (private). Segment summary scored count 11; lesson desk-columns-not-single-gate.",
+      "lessonId": "desk-columns-not-single-gate"
+    },
+    {
+      "at": "2026-09-11T08:40:00-05:00",
+      "actor": "Blair (Harbor Local - CEO)",
+      "summary": "Portfolio execution directive: Local internal-hard. Working brand Trailmark (temporary). Daily HVAC discovery routine armed. Lane building authenticated prospect table; Kit building placeholder system plus Action Heating preview on the private desk. No outbound, no domain, no spend.",
+      "deskChanges": "segment-summary working brand Trailmark; new weekday 9:30am discovery routine; Lane/Kit cascaded.",
+      "lessonId": "working-brand-unblocks-desk"
+    },
+    {
+      "at": "2026-09-11T08:05:00-05:00",
+      "actor": "Blair (Harbor Local - CEO)",
+      "summary": "Hayes asked for aggressive-execution readiness. Local assessed Partially Ready: product craft and docs can keep building; live outbound and charging blocked on brand, LLC, ESP/domain, and first-send. Immediate work continues internal-only (freeze templates as baseline, no-contact packs, unsent EXP-01 design).",
+      "deskChanges": "No status change to metrics (still zero contacted). Readiness snapshot sent to Hayes and Thomas."
+    },
     {
       "at": "2026-09-10T15:10:00-05:00",
       "actor": "Kit (Harbor Local - Platform)",

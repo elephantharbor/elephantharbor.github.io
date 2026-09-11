@@ -4,9 +4,9 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "EXP-01 Day 3 complete (3 replies + chess original); followers 0; posts ~29; busy-room lesson logged.",
+  "statusDetail": "Execution directive live: ~8\u201315 replies/day + regular originals; Rowan instructed; today\u2019s pass under new bar.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-10T10:56:00-05:00",
+  "lastUpdated": "2026-09-11T08:42:31-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
@@ -29,8 +29,8 @@
       "hint": "Gmail temporary; domain email post-cutover"
     }
   ],
-  "currentObjective": "EXP-01 week (Sep 8\u201312): selective busy-thread replies (2\u20134) after studying others\u2019 reply structures; \u22641 original/day as optional range; $0 / no Premium. Public site live (rebrand); domain email post-cutover.",
-  "currentStatusBrief": "Day 3 complete: 3 replies + chess original. Overnight still favors busy rooms (Zelda 1,374 \u00b7 Schefter 615 vs originals 3\u20137). Next pass Fri 10:00 CT \u2014 EXP-01 closeout. Nothing needs Thomas.",
+  "currentObjective": "Execute on X: ~8\u201315 thoughtful human replies/day into live rooms + regular originals. Short/sharp, no AI mini-essays. Experiment on threads/topics/timing/form; measure public views/likes/replies/follows; replace near-zero methods. Loop observe\u2192act\u2192measure\u2192lesson\u2192change. Escalate only genuine human gates. EXP-01 closeout still Fri Sep 12 for the Sep 8\u201312 sample; operating volume follows the new bar from today.",
+  "currentStatusBrief": "Aggressive execution from today: ~8\u201315 human replies/day + regular originals. Rowan briefed. EXP-01 sample still closes Fri Sep 12. Nothing needs Thomas to start.",
   "latestLesson": {
     "experience": "Sep 8\u20139 overnight, the Zelda remake reply reached 1,374 views and the Schefter Super Bowl LXI reply 615, while the Venus original stayed at 3 and the jellyfish original at 7.",
     "evidence": "Same @elephantharbor account, same week, public view counts without Premium. Likes/replies/reposts still 0 where shown.",
@@ -63,17 +63,17 @@
   "nextUp": {
     "areaId": "presence",
     "areaName": "Harbor Presence",
-    "lastUpdated": "2026-09-10T10:56:00-05:00",
+    "lastUpdated": "2026-09-07T10:52:53-05:00",
     "items": [
       {
         "title": "Weekday X pass",
-        "nextRunAt": "2026-09-11T10:00:00-05:00",
+        "nextRunAt": "2026-09-08T10:00:00-05:00",
         "scheduleLabel": "Weekdays 10:00 AM CT",
         "owner": "Rowan (Harbor Presence - Lead)"
       },
       {
         "title": "X missed-pass catch-up",
-        "nextRunAt": "2026-09-11T10:45:00-05:00",
+        "nextRunAt": "2026-09-08T10:45:00-05:00",
         "scheduleLabel": "Weekdays 10:45 AM CT (only if morning pass missed)",
         "owner": "Rowan (Harbor Presence - Lead)"
       }

@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Cycle 1.6 Classic Trust elevated to Modern craft bar (heritage strategy retained). Modern 1.5.1+microfix primary. Brand Round 3 open. No outbound.",
+  "statusDetail": "Internal-hard: Trailmark working brand. Private prospect table seeded (11 STL HVAC; Action Opp 84 / Preview High / Outreach Hold). Action Heating desk preview still in flight. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-10T15:13:00-05:00",
+  "lastUpdated": "2026-09-11T08:42:31-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -14,32 +14,32 @@
       "hint": "No outbound"
     },
     {
-      "label": "Scoring",
-      "value": "v2",
-      "hint": "Action Opp 84 / Preview High"
+      "label": "Scored (private)",
+      "value": "11",
+      "hint": "Recommend Yes 0 / Hold 7 / No 4"
     },
     {
       "label": "Platform",
-      "value": "1.6 done",
-      "hint": "Classic elevated; both at craft bar"
+      "value": "Preview",
+      "hint": "Action Heating desk preview in flight"
     },
     {
       "label": "Brand",
-      "value": "Round 3",
-      "hint": "Round 3 open; none locked"
+      "value": "Trailmark",
+      "hint": "Working/temporary only; not locked"
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Classic + Modern both at production craft bar. Awaiting freeze. Brand open. No outbound.",
+  "currentStatusBrief": "Building. Prospect table live (private). Kit preview next. Trailmark temporary. No outbound.",
   "latestLesson": {
-    "experience": "Classic lagged Modern craft after 1.5.x while staying secondary/heritage.",
-    "evidence": "Cycle 1.6 elevation + compare; Modern left intact.",
-    "learning": "Shared craft bar \u2260 shared visual language \u2014 Classic keeps warm paper + serif + editorial masthead; Modern keeps immersive slate + glass + bento.",
-    "change": "Both variants now meet production craft; Modern remains primary.",
-    "originationDate": "2026-09-10"
+    "experience": "v1 dry-run left Action preview-ineligible on a single \u226580 composite while null reviews docked business quality; no private prospect table.",
+    "evidence": "Action v2 Opportunity 84 / Preview High; Cycle 1.1 scoring rewrite; 2026-09-11 execution brief.",
+    "learning": "Desk must show Business Quality, Digital Deficiency, Commercial Opportunity, Trigger, Total, and Recommend Outreach separately, with Confidence / Preview / Contact in evidence \u2014 not Opportunity \u226580 alone.",
+    "change": "Private growth/desk SoR seeded; weekday discovery routine armed.",
+    "originationDate": "2026-09-11"
   },
   "needsHumanAction": true,
-  "humanAction": "Freeze Classic/Modern craft bar or refine; brand path; EH LLC gates; then domain/ESP/first-send.",
+  "humanAction": "None to start internal phase. Watson identity verify before any future contact list. Still gated: final brand, LLC, domain/ESP, first-send.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-local/",
   "dashboardState": "scaffolded",
   "publicLinks": [
@@ -50,11 +50,12 @@
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "Manual Local ops feed. Cycle 1.6 Classic elevation delivered (Classic + Modern at production craft bar). Brand Round 3 open. No outbound. Session-log mirrored. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Manual Local ops feed. Internal-hard; Trailmark temporary; private prospect table; no outbound. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
     "lastUpdated": "2026-09-07T08:20:00-05:00",
     "items": []
-  }
+  },
+  "customerBrand": "Trailmark"
 }
