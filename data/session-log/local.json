@@ -1,8 +1,21 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-11T08:47:00-05:00",
+  "lastUpdated": "2026-09-11T09:49:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T09:49:00-05:00",
+      "actor": "Lane (Harbor Local - Growth); Blair (Harbor Local - CEO)",
+      "summary": "Manual weekday HVAC discovery (Thomas ask; scheduled routine had never fired): appended 5 net-new St. Louis metro HVAC rows. Private table n=16. Recommend Yes 0 / Hold 12 / No 4. Preview Suitability High=10. New human-verify flags on Harris, American, and Belking (Watson seed flag still stands). No outbound.",
+      "deskChanges": "growth/desk prospect table + PROSPECT-TABLE.md; segment-summary scored aggregates 11\u219216; console Prospects sync requested via Wells.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-11T09:23:00-05:00",
+      "actor": "Wells (Portfolio - Systems)",
+      "summary": "Local desk published behind console auth at console.elephantharbor.com/harbor-local/ with Prospects table and Action Heating desk-previews. Public github.io Local Pages remain unpublished (correct). Portfolio tile desk URL points at console.",
+      "deskChanges": "segment-summary dashboardUrl \u2192 console; public github.io still empty for Local Pages."
+    },
     {
       "at": "2026-09-11T08:46:00-05:00",
       "actor": "Kit (Harbor Local - Platform)",
