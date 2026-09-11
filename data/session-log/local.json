@@ -1,8 +1,21 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-11T10:05:00-05:00",
+  "lastUpdated": "2026-09-11T10:10:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-11T10:10:00-05:00",
+      "actor": "Wells (Portfolio - Systems)",
+      "summary": "Thomas asked \u226570 email pass: recorded Anytime office Gmail from Facebook; Click/Harris/Mr Heating/Comfort Life remain not_found after second public pass. Store-only; no outbound.",
+      "deskChanges": "growth/desk/prospect-table.json outreachEmail Anytime found (17/21); PROSPECT-TABLE.md aggregates; console sync."
+    },
+    {
+      "at": "2026-09-11T10:07:00-05:00",
+      "actor": "Lane (Harbor Local - Growth); Blair (Harbor Local - CEO)",
+      "summary": "Outreach contact backfill complete (store-only): outreachEmail found=16 / not_found=5; phones 21/21. Prefer owner\u2192named\u2192generic. No outbound send.",
+      "deskChanges": "growth/desk prospect-table + PROSPECT-TABLE.md + outreach-contact-backfill-2026-09-11.md; segment-summary email KPI; Wells console sync requested.",
+      "lessonId": null
+    },
     {
       "at": "2026-09-11T10:05:00-05:00",
       "actor": "Blair (Harbor Local - CEO); Lane (Harbor Local - Growth)",
