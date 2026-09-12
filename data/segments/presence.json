@@ -4,39 +4,39 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "Public site elevation live; X volume bar active; EXP-01 closeout Sat metrics-only.",
+  "statusDetail": "EXP-01 closed FAIL 1.95×; followers 1; volume bar + busy-room gate; next pass Mon Sep 14.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-11T10:56:00-05:00",
+  "lastUpdated": "2026-09-12T10:20:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
-      "value": "0",
-      "hint": "Checked 2026-09-11 after Fri pass"
+      "value": "1",
+      "hint": "First follower as of EXP-01 closeout 2026-09-12"
     },
     {
       "label": "X posts",
-      "value": "~40",
-      "hint": "After first high-volume day"
+      "value": "40",
+      "hint": "After Fri volume pass"
     },
     {
-      "label": "Reply reach",
-      "value": "2–1.3K",
-      "hint": "Aged busy rooms still lead; Day 4 pending"
+      "label": "EXP-01 result",
+      "value": "FAIL 1.95×",
+      "hint": "Reply median 19.5 vs original median 10 (needed ≥2.0×)"
     },
     {
       "label": "Public website",
       "value": "Live (elevated)",
-      "hint": "elephantharbor.com — elevation 2026-09-11; Gmail temporary"
+      "hint": "Gmail temporary"
     }
   ],
-  "currentObjective": "Execute ~8–15 thoughtful human replies/day + regular originals; experiment systematically; measure public engagement; replace near-zero methods. EXP-01 posting week ended Fri Sep 11; closeout review Sat Sep 12 (metrics only) for median reply-vs-original on the Sep 8–11 aged sample.",
-  "currentStatusBrief": "Fri: 10 replies + 1 original under the new bar. Aged busy rooms still beat originals. EXP-01 closeout Sat morning (metrics only). Next weekday pass Mon 10:00 CT. Nothing needs Thomas.",
+  "currentObjective": "Weekday ~8–15 thoughtful human replies + regular originals, gated on genuine busy-thread openings (do not fill quota in quiet rooms). Originals = range, not the growth lever. Measure public views/likes/replies/follows; replace near-zero methods.",
+  "currentStatusBrief": "EXP-01 closed: narrow FAIL. Busy rooms still win at the high end; quiet-room fills diluted the median. Operating change: keep ~8–15 replies but gate on busy openings. Next pass Mon 10:00 CT. Nothing needs Thomas.",
   "latestLesson": {
-    "experience": "Raised reply volume into mixed rooms while aged busy-thread replies (Zelda 1.3K, Schefter 627) still dwarf quiet originals (Venus 6, chess 2, jellyfish 8).",
-    "evidence": "Same @elephantharbor account, public view counts, Sep 8–11 sample.",
-    "learning": "Higher reply volume is compatible with the busy-room bias; originals remain optional range, not the growth lever, for a zero-follower account.",
-    "change": "Keep shipping toward ~8–15 replies with busy-room preference; keep originals as range, not the main bet, through EXP-01 closeout.",
-    "originationDate": "2026-09-11"
+    "experience": "Across Sep 8–11, selective replies into already-busy rooms reached hundreds/thousands of views while standalone originals stayed in the low teens; expanding reply volume into quieter threads on Fri diluted the reply median to 19.5 vs originals’ 10.",
+    "evidence": "Same @elephantharbor account, public view counts only (no Premium), full aged sample n=18 replies / n=4 originals. Ratio 1.95× vs ≥2.0× hypothesis. First follower appeared; Melbourne reply earned 2 likes.",
+    "learning": "Busy-room quality beats reply count for a near-zero-follower account. Volume without busy-room bias can fail a median test even when the high end still proves the pattern.",
+    "change": "Keep the ~8–15 weekday bar, but gate volume on genuine busy-thread openings; treat originals as range, not the growth lever. Do not chase quiet-room quota fills.",
+    "originationDate": "2026-09-12"
   },
   "needsHumanAction": false,
   "humanAction": null,
@@ -81,16 +81,10 @@
   },
   "activeVentures": [
     {
-      "id": "exp-01-busy-thread",
-      "title": "EXP-01 — Busy-thread replies vs originals",
-      "status": "Active — closeout Sat Sep 12 (metrics only)",
-      "nextMilestone": "Sat 2026-09-12 ~10:00 CT metrics-only closeout (median reply vs original on Sep 8–11 aged posts)"
-    },
-    {
       "id": "x-volume-bar",
       "title": "X volume bar — ~8–15 human replies/day + regular originals",
       "status": "Active",
-      "nextMilestone": "Mon 2026-09-14 weekday pass under the volume bar; keep measuring public views/likes/replies/follows"
+      "nextMilestone": "Mon 2026-09-14 weekday pass under ~8–15 + busy-room gate; watch reply median quality"
     }
   ]
 }

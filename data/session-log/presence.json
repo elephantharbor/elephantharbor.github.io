@@ -1,8 +1,15 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-11T10:56:00-05:00",
+  "lastUpdated": "2026-09-12T10:20:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-12T10:20:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Closed EXP-01 from Rowan’s Saturday metrics-only review: hypothesis FAIL narrowly (reply median 19.5 vs original median 10 = 1.95×). Logged lesson busy-room-gate-on-volume; kept ~8–15 bar with busy-room gate; first follower noted; removed EXP-01 from Active Ventures.",
+      "deskChanges": "Next Up → Mon Sep 14 only; EXP-01 Closed FAIL; new lesson; metrics followers 1 / posts 40; Active Ventures = volume bar only; Session Log.",
+      "lessonId": "busy-room-gate-on-volume"
+    },
     {
       "at": "2026-09-11T10:56:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",

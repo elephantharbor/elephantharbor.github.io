@@ -1,36 +1,21 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-11T10:24:00-05:00",
+  "lastUpdated": "2026-09-12T10:20:00-05:00",
   "items": [
-    {
-      "id": "exp-01-busy-thread",
-      "title": "EXP-01 — Busy-thread replies vs originals",
-      "segment": "presence",
-      "submarket": null,
-      "description": "Measure whether selective replies into already-busy X threads get at least 2× the median public views of the same week’s originals — for a zero-follower account, without Premium.",
-      "status": "Active — closeout Sat Sep 12 (metrics only)",
-      "startDate": "2026-09-08",
-      "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
-      "exposure": "$0 / no Premium; public view counts only",
-      "performance": "Aged sample through Sep 11 morning: busy replies include ~1.3K and ~627 views; originals this week aged ~2–8. Hypothesis still holding pending formal median closeout.",
-      "nextMilestone": "Sat 2026-09-12 ~10:00 CT metrics-only closeout (median reply vs original on Sep 8–11 aged posts)",
-      "lastUpdated": "2026-09-11T10:24:00-05:00",
-      "detailLink": "https://elephantharbor.github.io/harbor-presence/#experiments"
-    },
     {
       "id": "x-volume-bar",
       "title": "X volume bar — ~8–15 human replies/day + regular originals",
       "segment": "presence",
       "submarket": null,
-      "description": "Portfolio execution directive: raise daily thoughtful reply volume and ship regular originals with a human/short/sharp voice; experiment on rooms, topics, timing, and form; replace methods that stay near zero.",
+      "description": "Weekday ~8–15 thoughtful human replies + regular originals, gated on genuine busy-thread openings (do not fill quiet-room quotas). Measure public engagement; originals as range.",
       "status": "Active",
       "startDate": "2026-09-11",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium; weekday passes; weekends quiet unless asked",
-      "performance": "Day 1 under bar (Fri Sep 11): 10 replies + 1 original; followers still 0; posts ~40. Busy-room aged replies still dominate.",
-      "nextMilestone": "Mon 2026-09-14 weekday pass under the volume bar; keep measuring public views/likes/replies/follows",
-      "lastUpdated": "2026-09-11T10:24:00-05:00",
+      "performance": "EXP-01 closed FAIL 1.95× (reply median 19.5 vs original 10). Volume bar retained with busy-room gate. Followers 1; posts 40; top busy replies still 600–1,377 views.",
+      "nextMilestone": "Mon 2026-09-14 weekday pass under ~8–15 + busy-room gate; watch reply median quality",
+      "lastUpdated": "2026-09-12T10:20:00-05:00",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview"
     }
   ],
