@@ -1,8 +1,15 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-12T10:03:00-05:00",
+  "lastUpdated": "2026-09-13T10:54:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-13T10:54:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "Peoria IL metro HVAC DD-first prospect hunt: +11 net-new (n=32 total STL+Peoria). Scored provisional_v2. Recommend Yes 9 / Hold 19 / No 4. Emails found 25/32. Brand stamp → GigaWeave. No contact/spend/outbound.",
+      "deskChanges": "growth/desk/prospect-table.json append; PROSPECT-TABLE.md regen; segment-summary aggregates; hunts/peoria-il-hvac-2026-09-13.md; session-log + snapshot sessionLog.",
+      "lessonId": null
+    },
     {
       "at": "2026-09-12T10:03:00-05:00",
       "actor": "Blair (Harbor Local - CEO); Kit",

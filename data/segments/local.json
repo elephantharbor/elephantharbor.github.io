@@ -1,12 +1,12 @@
 {
   "segmentId": "local",
   "segmentName": "Harbor Local",
-  "description": "Agent-operated digital presence for local service businesses (Sitekeep WaaS proposed).",
-  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
+  "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
+  "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=21. Outreach emails 16 found / 5 not_found (store-only). Console desk live. No outbound send.",
+  "statusDetail": "Internal-hard. Scored HVAC n=32 (STL+Peoria). Action primary trade-color. Console desk live. No outbound send.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-11T10:07:00-05:00",
+  "lastUpdated": "2026-09-13T10:54:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -15,47 +15,47 @@
     },
     {
       "label": "Scored (private)",
-      "value": "21",
-      "hint": "Recommend Yes 0 / Hold 17 / No 4"
+      "value": "32",
+      "hint": "Recommend Yes 9 / Hold 19 / No 4"
     },
     {
       "label": "Emails stored",
-      "value": "16/21",
+      "value": "25/32",
       "hint": "Private SoR only; not_found kept"
     },
     {
       "label": "Brand",
-      "value": "Trailmark",
-      "hint": "Working/temporary only; not locked"
+      "value": "GigaWeave",
+      "hint": "Customer-facing brand locked (Thomas 2026-09-13)"
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Console desk live. Scored 21 STL HVAC (private). Trailmark temporary. No outbound.",
+  "currentStatusBrief": "Building. Scored HVAC n=32 (STL+Peoria). GigaWeave brand locked. No outbound.",
   "latestLesson": {
-    "experience": "Thomas needs to review populated previews on an authenticated desk, not public Pages.",
-    "evidence": "Cycle 1.7 desk-previews gallery + Platform tab; no github.io sync.",
-    "learning": "Keep populated previews off github.io; desk-private paths + Trailmark as temporary product chrome.",
-    "change": "Platform ships desk-previews/ as the Tom-review surface until a real preview host exists.",
-    "originationDate": "2026-09-11"
+    "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
+    "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
+    "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
+    "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
+    "originationDate": "2026-09-12"
   },
   "needsHumanAction": true,
-  "humanAction": "Review Action Heating Modern Bold on console desk. Still gated: final brand, LLC, domain/ESP, first-send. Human-verify before any contact list (Harris / American / Belking / Watson / Click / Comfort Life).",
+  "humanAction": "Review Peoria HVAC hunt + Action Heating Trade Color on console desk. Still gated: final brand, LLC, domain/ESP, first-send. No outbound.",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "dashboardState": "console-auth",
   "publicLinks": [
     {
       "label": "Local operating desk (auth)",
       "url": "https://console.elephantharbor.com/harbor-local/",
-      "note": "Authenticated console \u2014 Prospects + desk-previews. Not public github.io."
+      "note": "Authenticated console — Prospects + desk-previews. Not public github.io."
     }
   ],
   "experimentsCount": 0,
-  "freshnessNote": "2026-09-11: contact backfill + Discovered column. lastUpdated 2026-09-11T10:07:00-05:00.",
+  "freshnessNote": "2026-09-13: Peoria IL HVAC DD-first hunt +11. Brand hint → GigaWeave. lastUpdated 2026-09-13T10:54:00-05:00.",
   "nextUp": {
     "areaId": "local",
     "areaName": "Harbor Local",
     "lastUpdated": "2026-09-07T08:20:00-05:00",
     "items": []
   },
-  "customerBrand": "Trailmark"
+  "customerBrand": "GigaWeave"
 }
