@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=32 (STL+Peoria). Action primary trade-color. Outreach v2 drafts + engagement schema on desk. Console desk live. No outbound send.",
+  "statusDetail": "Internal-hard. Scored HVAC n=39 (STL+Peoria). Recommend Yes 14 / Hold 21 / No 4. Emails 30/39. GigaWeave brand. Discovery +7 STL metro 2026-09-14. No outbound send.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-14T08:29:00-05:00",
+  "lastUpdated": "2026-09-14T09:34:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -15,12 +15,12 @@
     },
     {
       "label": "Scored (private)",
-      "value": "32",
-      "hint": "Recommend Yes 9 / Hold 19 / No 4"
+      "value": "39",
+      "hint": "Recommend Yes 14 / Hold 21 / No 4"
     },
     {
       "label": "Emails stored",
-      "value": "25/32",
+      "value": "30/39",
       "hint": "Private SoR only; not_found kept"
     },
     {
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. Scored HVAC n=32 (STL+Peoria). GigaWeave brand. Outreach drafts hold. No outbound.",
+  "currentStatusBrief": "Building. Scored HVAC n=39 (STL+Peoria). GigaWeave brand. Outreach drafts hold. No outbound.",
   "latestLesson": {
     "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -39,7 +39,7 @@
     "originationDate": "2026-09-12"
   },
   "needsHumanAction": true,
-  "humanAction": "Review Peoria HVAC hunt + Action Heating Trade Color + outreach v2 drafts on console desk. Still gated: LLC, domain/ESP, first-send. No outbound.",
+  "humanAction": "Review STL metro discovery (+7) + refreshed not_found contacts on console desk. Still gated: LLC, domain/ESP, first-send. No outbound.",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "dashboardState": "console-auth",
   "publicLinks": [
