@@ -1,8 +1,36 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-14T09:34:00-05:00",
+  "lastUpdated": "2026-09-14T16:45:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-14T16:45:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "Peoria\u00d7HVAC coverage gap sweep: boundary defined; +11 net-new (n Peoria 22); DR 100% fail \u2192 state QA/Gap Sweep confidence Medium (not Complete/High). STL waits. No contact/spend.",
+      "deskChanges": "growth/coverage/markets+cells peoria; desk/coverage markets+cells; prospect-table +11; PROSPECT-TABLE.md; hunts/peoria-hvac-coverage-gap-sweep-2026-09-14.md; segment-summary aggregates",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-14T10:20:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "Peoria wave 1 SENT 7/7 via Resend SMTP (thomas@gigaweave.io). Action/Belking excluded. Funnel\u2192Contacted + previewSent on those rows.",
+      "deskChanges": "outreach-drafts SENT; prospect-table Contacted/previewSent; engagement outreach_sent events; hunts/peoria-wave1-send-2026-09-14.md",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-14T10:11:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "Rolled up human preview engagement for Chuck's (disc_peoria_hvac_20260913_02): preview_viewed from QA click (test-blair-click-qa). Opportunity Score unchanged. DRAFT_ONLY_HOLD.",
+      "deskChanges": "prospect-table.json previewEngagement/engagementState; outreach-drafts clickQa human_confirmed.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-14T10:08:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "Peoria 7 drafts wired to tracked /r/ Preview CTAs (canonical fallback). Sent ONE internal click-QA via Resend SMTP to tcollett@gmail.com only (Chuck's /r/ test). No prospect send. Awaiting Thomas click + engagement confirmation.",
+      "deskChanges": "outreach-drafts.json trackedPreviewUrl on peoria-yes wave; clickQa sent.",
+      "lessonId": null
+    },
     {
       "at": "2026-09-14T09:34:00-05:00",
       "actor": "Lane (Harbor Local - Growth)",
