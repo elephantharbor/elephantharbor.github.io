@@ -2,25 +2,25 @@
   "segmentId": "local",
   "segmentName": "Harbor Local",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
-  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
+  "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=50 (STL+Peoria). Recommend Yes 14 / Hold 26 / No 10. Peoria HVAC coverage QA/Gap Sweep Medium (n=22). Emails 31/50. GigaWeave. No new outbound this pass.",
+  "statusDetail": "Internal-hard. Scored HVAC n=53 (STL+Peoria). Recommend Yes 22 / Hold 21 / No 10. Peoria HVAC coverage QA/Gap Sweep Medium (n=24). Emails 33/53. Send-ready unsent Yes+email=15. GigaWeave. No new outbound this pass.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-14T16:45:00-05:00",
+  "lastUpdated": "2026-09-14T16:55:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
-      "value": "0",
-      "hint": "No outbound send"
+      "value": "7",
+      "hint": "Peoria wave-1 contacted; no new outbound this pass"
     },
     {
       "label": "Scored (private)",
-      "value": "50",
-      "hint": "Recommend Yes 14 / Hold 26 / No 10"
+      "value": "53",
+      "hint": "Recommend Yes 22 / Hold 21 / No 10"
     },
     {
       "label": "Emails stored",
-      "value": "31/50",
+      "value": "33/53",
       "hint": "Private SoR only; not_found kept"
     },
     {
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. HVAC n=50 (Peoria 22 / STL rest). Peoria coverage gap sweep done \u2014 Medium confidence, not Complete. GigaWeave. No outbound this Lane pass.",
+  "currentStatusBrief": "Building. HVAC n=53 (Peoria 24 / STL rest). Tomorrow roster fill to 15 complete. Peoria coverage Medium, not Complete. GigaWeave. No outbound this Lane pass.",
   "latestLesson": {
     "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -39,14 +39,14 @@
     "originationDate": "2026-09-12"
   },
   "needsHumanAction": true,
-  "humanAction": "Review Peoria HVAC coverage cell (QA/Gap Sweep, Medium). DR stop-rule not met (+11/11). Optional long-tail BBB pass before Complete/High. STL reconcile waits. No executor ping to Blair/Wells/Kit.",
+  "humanAction": "Review proposed tomorrow-15 roster (send-ready-fill hunt). Peoria cell remains QA/Gap Sweep Medium — not Complete/High. No executor ping.",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "dashboardState": "console-auth",
   "publicLinks": [
     {
       "label": "Local operating desk (auth)",
       "url": "https://console.elephantharbor.com/harbor-local/",
-      "note": "Authenticated console \u2014 Prospects + desk-previews. Not public github.io."
+      "note": "Authenticated console — Prospects + desk-previews. Not public github.io."
     }
   ],
   "experimentsCount": 0,
