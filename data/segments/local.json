@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=71 (Peoria+Springfield+STL). Recommend Yes 33 / Hold 28 / No 10. Peoria HVAC QA/Gap Sweep Medium (n=25). Springfield HVAC Scoring Medium (n=17, Yes+email=10). Tomorrow proposed 0-STL Yes+email=12 (shortfall 3). GigaWeave. No new outbound this pass.",
+  "statusDetail": "Internal-hard. Scored HVAC n=75 (Peoria+Springfield+STL). Recommend Yes 36 / Hold 29 / No 10. Peoria HVAC QA/Gap Sweep Medium (n=25). Springfield HVAC Scoring Medium (n=21, Yes+email=13). Tomorrow proposed 0-STL Yes+email=15 (shortfall 0). GigaWeave. No new outbound this pass.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-14T17:05:00-05:00",
+  "lastUpdated": "2026-09-14T17:20:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -15,18 +15,18 @@
     },
     {
       "label": "Scored (private)",
-      "value": "71",
-      "hint": "Recommend Yes 33 / Hold 28 / No 10"
+      "value": "75",
+      "hint": "Recommend Yes 36 / Hold 29 / No 10"
     },
     {
       "label": "Emails stored",
-      "value": "47/71",
+      "value": "50/75",
       "hint": "Private SoR only; not_found kept"
     },
     {
       "label": "Tomorrow 0-STL",
-      "value": "12/15",
-      "hint": "Peoria unsent + Springfield Yes+email; shortfall 3"
+      "value": "15/15",
+      "hint": "shortfall 0; Peoria unsent + Springfield Yes+email"
     },
     {
       "label": "Brand",
