@@ -4,9 +4,9 @@
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=53 (STL+Peoria). Recommend Yes 22 / Hold 21 / No 10. Peoria HVAC coverage QA/Gap Sweep Medium (n=24). Emails 33/53. Send-ready unsent Yes+email=15. GigaWeave. No new outbound this pass.",
+  "statusDetail": "Internal-hard. Scored HVAC n=71 (Peoria+Springfield+STL). Recommend Yes 33 / Hold 28 / No 10. Peoria HVAC QA/Gap Sweep Medium (n=25). Springfield HVAC Scoring Medium (n=17, Yes+email=10). Tomorrow proposed 0-STL Yes+email=12 (shortfall 3). GigaWeave. No new outbound this pass.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-14T16:55:00-05:00",
+  "lastUpdated": "2026-09-14T17:05:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
@@ -15,13 +15,18 @@
     },
     {
       "label": "Scored (private)",
-      "value": "53",
-      "hint": "Recommend Yes 22 / Hold 21 / No 10"
+      "value": "71",
+      "hint": "Recommend Yes 33 / Hold 28 / No 10"
     },
     {
       "label": "Emails stored",
-      "value": "33/53",
+      "value": "47/71",
       "hint": "Private SoR only; not_found kept"
+    },
+    {
+      "label": "Tomorrow 0-STL",
+      "value": "12/15",
+      "hint": "Peoria unsent + Springfield Yes+email; shortfall 3"
     },
     {
       "label": "Brand",
@@ -30,7 +35,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. HVAC n=53 (Peoria 24 / STL rest). Tomorrow roster fill to 15 complete. Peoria coverage Medium, not Complete. GigaWeave. No outbound this Lane pass.",
+  "currentStatusBrief": "Building. HVAC n=71. Tomorrow 0-STL roster 12/15. Peoria Medium not Complete. Springfield opened. GigaWeave. No outbound this Lane pass.",
   "latestLesson": {
     "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
