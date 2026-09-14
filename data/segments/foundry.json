@@ -4,9 +4,9 @@
   "description": "Software venture creation.",
   "mission": "Find weak or dated incumbent software markets, validate opportunities to replace them, and build substantial new software businesses where evidence warrants it.",
   "status": "Building",
-  "statusDetail": "One operating venture and one active validation sprint. Hunt pipeline currently cold after No candidates (EMPTY) screens.",
+  "statusDetail": "One operating venture (Setaside). Latch validation sprint temporarily paused by Thomas \u2014 not Closed/Kill. Hunt pipeline cold after EMPTY screens including Mon 2026-09-14.",
   "owner": "Calder (Harbor Foundry - CEO)",
-  "lastUpdated": "2026-09-05T12:08:18-05:00",
+  "lastUpdated": "2026-09-14T08:36:33-05:00",
   "headlineMetrics": [
     {
       "label": "Operating ventures",
@@ -15,13 +15,13 @@
     },
     {
       "label": "Active validation sprints",
-      "value": "1",
-      "hint": "Bullhorn \u2192 Latch (Thomas-approved; interviews deferred)"
+      "value": "0",
+      "hint": "Latch temporarily paused by Thomas (not Closed/Kill)"
     },
     {
       "label": "Prospects under research",
       "value": "0",
-      "hint": "Hunt pipeline cold after No candidates (EMPTY) screens Sep 3\u20134"
+      "hint": "Hunt pipeline cold after No candidates (EMPTY) screens through Mon 2026-09-14"
     },
     {
       "label": "Awaiting approval",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Find dated paid software customers dislike, validate a modern replacement, and build only where evidence warrants.",
-  "currentStatusBrief": "Hunt pipeline is cold after two No candidates (EMPTY) screens. Setaside is live on Etsy ($24 self-employed books) with $0 sales so far. Bullhorn \u2192 Latch sprint is in build under Wren (prototype owns search \u2192 candidate \u2192 job \u2192 submit); interviews deferred \u2014 not a build gate. No Proceed/Retarget/Kill yet.",
+  "currentStatusBrief": "Latch (Bullhorn sprint) is temporarily Paused by Thomas \u2014 Wren seated but idle until Calder resumes. Setaside is the only live product. Hunt pipeline cold after EMPTY screens through Mon 2026-09-14 (hated incumbents / AI-native / productized-services; deepened 0). No Proceed/Retarget/Kill yet.",
   "latestLesson": {
     "experience": "Screens keep dying when the incumbent already has a vendor-owned modern successor or leftover overlays (Eagle\u2192Propello; Concur NextGen class).",
     "evidence": "EMPTY hunt outcomes after occupancy looked promising.",
@@ -41,30 +41,35 @@
   "humanAction": null,
   "dashboardUrl": "https://elephantharbor.github.io/harbor-foundry/",
   "dashboardState": "live",
-  "publicLinks": [],
+  "publicLinks": [
+    {
+      "label": "Foundry operating dashboard",
+      "url": "https://elephantharbor.github.io/harbor-foundry/"
+    }
+  ],
   "freshnessNote": "Manual Foundry ops feed. Refresh owner: Calder (CEO) / Fernando (Ops). lastUpdated = last Foundry publish of this summary.",
   "nextUp": {
     "areaId": "foundry",
     "areaName": "Harbor Foundry",
-    "lastUpdated": "2026-09-11T08:07:00-05:00",
+    "lastUpdated": "2026-09-14T07:39:00-05:00",
     "items": [
       {
+        "title": "Foundry morning brief",
+        "nextRunAt": "2026-09-14T08:00:00-05:00",
+        "scheduleLabel": "Weekdays 8:00 AM CT",
+        "owner": "Calder (Harbor Foundry - CEO)"
+      },
+      {
         "title": "Scout weekday hunt",
-        "nextRunAt": "2026-09-11T08:09:00-05:00",
+        "nextRunAt": "2026-09-14T08:09:00-05:00",
         "scheduleLabel": "Weekdays 8:09 AM CT",
         "owner": "Calder \u2192 Nico (Harbor Foundry - Scout)"
       },
       {
         "title": "Setaside shop health check",
-        "nextRunAt": "2026-09-11T09:00:00-05:00",
+        "nextRunAt": "2026-09-14T09:00:00-05:00",
         "scheduleLabel": "Weekdays 9:00 AM CT",
         "owner": "Sable (Harbor Foundry - Setaside)"
-      },
-      {
-        "title": "Foundry operations pre-brief",
-        "nextRunAt": "2026-09-14T07:30:00-05:00",
-        "scheduleLabel": "Weekdays 7:30 AM CT",
-        "owner": "Fernando (Harbor Foundry - Ops)"
       }
     ]
   }
