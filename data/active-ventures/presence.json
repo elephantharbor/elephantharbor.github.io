@@ -1,7 +1,7 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-12T10:20:00-05:00",
+  "lastUpdated": "2026-09-14T10:40:00-05:00",
   "items": [
     {
       "id": "x-volume-bar",
@@ -13,9 +13,9 @@
       "startDate": "2026-09-11",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium; weekday passes; weekends quiet unless asked",
-      "performance": "EXP-01 closed FAIL 1.95× (reply median 19.5 vs original 10). Volume bar retained with busy-room gate. Followers 1; posts 40; top busy replies still 600–1,377 views.",
-      "nextMilestone": "Mon 2026-09-14 weekday pass under ~8–15 + busy-room gate; watch reply median quality",
-      "lastUpdated": "2026-09-12T10:20:00-05:00",
+      "performance": "Mon Sep 14: 10 busy-room replies + 1 original; quiet fills skipped. Followers 1; posts ~51. Today’s views not aged yet. EXP-01 FAIL lesson still binding.",
+      "nextMilestone": "Tue 2026-09-15 weekday pass; age Mon public counts",
+      "lastUpdated": "2026-09-14T10:40:00-05:00",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview"
     }
   ],

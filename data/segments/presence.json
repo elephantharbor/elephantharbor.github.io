@@ -4,24 +4,24 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "EXP-01 closed FAIL 1.95×; followers 1; volume bar + busy-room gate; next pass Mon Sep 14.",
+  "statusDetail": "Mon pass: 10 busy-room replies + 1 original; quiet fills skipped; followers 1; posts ~51; next Tue Sep 15.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-12T10:20:00-05:00",
+  "lastUpdated": "2026-09-14T10:40:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
       "value": "1",
-      "hint": "First follower as of EXP-01 closeout 2026-09-12"
+      "hint": "Morning check 2026-09-14"
     },
     {
       "label": "X posts",
-      "value": "40",
-      "hint": "After Fri volume pass"
+      "value": "~51",
+      "hint": "After Mon busy-room pass"
     },
     {
       "label": "EXP-01 result",
       "value": "FAIL 1.95×",
-      "hint": "Reply median 19.5 vs original median 10 (needed ≥2.0×)"
+      "hint": "Closed 2026-09-12; busy-room gate still operating"
     },
     {
       "label": "Public website",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "Weekday ~8–15 thoughtful human replies + regular originals, gated on genuine busy-thread openings (do not fill quota in quiet rooms). Originals = range, not the growth lever. Measure public views/likes/replies/follows; replace near-zero methods.",
-  "currentStatusBrief": "EXP-01 closed: narrow FAIL. Busy rooms still win at the high end; quiet-room fills diluted the median. Operating change: keep ~8–15 replies but gate on busy openings. Next pass Mon 10:00 CT. Nothing needs Thomas.",
+  "currentStatusBrief": "Mon: 10 busy-room replies + Mercury original; skipped quiet fills. Views not aged yet. Next pass Tue 10:00 CT. Nothing needs Thomas.",
   "latestLesson": {
     "experience": "Across Sep 8–11, selective replies into already-busy rooms reached hundreds/thousands of views while standalone originals stayed in the low teens; expanding reply volume into quieter threads on Fri diluted the reply median to 19.5 vs originals’ 10.",
     "evidence": "Same @elephantharbor account, public view counts only (no Premium), full aged sample n=18 replies / n=4 originals. Ratio 1.95× vs ≥2.0× hypothesis. First follower appeared; Melbourne reply earned 2 likes.",
