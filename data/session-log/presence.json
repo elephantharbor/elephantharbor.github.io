@@ -1,8 +1,14 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-14T10:40:00-05:00",
+  "lastUpdated": "2026-09-15T11:11:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-15T11:11:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Refreshed the desk from Rowan’s Tue Sep 15 weekday pass: 11 busy-room replies + wooden-mouse original. Logged Mon overnight ages (Ballmer 173 · Dart 149 · Happy Death Day 146 vs Mercury original 5). Corrected followers to 0 from public profile. No new lesson.",
+      "deskChanges": "Next Up → Wed Sep 16; posts ~63; followers 0; Tue content + Mon overnight views; volume-bar Active Venture updated."
+    },
     {
       "at": "2026-09-14T10:40:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",

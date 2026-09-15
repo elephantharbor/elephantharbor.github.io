@@ -1,17 +1,17 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-14T10:40:00-05:00",
+  "lastUpdated": "2026-09-15T11:11:00-05:00",
   "items": [
     {
       "title": "Weekday X pass",
-      "nextRunAt": "2026-09-15T10:00:00-05:00",
+      "nextRunAt": "2026-09-16T10:00:00-05:00",
       "scheduleLabel": "Weekdays 10:00 AM CT (~8\u201315 replies; busy-room gate)",
       "owner": "Rowan (Harbor Presence - Lead)"
     },
     {
       "title": "X missed-pass catch-up",
-      "nextRunAt": "2026-09-15T10:45:00-05:00",
+      "nextRunAt": "2026-09-16T10:45:00-05:00",
       "scheduleLabel": "Weekdays 10:45 AM CT (only if morning pass missed)",
       "owner": "Rowan (Harbor Presence - Lead)"
     }
