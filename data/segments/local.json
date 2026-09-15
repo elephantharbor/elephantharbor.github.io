@@ -4,29 +4,29 @@
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=75 (Peoria+Springfield+STL). Recommend Yes 36 / Hold 29 / No 10. Peoria HVAC QA/Gap Sweep Medium (not Complete/High). Springfield HVAC Scoring Medium. Tomorrow 0-STL Yes+email=15 packs READY_FOR_MORNING_QA. GigaWeave. No new outbound overnight.",
+  "statusDetail": "Internal-hard. Scored HVAC n=78 (Peoria+Springfield+STL). Recommend Yes 41 / Hold 27 / No 10. Peoria HVAC QA/Gap Sweep Medium (not Complete/High). Springfield HVAC Scoring Medium. Morning wave peoria-springfield-ready-qa-2026-09-15 SENT 15/15. Gap pass springfield-peoria-gap-2026-09-15: +3 Springfield; Hold→Yes Ace/AirAce/Merit. GigaWeave. No outbound this pass.",
   "owner": "Blair (Harbor Local - CEO)",
-  "lastUpdated": "2026-09-15T08:35:00-05:00",
+  "lastUpdated": "2026-09-15T09:40:00-05:00",
   "headlineMetrics": [
     {
       "label": "Funnel (contacted)",
-      "value": "7",
-      "hint": "Peoria wave-1 contacted; no new outbound this pass"
+      "value": "22",
+      "hint": "Includes morning Peoria+Springfield wave SENT 15/15"
     },
     {
       "label": "Scored (private)",
-      "value": "75",
-      "hint": "Recommend Yes 36 / Hold 29 / No 10"
+      "value": "78",
+      "hint": "Recommend Yes 41 / Hold 27 / No 10"
     },
     {
       "label": "Emails stored",
-      "value": "50/75",
+      "value": "56/78",
       "hint": "Private SoR only; not_found kept"
     },
     {
-      "label": "Tomorrow 0-STL",
-      "value": "15/15",
-      "hint": "shortfall 0; Peoria unsent + Springfield Yes+email"
+      "label": "Fresh unsent Yes+email",
+      "value": "5",
+      "hint": "0 STL; Ace/AirAce/Merit/Premier/Bormida"
     },
     {
       "label": "Brand",
@@ -35,7 +35,7 @@
     }
   ],
   "currentObjective": "Clear human launch approvals (Sitekeep domain/DBA, entity, ESP), then run 40-prospect St. Louis HVAC pilot (20 preview / 20 control).",
-  "currentStatusBrief": "Building. HVAC n=75 (Yes 36 / Hold 29 / No 10). Contacted 7. Tomorrow 0-STL 15 packs Ready for Morning QA. GigaWeave stamp. No new outbound overnight.",
+  "currentStatusBrief": "Building. HVAC n=78 (Yes 41 / Hold 27 / No 10). Morning wave SENT 15/15. Gap pass +3 Springfield net-new; email fills Ace/AirAce/Merit(+Thermal). Fresh unsent Yes+email=5. GigaWeave. No new outbound this inventory pass.",
   "latestLesson": {
     "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",

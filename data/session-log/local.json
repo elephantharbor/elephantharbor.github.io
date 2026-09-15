@@ -1,8 +1,15 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-15T08:35:00-05:00",
+  "lastUpdated": "2026-09-15T09:40:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-15T08:48:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "Thomas trigger: Peoria+Springfield wave peoria-springfield-ready-qa-2026-09-15 SENT 15/15 via Resend SMTP (exp01-v3-a). 0 STL. Funnel→Contacted + previewSent.",
+      "deskChanges": "outreach-drafts SENT; prospect-table Contacted; engagement outreach_sent; hunts/peoria-springfield-wave-send-2026-09-15.md",
+      "lessonId": null
+    },
     {
       "at": "2026-09-15T08:35:00-05:00",
       "actor": "Blair (Harbor Local - CEO)",
@@ -304,6 +311,13 @@
       "summary": "Cycle 1.2 Action Heating verified-facts pack and fixture rebuild: public BBB/site facts only, explicit omit list, River City fiction retired for prospect builds. Scoring v2 dry-run clarified null reviews must not kill preview suitability.",
       "deskChanges": "Verified facts + OMITTED docs; Action Heating STL fixtures; scoring architecture v2 referenced for EXP-01.",
       "lessonId": "null-reviews-scoring-v2"
+    },
+    {
+      "at": "2026-09-15T09:40:00-05:00",
+      "actor": "Lane (Harbor Local - Growth) via Blair automation",
+      "summary": "Springfield/Peoria gap springfield-peoria-gap-2026-09-15: +3 Springfield net-new (Premier+Bormida Yes+email, Central IL Hold); email fills Ace/AirAce/Merit Hold→Yes + Thermal fill stay-Hold. n 75→78; Yes 41 / Hold 27 / No 10; emails 56/78. Fresh unsent Yes+email=5. Morning wave already SENT 15/15. 0 STL. No outbound this pass.",
+      "deskChanges": "prospect-table + PROSPECT-TABLE; coverage cells springfield/peoria; hunt note; observations Ace/AirAce/Merit/Premier/Bormida; segment-summary + session-log + snapshot sessionLog; github.io local.json sanitized; eh-console private sync",
+      "lessonId": null
     }
   ]
 }
