@@ -1,8 +1,22 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-14T17:20:00-05:00",
+  "lastUpdated": "2026-09-15T08:35:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-15T08:35:00-05:00",
+      "actor": "Blair (Harbor Local - CEO)",
+      "summary": "Weekday morning ops: Capital trial clock 25 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Overnight desk truth: Peoria wave-1 SENT 7/7; Peoria QA/Gap Sweep Medium; Springfield opened+top-up to n=75 (Yes 36 / Hold 29 / No 10); Tomorrow 0-STL Yes+email 15/15 EXP-01 v3-a packs READY_FOR_MORNING_QA (no new prospect send overnight). Synced snapshot.sessionLog (caught up missing 17:35 entry); mirrored portfolio session-log; refreshed segment-summary. Brand stamp GigaWeave (working/temporary — no domain/DBA); Action primary trade-color (Modern Bold alternate); contacted=7. Wells republish requested for console.elephantharbor.com/harbor-local/.",
+      "deskChanges": "session-log + snapshot.sessionLog; segment-summary freshness/humanAction/statusBrief; elephantharbor.github.io/data/session-log/local.json + segments/local.json; eh-console-gate private-local data+growth/desk mirror; Wells ping.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-14T17:35:00-05:00",
+      "actor": "Lane (Harbor Local - Growth)",
+      "summary": "EXP-01 v3-a packs for Peoria+Springfield 15 (0 STL): minted /r/ + unsub tokens, filled HTML/TXT, status READY_FOR_MORNING_QA. NO send. funnelState ready_for_morning_qa (not Contacted).",
+      "deskChanges": "dry-runs/*-2026-09-14 ×15; outreach-drafts.json +15 READY_FOR_MORNING_QA; prospect-table funnelState; hunts/ready-for-morning-qa-2026-09-14.md; engagement + suppression token maps.",
+      "lessonId": null
+    },
     {
       "at": "2026-09-14T17:20:00-05:00",
       "actor": "Lane (Harbor Local - Growth)",
