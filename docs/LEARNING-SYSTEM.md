@@ -49,3 +49,7 @@ Consult relevant Confirmed / Institutionalized / Testing lessons in scope. If an
 ## Desk sync + anti-bureaucracy
 
 Material lesson status changes update the operating desk Learning section **same turn**. Prefer short structured records. No paperwork whose only purpose is proving process occurred.
+
+## Desk implementation
+
+Portfolio Overview Learning section: [LEARNING-DESK.md](LEARNING-DESK.md) · `shared/eh-learning.js` · `data/learning/portfolio.json`
