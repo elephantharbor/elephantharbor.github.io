@@ -1,6 +1,13 @@
 {
   "areaId": "portfolio",
   "areaName": "Portfolio",
-  "lastUpdated": "2026-09-09T16:55:00-05:00",
-  "entries": []
+  "lastUpdated": "2026-09-16T08:22:00-05:00",
+  "entries": [
+    {
+      "at": "2026-09-16T08:22:00-05:00",
+      "actor": "Hayes (Portfolio - CEO)",
+      "summary": "Portfolio morning books: Material vs Sep 15. Local Needs Your Attention true \u2014 Controlled Send 15/15 accepted (Hearthlight EXP-01 v3-a, Peoria+Springfield HVAC); Contacted=37; active-Coverage fresh unsent Yes+email=0; STL hard-stopped; Wells console republish requested. Capital/Presence/Foundry/Systems NYA false. Capital Day ~7/30 (to 2026-10-10; ~24d left); SGOV+VTI live last known. Presence Wed X pass due 10:00 CT. Foundry Latch paused; hunt pipeline cold.",
+      "deskChanges": "data/next-up/portfolio.json lastUpdated + nextRunAt \u2192 2026-09-17T08:00:00-05:00."
+    }
+  ]
 }
