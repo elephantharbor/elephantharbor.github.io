@@ -166,6 +166,16 @@ function renderOrgActiveVentures(docs) {
   }
 }
 
+function renderOrgLearning(doc) {
+  const host = document.getElementById("learning-host");
+  if (!host) return;
+  if (window.EH && EH.renderLearning) {
+    host.innerHTML = EH.renderLearning(doc, { title: "Learning" });
+  } else {
+    host.innerHTML = `<section class="learning-desk"><h2 class="section-title">Learning</h2><div class="empty"><strong>No lessons</strong> Shared renderer unavailable.</div></section>`;
+  }
+}
+
 async function loadNextUpAreas() {
   const areaIds = ["portfolio", "capital", "presence", "foundry", "local"];
   const areas = [];
@@ -283,6 +293,14 @@ async function main() {
       const host = document.getElementById("active-ventures-host");
       if (host) {
         host.innerHTML = `<section class="active-ventures"><h2 class="section-title">Active ventures</h2><div class="empty"><strong>No active ventures</strong>Could not load feeds.</div></section>`;
+      }
+    }
+    try {
+      renderOrgLearning(await loadJSON("data/learning/portfolio.json"));
+    } catch (e) {
+      const host = document.getElementById("learning-host");
+      if (host) {
+        host.innerHTML = `<section class="learning-desk"><h2 class="section-title">Learning</h2><div class="empty"><strong>No lessons</strong> Could not load learning feed.</div></section>`;
       }
     }
   } catch (err) {
