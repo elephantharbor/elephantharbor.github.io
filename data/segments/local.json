@@ -1,17 +1,17 @@
 {
   "currentObjective": "Rebuild next send roster from active Coverage cells (peoria-il:hvac + springfield-il:hvac): Kit Hearthlight for 5 Found Yes+email, then Lane EXP-01 v3-a packs → Morning QA; STL remains hard-stopped; Controlled Send owns first-touch.",
-  "currentStatusBrief": "Sep17 same-day send 5/5 accepted (Hearthlight). Contacted=42. Qualifying unsent Yes+email=0. Warm=Griffin HVAC. Trial 23d left.",
+  "currentStatusBrief": "Sep17 same-day send 5/5 accepted (Hearthlight). Contacted=49. Qualifying unsent Yes+email=0. Warm=Griffin HVAC. Trial 23d left.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 0,
-  "freshnessNote": "SoR synced 2026-09-17T08:24:49-05:00 after Sep17 same-day send (+5 Contacted; Contacted=42).",
+  "freshnessNote": "SoR synced 2026-09-17T08:41:31-05:00 after Sep17 same-day send-plus7 (+7 Contacted; day first-touch 12; Contacted=49).",
   "headlineMetrics": [
     {
-      "hint": "Includes Wed Controlled Send 15/15 + Sep17 same-day 5/5 + prior waves",
+      "hint": "Includes Wed Controlled Send + Sep17 same-day 5 + plus7 7 + prior waves",
       "label": "Funnel (contacted)",
-      "value": "42"
+      "value": "49"
     },
     {
       "hint": "Recommend Yes 56 / Hold 28 / No 10",
@@ -24,7 +24,7 @@
       "value": "71/94"
     },
     {
-      "hint": "Sep17 same-day cleared the 5-pack Hearthlight block; STL hard-stopped",
+      "hint": "Sep17 same-day waves cleared Hearthlight packs; STL hard-stopped",
       "label": "Fresh unsent Yes+email",
       "value": "0"
     },
@@ -35,7 +35,7 @@
     }
   ],
   "humanAction": "Wells: republish console.elephantharbor.com/harbor-local/ (session-log + Overview status + Prospects aggregates). Kit+Lane: Hearthlight + EXP-01 v3-a for 5 Found Yes+email (already asked at Morning QA). Thomas: no new notify from morning ops.",
-  "lastUpdated": "2026-09-17T08:24:49-05:00",
+  "lastUpdated": "2026-09-17T08:41:31-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -62,5 +62,5 @@
   "segmentId": "local",
   "segmentName": "Harbor Local",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=94. Recommend Yes 56 / Hold 28 / No 10. Emails 71/94. Contacted=42. Active-Coverage qualifying unsent Yes+email=0; ready_for_send=0. STL hard-stopped. Brand GigaWeave. Trial 23 days left."
+  "statusDetail": "Internal-hard. Scored HVAC n=94. Recommend Yes 56 / Hold 28 / No 10. Emails 71/94. Contacted=49. Active-Coverage qualifying unsent Yes+email=0; ready_for_send=0. STL hard-stopped. Brand GigaWeave. Trial 23 days left."
 }
