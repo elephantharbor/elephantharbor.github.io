@@ -26,6 +26,20 @@ Keep `static/segment.css` **thin**: segment accent leftovers and room-specific l
 
 Mark the current segment link with `class="active"` and `aria-current="page"`.
 
+## Shared JS modules
+
+| Module | Purpose | Doc |
+|--------|---------|-----|
+| `eh-theme.js` | Dark/light toggle | [CONSOLE-THEME.md](../docs/CONSOLE-THEME.md) |
+| `eh-session-log.js` | Session log + date helpers | [SESSION-LOG-CONTRACT.md](../docs/SESSION-LOG-CONTRACT.md) |
+| `eh-active-ventures.js` | Active ventures cards | [ACTIVE-VENTURES.md](../docs/ACTIVE-VENTURES.md) |
+| `eh-learning.js` | Learning desk cards | [LEARNING-DESK.md](../docs/LEARNING-DESK.md) |
+| `eh-desk-grid.js` | Desk grid / query primitive | [DESK-GRID.md](../docs/DESK-GRID.md) |
+
+```html
+<script src="https://elephantharbor.github.io/shared/eh-desk-grid.js"></script>
+```
+
 ## Future segments
 
 Inherit this system by default. Define content, metrics, data, and IA only — not global colors, type, cards, or nav chrome.

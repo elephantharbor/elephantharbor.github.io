@@ -8,7 +8,7 @@ Internal operating surface for Thomas and the Elephant Harbor organization.
 
 ## Shared design system
 
-Source of truth: [`shared/eh-console.css`](shared/eh-console.css) — loaded by Portfolio, Capital, Foundry, and Presence. See [`shared/README.md`](shared/README.md).
+Source of truth: [`shared/eh-console.css`](shared/eh-console.css) — loaded by Portfolio, Capital, Foundry, and Presence. Shared JS modules (ventures, learning, desk grid, etc.): [`shared/README.md`](shared/README.md). Desk grid contract: [`docs/DESK-GRID.md`](docs/DESK-GRID.md).
 
 ## Desks
 
