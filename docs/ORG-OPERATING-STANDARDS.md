@@ -53,6 +53,21 @@ Rules:
 - Routine “nothing material” runs may add a short line or skip only when the standing prompt says stay quiet **and** the desk truth did not change; if the desk was refreshed, say so in one sentence.
 - Wells owns shared Log presentation / schema; segments own truth of entries.
 
+## 6. Desk grid / query primitive (OS v2 console)
+
+Sortable, filterable desk tables (prospects, ventures, positions, etc.) must share one query contract so rows, filtered count, pagination, and active filters never disagree — especially during load.
+
+**Hard rules:**
+
+1. **Single resolved query** drives rows + filtered count + pagination + active filters together. Never flash a wrong count while loading.
+2. Honest loading/empty states until that query resolves.
+3. URL-persisted query state (shareable / refresh-safe).
+4. Human-readable dates and statuses in the UI; IDs secondary.
+5. Accessible sort headers, focus, and `aria` where needed.
+
+**Shared implementation:** [`shared/eh-desk-grid.js`](../shared/eh-desk-grid.js) + `.eh-desk-grid` in [`shared/eh-console.css`](../shared/eh-console.css).  
+**Contract & adoption:** [DESK-GRID.md](DESK-GRID.md) — Local Prospects is the exemplar; Capital / Foundry / Presence adopt when ready. Do not freeze daily ops to wait for migration.
+
 ## OS v2 (durable canon)
 
 Portfolio Operating System v2 is standing law. Read and follow:
@@ -62,6 +77,7 @@ Portfolio Operating System v2 is standing law. Read and follow:
 - [ACTIVATION-LADDER.md](ACTIVATION-LADDER.md) — Observe → … → Exit; threshold review on repeated zero
 - [30-DAY-EVALUATION-DOCTRINE.md](30-DAY-EVALUATION-DOCTRINE.md) — economic + execution + learning + trajectory
 - [CAPITAL-OS-V2-ACTIVATION.md](CAPITAL-OS-V2-ACTIVATION.md) — Capital market activation under OS v2
+- [DESK-GRID.md](DESK-GRID.md) — desk grid / query primitive (§6)
 
 **Standing ops that continue under OS v2:** same-day / same-turn desk sync (§1, §4); plain English human-readable writing (§2); [ACTIVE-VENTURES.md](ACTIVE-VENTURES.md); Hayes portfolio **morning books**; session logs (§5). OS v2 supersedes transient chat activation reminders — it does not freeze daily books or desk hygiene.
 

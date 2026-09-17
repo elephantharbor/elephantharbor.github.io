@@ -31,6 +31,7 @@ Stable principles live here. Temporary task details do not override this file.
 - [30-DAY-EVALUATION-DOCTRINE.md](30-DAY-EVALUATION-DOCTRINE.md)
 - [CAPITAL-OS-V2-ACTIVATION.md](CAPITAL-OS-V2-ACTIVATION.md)
 - [ORG-OPERATING-STANDARDS.md](ORG-OPERATING-STANDARDS.md)
+- [DESK-GRID.md](DESK-GRID.md)
 
 ## Desk sync & human gates
 
