@@ -1,41 +1,41 @@
 {
-  "currentObjective": "Prepare and QA the next roster from active Coverage cells only; keep closed cells closed until reopened; no outbound without explicit gate.",
-  "currentStatusBrief": "Wed prep: 12 qualifying unsent Yes+public-email rows (5 existing +7 net-new), 3 short. All 12 need platform previews + tracked/unsubscribe tokens before EXP-01 v3-a rendering. 0 outbound.",
+  "currentObjective": "Rebuild next send roster from active Coverage cells (peoria-il:hvac + springfield-il:hvac): Kit Hearthlight for 5 Found Yes+email, then Lane EXP-01 v3-a packs \u2192 Morning QA; STL remains hard-stopped; Controlled Send owns first-touch.",
+  "currentStatusBrief": "Morning ops: QA 0 ready; send 0/0. Contacted=37. Qualifying unsent Yes+email=5 (Hearthlight blocked). Warm=Griffin HVAC. Trial 23d left.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 0,
-  "freshnessNote": "2026-09-15 morning ops: overnight Lane desk (Peoria SENT 7 + Springfield top-up n=75 + 15 READY_FOR_MORNING_QA packs); session-log/snapshot sync; portfolio mirror; Wells console republish requested. lastUpdated 2026-09-15T08:35:00-05:00.",
+  "freshnessNote": "SoR synced 2026-09-17T08:00:00-05:00 after morning ops (post QA + Controlled Send quiet exit).",
   "headlineMetrics": [
     {
-      "hint": "Includes morning Peoria+Springfield wave SENT 15/15",
       "label": "Funnel (contacted)",
-      "value": "22"
+      "value": "37",
+      "hint": "Includes Wed Controlled Send 15/15 + prior waves; Thu 0"
     },
     {
-      "hint": "Recommend Yes 48 / Hold 27 / No 10",
       "label": "Scored (private)",
-      "value": "85"
+      "value": "94",
+      "hint": "Recommend Yes 56 / Hold 28 / No 10"
     },
     {
-      "hint": "Private SoR only; not_found kept",
       "label": "Emails stored",
-      "value": "63/85"
+      "value": "71/94",
+      "hint": "Private SoR only; not_found kept"
     },
     {
-      "hint": "Active Coverage cells only; all platform-blocked",
       "label": "Fresh unsent Yes+email",
-      "value": "12"
+      "value": "5",
+      "hint": "Active Coverage peoria+springfield; awaiting Hearthlight+packs; STL hard-stopped"
     },
     {
-      "hint": "Working/temporary stamp — no domain/DBA lock",
       "label": "Brand",
-      "value": "GigaWeave"
+      "value": "GigaWeave",
+      "hint": "Working/temporary stamp \u2014 no domain/DBA lock"
     }
   ],
-  "humanAction": "Blair/Kit decision: build the 12 platform previews and mint/QA tracked + unsubscribe links, or accept the supported 3-row roster shortfall. Do not use Holds or closed Coverage cells.",
-  "lastUpdated": "2026-09-15T16:36:00-05:00",
+  "humanAction": "Wells: republish console.elephantharbor.com/harbor-local/ (session-log + Overview status + Prospects aggregates). Kit+Lane: Hearthlight + EXP-01 v3-a for 5 Found Yes+email (already asked at Morning QA). Thomas: no new notify from morning ops.",
+  "lastUpdated": "2026-09-17T08:00:00-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -43,7 +43,7 @@
     "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
     "originationDate": "2026-09-12"
   },
-  "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
+  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "needsHumanAction": true,
   "nextUp": {
     "areaId": "local",
@@ -55,12 +55,12 @@
   "publicLinks": [
     {
       "label": "Local operating desk (auth)",
-      "note": "Authenticated console — Prospects + desk-previews. Not public github.io.",
+      "note": "Authenticated console \u2014 Prospects + desk-previews. Not public github.io.",
       "url": "https://console.elephantharbor.com/harbor-local/"
     }
   ],
   "segmentId": "local",
   "segmentName": "Harbor Local",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=85. Recommend Yes 48 / Hold 27 / No 10. Active Coverage only. Wed roster 12/15; previews/drafts blocked 12/12. Contacted remains 22. 0 outbound this pass."
+  "statusDetail": "Internal-hard. Scored HVAC n=94. Recommend Yes 56 / Hold 28 / No 10. Emails 71/94. Contacted=37. Active-Coverage qualifying unsent Yes+email=5; ready_for_send=0. STL hard-stopped. Brand GigaWeave. Trial 23 days left."
 }
