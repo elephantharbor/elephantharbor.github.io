@@ -5,44 +5,44 @@
     {
       "actor": "Lane (Harbor Local - Growth)",
       "at": "2026-09-17T08:22:46-05:00",
-      "deskChanges": "outreach-drafts SENT\u00d75; prospect-table Contacted\u00d75; engagement outreach_sent\u00d75; hunts/sep17-same-day-send.md",
+      "deskChanges": "outreach-drafts SENT×5; prospect-table Contacted×5; engagement outreach_sent×5; hunts/sep17-same-day-send.md",
       "lessonId": null,
-      "summary": "Thomas same-day override: sep17-same-day-send 5/5 accepted via Resend SMTP (exp01-v3-a Hearthlight, build c7d89d70). Slugs: gills-heating, corey-heating, canton-heating, bob-bergen-heating, collins-heating. 0 STL. Funnel\u2192Contacted + previewSent. Failed=0."
+      "summary": "Thomas same-day override: sep17-same-day-send 5/5 accepted via Resend SMTP (exp01-v3-a Hearthlight, build c7d89d70). Slugs: gills-heating, corey-heating, canton-heating, bob-bergen-heating, collins-heating. 0 STL. Funnel→Contacted + previewSent. Failed=0."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-17T08:00:00-05:00",
       "deskChanges": "session-log + snapshot.sessionLog/currentStatus/metrics; segment-summary freshness/statusBrief/headlineMetrics/humanAction; elephantharbor.github.io/data/session-log/local.json + segments/local.json; eh-console-gate private-local data + growth/desk sync; Wells republish brief.",
       "lessonId": null,
-      "summary": "Weekday morning ops: Capital trial clock 23 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Morning QA 0/0 ready_for_send (no staged packs); Controlled Send 0/0 quiet exit. Contacted=37; active-Coverage qualifying unsent Yes+email=5 (Hearthlight/pack blocked); ready_for_send=0. Warm=Griffin HVAC (preview_viewed). Scored n=94 (Yes 56 / Hold 28 / No 10); emails 71/94. STL hard-stopped. Brand GigaWeave; Hearthlight only. Kit+Lane refill already queued from Morning QA. Wells republish requested for console.elephantharbor.com/harbor-local/. Thomas not notified (no trial milestone; short runway already surfaced at Morning QA)."
+      "summary": "Weekday morning ops: Capital trial clock 23 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Morning QA 0/0 ready_for_send (no staged packs); Controlled Send 0/0 quiet exit. Contacted=37; active-Coverage qualifying unsent Yes+email=5 (Hearthlight/pack blocked); ready_for_send=0. Warm=Griffin HVAC (preview_viewed). Scored n=94 (Yes 56 / Hold 28 / No 10); emails 71/94. STL hard-stopped. Brand GigaWeave; Hearthlight only. Kit+Lane refill already queued from Morning QA. Wells republish requested for console.elephantharbor.com/harbor-local/. Thomas not notified (no trial milestone; short runway already surfaced at Morning QA)."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-17T07:50:00-05:00",
       "deskChanges": "hunts/thu-2026-09-17-controlled-send.md; no SoR Contacted change; no Lane GO",
       "lessonId": null,
-      "summary": "Thu Controlled Send: READY_FOR_SEND=0 \u2192 accepted 0 / failed 0 (quiet exit). Coverage peoria-il:hvac + springfield-il:hvac; STL hard-stopped. 5 Found Yes+email still BLOCKED_AWAITING_HEARTHLIGHT (Gill's, Corey, Canton, Bob Bergen, Collins). No prospect outbound; no Wells Contacted republish."
+      "summary": "Thu Controlled Send: READY_FOR_SEND=0 → accepted 0 / failed 0 (quiet exit). Coverage peoria-il:hvac + springfield-il:hvac; STL hard-stopped. 5 Found Yes+email still BLOCKED_AWAITING_HEARTHLIGHT (Gill's, Corey, Canton, Bob Bergen, Collins). No prospect outbound; no Wells Contacted republish."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-17T06:45:00-05:00",
       "deskChanges": "hunts/morning-qa-2026-09-17.md; prospect-table engagement sync Griffin; coverage cells meta; PROSPECT-TABLE banner; private-local twin sync",
       "lessonId": null,
-      "summary": "Morning engagement + send QA: staged packs=0 \u2192 ready_for_send=0 (cap 15). Warm=Griffin HVAC (preview_viewed). Coverage peoria-il:hvac QA/Gap Sweep\u00b7Medium + springfield-il:hvac Scoring\u00b7Medium; STL hard-stopped. Inventory: 5 Found Yes+email lacking Hearthlight/packs (Gill's, Corey, Canton, Bob Bergen, Collins) after 9/16 afternoon hunt failure. Kit+Lane asks queued via parent. No prospect outbound."
+      "summary": "Morning engagement + send QA: staged packs=0 → ready_for_send=0 (cap 15). Warm=Griffin HVAC (preview_viewed). Coverage peoria-il:hvac QA/Gap Sweep·Medium + springfield-il:hvac Scoring·Medium; STL hard-stopped. Inventory: 5 Found Yes+email lacking Hearthlight/packs (Gill's, Corey, Canton, Bob Bergen, Collins) after 9/16 afternoon hunt failure. Kit+Lane asks queued via parent. No prospect outbound."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-16T08:20:00-05:00",
       "deskChanges": "session-log + snapshot.sessionLog; segment-summary freshness/statusBrief/headlineMetrics; elephantharbor.github.io/data/session-log/local.json + segments/local.json; eh-console-gate private-local sync; Wells republish brief.",
       "lessonId": null,
-      "summary": "Weekday morning ops: Capital trial clock 24 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Morning QA 15/15 PASS \u2192 ready_for_send (Peoria HVAC 7 + Springfield HVAC 8, Hearthlight EXP-01 v3-a); 0 dropped; STL hard-stopped. Controlled Send 15/15 accepted via Resend (exp01-v3-a Hearthlight); SoR funnel \u2192 Contacted (Lane logged 08:12). Warm=Griffin HVAC human preview_viewed (Chuck\u2019s click = internal QA); Kit none; live /api/engagement returned 401 this run. Contacted=37; active-Coverage fresh unsent Yes+email=0. Brand GigaWeave; Hearthlight only for HVAC previews. Wells republish requested for console.elephantharbor.com/harbor-local/."
+      "summary": "Weekday morning ops: Capital trial clock 24 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Morning QA 15/15 PASS → ready_for_send (Peoria HVAC 7 + Springfield HVAC 8, Hearthlight EXP-01 v3-a); 0 dropped; STL hard-stopped. Controlled Send 15/15 accepted via Resend (exp01-v3-a Hearthlight); SoR funnel → Contacted (Lane logged 08:12). Warm=Griffin HVAC human preview_viewed (Chuck’s click = internal QA); Kit none; live /api/engagement returned 401 this run. Contacted=37; active-Coverage fresh unsent Yes+email=0. Brand GigaWeave; Hearthlight only for HVAC previews. Wells republish requested for console.elephantharbor.com/harbor-local/."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
       "at": "2026-09-16T08:12:48-05:00",
       "deskChanges": "outreach-drafts SENT; prospect-table Contacted; engagement outreach_sent; hunts/wed-2026-09-16-controlled-send.md",
       "lessonId": null,
-      "summary": "Wed 2026-09-16 Controlled Send: 15/15 accepted via Resend SMTP (exp01-v3-a Hearthlight). peoria-il:hvac + springfield-il:hvac. 0 STL. Funnel\u2192Contacted + previewSent."
+      "summary": "Wed 2026-09-16 Controlled Send: 15/15 accepted via Resend SMTP (exp01-v3-a Hearthlight). peoria-il:hvac + springfield-il:hvac. 0 STL. Funnel→Contacted + previewSent."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
@@ -56,19 +56,19 @@
       "at": "2026-09-15T08:48:00-05:00",
       "deskChanges": "outreach-drafts SENT; prospect-table Contacted; engagement outreach_sent; hunts/peoria-springfield-wave-send-2026-09-15.md",
       "lessonId": null,
-      "summary": "Thomas trigger: Peoria+Springfield wave peoria-springfield-ready-qa-2026-09-15 SENT 15/15 via Resend SMTP (exp01-v3-a). 0 STL. Funnel\u2192Contacted + previewSent."
+      "summary": "Thomas trigger: Peoria+Springfield wave peoria-springfield-ready-qa-2026-09-15 SENT 15/15 via Resend SMTP (exp01-v3-a). 0 STL. Funnel→Contacted + previewSent."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-15T08:35:00-05:00",
       "deskChanges": "session-log + snapshot.sessionLog; segment-summary freshness/humanAction/statusBrief; elephantharbor.github.io/data/session-log/local.json + segments/local.json; eh-console-gate private-local data+growth/desk mirror; Wells ping.",
       "lessonId": null,
-      "summary": "Weekday morning ops: Capital trial clock 25 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Overnight desk truth: Peoria wave-1 SENT 7/7; Peoria QA/Gap Sweep Medium; Springfield opened+top-up to n=75 (Yes 36 / Hold 29 / No 10); Tomorrow 0-STL Yes+email 15/15 EXP-01 v3-a packs READY_FOR_MORNING_QA (no new prospect send overnight). Synced snapshot.sessionLog (caught up missing 17:35 entry); mirrored portfolio session-log; refreshed segment-summary. Brand stamp GigaWeave (working/temporary \u2014 no domain/DBA); Action primary trade-color (Modern Bold alternate); contacted=7. Wells republish requested for console.elephantharbor.com/harbor-local/."
+      "summary": "Weekday morning ops: Capital trial clock 25 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Overnight desk truth: Peoria wave-1 SENT 7/7; Peoria QA/Gap Sweep Medium; Springfield opened+top-up to n=75 (Yes 36 / Hold 29 / No 10); Tomorrow 0-STL Yes+email 15/15 EXP-01 v3-a packs READY_FOR_MORNING_QA (no new prospect send overnight). Synced snapshot.sessionLog (caught up missing 17:35 entry); mirrored portfolio session-log; refreshed segment-summary. Brand stamp GigaWeave (working/temporary — no domain/DBA); Action primary trade-color (Modern Bold alternate); contacted=7. Wells republish requested for console.elephantharbor.com/harbor-local/."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
       "at": "2026-09-14T17:35:00-05:00",
-      "deskChanges": "dry-runs/*-2026-09-14 \u00d715; outreach-drafts.json +15 READY_FOR_MORNING_QA; prospect-table funnelState; hunts/ready-for-morning-qa-2026-09-14.md; engagement + suppression token maps.",
+      "deskChanges": "dry-runs/*-2026-09-14 ×15; outreach-drafts.json +15 READY_FOR_MORNING_QA; prospect-table funnelState; hunts/ready-for-morning-qa-2026-09-14.md; engagement + suppression token maps.",
       "lessonId": null,
       "summary": "EXP-01 v3-a packs for Peoria+Springfield 15 (0 STL): minted /r/ + unsub tokens, filled HTML/TXT, status READY_FOR_MORNING_QA. NO send. funnelState ready_for_morning_qa (not Contacted)."
     },
@@ -84,28 +84,28 @@
       "at": "2026-09-14T17:05:00-05:00",
       "deskChanges": "prospect-table +18; Accurate promote; observations/; hunts/peoria-springfield-fill-no-stl-2026-09-14.md; springfield market+cell twins; desk coverage markets/cells; segment-summary aggregates",
       "lessonId": null,
-      "summary": "Peoria+Springfield fill (0 STL): Accurate Hold\u2192Yes (ICC email); +1 Peoria Hold (Trouble Free); opened Springfield HVAC n=17 (10 Yes+email). Tomorrow proposed 12/15 (shortfall 3). No outbound/spend. Peoria cell stays QA/Gap Sweep Medium."
+      "summary": "Peoria+Springfield fill (0 STL): Accurate Hold→Yes (ICC email); +1 Peoria Hold (Trouble Free); opened Springfield HVAC n=17 (10 Yes+email). Tomorrow proposed 12/15 (shortfall 3). No outbound/spend. Peoria cell stays QA/Gap Sweep Medium."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
       "at": "2026-09-14T16:55:00-05:00",
       "deskChanges": "prospect-table +3; 6 promotions; observations/; hunts/send-ready-fill-2026-09-14.md; coverage cells peoria+stl metrics; segment-summary aggregates",
       "lessonId": null,
-      "summary": "Send-ready fill: human-verify 7 STL Yes; +8 net new Yes+email (6 Hold\u2192Yes + Kelvin + Carl's) \u2192 exactly 15 unsent Yes+email for tomorrow cap. Peoria long-tail +2 (Carl's/Gill's); cell stays QA/Gap Sweep Medium. No outbound/spend."
+      "summary": "Send-ready fill: human-verify 7 STL Yes; +8 net new Yes+email (6 Hold→Yes + Kelvin + Carl's) → exactly 15 unsent Yes+email for tomorrow cap. Peoria long-tail +2 (Carl's/Gill's); cell stays QA/Gap Sweep Medium. No outbound/spend."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
       "at": "2026-09-14T16:45:00-05:00",
       "deskChanges": "growth/coverage/markets+cells peoria; desk/coverage markets+cells; prospect-table +11; PROSPECT-TABLE.md; hunts/peoria-hvac-coverage-gap-sweep-2026-09-14.md; segment-summary aggregates",
       "lessonId": null,
-      "summary": "Peoria\u00d7HVAC coverage gap sweep: boundary defined; +11 net-new (n Peoria 22); DR 100% fail \u2192 state QA/Gap Sweep confidence Medium (not Complete/High). STL waits. No contact/spend."
+      "summary": "Peoria×HVAC coverage gap sweep: boundary defined; +11 net-new (n Peoria 22); DR 100% fail → state QA/Gap Sweep confidence Medium (not Complete/High). STL waits. No contact/spend."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
       "at": "2026-09-14T10:20:00-05:00",
       "deskChanges": "outreach-drafts SENT; prospect-table Contacted/previewSent; engagement outreach_sent events; hunts/peoria-wave1-send-2026-09-14.md",
       "lessonId": null,
-      "summary": "Peoria wave 1 SENT 7/7 via Resend SMTP (thomas@gigaweave.io). Action/Belking excluded. Funnel\u2192Contacted + previewSent on those rows."
+      "summary": "Peoria wave 1 SENT 7/7 via Resend SMTP (thomas@gigaweave.io). Action/Belking excluded. Funnel→Contacted + previewSent on those rows."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
@@ -126,14 +126,14 @@
       "at": "2026-09-14T09:34:00-05:00",
       "deskChanges": "growth/desk/prospect-table.json append+refresh; PROSPECT-TABLE.md regen; segment-summary aggregates; hunts/stl-metro-hvac-2026-09-14.md; session-log + snapshot.sessionLog; elephantharbor.github.io/data/session-log/local.json mirror.",
       "lessonId": null,
-      "summary": "Weekday STL metro HVAC discovery (DD-first): +7 net-new (True Comfort, Crabtree, Assured, 1 Source, Synergy, Garrett, B&W). Private SoR n=39 (STL+Peoria). Recommend Yes 14 / Hold 21 / No 4. Emails found 30/39. Refreshed 4 STL not_found contact rows (Click, Harris, Mr. Heating, Comfort Life) \u2014 still phone-only. Brand GigaWeave. No contact/spend/outbound. Wells republish requested for console desk."
+      "summary": "Weekday STL metro HVAC discovery (DD-first): +7 net-new (True Comfort, Crabtree, Assured, 1 Source, Synergy, Garrett, B&W). Private SoR n=39 (STL+Peoria). Recommend Yes 14 / Hold 21 / No 4. Emails found 30/39. Refreshed 4 STL not_found contact rows (Click, Harris, Mr. Heating, Comfort Life) — still phone-only. Brand GigaWeave. No contact/spend/outbound. Wells republish requested for console desk."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-14T08:29:00-05:00",
       "deskChanges": "session-log + snapshot.sessionLog; segment-summary freshness; elephantharbor.github.io/data/session-log/local.json + segments/local.json; eh-console-gate private-local mirror; Wells ping.",
       "lessonId": null,
-      "summary": "Weekday morning ops: Capital trial clock 26 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Overnight desk truth: Lane EXP-01 outreach v2 regen (9 drafts DRAFT_ONLY_HOLD) + preview engagement schema stubs. Mirrored session-log to portfolio; refreshed segment-summary freshness; console private-local sync. Brand GigaWeave; Action primary trade-color (Modern Bold alternate); contacted=0; no outbound. Wells republish requested for console.elephantharbor.com/harbor-local/."
+      "summary": "Weekday morning ops: Capital trial clock 26 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Overnight desk truth: Lane EXP-01 outreach v2 regen (9 drafts DRAFT_ONLY_HOLD) + preview engagement schema stubs. Mirrored session-log to portfolio; refreshed segment-summary freshness; console private-local sync. Brand GigaWeave; Action primary trade-color (Modern Bold alternate); contacted=0; no outbound. Wells republish requested for console.elephantharbor.com/harbor-local/."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
@@ -154,7 +154,7 @@
       "at": "2026-09-13T10:54:00-05:00",
       "deskChanges": "growth/desk/prospect-table.json append; PROSPECT-TABLE.md regen; segment-summary aggregates; hunts/peoria-il-hvac-2026-09-13.md; session-log + snapshot sessionLog.",
       "lessonId": null,
-      "summary": "Peoria IL metro HVAC DD-first prospect hunt: +11 net-new (n=32 total STL+Peoria). Scored provisional_v2. Recommend Yes 9 / Hold 19 / No 4. Emails found 25/32. Brand stamp \u2192 GigaWeave. No contact/spend/outbound."
+      "summary": "Peoria IL metro HVAC DD-first prospect hunt: +11 net-new (n=32 total STL+Peoria). Scored provisional_v2. Recommend Yes 9 / Hold 19 / No 4. Emails found 25/32. Brand stamp → GigaWeave. No contact/spend/outbound."
     },
     {
       "actor": "Blair (Harbor Local - CEO); Kit",
@@ -189,7 +189,7 @@
       "at": "2026-09-11T10:38:00-05:00",
       "deskChanges": "growth/desk/dry-runs/belking-2026-09-11/; Belking funnelState preview_prepared (in progress).",
       "lessonId": null,
-      "summary": "Second full prospect dry run started: Belking Heating & Cooling (76) \u2014 live site + owner email; apply Action Heating dry-run lessons. Fallback Controlled/Galmiche if revalidation fails. No contact."
+      "summary": "Second full prospect dry run started: Belking Heating & Cooling (76) — live site + owner email; apply Action Heating dry-run lessons. Fallback Controlled/Galmiche if revalidation fails. No contact."
     },
     {
       "actor": "Blair (Harbor Local - CEO); Lane; Kit",
@@ -203,32 +203,32 @@
       "at": "2026-09-11T10:30:00-05:00",
       "deskChanges": "growth/desk/dry-runs/action-heating-2026-09-11/; prospect funnelState preview_prepared (in progress).",
       "lessonId": null,
-      "summary": "Thomas full prospect dry run started: Action Heating (84) selected \u2014 only 80+ with real site + assets. Lane revalidates/dossier/email/offer; Kit personalized Modern Bold preview. End state Outreach Ready HOLD. No contact. Not an Active Venture."
+      "summary": "Thomas full prospect dry run started: Action Heating (84) selected — only 80+ with real site + assets. Lane revalidates/dossier/email/offer; Kit personalized Modern Bold preview. End state Outreach Ready HOLD. No contact. Not an Active Venture."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-11T10:20:00-05:00",
       "deskChanges": "static/app.js Overview Active Ventures + Customers empty copy; snapshot.activeVentures=[]; docs/ACTIVE-VENTURES.md; Wells republish requested.",
       "lessonId": null,
-      "summary": "Hayes Active Ventures rule applied: Local Overview shows explicit empty \u201cNo active customer ventures yet\u201d; prospects remain on Prospects only; customers[]/activeVentures[] stay empty until Won\u2192Active."
+      "summary": "Hayes Active Ventures rule applied: Local Overview shows explicit empty “No active customer ventures yet”; prospects remain on Prospects only; customers[]/activeVentures[] stay empty until Won→Active."
     },
     {
       "actor": "Wells (Portfolio - Systems)",
       "at": "2026-09-11T10:10:00-05:00",
       "deskChanges": "growth/desk/prospect-table.json outreachEmail Anytime found (17/21); PROSPECT-TABLE.md aggregates; console sync.",
-      "summary": "Thomas asked \u226570 email pass: recorded Anytime office Gmail from Facebook; Click/Harris/Mr Heating/Comfort Life remain not_found after second public pass. Store-only; no outbound."
+      "summary": "Thomas asked ≥70 email pass: recorded Anytime office Gmail from Facebook; Click/Harris/Mr Heating/Comfort Life remain not_found after second public pass. Store-only; no outbound."
     },
     {
       "actor": "Lane (Harbor Local - Growth); Blair (Harbor Local - CEO)",
       "at": "2026-09-11T10:07:00-05:00",
       "deskChanges": "growth/desk prospect-table + PROSPECT-TABLE.md + outreach-contact-backfill-2026-09-11.md; segment-summary email KPI; Wells console sync requested.",
       "lessonId": null,
-      "summary": "Outreach contact backfill complete (store-only): outreachEmail found=16 / not_found=5; phones 21/21. Prefer owner\u2192named\u2192generic. No outbound send."
+      "summary": "Outreach contact backfill complete (store-only): outreachEmail found=16 / not_found=5; phones 21/21. Prefer owner→named→generic. No outbound send."
     },
     {
       "actor": "Blair (Harbor Local - CEO); Lane (Harbor Local - Growth)",
       "at": "2026-09-11T10:05:00-05:00",
-      "deskChanges": "growth/desk prospect-table + PROSPECT-TABLE.md; segment-summary scored aggregates 16\u219221; snapshot + github.io session-log/local.json; console private-local mirror; Wells republish requested.",
+      "deskChanges": "growth/desk prospect-table + PROSPECT-TABLE.md; segment-summary scored aggregates 16→21; snapshot + github.io session-log/local.json; console private-local mirror; Wells republish requested.",
       "lessonId": null,
       "summary": "Scheduled weekday HVAC discovery+scoring first fire (scheduled-2026-09-11-daily): appended 5 net-new St. Louis metro HVAC rows preferring thin/no-site digital presence. Private table n=21. Recommend Yes 0 / Hold 17 / No 4. Preview Suitability High=15. NEW human-verify flags: Click (NAP/ownership), Comfort Life (Houston collision + phone). Also flagged Mr. Heating unpublished-404 site and Fleddermann BBB A+ claim mismatch. No outbound."
     },
@@ -244,19 +244,19 @@
       "at": "2026-09-11T09:58:00-05:00",
       "deskChanges": "growth/desk prospect-table + PROSPECT-TABLE.md; static/app.js + segment.css Prospects Discovered column; Wells republish requested.",
       "lessonId": null,
-      "summary": "Prospects tab: added Discovered (discoveredAt) column; backfilled seed dry-run rows to 2026-09-07; today\u2019s discovery rows keep 2026-09-11. Contact Readiness remains readiness notes only \u2014 no structured outreach email vault."
+      "summary": "Prospects tab: added Discovered (discoveredAt) column; backfilled seed dry-run rows to 2026-09-07; today’s discovery rows keep 2026-09-11. Contact Readiness remains readiness notes only — no structured outreach email vault."
     },
     {
       "actor": "Lane (Harbor Local - Growth); Blair (Harbor Local - CEO)",
       "at": "2026-09-11T09:49:00-05:00",
-      "deskChanges": "growth/desk prospect table + PROSPECT-TABLE.md; segment-summary scored aggregates 11\u219216; console Prospects sync requested via Wells.",
+      "deskChanges": "growth/desk prospect table + PROSPECT-TABLE.md; segment-summary scored aggregates 11→16; console Prospects sync requested via Wells.",
       "lessonId": null,
       "summary": "Manual weekday HVAC discovery (Thomas ask; scheduled routine had never fired): appended 5 net-new St. Louis metro HVAC rows. Private table n=16. Recommend Yes 0 / Hold 12 / No 4. Preview Suitability High=10. New human-verify flags on Harris, American, and Belking (Watson seed flag still stands). No outbound."
     },
     {
       "actor": "Wells (Portfolio - Systems)",
       "at": "2026-09-11T09:23:00-05:00",
-      "deskChanges": "segment-summary dashboardUrl \u2192 console; public github.io still empty for Local Pages.",
+      "deskChanges": "segment-summary dashboardUrl → console; public github.io still empty for Local Pages.",
       "summary": "Local desk published behind console auth at console.elephantharbor.com/harbor-local/ with Prospects table and Action Heating desk-previews. Public github.io Local Pages remain unpublished (correct). Portfolio tile desk URL points at console."
     },
     {
@@ -264,14 +264,14 @@
       "at": "2026-09-11T08:46:00-05:00",
       "deskChanges": "desk-previews/ gallery + Platform tab wiring. Cycle 1.7 STATUS. Lesson desk-private-previews.",
       "lessonId": "desk-private-previews",
-      "summary": "First real-prospect populated preview (Action Heating) is on the authenticated Local desk Platform tab \u2014 Modern Bold primary, Classic available. Placeholders and auto-preview rule documented. Local-only host; not github.io."
+      "summary": "First real-prospect populated preview (Action Heating) is on the authenticated Local desk Platform tab — Modern Bold primary, Classic available. Placeholders and auto-preview rule documented. Local-only host; not github.io."
     },
     {
       "actor": "Kit (Harbor Local - Platform)",
       "at": "2026-09-11T08:52:00-05:00",
       "deskChanges": "Platform tab gallery + data/desk-previews.json; placeholders + AUTO-PREVIEW-RULE docs; snapshot platform block factual (1 HVAC family, 1 populated preview / 2 variants, local desk-previews only).",
       "lessonId": "working-brand-unblocks-desk",
-      "summary": "Cycle 1.7 portfolio previews: documented reusable verified-JSON placeholders; copied Action Heating Modern Bold (primary) + Classic Trust into private desk-previews for Tom\u2019s local review. Trailmark stamped as temporary unofficial working brand on desk chrome and preview footers only \u2014 not as Action Heating\u2019s logo. Auto-preview rule uses Preview Suitability High + Opportunity + Confidence, not a naive \u226580 composite."
+      "summary": "Cycle 1.7 portfolio previews: documented reusable verified-JSON placeholders; copied Action Heating Modern Bold (primary) + Classic Trust into private desk-previews for Tom’s local review. Trailmark stamped as temporary unofficial working brand on desk chrome and preview footers only — not as Action Heating’s logo. Auto-preview rule uses Preview Suitability High + Opportunity + Confidence, not a naive ≥80 composite."
     },
     {
       "actor": "Lane (Harbor Local - Growth)",
@@ -298,7 +298,7 @@
       "at": "2026-09-10T15:10:00-05:00",
       "deskChanges": "STATUS Cycle 1.6; Classic vs Modern note; before/after shots. Segment summary marked both at craft bar.",
       "lessonId": "shared-craft-not-shared-look",
-      "summary": "Cycle 1.6 Classic Trust elevation delivered: heritage warm/serif strategy brought to Modern Bold\u2019s craft bar (HVAC hero pipeline, WCAG text, 2-line H1, Established 1977 + A+ BBB masthead, Lucide badges). Modern Bold left untouched as primary."
+      "summary": "Cycle 1.6 Classic Trust elevation delivered: heritage warm/serif strategy brought to Modern Bold’s craft bar (HVAC hero pipeline, WCAG text, 2-line H1, Established 1977 + A+ BBB masthead, Lucide badges). Modern Bold left untouched as primary."
     },
     {
       "actor": "Kit (Harbor Local - Platform)",
@@ -324,34 +324,34 @@
       "actor": "Kit (Harbor Local - Platform)",
       "at": "2026-09-09T16:45:00-05:00",
       "deskChanges": "Platform STATUS and Cycle 1.5 plan updated; segment-summary statusDetail notes 1.5 in progress. No outbound; metrics unchanged (zeros).",
-      "summary": "Cycle 1.5 immersive redesign started from Thomas\u2019s brief: Modern Bold premium with glass, depth, bento layout, and amber/cyan accents. Pivot away from Cycle 1.4\u2019s oversized 1977 editorial story toward a floating glass credibility bar."
+      "summary": "Cycle 1.5 immersive redesign started from Thomas’s brief: Modern Bold premium with glass, depth, bento layout, and amber/cyan accents. Pivot away from Cycle 1.4’s oversized 1977 editorial story toward a floating glass credibility bar."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-09T14:30:00-05:00",
       "deskChanges": "docs/cycle-1-1/BRAND-CANDIDATES-ROUND-3.md added; brand remains Open (no lock, no domain buy). Segment summary brand hint can say Round 3 open.",
-      "summary": "Brand Round 3 published \u2014 24 name candidates across descriptive, evocative, and coined buckets. Prior Round 1\u20132 stems excluded. Prototype screenshot refresh for desk review alongside the open brand path."
+      "summary": "Brand Round 3 published — 24 name candidates across descriptive, evocative, and coined buckets. Prior Round 1–2 stems excluded. Prototype screenshot refresh for desk review alongside the open brand path."
     },
     {
       "actor": "Kit (Harbor Local - Platform)",
       "at": "2026-09-07T16:20:00-05:00",
       "deskChanges": "Compare shots and concept note updated; quality-bar / distinctiveness rules codified for future verticals.",
       "lessonId": "distinctiveness-travels",
-      "summary": "Cycle 1.4 distinctiveness pass on Modern Bold: \u201cSince 1977\u201d editorial year identity, restrained louver geometry, and a proposed Action Heating wordmark/mark (labeled creative direction, not theirs)."
+      "summary": "Cycle 1.4 distinctiveness pass on Modern Bold: “Since 1977” editorial year identity, restrained louver geometry, and a proposed Action Heating wordmark/mark (labeled creative direction, not theirs)."
     },
     {
       "actor": "Kit (Harbor Local - Platform)",
       "at": "2026-09-07T14:00:00-05:00",
       "deskChanges": "Visual notes and STATUS Cycle 1.3 recorded; still template-based Action Heating fixture.",
       "lessonId": "verified-facts-quality-bar",
-      "summary": "Cycle 1.3 craft pass on Modern Bold (primary) with Classic Trust secondary \u2014 photography, type hierarchy, trust strip honesty, and visual rules tightened before the distinctiveness gate."
+      "summary": "Cycle 1.3 craft pass on Modern Bold (primary) with Classic Trust secondary — photography, type hierarchy, trust strip honesty, and visual rules tightened before the distinctiveness gate."
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-07T12:30:00-05:00",
-      "deskChanges": "docs/llc-binder/ 07\u201311 drafts on desk; human legal gates still pending.",
+      "deskChanges": "docs/llc-binder/ 07–11 drafts on desk; human legal gates still pending.",
       "lessonId": "brand-widget-not-lock",
-      "summary": "LLC binder drafts \u00a7\u00a707\u201311 (MSA, WaaS SOW, hosting addendum, IP framework, customer readiness) prepared for Hayes review. Brand stays {{brand}} / proposal-only; Sitekeep not treated as locked."
+      "summary": "LLC binder drafts §§07–11 (MSA, WaaS SOW, hosting addendum, IP framework, customer readiness) prepared for Hayes review. Brand stays {{brand}} / proposal-only; Sitekeep not treated as locked."
     },
     {
       "actor": "Lane (Harbor Local - Growth) + Kit (Harbor Local - Platform)",
@@ -365,8 +365,8 @@
       "at": "2026-09-15T09:40:00-05:00",
       "deskChanges": "prospect-table + PROSPECT-TABLE; coverage cells springfield/peoria; hunt note; observations Ace/AirAce/Merit/Premier/Bormida; segment-summary + session-log + snapshot sessionLog; github.io local.json sanitized; eh-console private sync",
       "lessonId": null,
-      "summary": "Springfield/Peoria gap springfield-peoria-gap-2026-09-15: +3 Springfield net-new (Premier+Bormida Yes+email, Central IL Hold); email fills Ace/AirAce/Merit Hold\u2192Yes + Thermal fill stay-Hold. n 75\u219278; Yes 41 / Hold 27 / No 10; emails 56/78. Fresh unsent Yes+email=5. Morning wave already SENT 15/15. 0 STL. No outbound this pass."
+      "summary": "Springfield/Peoria gap springfield-peoria-gap-2026-09-15: +3 Springfield net-new (Premier+Bormida Yes+email, Central IL Hold); email fills Ace/AirAce/Merit Hold→Yes + Thermal fill stay-Hold. n 75→78; Yes 41 / Hold 27 / No 10; emails 56/78. Fresh unsent Yes+email=5. Morning wave already SENT 15/15. 0 STL. No outbound this pass."
     }
   ],
-  "lastUpdated": "2026-09-17T08:00:00-05:00"
+  "lastUpdated": "2026-09-17T08:24:49-05:00"
 }
