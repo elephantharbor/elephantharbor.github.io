@@ -1,51 +1,46 @@
 {
-  "currentObjective": "Rebuild the next send roster from active Coverage cells; Controlled Send owns first-touch; STL remains hard-stopped.",
-  "currentStatusBrief": "Sep17 discovery top-up +3. Scored n=112. Contacted=52. Discovery coverage: Peoria QA / Gap Sweep · Medium; Springfield Scoring · Medium. Qualifying unsent Yes+email=7 (shortfall 8). 0 outbound in the top-up.",
+  "currentObjective": "Fri 2026-09-18 Morning QA on locked EXP-02 cohort (10 EXP-02-a / 5 EXP-01 v3-a); Controlled Send after QA PASS; STL hard-stopped; work-ahead reserve=klaus.",
+  "currentStatusBrief": "Afternoon hunt COMPLETE. Fri runway READY=16 (cohort 15 locked + 1 reserve). Contacted=52. Warm=Griffin. Trial ~23d left. NO SEND until Fri QA.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 0,
-  "freshnessNote": "Local SoR aggregate remirror 2026-09-17T10:24:12-05:00 after thu-2026-09-17-discovery-topup (+3; n=112; Contacted=52; qualifying unsent Yes+email=7).",
+  "freshnessNote": "SoR synced 2026-09-17T13:05:00-05:00 after thu-2026-09-17-afternoon-hunt (READY=16; Spoon River reconcile).",
   "headlineMetrics": [
     {
-      "hint": "Funnel aggregate; named rows remain private",
       "label": "Funnel (contacted)",
-      "value": "52"
+      "value": "52",
+      "hint": "Wed Controlled Send + Sep17 same-day waves"
     },
     {
-      "hint": "Recommend Yes 73 / Hold 29 / No 10",
-      "label": "Scored (aggregate)",
-      "value": "112"
+      "label": "Fri READY runway",
+      "value": "16",
+      "hint": "≥15 rule met; cohort 15 locked + klaus reserve"
     },
     {
-      "hint": "Private SoR only; no contact details published",
-      "label": "Emails stored",
-      "value": "89/112"
+      "label": "Fri cohort",
+      "value": "10/5",
+      "hint": "EXP-02-a treatment / EXP-01 v3-a holdout"
     },
     {
-      "hint": "Active Coverage roster; shortfall vs 15 = 8",
       "label": "Fresh unsent Yes+email",
-      "value": "7"
+      "value": "16",
+      "hint": "All ready_for_morning_qa; 0 Found stubs"
     },
     {
-      "hint": "Peoria QA / Gap Sweep · Medium; Springfield Scoring · Medium; STL hard-stopped",
-      "label": "Discovery coverage",
-      "value": "2 active cells"
-    },
-    {
-      "hint": "Working/temporary stamp — no domain/DBA lock",
       "label": "Brand",
-      "value": "GigaWeave"
+      "value": "GigaWeave",
+      "hint": "Hearthlight HVAC previews only"
     }
   ],
-  "humanAction": "Wells: auth Worker and public aggregates remirrored. Kit+Lane: restore the active Coverage roster toward the 15-send cap. No named prospects are published.",
-  "lastUpdated": "2026-09-17T10:24:12-05:00",
+  "humanAction": "Wells: republish console.elephantharbor.com/harbor-local/ (Prospects READY chips + Overview + Logs). Thomas: Fri runway 16 READY briefed. No spend/legal gate.",
+  "lastUpdated": "2026-09-17T13:05:00-05:00",
   "latestLesson": {
-    "change": "Primary creative direction is trade-color; the alternate remains in the family. Outreach draft preview points at the primary direction.",
-    "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey simulation PASS.",
-    "experience": "Trade Color won on prospect interest; a flat Blueprint needed atmosphere without a fifth variant.",
-    "learning": "Promote the outreach-hook variant in place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
+    "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
+    "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
+    "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
+    "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
     "originationDate": "2026-09-12"
   },
   "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
@@ -54,7 +49,7 @@
     "areaId": "local",
     "areaName": "Harbor Local",
     "items": [],
-    "lastUpdated": "2026-09-17T10:24:12-05:00"
+    "lastUpdated": "2026-09-07T08:20:00-05:00"
   },
   "owner": "Blair (Harbor Local - CEO)",
   "publicLinks": [
@@ -67,5 +62,5 @@
   "segmentId": "local",
   "segmentName": "Harbor Local",
   "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=112. Recommend Yes 73 / Hold 29 / No 10. Emails 89/112. Contacted=52. Discovery: Peoria QA / Gap Sweep · Medium; Springfield Scoring · Medium; STL hard-stopped. Active-Coverage qualifying unsent Yes+email=7 (shortfall 8); ready_for_send=0. Brand GigaWeave."
+  "statusDetail": "Internal-hard. Scored HVAC n=118. Contacted=52. READY_FOR_MORNING_QA=16 for Fri EXP-02 cohort. STL hard-stopped. Brand GigaWeave. Hearthlight only."
 }

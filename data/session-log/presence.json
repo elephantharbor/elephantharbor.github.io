@@ -1,8 +1,15 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-16T17:29:00-05:00",
+  "lastUpdated": "2026-09-17T10:37:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-17T10:37:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Refreshed desk from Rowan’s Thu EXP-02 day 2: 9 replies (Q8/D1). Cumulative 18/30 (Q14/D4/obs0). Next behavior link: more ranking/disagreement so the window isn’t almost all questions. No engagement events.",
+      "deskChanges": "Next Up → Fri Sep 18; posts 81; EXP-02 AV + Learning progress; Thu content logged.",
+      "lessonId": "exp02-voice-not-volume"
+    },
     {
       "at": "2026-09-16T17:29:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
