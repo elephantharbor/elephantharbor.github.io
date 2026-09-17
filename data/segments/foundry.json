@@ -4,14 +4,14 @@
   "description": "Software venture creation.",
   "mission": "Find weak or dated incumbent software markets, validate opportunities to replace them, and build substantial new software businesses where evidence warrants it.",
   "status": "Building",
-  "statusDetail": "One operating venture (Setaside). Latch paused. Cheap Tests executed 2026-09-16 evening: SurveyOps ACT; Lightspeed DMS REJECT; Ajera REJECT \u2014 all still on Cheap Test stage.",
+  "statusDetail": "One operating venture (Setaside). Latch paused. Cheap Tests: SurveyOps ACT + Fenceops ACT + ShopWorks WATCH. ServiceCore + Watertreat-ops + Lightspeed + Ajera REJECT Closed.",
   "owner": "Calder (Harbor Foundry - CEO)",
-  "lastUpdated": "2026-09-16T18:15:00-05:00",
+  "lastUpdated": "2026-09-17T08:58:00-05:00",
   "headlineMetrics": [
     {
       "label": "Operating ventures",
       "value": "1",
-      "hint": "Setaside Designs on Etsy \u2014 live, $0 sales so far"
+      "hint": "Setaside Designs on Etsy — live, $0 sales so far"
     },
     {
       "label": "Active validation sprints",
@@ -21,7 +21,7 @@
     {
       "label": "Prospects under research",
       "value": "3",
-      "hint": "Cheap Test stage: SurveyOps ACT; Lightspeed+Ajera REJECT pending close \u2014 not sprint-staffed"
+      "hint": "Cheap Test: SurveyOps ACT + Fenceops ACT + ShopWorks WATCH"
     },
     {
       "label": "Awaiting approval",
@@ -29,13 +29,13 @@
       "hint": "No investment memos pending Thomas"
     }
   ],
-  "currentObjective": "Ellis red-team SurveyOps ACT path; close Lightspeed + Ajera rejects on desk. Memo gate only for major sprints. Latch paused.",
-  "currentStatusBrief": "Latch Paused. Setaside Operating $24/$0. Nico Cheap Tests: SurveyOps ACT; Lightspeed DMS REJECT; Ajera REJECT. Not staffed. Afterfee dead.",
+  "currentObjective": "Continue SurveyOps + Fenceops ACT crowding checks; ShopWorks WATCH for OnSite NXT/14. Memo gate only for major sprints. Latch paused.",
+  "currentStatusBrief": "Latch Paused. Setaside Operating $24/$0. Cheap Tests: SurveyOps ACT + Fenceops ACT + ShopWorks WATCH. ServiceCore+Watertreat+Lightspeed+Ajera REJECT Closed. Not staffed. Afterfee dead.",
   "latestLesson": {
-    "experience": "Cheap Tests on soft DMS/ERP leftovers die when OEM pedigree or QB+PM companions already own the migrate path.",
-    "evidence": "Lightspeed OEM lock; Ajera\u2192Monograph/Factor+QBO public migrate stories.",
-    "learning": "EMPTY-over-overlays: RO skins and time\u2192invoice helpers are not Harbor SoR. Survey ops beside CAD still clears.",
-    "change": "Advance only SurveyOps; reject Lightspeed and Ajera without staffing."
+    "experience": "Thu Cheap Tests: vertical Excel gaps can ACT (fenceops); soft route SoR billing leftover fails as AR overlay (ServiceCore); vendor-own UI rewrites block ACT (ShopWorks NXT); mature vertical SoRs + vendor-only Excel claims → REJECT (watertreat).",
+    "evidence": "ops/cheaptest-cohort-2026-09-17-results.md; four result files.",
+    "learning": "Overlay-kill first on billing wedges; vendor-own successor (NXT/14) is a Confirmed ACT block even when thin-quoter falsifier fails; prefer EMPTY when destination already has WaterFlex/Watertight-class tenants.",
+    "change": "Advance Fenceops ACT + ShopWorks WATCH; close ServiceCore and Watertreat; SurveyOps unchanged."
   },
   "needsHumanAction": false,
   "humanAction": null,
@@ -51,26 +51,28 @@
   "nextUp": {
     "areaId": "foundry",
     "areaName": "Harbor Foundry",
-    "lastUpdated": "2026-09-16T08:50:00-05:00",
+    "lastUpdated": "2026-09-17T08:58:00-05:00",
     "items": [
       {
-        "title": "Setaside shop health check",
-        "nextRunAt": "2026-09-16T09:00:00-05:00",
-        "scheduleLabel": "Weekdays 9:00 AM CT",
-        "owner": "Sable (Harbor Foundry - Setaside)"
-      },
-      {
         "title": "Foundry operations pre-brief",
-        "nextRunAt": "2026-09-17T07:30:00-05:00",
+        "nextRunAt": "2026-09-18T07:30:00-05:00",
         "scheduleLabel": "Weekdays 7:30 AM CT",
         "owner": "Fernando (Harbor Foundry - Ops)"
       },
       {
         "title": "Foundry morning brief",
-        "nextRunAt": "2026-09-17T08:00:00-05:00",
+        "nextRunAt": "2026-09-18T08:00:00-05:00",
         "scheduleLabel": "Weekdays 8:00 AM CT",
         "owner": "Calder (Harbor Foundry - CEO)"
+      },
+      {
+        "title": "Setaside shop health check",
+        "nextRunAt": "2026-09-18T09:00:00-05:00",
+        "scheduleLabel": "Weekdays 9:00 AM CT",
+        "owner": "Sable (Harbor Foundry - Setaside)"
       }
     ]
-  }
+  },
+  "headline": "",
+  "currentStatus": "OS v2 Cheap Test results 2026-09-17 morning CT: Fenceops ACT; ShopWorks WATCH; ServiceCore REJECT Closed; Watertreat-ops REJECT Closed. SurveyOps ACT continues. Lightspeed DMS + Ajera stay REJECT Closed. Setaside Operating $24/$0. Latch paused. Afterfee dead. $0."
 }
