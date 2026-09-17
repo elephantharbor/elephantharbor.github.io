@@ -2,7 +2,7 @@
 
 **Issued:** 2026-09-16 by Wells (Portfolio Systems)  
 **Schema:** `learning-v0`  
-**Companion:** [LEARNING-SYSTEM.md](LEARNING-SYSTEM.md) · [OS-V2-DOCTRINE.md](OS-V2-DOCTRINE.md)
+**Companion:** [LEARNING-SYSTEM.md](LEARNING-SYSTEM.md) · [OS-V2-DOCTRINE.md](OS-V2-DOCTRINE.md) · [ORG-OPERATING-STANDARDS.md](ORG-OPERATING-STANDARDS.md) §6 · [SYNC.md](SYNC.md)
 
 ## Goal
 
@@ -17,7 +17,7 @@ Future segment desks may use `data/learning/capital.json`, etc.
 ## Hard rules
 
 1. **`requiredBehavioralChange` is mandatory.** The shared renderer skips any item missing it.
-2. **Material status change → desk Learning updates same turn** (brief note in session log / deskChanges).
+2. **Material status change → desk Learning updates same turn** (brief note in session log / deskChanges). Action now / Learning later is a defect — same [SYNC.md](SYNC.md) contract as other desk surfaces.
 3. **Contextual lessons** may move `Weakening → Superseded / Rejected`. No permanent dogma from thin samples.
 
 ## Schema (learning-v0)
@@ -42,3 +42,10 @@ Per item: `id`, `title`, `status`, `segment`, `scope`, `observation`, `evidence`
 
 - **Manual (CEO / lesson owner):** keep area JSON truthful when lessons open, status moves, or outcomes land.
 - **Automatic (Wells chrome):** load JSON, filter items without behavioral change, render compact cards with native expand.
+
+## OS v2 chrome alignment
+
+- Cards lead with business meaning (title, status, owner, required behavioral change) — IDs/URLs secondary.
+- Never render a lesson card missing `requiredBehavioralChange` (skip, do not show a hollow shell).
+- Contextual lessons must be allowed to weaken and retire; thin samples are not permanent dogma.
+- Shared grid/query rules for denser Learning tables later: [DESK-GRID.md](DESK-GRID.md).

@@ -80,3 +80,5 @@ Thomas Local upgrade — portfolio-wide:
 
 Local implements exemplars (7-tab IA, Prospects grid, EXP-02, afternoon hunt outcome targets). Wells owns shared chrome/contracts. Segments own business truth.
 
+Contracts: [SYNC.md](SYNC.md) (same-workflow desk sync) · [DESK-GRID.md](DESK-GRID.md) (shared grid/query; lands with Local Prospects exemplar) · [LEARNING-DESK.md](LEARNING-DESK.md).
+
