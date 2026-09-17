@@ -35,3 +35,15 @@ Stable principles live here. Temporary task details do not override this file.
 ## Desk sync & human gates
 
 Material state changes update the authenticated operating desk **in the same operating turn**. Escalate only genuine human gates: spend beyond delegated authority, identity/2FA, account permissions, meaningful legal commitments, contracts, consequential external actions requiring human approval. Otherwise operate. Daily required ops continue during any reorganization.
+
+## Console & operating primitives (2026-09-17 — Thomas Local upgrade)
+
+Portfolio-wide standing law for all segments and Systems:
+
+1. **Same-workflow desk sync** — A material business-state change requires the corresponding desk-state change in the **same workflow / same operating turn**. Action now, desk later is a defect.
+2. **Outcome-based routines** — When a routine names a required output, success is delivering that output (including designed fallbacks/retries). Merely executing the first attempt is not success.
+3. **Data correctness** — Never display knowingly transient or incorrect business state while waiting for real state to initialize. Prefer honest empty/loading/stale markers over wrong numbers.
+4. **Shared grid architecture** — Reusable console grids share reliable sort, filter, pagination, and query behavior across the console.
+5. **Human readability** — Executive interfaces favor clear business meaning over internal implementation details.
+6. **Learning from weak results** — Repeated poor outcomes trigger experiments and behavioral change — not indefinite repetition of the same failing pattern.
+

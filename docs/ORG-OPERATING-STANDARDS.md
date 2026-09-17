@@ -64,3 +64,19 @@ Portfolio Operating System v2 is standing law. Read and follow:
 - [CAPITAL-OS-V2-ACTIVATION.md](CAPITAL-OS-V2-ACTIVATION.md) — Capital market activation under OS v2
 
 **Standing ops that continue under OS v2:** same-day / same-turn desk sync (§1, §4); plain English human-readable writing (§2); [ACTIVE-VENTURES.md](ACTIVE-VENTURES.md); Hayes portfolio **morning books**; session logs (§5). OS v2 supersedes transient chat activation reminders — it does not freeze daily books or desk hygiene.
+
+## 6. Console & operating primitives (2026-09-17)
+
+Thomas Local upgrade — portfolio-wide:
+
+| Primitive | Standard |
+|---|---|
+| Desk sync | Material business-state change ⇒ desk update in the **same workflow/turn** |
+| Outcome-based routines | Named output = success criterion; first-attempt execution alone is not success |
+| Data correctness | Never show knowingly wrong/transient business numbers while real state initializes |
+| Grid architecture | Shared grids: reliable sort / filter / pagination / query across the console |
+| Human readability | Executive UI favors business meaning over implementation detail |
+| Weak-result learning | Repeated poor outcomes ⇒ experiments + behavior change, not endless repetition |
+
+Local implements exemplars (7-tab IA, Prospects grid, EXP-02, afternoon hunt outcome targets). Wells owns shared chrome/contracts. Segments own business truth.
+
