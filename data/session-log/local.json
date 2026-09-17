@@ -3,6 +3,13 @@
   "areaName": "Harbor Local",
   "entries": [
     {
+      "actor": "Lane (Harbor Local - Growth)",
+      "at": "2026-09-17T08:22:46-05:00",
+      "deskChanges": "outreach-drafts SENT\u00d75; prospect-table Contacted\u00d75; engagement outreach_sent\u00d75; hunts/sep17-same-day-send.md",
+      "lessonId": null,
+      "summary": "Thomas same-day override: sep17-same-day-send 5/5 accepted via Resend SMTP (exp01-v3-a Hearthlight, build c7d89d70). Slugs: gills-heating, corey-heating, canton-heating, bob-bergen-heating, collins-heating. 0 STL. Funnel\u2192Contacted + previewSent. Failed=0."
+    },
+    {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-17T08:00:00-05:00",
       "deskChanges": "session-log + snapshot.sessionLog/currentStatus/metrics; segment-summary freshness/statusBrief/headlineMetrics/humanAction; elephantharbor.github.io/data/session-log/local.json + segments/local.json; eh-console-gate private-local data + growth/desk sync; Wells republish brief.",
