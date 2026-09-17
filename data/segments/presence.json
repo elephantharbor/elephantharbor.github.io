@@ -4,24 +4,24 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "Tue pass: 11 busy-room replies + 1 original; Mon overnight confirms busy>>original; followers 0; next Wed Sep 16.",
+  "statusDetail": "EXP-02 day 1: 9 replies Q6/D3/obs0 (9/30); posts 72; next Thu Sep 17 prefer 20+ reply threads.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-15T11:11:00-05:00",
+  "lastUpdated": "2026-09-16T17:29:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
       "value": "0",
-      "hint": "Public profile morning 2026-09-15 (corrected from prior desk 1)"
+      "hint": "After Wed late pass"
     },
     {
       "label": "X posts",
-      "value": "~63",
-      "hint": "After Tue busy-room pass"
+      "value": "72",
+      "hint": "63 → 72 after EXP-02 day 1"
     },
     {
-      "label": "Mon overnight replies",
-      "value": "146–173 top",
-      "hint": "vs Mercury original 5 — busy-room pattern held"
+      "label": "EXP-02 progress",
+      "value": "9/30",
+      "hint": "Q6 · D3 · obs0 — on track for ≥15 Q+D"
     },
     {
       "label": "Public website",
@@ -29,14 +29,14 @@
       "hint": "Gmail temporary"
     }
   ],
-  "currentObjective": "Weekday ~8–15 thoughtful human replies + regular originals, gated on genuine busy-thread openings (do not fill quota in quiet rooms). Originals = range, not the growth lever. Measure public views/likes/replies/follows; replace near-zero methods.",
-  "currentStatusBrief": "Tue: 11 busy-room replies + wooden-mouse original. Mon overnight still favors busy rooms. Followers 0 (public). Next pass Wed 10:00 CT. Nothing needs Thomas.",
+  "currentObjective": "EXP-02 Testing: next 30 replies ≥15 questions/disagreements; ≤10 observational metaphors; ban AI cadences; busy-room gate + ~8–15/day. Link outcomes → next behavior each pass.",
+  "currentStatusBrief": "Late Wed EXP-02: mix compliant (0 observational). Still no engagement events at post. Next: busier threads (20+ replies). Thu 10:00 CT. Nothing needs Thomas.",
   "latestLesson": {
-    "experience": "Across Sep 8–11, selective replies into already-busy rooms reached hundreds/thousands of views while standalone originals stayed in the low teens; expanding reply volume into quieter threads on Fri diluted the reply median to 19.5 vs originals’ 10.",
-    "evidence": "Same @elephantharbor account, public view counts only (no Premium), full aged sample n=18 replies / n=4 originals. Ratio 1.95× vs ≥2.0× hypothesis. First follower appeared; Melbourne reply earned 2 likes.",
-    "learning": "Busy-room quality beats reply count for a near-zero-follower account. Volume without busy-room bias can fail a median test even when the high end still proves the pattern.",
-    "change": "Keep the ~8–15 weekday bar, but gate volume on genuine busy-thread openings; treat originals as range, not the growth lever. Do not chase quiet-room quota fills.",
-    "originationDate": "2026-09-12"
+    "experience": "Near-zero likes/follows persisted after EXP-01 and continued observational busy-room replies.",
+    "evidence": "EXP-01 FAIL 1.95×; Mon–Tue tops ~146–173 views with ~0 engagement events; followers 0 public.",
+    "learning": "Impression-winning rooms + unchanged observational voice is insufficient — voice/form must change and be measured.",
+    "change": "EXP-02: next 30 replies ≥15 questions/disagreements; ≤10 observational metaphors; ban AI cadences; measure engagement events.",
+    "originationDate": "2026-09-16"
   },
   "needsHumanAction": false,
   "humanAction": null,
@@ -81,10 +81,16 @@
   },
   "activeVentures": [
     {
+      "id": "exp-02-voice-shift",
+      "title": "EXP-02 — Voice/form shift (questions & disagreement)",
+      "status": "Active — Testing",
+      "nextMilestone": "Thu 2026-09-17 weekday pass; continue mix tally toward 30"
+    },
+    {
       "id": "x-volume-bar",
-      "title": "X volume bar — ~8–15 human replies/day + regular originals",
+      "title": "X volume bar — ~8–15 replies/day with busy-room gate",
       "status": "Active",
-      "nextMilestone": "Mon 2026-09-14 weekday pass under ~8–15 + busy-room gate; watch reply median quality"
+      "nextMilestone": "Thu 2026-09-17 under EXP-02"
     }
   ]
 }

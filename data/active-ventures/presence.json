@@ -1,22 +1,37 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-15T11:11:00-05:00",
+  "lastUpdated": "2026-09-16T17:29:00-05:00",
   "items": [
     {
-      "id": "x-volume-bar",
-      "title": "X volume bar — ~8–15 human replies/day + regular originals",
+      "id": "exp-02-voice-shift",
+      "title": "EXP-02 — Voice/form shift (questions & disagreement)",
       "segment": "presence",
       "submarket": null,
-      "description": "Weekday ~8–15 thoughtful human replies + regular originals, gated on genuine busy-thread openings (do not fill quiet-room quotas). Measure public engagement; originals as range.",
+      "description": "Next 30 published replies: ≥15 questions or explicit disagreements; ≤10 dry observational metaphors; ban AI cadences. Busy-room gate retained. Measure engagement events + median views vs prior observational 30.",
+      "status": "Active — Testing",
+      "startDate": "2026-09-16",
+      "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
+      "exposure": "$0 / no Premium; ≤5 weekday passes or 30 replies",
+      "performance": "Day 1: 9 replies — questions 6 / disagreements 3 / observational 0. Cumulative 9/30. No likes/replies/follows during pass. Next pass: prefer threads with 20+ replies.",
+      "nextMilestone": "Thu 2026-09-17 weekday pass; continue mix tally toward 30",
+      "detailLink": "https://elephantharbor.github.io/harbor-presence/#experiments",
+      "lastUpdated": "2026-09-16T17:29:00-05:00"
+    },
+    {
+      "id": "x-volume-bar",
+      "title": "X volume bar — ~8–15 replies/day with busy-room gate",
+      "segment": "presence",
+      "submarket": null,
+      "description": "Weekday volume with busy-thread gate; now subordinated to EXP-02 voice mix (quality of form, not just room).",
       "status": "Active",
       "startDate": "2026-09-11",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
-      "exposure": "$0 / no Premium; weekday passes; weekends quiet unless asked",
-      "performance": "Tue Sep 15: 11 busy-room replies + 1 original. Mon overnight aging: top replies 146–173 vs Mercury original 5. Followers 0 (public). Posts ~63.",
-      "nextMilestone": "Wed 2026-09-16 weekday pass; age Tue public counts",
-      "lastUpdated": "2026-09-15T11:11:00-05:00",
-      "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview"
+      "exposure": "$0 / no Premium",
+      "performance": "Wed late catch-up: 9 replies (posts 72). Subordinated to EXP-02 mix.",
+      "nextMilestone": "Thu 2026-09-17 under EXP-02",
+      "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview",
+      "lastUpdated": "2026-09-16T17:29:00-05:00"
     }
   ],
   "emptyReason": null
