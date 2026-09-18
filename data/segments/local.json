@@ -1,66 +1,36 @@
 {
-  "currentObjective": "Fri 2026-09-18 Morning QA on locked EXP-02 cohort (10 EXP-02-a / 5 EXP-01 v3-a); Controlled Send after QA PASS; STL hard-stopped; work-ahead reserve=klaus.",
-  "currentStatusBrief": "Afternoon hunt COMPLETE. Fri runway READY=16 (cohort 15 locked + 1 reserve). Contacted=52. Warm=Griffin. Trial ~23d left. NO SEND until Fri QA.",
+  "segmentId": "local",
+  "segmentName": "Harbor Local",
   "customerBrand": "GigaWeave",
-  "dashboardState": "console-auth",
+  "status": "Building",
+  "statusDetail": "Harbor Local operating. Aggregate n=118; Contacted=52; READY_FOR_SEND=15. HVAC outreach active (Peoria + Springfield). STL paused. Prospect rows remain private.",
+  "currentStatusBrief": "Morning QA PASS: 15/15 promoted to READY_FOR_SEND. Public page exposes aggregates only; auth console has the live desk.",
+  "lastUpdated": "2026-09-18T06:44:02-05:00",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
-  "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
-  "experimentsCount": 0,
-  "freshnessNote": "SoR synced 2026-09-17T13:05:00-05:00 after thu-2026-09-17-afternoon-hunt (READY=16; Spoon River reconcile).",
   "headlineMetrics": [
     {
-      "label": "Funnel (contacted)",
+      "label": "Prospects (n)",
+      "value": "118",
+      "hint": "Aggregate only; named prospect rows remain private"
+    },
+    {
+      "label": "Contacted",
       "value": "52",
-      "hint": "Wed Controlled Send + Sep17 same-day waves"
+      "hint": "Aggregate only"
     },
     {
-      "label": "Fri READY runway",
-      "value": "16",
-      "hint": "≥15 rule met; cohort 15 locked + klaus reserve"
-    },
-    {
-      "label": "Fri cohort",
-      "value": "10/5",
-      "hint": "EXP-02-a treatment / EXP-01 v3-a holdout"
-    },
-    {
-      "label": "Fresh unsent Yes+email",
-      "value": "16",
-      "hint": "All ready_for_morning_qa; 0 Found stubs"
-    },
-    {
-      "label": "Brand",
-      "value": "GigaWeave",
-      "hint": "Hearthlight HVAC previews only"
+      "label": "READY_FOR_SEND",
+      "value": "15",
+      "hint": "Aggregate only; locked morning QA cohort"
     }
   ],
-  "humanAction": "Wells: republish console.elephantharbor.com/harbor-local/ (Prospects READY chips + Overview + Logs). Thomas: Fri runway 16 READY briefed. No spend/legal gate.",
-  "lastUpdated": "2026-09-17T13:05:00-05:00",
-  "latestLesson": {
-    "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
-    "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
-    "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
-    "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
-    "originationDate": "2026-09-12"
-  },
-  "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
-  "needsHumanAction": true,
-  "nextUp": {
-    "areaId": "local",
-    "areaName": "Harbor Local",
-    "items": [],
-    "lastUpdated": "2026-09-07T08:20:00-05:00"
-  },
-  "owner": "Blair (Harbor Local - CEO)",
   "publicLinks": [
     {
       "label": "Local operating desk (auth)",
-      "note": "Authenticated console — Prospects + desk-previews. Not public github.io.",
+      "note": "Authenticated console — live prospect rows and previews are not public github.io.",
       "url": "https://console.elephantharbor.com/harbor-local/"
     }
   ],
-  "segmentId": "local",
-  "segmentName": "Harbor Local",
-  "status": "Building",
-  "statusDetail": "Internal-hard. Scored HVAC n=118. Contacted=52. READY_FOR_MORNING_QA=16 for Fri EXP-02 cohort. STL hard-stopped. Brand GigaWeave. Hearthlight only."
+  "needsHumanAction": false,
+  "owner": "Blair (Harbor Local - CEO)"
 }
