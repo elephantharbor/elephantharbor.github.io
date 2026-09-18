@@ -1,36 +1,42 @@
 {
   "segmentId": "local",
   "segmentName": "Harbor Local",
-  "customerBrand": "GigaWeave",
   "status": "Building",
-  "statusDetail": "Harbor Local operating. Aggregate n=118; Contacted=52; READY_FOR_SEND=15. HVAC outreach active (Peoria + Springfield). STL paused. Prospect rows remain private.",
-  "currentStatusBrief": "Morning QA PASS: 15/15 promoted to READY_FOR_SEND. Public page exposes aggregates only; auth console has the live desk.",
-  "lastUpdated": "2026-09-18T06:44:02-05:00",
-  "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
+  "statusDetail": "Internal-hard. n=118. Yes 82 / Hold 26 / No 10. Emails 98/118. Contacted=67. ready_for_send=0; ready_for_morning_qa(reserve)=1. Warm=3. Fri send 15/15 EXP-02-a×10 + EXP-01 v3-a×5. STL hard-stopped. Brand GigaWeave. Trial 22 days left.",
+  "currentStatusBrief": "Controlled Send 15/15 accepted (0 failed) at 2026-09-18T07:42:04-05:00. Contacted=67. ready_for_send=0. Reserve klaus ready_for_morning_qa. Warm=Griffin HVAC, Montefusco HVAC, Inc., Johnson HVACR & Foodservice Equipment, Inc.. Trial 22d left.",
+  "currentObjective": "Post Fri Controlled Send 15/15: monitor Warm (Griffin/Montefusco/Johnson) without disclosing clicks; afternoon hunt to restock ≥15 next-day Yes+email; STL hard-stopped; Coverage peoria-il:hvac + springfield-il:hvac.",
   "headlineMetrics": [
     {
-      "label": "Prospects (n)",
-      "value": "118",
-      "hint": "Aggregate only; named prospect rows remain private"
+      "hint": "Incl Fri 2026-09-18 Controlled Send 15/15",
+      "label": "Funnel (contacted)",
+      "value": "67"
     },
     {
-      "label": "Contacted",
-      "value": "52",
-      "hint": "Aggregate only"
+      "hint": "Recommend Yes 82 / Hold 26 / No 10",
+      "label": "Scored (private)",
+      "value": "118"
     },
     {
-      "label": "READY_FOR_SEND",
-      "value": "15",
-      "hint": "Aggregate only; locked morning QA cohort"
-    }
-  ],
-  "publicLinks": [
+      "hint": "Private SoR only; not_found kept",
+      "label": "Emails stored",
+      "value": "98/118"
+    },
     {
-      "label": "Local operating desk (auth)",
-      "note": "Authenticated console — live prospect rows and previews are not public github.io.",
-      "url": "https://console.elephantharbor.com/harbor-local/"
+      "hint": "Fire list cleared; klaus reserve remains ready_for_morning_qa",
+      "label": "ready_for_send",
+      "value": "0"
+    },
+    {
+      "hint": "Working/temporary stamp — no domain/DBA lock",
+      "label": "Brand",
+      "value": "GigaWeave"
     }
   ],
-  "needsHumanAction": false,
-  "owner": "Blair (Harbor Local - CEO)"
+  "freshnessNote": "SoR synced 2026-09-18T07:56:00-05:00 after fri-2026-09-18-controlled-send (15/15 ESP accept; Contacted=67).",
+  "lastUpdated": "2026-09-18T07:56:00-05:00",
+  "customerBrand": "GigaWeave",
+  "owner": "Blair (Harbor Local - CEO)",
+  "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
+  "needsHumanAction": true,
+  "humanAction": "Wells republish auth console (private SoR)."
 }
