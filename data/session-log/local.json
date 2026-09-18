@@ -1,14 +1,25 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-18T08:07:00-05:00",
+  "lastUpdated": "2026-09-18T13:15:00-05:00",
   "entries": [
+    {
+      "actor": "Grok Bot under Blair (Harbor Local - CEO)",
+      "at": "2026-09-18T13:15:00-05:00",
+      "deskChanges": "Aggregate Local metrics; authenticated desk sync; public-safe Local mirror",
+      "lessonId": null,
+      "summary": "Afternoon Hunt EXCEPTION: Mon 2026-09-21 qualifying Yes+email runway 6/15 (shortfall 9) after exhaustive active-cell mining; +4 Yes+email and +4 Hold+email inventory; 0 STL; 0 outbound. Named prospect rows and private emails remain in the authenticated desk only.",
+      "passId": "fri-2026-09-18-afternoon-hunt",
+      "status": "EXCEPTION",
+      "qualifyingUnsentYesEmail": 6,
+      "shortfallVs15": 9
+    },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-18T08:07:00-05:00",
       "deskChanges": "session-log/snapshot/segment-summary + mirrors; Wells republish request",
       "lessonId": null,
-      "summary": "Fri morning ops aggregate: Controlled Send 15/15 accepted; Contacted=67; ready_for_send=0; day first-touch 15/0; next-day Yes+email runway shortfall vs \u226515; Warm chips=3; trial 22d left. Named prospect rows and private emails not published."
+      "summary": "Fri morning ops aggregate: Controlled Send 15/15 accepted; Contacted=67; ready_for_send=0; day first-touch 15/0; next-day Yes+email runway shortfall vs ≥15; Warm chips=3; trial 22d left. Named prospect rows and private emails not published."
     },
     {
       "at": "2026-09-18T07:56:00-05:00",

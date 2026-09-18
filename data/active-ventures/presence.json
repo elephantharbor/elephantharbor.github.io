@@ -1,7 +1,7 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-17T10:37:00-05:00",
+  "lastUpdated": "2026-09-18T10:53:00-05:00",
   "items": [
     {
       "id": "exp-02-voice-shift",
@@ -13,10 +13,10 @@
       "startDate": "2026-09-16",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium; ≤5 weekday passes or 30 replies",
-      "performance": "Day 2: cumulative 18/30 — Q14 / D4 / obs0. Pass today Q8/D1. Engagement events still 0. Next pass: more ranking / disagreement / “I don’t buy X”.",
-      "nextMilestone": "Fri 2026-09-18 weekday pass; continue toward 30 with more disagreement share",
+      "performance": "28/30 shipped — Q19 / D9 / obs0. Fri pass Q5/D5 improved disagreement share. Engagement events still 0. Mon: finish last 2; compare aged Q vs D views.",
+      "nextMilestone": "Mon 2026-09-21 finish last 2 of 30; then EXP-02 closeout with aged view compare",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#experiments",
-      "lastUpdated": "2026-09-17T10:37:00-05:00"
+      "lastUpdated": "2026-09-18T10:53:00-05:00"
     },
     {
       "id": "x-volume-bar",
@@ -28,10 +28,10 @@
       "startDate": "2026-09-11",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium",
-      "performance": "Thu: 9 replies (posts 81). Subordinated to EXP-02.",
-      "nextMilestone": "Fri 2026-09-18 under EXP-02",
+      "performance": "Fri: 10 replies (posts 91). Catch-up already done — no double-volume weekend.",
+      "nextMilestone": "Mon 2026-09-21 under EXP-02 finish",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview",
-      "lastUpdated": "2026-09-17T10:37:00-05:00"
+      "lastUpdated": "2026-09-18T10:53:00-05:00"
     }
   ],
   "emptyReason": null

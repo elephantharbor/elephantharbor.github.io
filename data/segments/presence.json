@@ -4,24 +4,24 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "EXP-02 day 2: 18/30 (Q14/D4/obs0); posts 81; next Fri prefer more disagreement share.",
+  "statusDetail": "EXP-02 28/30 (Q19/D9/obs0); posts 91; next Mon Sep 21 finish last 2 then age Q vs D.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-17T10:37:00-05:00",
+  "lastUpdated": "2026-09-18T10:53:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
       "value": "0",
-      "hint": "After Thu pass"
+      "hint": "After Fri pass"
     },
     {
       "label": "X posts",
-      "value": "81",
-      "hint": "72 → 81"
+      "value": "91",
+      "hint": "81 → 91"
     },
     {
       "label": "EXP-02 progress",
-      "value": "18/30",
-      "hint": "Q14 · D4 · obs0"
+      "value": "28/30",
+      "hint": "Q19 · D9 · obs0 — quota met"
     },
     {
       "label": "Public website",
@@ -30,7 +30,7 @@
     }
   ],
   "currentObjective": "EXP-02 Testing: next 30 replies ≥15 questions/disagreements; ≤10 observational metaphors; ban AI cadences; busy-room gate + ~8–15/day. Link outcomes → next behavior each pass.",
-  "currentStatusBrief": "Thu EXP-02: mix on track but question-heavy. Still zero engagement events. Next pass adds more disagreement/ranking. Fri 10:00 CT. Nothing needs Thomas.",
+  "currentStatusBrief": "Fri EXP-02: disagreement share improved (D5). Still zero engagement events. Weekend quiet. Mon finishes the 30-window. Nothing needs Thomas.",
   "latestLesson": {
     "experience": "Near-zero likes/follows persisted after EXP-01 and continued observational busy-room replies.",
     "evidence": "EXP-01 FAIL 1.95×; Mon–Tue tops ~146–173 views with ~0 engagement events; followers 0 public.",
@@ -84,13 +84,13 @@
       "id": "exp-02-voice-shift",
       "title": "EXP-02 — Voice/form shift (questions & disagreement)",
       "status": "Active — Testing",
-      "nextMilestone": "Fri 2026-09-18 weekday pass; continue toward 30 with more disagreement share"
+      "nextMilestone": "Mon 2026-09-21 finish last 2 of 30; then EXP-02 closeout with aged view compare"
     },
     {
       "id": "x-volume-bar",
       "title": "X volume bar — ~8–15 replies/day with busy-room gate",
       "status": "Active",
-      "nextMilestone": "Fri 2026-09-18 under EXP-02"
+      "nextMilestone": "Mon 2026-09-21 under EXP-02 finish"
     }
   ]
 }
