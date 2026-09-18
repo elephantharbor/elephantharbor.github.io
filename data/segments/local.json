@@ -1,37 +1,66 @@
 {
-  "segmentId": "local",
-  "segmentName": "Harbor Local",
-  "status": "Building",
-  "statusDetail": "Aggregate only. n=118. Contacted=67. ready_for_send=0. Prospect rows remain private.",
-  "currentStatusBrief": "Fri controlled send aggregate refresh: 15/15 accepted; public page exposes aggregates only.",
-  "currentObjective": "Authenticated desk owns named rows and previews; public mirror exposes aggregate metrics only.",
+  "currentObjective": "Afternoon hunt restock \u226515 next-day Yes+email (active cells; STL hard-stop); monitor Warm without disclosing clicks; Wells console republish; Coverage peoria-il:hvac + springfield-il:hvac.",
+  "currentStatusBrief": "Morning ops: Controlled Send 15/15 accepted (0 failed). Contacted=67. ready_for_send=0. Day FT 15/0. Warm=Griffin/Montefusco/Johnson. Next-day runway=1/15 (Klaus) SHORTFALL. Trial 22d left.",
+  "customerBrand": "GigaWeave",
+  "dashboardState": "console-auth",
+  "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
+  "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
+  "experimentsCount": 1,
+  "freshnessNote": "Morning ops synced 2026-09-18T08:07:00-05:00 after fri Controlled Send 15/15 (Contacted=67; runway shortfall 1/15).",
   "headlineMetrics": [
     {
-      "label": "Prospects (n)",
-      "value": "118",
-      "hint": "Aggregate only; named prospect rows remain private"
+      "hint": "Incl Fri 2026-09-18 Controlled Send 15/15",
+      "label": "Funnel (contacted)",
+      "value": "67"
     },
     {
-      "label": "Contacted",
-      "value": "67",
-      "hint": "Aggregate only"
+      "hint": "Recommend Yes 82 / Hold 26 / No 10",
+      "label": "Scored (private)",
+      "value": "118"
     },
     {
+      "hint": "Private SoR only; not_found kept",
+      "label": "Emails stored",
+      "value": "98/118"
+    },
+    {
+      "hint": "Fire list cleared; klaus reserve remains ready_for_morning_qa; next-day runway 1/15 SHORTFALL",
       "label": "ready_for_send",
-      "value": "0",
-      "hint": "Aggregate only"
+      "value": "0"
+    },
+    {
+      "hint": "Working/temporary stamp \u2014 no domain/DBA lock",
+      "label": "Brand",
+      "value": "GigaWeave"
     }
   ],
-  "lastUpdated": "2026-09-18T07:56:00-05:00",
-  "customerBrand": "GigaWeave",
+  "humanAction": "Wells: republish console.elephantharbor.com/harbor-local/. Lane/Kit via afternoon hunt: restock \u226515 next-day Yes+email (active Coverage; 0 STL). Thomas: morning brief (send 15/15 + runway shortfall).",
+  "lastUpdated": "2026-09-18T08:07:00-05:00",
+  "latestLesson": {
+    "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
+    "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
+    "experience": "Thomas made Trade Color primary after it won on prospect interest; flat Blueprint needed atmosphere without a fifth variant.",
+    "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
+    "originationDate": "2026-09-12"
+  },
+  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
+  "needsHumanAction": true,
+  "nextUp": {
+    "areaId": "local",
+    "areaName": "Harbor Local",
+    "items": [],
+    "lastUpdated": "2026-09-07T08:20:00-05:00"
+  },
   "owner": "Blair (Harbor Local - CEO)",
-  "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
-  "needsHumanAction": false,
   "publicLinks": [
     {
       "label": "Local operating desk (auth)",
-      "note": "Authenticated console — live named rows and previews are not public github.io.",
+      "note": "Authenticated console \u2014 Prospects + desk-previews. Not public github.io.",
       "url": "https://console.elephantharbor.com/harbor-local/"
     }
-  ]
+  ],
+  "segmentId": "local",
+  "segmentName": "Harbor Local",
+  "status": "Building",
+  "statusDetail": "Internal-hard. n=118. Yes 82 / Hold 26 / No 10. Emails 98/118. Contacted=67. ready_for_send=0; ready_for_morning_qa(reserve)=1. Warm=3. Fri send 15/15 EXP-02-a\u00d710 + EXP-01 v3-a\u00d75. EXCEPTION next-day Yes+email runway 1/15. STL hard-stopped. Brand GigaWeave. Trial 22 days left."
 }

@@ -1,8 +1,15 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-18T07:56:00-05:00",
+  "lastUpdated": "2026-09-18T08:07:00-05:00",
   "entries": [
+    {
+      "actor": "Blair (Harbor Local - CEO)",
+      "at": "2026-09-18T08:07:00-05:00",
+      "deskChanges": "session-log/snapshot/segment-summary + mirrors; Wells republish request",
+      "lessonId": null,
+      "summary": "Fri morning ops aggregate: Controlled Send 15/15 accepted; Contacted=67; ready_for_send=0; day first-touch 15/0; next-day Yes+email runway shortfall vs \u226515; Warm chips=3; trial 22d left. Named prospect rows and private emails not published."
+    },
     {
       "at": "2026-09-18T07:56:00-05:00",
       "actor": "Harbor Local",
