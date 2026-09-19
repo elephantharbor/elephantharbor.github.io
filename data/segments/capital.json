@@ -4,7 +4,7 @@
   "description": "Capital allocation and trading.",
   "mission": "Grow a finite bankroll through disciplined market participation, controlled risk, and continuous learning.",
   "status": "Operating",
-  "statusDetail": "LIVE. COREBETA VTI + SGOV reserve held. Book carry-forward from last IBKR poll 09-11 (CPG/IBG auth gap this week). Viability Day 9/30. Next: Mon OPRA finish / EOD / evidence.",
+  "statusDetail": "LIVE. COREBETA VTI filled (experimental); SGOV reserve still on. Viability clock in progress \u2014 next EOD reconcile / IBIT research / evidence.",
   "owner": "Holt (Harbor Capital - CEO)",
   "lastUpdated": "2026-09-11T09:35:20-05:00",
   "headlineMetrics": [
@@ -29,8 +29,8 @@
       "hint": "Open risk positions"
     }
   ],
-  "currentObjective": "Hold SGOV+VTI; Mon OPRA/Gateway if transfer settled; evidence journal; IBIT gated; sports shadow until MoS. No-force-risk.",
-  "currentStatusBrief": "Hold SGOV+VTI (carry since 09-11). Automated execution: HUMAN_AUTH. Viability Day 9 \u00b7 22d left. +$350 OPRA equity transfer in flight \u2014 Monday finish. No human action blocking the tiny live book right now.",
+  "currentObjective": "COREBETA live: hold SGOV + VTI; EOD reconcile; IBIT research; viability evidence. No-force-risk.",
+  "currentStatusBrief": "COREBETA first experimental live fill under activation (tiny VTI). Still hold SGOV reserve. Automated execution: HUMAN_AUTH. No human action blocking capital ops right now.",
   "latestLesson": {
     "experience": "Claims ladder F7\u2013F9 treated as three independent events",
     "evidence": "One labor surprise moves all three \u2014 correlated factor",
@@ -45,7 +45,7 @@
   "freshness": {
     "source": "last_reconciled_ibkr_ct",
     "reconcileStampPresent": true,
-    "generatedAtCt": "2026-09-18 10:29:55 CT",
+    "generatedAtCt": "2026-09-19 09:40:29 CT",
     "lastReconciledIbkrCt": "2026-09-11 09:35:20 CT",
     "viabilityClock": "IN_PROGRESS",
     "automatedExecution": "HUMAN_AUTH"
@@ -53,28 +53,14 @@
   "nextUp": {
     "areaId": "capital",
     "areaName": "Harbor Capital",
-    "lastUpdated": "2026-09-18T17:15:59-05:00",
+    "lastUpdated": "2026-09-19T09:40:29-05:00",
     "items": [
       {
-        "id": "eod-reconcile",
-        "title": "End-of-day reconcile",
-        "nextRunAt": "2026-09-21T16:00:00-05:00",
-        "scheduleLabel": "Weekdays 4:00 PM CT",
-        "owner": "Holt"
-      },
-      {
         "id": "viability-evidence",
-        "title": "Viability evidence (Day 9 \u00b7 22d left)",
+        "title": "Viability evidence (Day 10 \u00b7 21d left)",
         "nextRunAt": "2026-09-21T09:30:00-05:00",
         "scheduleLabel": "Weekdays \u2014 evidence checklist (banner SoT)",
         "owner": "Holt"
-      },
-      {
-        "id": "opra-monday",
-        "title": "OPRA subscribe + Gateway restart (post +$350 settle)",
-        "nextRunAt": "2026-09-21T09:00:00-05:00",
-        "scheduleLabel": "Mon AM CT \u2014 Thomas ping if transfer settled",
-        "owner": "Holt/Vera"
       },
       {
         "id": "ibit-research",
@@ -82,6 +68,13 @@
         "nextRunAt": "2026-09-21T10:00:00-05:00",
         "scheduleLabel": "Weekdays \u2014 next-dollar after COREBETA",
         "owner": "Cole"
+      },
+      {
+        "id": "eod-reconcile",
+        "title": "End-of-day reconcile",
+        "nextRunAt": "2026-09-21T16:00:00-05:00",
+        "scheduleLabel": "Weekdays 4:00 PM CT",
+        "owner": "Holt"
       }
     ]
   }
