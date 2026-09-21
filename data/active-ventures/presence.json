@@ -1,7 +1,7 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-18T10:53:00-05:00",
+  "lastUpdated": "2026-09-21T11:12:00-05:00",
   "items": [
     {
       "id": "exp-02-voice-shift",
@@ -9,14 +9,14 @@
       "segment": "presence",
       "submarket": null,
       "description": "Next 30 published replies: ≥15 questions or explicit disagreements; ≤10 dry observational metaphors; ban AI cadences. Busy-room gate retained. Measure engagement events + median views vs prior observational 30.",
-      "status": "Active — Testing",
+      "status": "Active — provisional closeout; Testing / confidence weakened",
       "startDate": "2026-09-16",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium; ≤5 weekday passes or 30 replies",
-      "performance": "28/30 shipped — Q19 / D9 / obs0. Fri pass Q5/D5 improved disagreement share. Engagement events still 0. Mon: finish last 2; compare aged Q vs D views.",
-      "nextMilestone": "Mon 2026-09-21 finish last 2 of 30; then EXP-02 closeout with aged view compare",
+      "performance": "Aged 2026-09-21: Q median 17 (n=19) / D 13.5 (n=10). Pass tags Q21/D9; scrape Q20/D10. Engagement ~2 events. Hold EXP-03 for 2nd age mid/late week.",
+      "nextMilestone": "Tue 2026-09-22 pass; 2nd age pass ~Wed–Fri Sep 24–25 before EXP-03",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#experiments",
-      "lastUpdated": "2026-09-18T10:53:00-05:00"
+      "lastUpdated": "2026-09-21T11:12:00-05:00"
     },
     {
       "id": "x-volume-bar",
@@ -28,10 +28,10 @@
       "startDate": "2026-09-11",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium",
-      "performance": "Fri: 10 replies (posts 91). Catch-up already done — no double-volume weekend.",
-      "nextMilestone": "Mon 2026-09-21 under EXP-02 finish",
+      "performance": "Bar continues post-EXP-02; Q+D bias retained. Posts 99.",
+      "nextMilestone": "Tue 2026-09-22 weekday pass",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview",
-      "lastUpdated": "2026-09-18T10:53:00-05:00"
+      "lastUpdated": "2026-09-21T11:12:00-05:00"
     }
   ],
   "emptyReason": null

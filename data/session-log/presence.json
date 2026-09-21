@@ -1,8 +1,22 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-18T10:53:00-05:00",
+  "lastUpdated": "2026-09-21T11:12:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-21T11:12:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "EXP-02 first age pass logged: Q median 17 (n=19) vs D 13.5 (n=10). Weaken confidence on form→engagement; Learning stays Testing; hold EXP-03 for 2nd age mid/late week. Scrape retag flagged (MW4→D → Q20/D10).",
+      "deskChanges": "EXP-02 result + Learning outcome updated; Next Up unchanged Tue Sep 22; AV performance refreshed.",
+      "lessonId": "exp02-voice-not-volume"
+    },
+    {
+      "at": "2026-09-21T10:58:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "EXP-02 window closed at 30/30 (Q21/D9/obs0) from Rowan’s Mon pass. Learning stays Testing — no premature Confirmed. Next gate: age public views for questions vs ranking/disagreement before EXP-03.",
+      "deskChanges": "Next Up → Tue Sep 22; posts 99; EXP-02 AV status awaiting aged Q vs D; Mon content logged.",
+      "lessonId": "exp02-voice-not-volume"
+    },
     {
       "at": "2026-09-18T10:53:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",
