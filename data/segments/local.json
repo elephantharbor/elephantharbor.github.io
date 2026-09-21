@@ -1,16 +1,16 @@
 {
-  "currentObjective": "Controlled Send owns Mon fire list (15 ready_for_send); post-send restock for Tue; STL hard-stop; Wells console republish.",
-  "currentStatusBrief": "Mon morning QA PASS 15/15 → ready_for_send (10 EXP-02-a / 5 EXP-01 v3-a). Reserve absolutes ready_for_morning_qa. Warm=6. Click health PASS. 0 STL. Capital trial ~19d left. No outbound this pass.",
+  "currentObjective": "Post-send Tue runway restock (≥15 Yes+email active cells; STL hard-stop); Wells console republish for Contacted=82 desk mirror.",
+  "currentStatusBrief": "Mon Controlled Send 15/15 accepted via Resend SMTP thomas@gigaweave.io (0 failed). Mix 10 EXP-02-a + 5 EXP-01 v3-a. Reserve absolutes NOT sent. Contacted=82; ready_for_send=0; ready_for_morning_qa=1. 0 STL. Capital trial ~19d left. Wells console republish needed.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-21T06:49:40-05:00 Morning QA PASS ready_for_send=15; reserve absolutes; warm=6; no outbound",
+  "freshnessNote": "2026-09-21T08:00:31-05:00 Controlled Send 15/15 accepted; Contacted=82; ready_for_send=0; 0 STL",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
-      "value": 15
+      "value": 0
     },
     {
       "label": "ready_for_morning_qa",
@@ -22,7 +22,7 @@
     },
     {
       "label": "contacted",
-      "value": 67
+      "value": 82
     },
     {
       "label": "capitalTrialDaysLeft",
@@ -30,11 +30,11 @@
     },
     {
       "label": "status",
-      "value": "READY"
+      "value": "SENT"
     }
   ],
-  "humanAction": "Controlled Send may fire locked 15 when routine window opens; Wells republish console for desk mirror",
-  "lastUpdated": "2026-09-21T06:49:40-05:00",
+  "humanAction": "Wells republish console for desk mirror; Tue runway restock (Lane/Kit)",
+  "lastUpdated": "2026-09-21T08:00:31-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -44,7 +44,7 @@
   },
   "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
   "needsHumanAction": false,
-  "nextUp": "Controlled Send auto-send locked 15; then Lane/Kit restock for Tue runway; Wells console republish",
+  "nextUp": "Lane/Kit restock for Tue; Wells republish console.elephantharbor.com/harbor-local/; Absolutes reserve stays ready_for_morning_qa.",
   "owner": "Blair (Harbor Local - CEO)",
   "publicLinks": [
     {
@@ -55,6 +55,6 @@
   ],
   "segmentId": "local",
   "segmentName": "Harbor Local",
-  "status": "READY — Mon morning QA 15/15",
-  "statusDetail": "Locked EXP-02 cohort promoted to ready_for_send; Controlled Send owns outbound. Shortfall=0."
+  "status": "SENT — Mon Controlled Send 15/15",
+  "statusDetail": "Accepted 15 via Resend SMTP; failed=0; reserve absolutes not sent; Contacted=82; ready_for_send=0; 0 STL. Wells republish still needed."
 }
