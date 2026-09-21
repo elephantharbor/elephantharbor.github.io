@@ -1,12 +1,12 @@
 {
   "currentObjective": "Afternoon Hunt CONTINUE restock ≥15 next-day Yes+email (active cells; STL hard-stop); Kit later for AbsoLutes Found stub; Wells console republish.",
-  "currentStatusBrief": "Afternoon hunt EXCEPTION: Mon 2026-09-21 runway 6/15 Yes+email (shortfall 9). Fri Controlled Send 15/15 done. 0 STL. Wells republish needed.",
+  "currentStatusBrief": "Afternoon hunt EXCEPTION: Mon 2026-09-21 runway 6/15 Yes+email (shortfall 9). Fri Controlled Send 15/15 done. 0 STL. BN adjacent hunt in flight. Wells republish needed.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-18T13:15:00-05:00 afternoon hunt EXCEPTION logged",
+  "freshnessNote": "2026-09-21T06:15:00-05:00 Mon Fri5+Klaus stage logged; READY_FOR_MORNING_QA=6; no outbound",
   "headlineMetrics": [
     {
       "label": "qualifyingUnsentYesEmail",
@@ -18,7 +18,7 @@
     },
     {
       "label": "prospectN",
-      "value": 128
+      "value": 141
     },
     {
       "label": "contacted",
@@ -30,7 +30,7 @@
     }
   ],
   "humanAction": "Mon runway EXCEPTION 6/15 — decide STL reopen / new metro vs continue mining; Wells republish console",
-  "lastUpdated": "2026-09-18T13:15:00-05:00",
+  "lastUpdated": "2026-09-21T06:15:00-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",

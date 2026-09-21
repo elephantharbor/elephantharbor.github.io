@@ -1,8 +1,19 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-18T13:15:00-05:00",
+  "lastUpdated": "2026-09-21T06:15:00-05:00",
   "entries": [
+    {
+      "actor": "Grok Bot under Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T06:15:00-05:00",
+      "deskChanges": "Mon Fri5+Klaus stage aggregate; authenticated Local desk sync; public-safe Local mirror",
+      "lessonId": null,
+      "summary": "Mon 2026-09-21 Fri5+Klaus stage: READY_FOR_MORNING_QA=6 (EXP-02-a); runway 6/15 (shortfall 9); BN adjacent hunt in flight; 0 outbound. Named prospect rows and private emails remain in the authenticated desk only.",
+      "passId": "mon-2026-09-21-fri5-stage",
+      "status": "EXCEPTION",
+      "qualifyingUnsentYesEmail": 6,
+      "shortfallVs15": 9
+    },
     {
       "actor": "Grok Bot under Blair (Harbor Local - CEO)",
       "at": "2026-09-18T13:15:00-05:00",
