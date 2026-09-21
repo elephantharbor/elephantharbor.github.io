@@ -1,7 +1,7 @@
 {
   "areaId": "foundry",
   "areaName": "Harbor Foundry",
-  "lastUpdated": "2026-09-17T09:00:28-05:00",
+  "lastUpdated": "2026-09-21T08:42:23-05:00",
   "empty": false,
   "emptyReason": null,
   "items": [
@@ -13,12 +13,12 @@
       "description": "Self-employed bookkeeping spreadsheet for 2026 on Etsy.",
       "status": "Operating",
       "startDate": "2026-08-28",
-      "owner": "Sable (Harbor Foundry - Setaside)",
-      "exposure": "$24 listing \u00b7 $0 sales",
+      "owner": "Sable",
+      "exposure": "$24 \u00b7 $0 sales",
       "performance": "0 orders",
       "nextMilestone": "First sale",
       "detailLink": "https://www.etsy.com/listing/4564421940/2026-self-employed-bookkeeping",
-      "lastUpdated": "2026-09-17T09:00:28-05:00"
+      "lastUpdated": "2026-09-21T08:42:23-05:00"
     },
     {
       "id": "surveyops",
@@ -33,22 +33,52 @@
       "performance": "ACT",
       "nextMilestone": "Crowding vs KudurruStone/Job Book",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
-      "lastUpdated": "2026-09-17T09:00:28-05:00"
+      "lastUpdated": "2026-09-21T08:42:23-05:00"
     },
     {
       "id": "fenceops",
       "title": "Fenceops",
       "segment": "foundry",
       "submarket": "Cheap Test",
-      "description": "Fence contractor ops SoR \u2014 estimate \u2192 crew \u2192 invoice.",
+      "description": "Fence contractor ops \u2014 estimate \u2192 crew \u2192 invoice.",
       "status": "Cheap Test \u2014 ACT",
       "startDate": "2026-09-17",
       "owner": "Nico",
       "exposure": "$0",
-      "performance": "ACT after Cheap Test",
+      "performance": "ACT",
       "nextMilestone": "Crowding vs QuoteIQ/Fence Cloud/FenceTracer",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
-      "lastUpdated": "2026-09-17T09:00:28-05:00"
+      "lastUpdated": "2026-09-21T08:42:23-05:00"
+    },
+    {
+      "id": "pavingops",
+      "title": "Pavingops",
+      "segment": "foundry",
+      "submarket": "Cheap Test",
+      "description": "Sealcoat/paving ops \u2014 quantity \u2192 crew board.",
+      "status": "Cheap Test \u2014 ACT",
+      "startDate": "2026-09-18",
+      "owner": "Nico",
+      "exposure": "$0",
+      "performance": "ACT",
+      "nextMilestone": "Crowding vs QuoteIQ/Bitumio/OneCrew",
+      "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
+      "lastUpdated": "2026-09-21T08:42:23-05:00"
+    },
+    {
+      "id": "signshop",
+      "title": "Signshop",
+      "segment": "foundry",
+      "submarket": "Cheap Test",
+      "description": "Sign shop ops after EstiMate \u2014 estimate \u2192 board.",
+      "status": "Cheap Test \u2014 ACT",
+      "startDate": "2026-09-18",
+      "owner": "Nico",
+      "exposure": "$0",
+      "performance": "ACT",
+      "nextMilestone": "Continue Cheap Test learning; off closed print MIS class",
+      "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
+      "lastUpdated": "2026-09-21T08:42:23-05:00"
     },
     {
       "id": "latch",
@@ -63,28 +93,40 @@
       "performance": "Paused",
       "nextMilestone": "Explicit resume",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#ventures",
-      "lastUpdated": "2026-09-17T09:00:28-05:00"
+      "lastUpdated": "2026-09-21T08:42:23-05:00"
     }
   ],
-  "note": "Active = Operating, ACT Cheap Tests, paused approved sprint. WATCH/REJECT off this list.",
+  "note": "Active = Operating, ACT Cheap Tests, paused Latch. WATCH/REJECT off list.",
   "recentlyClosed": [
+    {
+      "id": "deckops",
+      "title": "Deckops",
+      "closed": "2026-09-21",
+      "reason": "REJECT \u2014 Jobber sidecar / thin hate"
+    },
+    {
+      "id": "windowdoor",
+      "title": "Windowdoor",
+      "closed": "2026-09-21",
+      "reason": "REJECT \u2014 mature migrate / OEM portal"
+    },
     {
       "id": "servicecore",
       "title": "ServiceCore",
       "closed": "2026-09-17",
-      "reason": "REJECT \u2014 soft leftover / QB overlay"
+      "reason": "REJECT \u2014 QB overlay"
     },
     {
       "id": "watertreat-ops",
       "title": "Watertreat-ops",
       "closed": "2026-09-17",
-      "reason": "REJECT \u2014 destination occupied / vendor-sourced pain"
+      "reason": "REJECT \u2014 destination occupied"
     },
     {
       "id": "shopworks",
       "title": "ShopWorks",
       "closed": "2026-09-17",
-      "reason": "WATCH \u2014 vendor-own OnSite blocks ACT (not Active)"
+      "reason": "WATCH \u2014 vendor-own OnSite"
     },
     {
       "id": "lightspeed-dms",
@@ -96,7 +138,7 @@
       "id": "ajera",
       "title": "Deltek Ajera",
       "closed": "2026-09-16",
-      "reason": "REJECT \u2014 QB+PM collapse"
+      "reason": "REJECT \u2014 QB+PM"
     }
   ]
 }
