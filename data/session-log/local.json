@@ -1,8 +1,22 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-21T08:08:00-05:00",
+  "lastUpdated": "2026-09-21T10:20:00-05:00",
   "entries": [
+    {
+      "actor": "Lane (Growth) under Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T10:20:00-05:00",
+      "passId": "mon-2026-09-21-discovery-topup",
+      "status": "OK",
+      "summary": "Discovery top-up Wed buffer: +2 Yes+email (A-1 Homer, Matheny Forsyth), +3 Hold+email; 7/7 deepen still not_found; Tue 15 locked untouched; Decatur confidence Low\u2192Medium; 0 STL; 0 outbound.",
+      "deskChanges": "prospect-table n160\u2192165; Coverage discoveryPasses on Decatur/CU/BN/Springfield/Peoria; dry-run+fixture stubs for 2 Yes; hunt mon-2026-09-21-discovery-topup.md; eh-console-gate twin sync",
+      "qualifyingUnsentYesEmailTue": 15,
+      "shortfallVs15": 0,
+      "wedFoundYesEmailBuffer": 2,
+      "netNewYesEmail": 2,
+      "holdEmailAdds": 3,
+      "lessonId": null
+    },
     {
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
       "at": "2026-09-21T08:08:00-05:00",

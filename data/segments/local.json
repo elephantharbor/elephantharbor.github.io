@@ -1,12 +1,12 @@
 {
-  "currentObjective": "EXCEPTION Tue runway restock (\u226515 Yes+email active cells; STL hard-stop); Wells console republish for Contacted=82 desk mirror.",
-  "currentStatusBrief": "Mon morning ops confirm: Controlled Send 15/15 accepted (0 failed, 0 STL). Contacted=82; ready_for_send=0; ready_for_morning_qa=1 (Absolutes). Day FT 15/0. Warm=6. EXCEPTION runway 1/15 (shortfall 14). Capital trial 19d left. Wells republish needed.",
+  "currentObjective": "Grow Wed+ Found Yes+email buffer (\u22655 preferred) while Tue 15/15 stays locked; Kit Hearthlight for A-1 + Matheny stubs; Wells console republish.",
+  "currentStatusBrief": "Discovery-topup 2026-09-21T10:20:00-05:00: +2 Yes+email Wed buffer (A-1, Matheny); +3 Hold+email; 7 deepen still not_found; Tue ready_for_morning_qa=15 (shortfall 0); Contacted=82; Decatur Scoring\u00b7Medium; 0 STL; 0 outbound. Capital trial ~19d left.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-21T08:08:00-05:00 Morning ops confirm Controlled Send 15/15; Contacted=82; runway EXCEPTION 1/15; Capital 19d left",
+  "freshnessNote": "2026-09-21T10:20:00-05:00 Discovery-topup: Tue 15 locked; Wed buffer 2; Kit stubs open; Wells republish needed",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
@@ -14,15 +14,19 @@
     },
     {
       "label": "ready_for_morning_qa",
-      "value": 1
+      "value": 15
     },
     {
-      "label": "warm",
-      "value": 6
+      "label": "wedFoundYesEmailBuffer",
+      "value": 2
     },
     {
       "label": "contacted",
       "value": 82
+    },
+    {
+      "label": "prospectTableN",
+      "value": 165
     },
     {
       "label": "capitalTrialDaysLeft",
@@ -30,11 +34,11 @@
     },
     {
       "label": "status",
-      "value": "SENT+OPS"
+      "value": "DISCOVERY+BUFFER"
     }
   ],
-  "humanAction": "Wells republish console for desk mirror; Lane/Kit EXCEPTION restock Tue runway (\u226515 Yes+email)",
-  "lastUpdated": "2026-09-21T08:08:00-05:00",
+  "humanAction": "Wells republish console desk mirror; parent\u2192Kit Hearthlight for a-1-heating-air + matheny-heating-cooling (Wed buffer). Tue cohort LOCKED.",
+  "lastUpdated": "2026-09-21T10:20:00-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -42,9 +46,9 @@
     "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
     "originationDate": "2026-09-12"
   },
-  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge, St. Louis metro pilot).",
+  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge).",
   "needsHumanAction": false,
-  "nextUp": "EXCEPTION: Lane/Kit restock Tue runway (\u226515); Wells republish console.elephantharbor.com/harbor-local/; Absolutes reserve stays ready_for_morning_qa.",
+  "nextUp": "Kit: Hearthlight stubs a-1-heating-air + matheny-heating-cooling (EXP-02-a). Afternoon Hunt CONTINUE \u2014 Wed buffer thin (2<5). Wells republish. Tue 15 untouched.",
   "owner": "Blair (Harbor Local - CEO)",
   "publicLinks": [
     {
@@ -55,6 +59,6 @@
   ],
   "segmentId": "local",
   "segmentName": "Harbor Local",
-  "status": "SENT \u2014 morning ops confirm \u00b7 runway EXCEPTION",
-  "statusDetail": "Morning ops @08:08 CT confirm: accepted 15 via Resend SMTP; failed=0; Absolutes reserve not sent; Contacted=82; ready_for_send=0; ready_for_morning_qa=1; runway 1/15 shortfall 14; 0 STL. Wells republish still needed."
+  "status": "DISCOVERY TOP-UP \u2014 Tue 15 locked \u00b7 Wed buffer 2",
+  "statusDetail": "mon-2026-09-21-discovery-topup: n165; +2 Yes+email; +3 Hold+email; deepen 7/7 still not_found; Decatur confidence Medium; shortfallVs15=0; 0 STL; 0 outbound; Kit stubs only."
 }
