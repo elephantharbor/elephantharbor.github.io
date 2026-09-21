@@ -1,12 +1,12 @@
 {
-  "currentObjective": "Hold Tue locked morning-QA 15 + Wed buffer ×2 staged READY (A-1, Matheny EXP-02-a); grow further Wed+ Found Yes+email buffer (≥5 preferred). No outbound.",
-  "currentStatusBrief": "wed-2026-09-23-buffer-stage 2026-09-21T10:24:45-05:00: +2 READY_FOR_MORNING_QA EXP-02-a (a-1-heating-air, matheny-heating-cooling); Tue locked 15 untouched → ready_for_morning_qa=17; Contacted=82; n=165; Wed Found Yes+email buffer=0; 0 STL; 0 outbound. Capital trial ~19d left.",
+  "currentObjective": "Hold Tue locked morning-QA 15 + Wed buffer ×2 + afternoon Wed+ ×5 staged READY (EXP-02-a); runway full for Tue/Wed+. No outbound.",
+  "currentStatusBrief": "wed-2026-09-24-afternoon-buffer 2026-09-21T13:35:00-05:00: +5 READY_FOR_MORNING_QA EXP-02-a (horizon-hvac-milan, bitler-heating, paradise-heating-air, cr-neff-plumbing-heating-ac, ld-mechanical-charleston); Location-gate 5/5 PASS; Kit 8865d617; Tue locked 15 + Wed A-1/Matheny untouched → ready_for_morning_qa=22; Contacted=82; n=173; Found buffer consumed; 0 STL; 0 outbound. Capital trial ~19d left.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-21T10:28:00-05:00 Auth republish after wed-2026-09-23-buffer-stage: ready_for_morning_qa=17 (Tue 15 + Wed ×2); Contacted=82; n=165",
+  "freshnessNote": "2026-09-21T13:35:00-05:00 wed-2026-09-24-afternoon-buffer: ready_for_morning_qa=22 (Tue 15 + Wed ×2 + afternoon ×5); Contacted=82; n=173; Kit 8865d617",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
@@ -14,11 +14,11 @@
     },
     {
       "label": "ready_for_morning_qa",
-      "value": 17
+      "value": 22
     },
     {
-      "label": "wedFoundYesEmailBuffer",
-      "value": 0
+      "label": "wedPlusAfternoonBuffer",
+      "value": 5
     },
     {
       "label": "contacted",
@@ -26,7 +26,7 @@
     },
     {
       "label": "prospectTableN",
-      "value": 165
+      "value": 173
     },
     {
       "label": "capitalTrialDaysLeft",
@@ -34,11 +34,11 @@
     },
     {
       "label": "status",
-      "value": "QA=17"
+      "value": "QA=22"
     }
   ],
-  "humanAction": "None gated. Console desk mirror post buffer-stage (ready_for_morning_qa=17). Tue cohort LOCKED. No outbound.",
-  "lastUpdated": "2026-09-21T10:28:00-05:00",
+  "humanAction": "None gated. Wells console auth republish after buffer afternoon stage. Tue cohort LOCKED. No outbound.",
+  "lastUpdated": "2026-09-21T13:35:00-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -48,17 +48,6 @@
   },
   "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge).",
   "needsHumanAction": false,
-  "nextUp": "ready_for_morning_qa=17 (Tue 15 locked + Wed A-1+Matheny staged). Afternoon Hunt CONTINUE — Wed Found Yes+email buffer 0<5. No outbound.",
-  "owner": "Blair (Harbor Local - CEO)",
-  "publicLinks": [
-    {
-      "label": "Local operating desk (auth)",
-      "note": "Authenticated console — Prospects + desk-previews. Not public github.io.",
-      "url": "https://console.elephantharbor.com/harbor-local/"
-    }
-  ],
-  "segmentId": "local",
-  "segmentName": "Harbor Local",
-  "status": "BUFFER STAGED — ready_for_morning_qa=17 (Tue 15 + Wed ×2)",
-  "statusDetail": "wed-2026-09-23-buffer-stage: n165; +2 READY EXP-02-a (A-1, Matheny); Tue 15 untouched; Contacted=82; Wed Found buffer=0; 0 STL; 0 outbound."
+  "nextUp": "ready_for_morning_qa=22 (Tue 15 locked + Wed A-1/Matheny + afternoon ×5 EXP-02-a). No outbound. Wells republish needed.",
+  "owner": "Blair (Harbor Local - CEO)"
 }
