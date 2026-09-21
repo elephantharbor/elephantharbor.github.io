@@ -1,7 +1,7 @@
 {
   "areaId": "foundry",
   "areaName": "Harbor Foundry",
-  "lastUpdated": "2026-09-21T08:42:23-05:00",
+  "lastUpdated": "2026-09-21T09:15:00-05:00",
   "empty": false,
   "emptyReason": null,
   "items": [
@@ -18,7 +18,7 @@
       "performance": "0 orders",
       "nextMilestone": "First sale",
       "detailLink": "https://www.etsy.com/listing/4564421940/2026-self-employed-bookkeeping",
-      "lastUpdated": "2026-09-21T08:42:23-05:00"
+      "lastUpdated": "2026-09-21T09:15:00-05:00"
     },
     {
       "id": "surveyops",
@@ -33,7 +33,7 @@
       "performance": "ACT",
       "nextMilestone": "Crowding vs KudurruStone/Job Book",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
-      "lastUpdated": "2026-09-21T08:42:23-05:00"
+      "lastUpdated": "2026-09-21T09:15:00-05:00"
     },
     {
       "id": "fenceops",
@@ -48,7 +48,7 @@
       "performance": "ACT",
       "nextMilestone": "Crowding vs QuoteIQ/Fence Cloud/FenceTracer",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
-      "lastUpdated": "2026-09-21T08:42:23-05:00"
+      "lastUpdated": "2026-09-21T09:15:00-05:00"
     },
     {
       "id": "pavingops",
@@ -63,7 +63,7 @@
       "performance": "ACT",
       "nextMilestone": "Crowding vs QuoteIQ/Bitumio/OneCrew",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
-      "lastUpdated": "2026-09-21T08:42:23-05:00"
+      "lastUpdated": "2026-09-21T09:15:00-05:00"
     },
     {
       "id": "signshop",
@@ -78,7 +78,7 @@
       "performance": "ACT",
       "nextMilestone": "Continue Cheap Test learning; off closed print MIS class",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#pipeline",
-      "lastUpdated": "2026-09-21T08:42:23-05:00"
+      "lastUpdated": "2026-09-21T09:15:00-05:00"
     },
     {
       "id": "latch",
@@ -93,7 +93,7 @@
       "performance": "Paused",
       "nextMilestone": "Explicit resume",
       "detailLink": "https://elephantharbor.github.io/harbor-foundry/#ventures",
-      "lastUpdated": "2026-09-21T08:42:23-05:00"
+      "lastUpdated": "2026-09-21T09:15:00-05:00"
     }
   ],
   "note": "Active = Operating, ACT Cheap Tests, paused Latch. WATCH/REJECT off list.",
