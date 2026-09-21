@@ -1,62 +1,78 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-21T08:00:31-05:00",
+  "lastUpdated": "2026-09-21T08:08:00-05:00",
   "entries": [
     {
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T08:08:00-05:00",
+      "summary": "Weekday morning ops: Capital trial 19d left. Controlled Send 15/15 confirmed (0 failed, 0 STL). Contacted=82; ready_for_send=0; ready_for_morning_qa=1; day FT 15/0; warm=6. EXCEPTION next-day runway 1/15 (shortfall 14). Wells republish requested for console.elephantharbor.com/harbor-local/. Named prospect rows and private emails remain in the authenticated desk only.",
+      "status": "OPS",
+      "passId": "mon-2026-09-21-morning-ops",
+      "contacted": 82,
+      "ready_for_send": 0,
+      "ready_for_morning_qa": 1,
+      "warm": 6,
+      "capitalTrialDaysLeft": 19,
+      "qualifyingUnsentYesEmail": 1,
+      "shortfallVs15": 14,
+      "dayFirstTouchAccepted": 15,
+      "dayFirstTouchFailed": 0,
+      "deskChanges": "Aggregate Local metrics; authenticated desk sync; public-safe Local mirror"
+    },
+    {
+      "actor": "Grok Bot for Blair (Harbor Local - CEO)",
       "at": "2026-09-21T08:00:31-05:00",
-      "deskChanges": "Aggregate Local metrics; authenticated desk sync; public-safe Local mirror",
-      "lessonId": null,
       "summary": "Mon Controlled Send 15/15 accepted via Resend SMTP; failed=0; 0 STL. Day first-touch 15/15. Contacted=82; ready_for_send=0; ready_for_morning_qa=1; warm=6. Named prospect rows and private emails remain in the authenticated desk only.",
-      "passId": "mon-2026-09-21-controlled-send",
       "status": "SENT",
+      "passId": "mon-2026-09-21-controlled-send",
       "accepted": 15,
       "failed": 0,
       "contacted": 82,
-      "ready_for_send": 0
+      "ready_for_send": 0,
+      "deskChanges": "Aggregate Local metrics; authenticated desk sync; public-safe Local mirror"
     },
     {
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
       "at": "2026-09-21T06:49:40-05:00",
-      "summary": "Mon morning QA PASS 15/15 ready_for_send; warm=6; shortfall=0; Capital trial ~19d left; no outbound this pass.",
-      "status": "READY"
+      "summary": "Mon morning QA 2026-09-21: click health PASS; Warm=6 (Griffin+Montefusco+Johnson+Spoon River+Klughart+Astoria); locked cohort 15/15 PASS\u2192ready_for_send (10 EXP-02-a / 5 EXP-01 v3-a); reserve absolutes stays ready_for_morning_qa; drops=0; shortfall=0 (no Lane/Kit top-up). 0 STL. Capital trial ~19d left. No prospect send this pass.",
+      "status": "READY",
+      "passId": "mon-2026-09-21-morning-qa",
+      "ready_for_send": 15,
+      "shortfallVs15": 0
     },
     {
       "actor": "Grok Bot under Blair (Harbor Local - CEO)",
       "at": "2026-09-21T06:15:00-05:00",
-      "deskChanges": "Mon Fri5+Klaus stage aggregate; authenticated Local desk sync; public-safe Local mirror",
-      "lessonId": null,
       "summary": "Mon 2026-09-21 Fri5+Klaus stage: READY_FOR_MORNING_QA=6 (EXP-02-a); runway 6/15 (shortfall 9); BN adjacent hunt in flight; 0 outbound. Named prospect rows and private emails remain in the authenticated desk only.",
+      "status": "EXCEPTION",
       "passId": "mon-2026-09-21-fri5-stage",
-      "status": "EXCEPTION",
-      "qualifyingUnsentYesEmail": 6,
-      "shortfallVs15": 9
-    },
-    {
-      "actor": "Grok Bot under Blair (Harbor Local - CEO)",
-      "at": "2026-09-18T13:15:00-05:00",
-      "deskChanges": "Aggregate Local metrics; authenticated desk sync; public-safe Local mirror",
-      "lessonId": null,
-      "summary": "Afternoon Hunt EXCEPTION: Mon 2026-09-21 qualifying Yes+email runway 6/15 (shortfall 9) after exhaustive active-cell mining; +4 Yes+email and +4 Hold+email inventory; 0 STL; 0 outbound. Named prospect rows and private emails remain in the authenticated desk only.",
-      "passId": "fri-2026-09-18-afternoon-hunt",
-      "status": "EXCEPTION",
       "qualifyingUnsentYesEmail": 6,
       "shortfallVs15": 9
     },
     {
       "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-18T08:07:00-05:00",
-      "deskChanges": "session-log/snapshot/segment-summary + mirrors; Wells republish request",
-      "lessonId": null,
-      "summary": "Fri morning ops aggregate: Controlled Send 15/15 accepted; Contacted=67; ready_for_send=0; day first-touch 15/0; next-day Yes+email runway shortfall vs ≥15; Warm chips=3; trial 22d left. Named prospect rows and private emails not published."
+      "summary": "Weekday morning ops: Capital trial clock 22 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Morning QA 15/15 PASS \u2192 ready_for_send (10 EXP-02-a + 5 EXP-01 v3-a holdout); klaus reserve ready_for_morning_qa; click health PASS. Controlled Send 15/15 accepted via Resend SMTP thomas@gigaweave.io (0 failed, 0 STL) @07:42 CT; routine confirm @07:56. Contacted=67; ready_for_send=0; day first-touch accepted=15/failed=0. Warm=Griffin HVAC, Montefusco HVAC, Johnson HVACR (no disclosure). EXCEPTION \u2014 next-day runway: qualifying unsent Yes+email on active Coverage=1 (Klaus only) vs \u226515 required; afternoon hunt owns restock. Coverage peoria-il:hvac + springfield-il:hvac; STL hard-stopped. Brand GigaWeave; Hearthlight only. Wells republish requested for console.elephantharbor.com/harbor-local/.",
+      "status": null
     },
     {
+      "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-18T07:56:00-05:00",
-      "actor": "Harbor Local",
-      "deskChanges": "Aggregate metrics refresh; authenticated desk sync; public-safe Local mirror",
-      "lessonId": null,
-      "summary": "Fri controlled send aggregate refresh: 15/15 accepted; Contacted=67; ready_for_send=0. Named prospect rows and private engagement details remain in the authenticated desk only."
+      "summary": "Fri Controlled Send (Thomas GO @07:42 CT; routine confirm @07:56): 15/15 accepted via Resend SMTP thomas@gigaweave.io \u00b7 0 failed \u00b7 0 STL. Mix 10 EXP-02-a (exp02-a-plain-personal) + 5 EXP-01 v3-a holdout. Klaus reserve NOT sent. SoR Contacted+previewSent on all 15. Day tally first-touch accepted=15 / failed=0. Coverage peoria-il:hvac + springfield-il:hvac. Wells republish requested for console.elephantharbor.com/harbor-local/.",
+      "status": null
+    },
+    {
+      "actor": "Lane (Harbor Local - Growth)",
+      "at": "2026-09-17T08:22:46-05:00",
+      "summary": "Thomas same-day override: sep17-same-day-send 5/5 accepted via Resend SMTP (exp01-v3-a Hearthlight, build c7d89d70). Slugs: gills-heating, corey-heating, canton-heating, bob-bergen-heating, collins-heating. 0 STL. Funnel\u2192Contacted + previewSent. Failed=0.",
+      "status": null
+    },
+    {
+      "actor": "Blair (Harbor Local - CEO)",
+      "at": "2026-09-17T08:00:00-05:00",
+      "summary": "Weekday morning ops: Capital trial clock 23 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Morning QA 0/0 ready_for_send (no staged packs); Controlled Send 0/0 quiet exit. Contacted=37; active-Coverage qualifying unsent Yes+email=5 (Hearthlight/pack blocked); ready_for_send=0. Warm=Griffin HVAC (preview_viewed). Scored n=94 (Yes 56 / Hold 28 / No 10); emails 71/94. STL hard-stopped. Brand GigaWeave; Hearthlight only. Kit+Lane refill already queued from Morning QA. Wells republish requested for console.elephantharbor.com/harbor-local/. Thomas not notified (no trial milestone; short runway already surfaced at Morning QA).",
+      "status": null
     }
   ]
 }
