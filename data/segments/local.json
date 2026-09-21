@@ -1,12 +1,12 @@
 {
-  "currentObjective": "Grow Wed+ Found Yes+email buffer (\u22655 preferred) while Tue 15/15 stays locked; Kit Hearthlight for A-1 + Matheny stubs; Wells console republish.",
-  "currentStatusBrief": "Discovery-topup 2026-09-21T10:20:00-05:00: +2 Yes+email Wed buffer (A-1, Matheny); +3 Hold+email; 7 deepen still not_found; Tue ready_for_morning_qa=15 (shortfall 0); Contacted=82; Decatur Scoring\u00b7Medium; 0 STL; 0 outbound. Capital trial ~19d left.",
+  "currentObjective": "Hold Tue locked morning-QA 15 + Wed buffer ×2 staged READY (A-1, Matheny EXP-02-a); grow further Wed+ Found Yes+email buffer (≥5 preferred). No outbound.",
+  "currentStatusBrief": "wed-2026-09-23-buffer-stage 2026-09-21T10:24:45-05:00: +2 READY_FOR_MORNING_QA EXP-02-a (a-1-heating-air, matheny-heating-cooling); Tue locked 15 untouched → ready_for_morning_qa=17; Contacted=82; n=165; Wed Found Yes+email buffer=0; 0 STL; 0 outbound. Capital trial ~19d left.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-21T10:20:00-05:00 Discovery-topup: Tue 15 locked; Wed buffer 2; Kit stubs open; Wells republish needed",
+  "freshnessNote": "2026-09-21T10:28:00-05:00 Auth republish after wed-2026-09-23-buffer-stage: ready_for_morning_qa=17 (Tue 15 + Wed ×2); Contacted=82; n=165",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
@@ -14,11 +14,11 @@
     },
     {
       "label": "ready_for_morning_qa",
-      "value": 15
+      "value": 17
     },
     {
       "label": "wedFoundYesEmailBuffer",
-      "value": 2
+      "value": 0
     },
     {
       "label": "contacted",
@@ -34,11 +34,11 @@
     },
     {
       "label": "status",
-      "value": "DISCOVERY+BUFFER"
+      "value": "QA=17"
     }
   ],
-  "humanAction": "Wells republish console desk mirror; parent\u2192Kit Hearthlight for a-1-heating-air + matheny-heating-cooling (Wed buffer). Tue cohort LOCKED.",
-  "lastUpdated": "2026-09-21T10:20:00-05:00",
+  "humanAction": "None gated. Console desk mirror post buffer-stage (ready_for_morning_qa=17). Tue cohort LOCKED. No outbound.",
+  "lastUpdated": "2026-09-21T10:28:00-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -46,19 +46,19 @@
     "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
     "originationDate": "2026-09-12"
   },
-  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge).",
+  "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge).",
   "needsHumanAction": false,
-  "nextUp": "Kit: Hearthlight stubs a-1-heating-air + matheny-heating-cooling (EXP-02-a). Afternoon Hunt CONTINUE \u2014 Wed buffer thin (2<5). Wells republish. Tue 15 untouched.",
+  "nextUp": "ready_for_morning_qa=17 (Tue 15 locked + Wed A-1+Matheny staged). Afternoon Hunt CONTINUE — Wed Found Yes+email buffer 0<5. No outbound.",
   "owner": "Blair (Harbor Local - CEO)",
   "publicLinks": [
     {
       "label": "Local operating desk (auth)",
-      "note": "Authenticated console \u2014 Prospects + desk-previews. Not public github.io.",
+      "note": "Authenticated console — Prospects + desk-previews. Not public github.io.",
       "url": "https://console.elephantharbor.com/harbor-local/"
     }
   ],
   "segmentId": "local",
   "segmentName": "Harbor Local",
-  "status": "DISCOVERY TOP-UP \u2014 Tue 15 locked \u00b7 Wed buffer 2",
-  "statusDetail": "mon-2026-09-21-discovery-topup: n165; +2 Yes+email; +3 Hold+email; deepen 7/7 still not_found; Decatur confidence Medium; shortfallVs15=0; 0 STL; 0 outbound; Kit stubs only."
+  "status": "BUFFER STAGED — ready_for_morning_qa=17 (Tue 15 + Wed ×2)",
+  "statusDetail": "wed-2026-09-23-buffer-stage: n165; +2 READY EXP-02-a (A-1, Matheny); Tue 15 untouched; Contacted=82; Wed Found buffer=0; 0 STL; 0 outbound."
 }
