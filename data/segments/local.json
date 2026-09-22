@@ -1,12 +1,12 @@
 {
-  "currentObjective": "Tue Controlled Send done: 15 accepted / 0 failed; reserve morning_qa=7; Wells console republish needed.",
-  "currentStatusBrief": "tue-2026-09-22-controlled-send 2026-09-22T07:29:32-05:00: accepted=15/15; failed=0; Contacted=97; ready_for_send=0; ready_for_morning_qa=7; reserve 7 NOT sent; 0 STL; Capital trial ~18d left.",
+  "currentObjective": "Wed 2026-09-23 Morning QA fire-list 15/15 READY (10 EXP-02-a + 5 EXP-01). Controlled Send owns outbound. Wells console republish needed.",
+  "currentStatusBrief": "tue-2026-09-22-afternoon-runway-fill 2026-09-22T13:05:00-05:00: ready_for_morning_qa=15 (was 7); +8 Yes+email adjacent metros; deploy bc9e5899; Contacted=97; ready_for_send=0; 0 STL; NO SEND; Wells republish needed.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-22T07:29:32-05:00 Controlled Send: accepted=15; failed=0; Contacted=97; ready_for_send=0; ready_for_morning_qa=7; Wells republish needed",
+  "freshnessNote": "2026-09-22T13:05:00-05:00 runway fill: ready_for_morning_qa=15; Contacted=97; deploy bc9e5899; 0 STL; Wells republish needed",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
@@ -14,7 +14,7 @@
     },
     {
       "label": "ready_for_morning_qa",
-      "value": 7
+      "value": 15
     },
     {
       "label": "contacted",
@@ -26,7 +26,7 @@
     },
     {
       "label": "prospectTableN",
-      "value": 173
+      "value": 181
     },
     {
       "label": "capitalTrialDaysLeft",
@@ -42,11 +42,11 @@
     },
     {
       "label": "status",
-      "value": "SENT=15"
+      "value": "QA=15"
     }
   ],
-  "humanAction": "Wells: console auth republish after Tue Controlled Send. No further gated send today unless refill.",
-  "lastUpdated": "2026-09-22T07:29:32-05:00",
+  "humanAction": "Wells: console auth republish after afternoon runway fill. No outbound today.",
+  "lastUpdated": "2026-09-22T13:05:00-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -58,7 +58,7 @@
     "window": "2026-09-10..2026-10-10",
     "daysLeft": 18
   },
-  "status": "SENT — accepted=15/15 · Contacted=97 · ready_for_send=0 · morning_qa=7",
-  "statusDetail": "tue-2026-09-22-controlled-send: 15 accepted via Resend SMTP; 0 failed; reserve 7 NOT sent; Mix 10 EXP-02-a + 5 EXP-01 v3-a; Contacted=97; ready_for_send=0; ready_for_morning_qa=7; 0 STL; Wells republish needed.",
-  "nextUp": "Reserve morning_qa=7 intact for Wed+. Afternoon hunt if needed. Wells console republish needed. Capital trial ~18d left."
+  "status": "READY FOR MORNING QA \u2014 ready_for_morning_qa=15 \u00b7 Contacted=97 \u00b7 n=181",
+  "statusDetail": "tue-2026-09-22-afternoon-runway-fill: ready_for_morning_qa=15 (was 7); +8 Yes+email; opened rockford/ottawa-lasalle-peru/galesburg/quincy/danville/kankakee (Scoring\u00b7Low); deploy bc9e5899; Contacted=97; ready_for_send=0; 0 STL; NO SEND; Wells republish needed.",
+  "nextUp": "Wed 2026-09-23 Morning QA fire-list 15/15 (10 EXP-02-a + 5 EXP-01). Wells console republish needed. Capital trial ~18d left."
 }

@@ -1,26 +1,26 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-22T07:29:32-05:00",
+  "lastUpdated": "2026-09-22T13:05:00-05:00",
   "items": [
     {
       "id": "wells-console-republish",
-      "title": "Wells: console auth republish after Tue Controlled Send",
+      "title": "Wells: console auth republish after afternoon runway fill",
       "priority": "high",
-      "note": "Private-local sync pending/done; accepted=15; Contacted=97. Do not claim console live until Wells deploys."
+      "note": "Private-local sync; ready_for_morning_qa=15; n=181. Do not claim console live until Wells deploys."
     },
     {
-      "id": "reserve-buffer",
-      "title": "Reserve 7 ready_for_morning_qa untouched (Wed+ buffer)",
-      "priority": "normal",
-      "note": "a-1, matheny, horizon-milan, bitler, paradise, cr-neff, ld-mechanical"
+      "id": "wed-morning-qa",
+      "title": "Wed 2026-09-23 Morning QA \u2192 Controlled Send (15)",
+      "priority": "high",
+      "note": "10 EXP-02-a + 5 EXP-01 holdout locked in hunt md. Cap 15. 0 STL."
     },
     {
-      "id": "afternoon-hunt",
-      "title": "Afternoon hunt if Wed fire-list short of 15",
+      "id": "wrights-mailbox-spotcheck",
+      "title": "Human QA spot-check Wright's ICC mailbox tone",
       "priority": "normal",
-      "note": "Post-send ready_for_send=0; morning_qa=7. Cap 15. 0 STL."
+      "note": "ICC-sourced mailbox; first-party site broken \u2014 human Morning QA spot-check."
     }
   ],
-  "headline": "SENT 15/15 · Contacted=97 · ready_for_send=0 · morning_qa=7 · Wells republish needed · Capital ~18d"
+  "headline": "READY 15/15 for Wed Morning QA \u00b7 Contacted=97 \u00b7 ready_for_send=0 \u00b7 deploy bc9e5899 \u00b7 Wells republish needed \u00b7 Capital ~18d"
 }
