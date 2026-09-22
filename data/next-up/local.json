@@ -1,26 +1,26 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-22T06:25:00-05:00",
+  "lastUpdated": "2026-09-22T07:29:32-05:00",
   "items": [
     {
-      "id": "controlled-send-0700",
-      "title": "Controlled Send ~7:00 — fire ready_for_send=15 (EXP-02-a×10 / EXP-01×5)",
-      "priority": "high",
-      "note": "Morning QA PASS. Do not remint. Cap 15. Reserve 7 stay morning_qa."
-    },
-    {
       "id": "wells-console-republish",
-      "title": "Wells: console auth republish after Tue morning QA",
+      "title": "Wells: console auth republish after Tue Controlled Send",
       "priority": "high",
-      "note": "Private-local synced; public segment aggregates refreshed. ready_for_send=15. Do not claim console live until Wells deploys."
+      "note": "Private-local sync pending/done; accepted=15; Contacted=97. Do not claim console live until Wells deploys."
     },
     {
       "id": "reserve-buffer",
       "title": "Reserve 7 ready_for_morning_qa untouched (Wed+ buffer)",
       "priority": "normal",
       "note": "a-1, matheny, horizon-milan, bitler, paradise, cr-neff, ld-mechanical"
+    },
+    {
+      "id": "afternoon-hunt",
+      "title": "Afternoon hunt if Wed fire-list short of 15",
+      "priority": "normal",
+      "note": "Post-send ready_for_send=0; morning_qa=7. Cap 15. 0 STL."
     }
   ],
-  "headline": "ready_for_send=15 · reserve morning_qa=7 · Warm=6 · Controlled Send next · Wells republish needed"
+  "headline": "SENT 15/15 · Contacted=97 · ready_for_send=0 · morning_qa=7 · Wells republish needed · Capital ~18d"
 }
