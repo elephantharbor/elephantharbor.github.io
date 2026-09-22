@@ -17,7 +17,7 @@
     },
     {
       "id": "wrights-mailbox-spotcheck",
-      "title": "Human QA spot-check Wright's ICC mailbox tone",
+      "title": "Human QA spot-check ICC-sourced mailbox tone (one runway row)",
       "priority": "normal",
       "note": "ICC-sourced mailbox; first-party site broken \u2014 human Morning QA spot-check."
     }
