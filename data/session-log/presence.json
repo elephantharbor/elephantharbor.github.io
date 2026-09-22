@@ -1,8 +1,29 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-21T11:12:00-05:00",
+  "lastUpdated": "2026-09-21T14:06:00-05:00",
   "entries": [
+    {
+      "at": "2026-09-21T14:06:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Thomas approved Falcons/Saints NOW ship tone; go-hard elevated to core @elephantharbor X persona. Cascaded to Rowan. Logged original + 3-34 reply URLs; posts 101.",
+      "deskChanges": "Persona on channel; Learning/AV human-voice → go-hard; replyExamples; Next Up label.",
+      "lessonId": "go-hard-persona"
+    },
+    {
+      "at": "2026-09-21T13:55:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Thomas: standing rule ≥1 pro-Atlanta Falcons and/or anti-New Orleans Saints reply/original per weekday pass — very human, hit hard. Cascaded to Rowan with voice rules for Tue.",
+      "deskChanges": "Channel cadence + Next Up label + human-voice AV updated.",
+      "lessonId": "human-voice-shape"
+    },
+    {
+      "at": "2026-09-21T13:45:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Thomas approved cascade of five human-voice rules to Rowan for Tue pass (ban binary A-or-B default; ban stock D openers; parent-concrete; one clause; allow mess). Logged as Learning Testing ls-human-voice-shape.",
+      "deskChanges": "Next Up label; Learning + Active Venture human-voice-rules; channel cadence.",
+      "lessonId": "human-voice-shape"
+    },
     {
       "at": "2026-09-21T11:12:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",

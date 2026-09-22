@@ -4,9 +4,9 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "EXP-02 aged Q17 / D13.5; Testing (confidence weakened); EXP-03 held; next Tue Sep 22.",
+  "statusDetail": "Go-hard persona locked; posts 101; next Tue Sep 22 full pass.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-21T11:12:00-05:00",
+  "lastUpdated": "2026-09-21T14:06:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
@@ -15,13 +15,13 @@
     },
     {
       "label": "X posts",
-      "value": "99",
-      "hint": "After Mon pass"
+      "value": "101",
+      "hint": "After Falcons/Saints NOW ship"
     },
     {
-      "label": "EXP-02 aged",
-      "value": "Q med 17 · D med 13.5",
-      "hint": "Testing — form→engagement weakened"
+      "label": "Persona",
+      "value": "Go hard",
+      "hint": "Thomas-approved 2026-09-21"
     },
     {
       "label": "Public website",
@@ -29,13 +29,13 @@
       "hint": "Gmail temporary"
     }
   ],
-  "currentObjective": "Keep weekday ~8–15 busy-room replies with Q + ranking/disagreement bias (no observational default). EXP-02 Learning stays Testing. Hold EXP-03 until a second aged-view pass mid/late week; then reinforce/weaken/reject with clearer sample.",
-  "currentStatusBrief": "First age pass in: Q median slightly above D, engagement still near-zero. Keep Q+D busy-room mix; no Confirmed; no EXP-03 yet. Tue 10:00 CT. Nothing needs Thomas.",
+  "currentObjective": "Go-hard is core @elephantharbor X persona. Weekday ~8–15 busy-room + voice 5 + ≥1 pro-Falcons/anti-Saints hard hit. Hard, human, one punch — no soft both-sides. 2nd EXP-02 age Wed ~11:15; hold EXP-03.",
+  "currentStatusBrief": "Thomas locked go-hard as core X voice. Falcons/Saints NOW ship was the tone target. Tue full pass next. Nothing needs Thomas.",
   "latestLesson": {
-    "id": "exp02-voice-not-volume",
-    "title": "Voice/form shift — provisional weaken on engagement half",
-    "originationDate": "2026-09-16",
-    "oneLiner": "Mix executed; aged Q17 vs D13.5; engagement still near-zero — stay Testing, hold EXP-03 for 2nd age."
+    "id": "go-hard-persona",
+    "title": "Go hard is core X persona",
+    "originationDate": "2026-09-21",
+    "oneLiner": "Hard, human, side-taking — not polite commentary or AI templates."
   },
   "needsHumanAction": false,
   "humanAction": null,
@@ -80,16 +80,22 @@
   },
   "activeVentures": [
     {
+      "id": "human-voice-rules",
+      "title": "Go-hard persona + human voice rules",
+      "status": "Active — Testing",
+      "nextMilestone": "Tue 2026-09-22 full pass under go-hard persona"
+    },
+    {
       "id": "exp-02-voice-shift",
       "title": "EXP-02 — Voice/form shift (questions & disagreement)",
       "status": "Active — provisional closeout; Testing / confidence weakened",
-      "nextMilestone": "Tue 2026-09-22 pass; 2nd age pass ~Wed–Fri Sep 24–25 before EXP-03"
+      "nextMilestone": "Wed 2026-09-24 ~11:15 CT 2nd age pass; human-voice overlay live Tue"
     },
     {
       "id": "x-volume-bar",
       "title": "X volume bar — ~8–15 replies/day with busy-room gate",
       "status": "Active",
-      "nextMilestone": "Tue 2026-09-22 weekday pass"
+      "nextMilestone": "Tue 2026-09-22 go-hard pass"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-21T11:12:00-05:00",
+  "lastUpdated": "2026-09-21T14:06:00-05:00",
   "items": [
     {
       "title": "Weekday X pass",
       "nextRunAt": "2026-09-22T10:00:00-05:00",
-      "scheduleLabel": "Weekdays 10:00 AM CT (~8\u201315; post-EXP-02; age Q vs D before EXP-03)",
+      "scheduleLabel": "Weekdays 10:00 AM CT (~8\u201315; go-hard persona; voice 5; \u22651 Falcons/Saints)",
       "owner": "Rowan (Harbor Presence - Lead)"
     },
     {
