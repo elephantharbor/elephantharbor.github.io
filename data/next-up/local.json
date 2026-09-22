@@ -16,7 +16,7 @@
       "note": "10 EXP-02-a + 5 EXP-01 holdout locked in hunt md. Cap 15. 0 STL."
     },
     {
-      "id": "wrights-mailbox-spotcheck",
+      "id": "mailbox-spotcheck-runway",
       "title": "Human QA spot-check ICC-sourced mailbox tone (one runway row)",
       "priority": "normal",
       "note": "ICC-sourced mailbox; first-party site broken \u2014 human Morning QA spot-check."
