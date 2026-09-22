@@ -1,8 +1,21 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-21T13:35:00-05:00",
+  "lastUpdated": "2026-09-22T06:25:00-05:00",
   "entries": [
+    {
+      "actor": "Grok Bot for Blair (Harbor Local - CEO)",
+      "at": "2026-09-22T06:25:00-05:00",
+      "passId": "tue-2026-09-22-morning-qa",
+      "status": "READY",
+      "summary": "Tue morning QA: click health PASS; Warm=6; fire-list 15/15 PASS→ready_for_send (10 EXP-02-a / 5 EXP-01); reserve 7 morning_qa; drops=0; shortfall=0; 0 STL; Capital ~18d left. No prospect send.",
+      "ready_for_send": 15,
+      "ready_for_morning_qa": 7,
+      "contacted": 82,
+      "n": 173,
+      "capitalTrialDaysLeft": 18,
+      "shortfallVs15": 0
+    },
     {
       "at": "2026-09-21T13:35:00-05:00",
       "actor": "Lane (Harbor Local - Growth) under Blair",

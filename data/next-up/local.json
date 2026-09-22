@@ -1,7 +1,26 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-21T13:35:00-05:00",
-  "items": [],
-  "headline": "ready_for_morning_qa=22 (Tue 15 locked + Wed A-1/Matheny + afternoon \u00d75) \u00b7 Found buffer consumed \u00b7 No outbound"
+  "lastUpdated": "2026-09-22T06:25:00-05:00",
+  "items": [
+    {
+      "id": "controlled-send-0700",
+      "title": "Controlled Send ~7:00 — fire ready_for_send=15 (EXP-02-a×10 / EXP-01×5)",
+      "priority": "high",
+      "note": "Morning QA PASS. Do not remint. Cap 15. Reserve 7 stay morning_qa."
+    },
+    {
+      "id": "wells-console-republish",
+      "title": "Wells: console auth republish after Tue morning QA",
+      "priority": "high",
+      "note": "Private-local synced; public segment aggregates refreshed. ready_for_send=15. Do not claim console live until Wells deploys."
+    },
+    {
+      "id": "reserve-buffer",
+      "title": "Reserve 7 ready_for_morning_qa untouched (Wed+ buffer)",
+      "priority": "normal",
+      "note": "a-1, matheny, horizon-milan, bitler, paradise, cr-neff, ld-mechanical"
+    }
+  ],
+  "headline": "ready_for_send=15 · reserve morning_qa=7 · Warm=6 · Controlled Send next · Wells republish needed"
 }
