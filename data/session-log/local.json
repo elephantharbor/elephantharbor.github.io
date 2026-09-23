@@ -1,63 +1,64 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-23T05:58:00-05:00",
+  "lastUpdated": "2026-09-23T07:40:36-05:00",
   "entries": [
+    {
+      "actor": "Grok Bot for Blair (Harbor Local - CEO)",
+      "at": "2026-09-23T07:40:36-05:00",
+      "passId": "wed-2026-09-23-controlled-send",
+      "status": "SENT",
+      "summary": "Wed Controlled Send (weekday auto-send @~7:35 CT): 15/15 accepted via Resend SMTP thomas@gigaweave.io \u00b7 0 failed \u00b7 0 STL. Mix 10 EXP-02-a (exp02-v2) + 5 EXP-01 v3-a holdout. Reserve 0. SoR Contacted+previewSent on accepted. Day tally first-touch accepted=15 / failed=0. Contacted=112; ready_for_send=0; ready_for_morning_qa=0. Wells console republish still needed for console.elephantharbor.com/harbor-local/. Capital trial 17 days left (glance).",
+      "accepted": 15,
+      "failed": 0,
+      "contacted": 112,
+      "ready_for_send": 0,
+      "ready_for_morning_qa": 0,
+      "capitalTrialDaysLeft": 17
+    },
     {
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
       "at": "2026-09-23T05:58:00-05:00",
       "passId": "wed-2026-09-23-morning-qa",
       "status": "READY",
-      "summary": "Wed morning QA: click health PASS; Warm=7; fire-list 15/15 PASS→ready_for_send (EXP-02-v2×10 + EXP-01×5); ready_for_morning_qa reserve=0; drops=0; shortfall=0; 0 STL; Capital ~17d left. No prospect send.",
+      "summary": "Wed morning QA 2026-09-23: click health PASS; Warm=7 (1 NEW + prior 6); locked fire-list 15/15 PASS\u2192ready_for_send (10 EXP-02-a / 5 EXP-01); EXP-02 HTML stub refill\u00d710 then re-QA; drops=0; shortfall=0. 0 STL. Capital trial ~17d left. No prospect send this pass.",
       "ready_for_send": 15,
       "ready_for_morning_qa": 0,
       "contacted": 97,
-      "n": 181,
+      "drops": 0,
       "warm": 7,
-      "capitalTrialDaysLeft": 17,
-      "shortfallVs15": 0
+      "capitalTrialDaysLeft": 17
     },
     {
       "actor": "Grok Bot under Blair (Harbor Local - CEO)",
       "at": "2026-09-22T13:05:00-05:00",
+      "summary": "Afternoon runway fill SUCCESS: ready_for_morning_qa 7\u219215 for Wed Morning QA (10 EXP-02-a + 5 EXP-01). 6 adjacent IL metros opened. 0 STL. 0 outbound. Deploy bc9e5899.",
       "passId": "tue-2026-09-22-afternoon-runway-fill",
       "status": "SUCCESS",
-      "summary": "Afternoon runway fill SUCCESS: ready_for_morning_qa 7→15 for Wed Morning QA (10 EXP-02-a + 5 EXP-01). Opened 6 adjacent IL HVAC cells (Scoring·Low). 0 STL. 0 outbound. Contacted=97; n=181; deploy bc9e5899. Wells republish for console.",
       "ready_for_morning_qa": 15,
-      "ready_for_send": 0,
-      "contacted": 97,
-      "n": 181,
       "shortfallVs15": 0,
-      "capitalTrialDaysLeft": 18,
-      "coverageOpened": [
-        "rockford-il:hvac",
-        "ottawa-lasalle-peru-il:hvac",
-        "galesburg-il:hvac",
-        "quincy-il:hvac",
-        "danville-il:hvac",
-        "kankakee-il:hvac"
-      ]
+      "contacted": 97,
+      "ready_for_send": 0,
+      "n": 181,
+      "capitalTrialDaysLeft": 18
     },
     {
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
       "at": "2026-09-22T07:29:32-05:00",
       "passId": "tue-2026-09-22-controlled-send",
       "status": "SENT",
-      "summary": "Tue Controlled Send: 15/15 accepted via Resend SMTP · 0 failed · 0 STL. Mix 10 EXP-02-a + 5 EXP-01 v3-a. Reserve 7 NOT sent. Contacted=97; ready_for_send=0; ready_for_morning_qa=7. Capital ~18d left. Wells republish for console.elephantharbor.com/harbor-local/.",
+      "summary": "Tue Controlled Send (weekday auto-send @~7:25 CT): 15/15 accepted via Resend SMTP thomas@gigaweave.io \u00b7 0 failed \u00b7 0 STL. Mix 10 EXP-02-a (exp02-a-plain-personal) + 5 EXP-01 v3-a holdout. Reserve 7 NOT sent. SoR Contacted+previewSent on accepted. Day tally first-touch accepted=15 / failed=0. Contacted=97; ready_for_send=0; ready_for_morning_qa=7. Wells republish requested for console.elephantharbor.com/harbor-local/.",
       "accepted": 15,
       "failed": 0,
       "contacted": 97,
-      "ready_for_send": 0,
-      "ready_for_morning_qa": 7,
-      "n": 173,
-      "capitalTrialDaysLeft": 18
+      "ready_for_send": 0
     },
     {
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
       "at": "2026-09-22T06:25:00-05:00",
       "passId": "tue-2026-09-22-morning-qa",
       "status": "READY",
-      "summary": "Tue morning QA: click health PASS; Warm=6; fire-list 15/15 PASS→ready_for_send (10 EXP-02-a / 5 EXP-01); reserve 7 morning_qa; drops=0; shortfall=0; 0 STL; Capital ~18d left. No prospect send.",
+      "summary": "Tue morning QA 2026-09-22: click health PASS; Warm=6 (named rows private); locked fire-list 15/15 PASS\u2192ready_for_send (10 EXP-02-a / 5 EXP-01 v3-a); reserve 7 stay ready_for_morning_qa; drops=0; shortfall=0 (no Lane/Kit top-up). 0 STL. Capital trial ~18d left. No prospect send this pass.",
       "ready_for_send": 15,
       "ready_for_morning_qa": 7,
       "contacted": 82,
@@ -66,96 +67,68 @@
       "shortfallVs15": 0
     },
     {
-      "at": "2026-09-21T13:35:00-05:00",
       "actor": "Lane (Harbor Local - Growth) under Blair",
+      "at": "2026-09-21T13:35:00-05:00",
       "passId": "wed-2026-09-24-afternoon-buffer",
       "status": "OK",
-      "summary": "Wed+ afternoon buffer stage: +5 EXP-02-a READY_FOR_MORNING_QA after Kit PASS 8865d617; Location-gate 5/5 PASS; ready_for_morning_qa 17→22; Contacted=82; n=173; prior fire-list cohorts untouched; 0 STL; 0 outbound.",
+      "summary": "Wed+ afternoon buffer stage: +5 EXP-02-a READY_FOR_MORNING_QA after Kit PASS 8865d617; Location-gate 5/5 PASS; ready_for_morning_qa 17\u219222; Contacted=82; n=173; Tue 15 + Wed locked cohort untouched; 0 STL; 0 outbound.",
       "ready_for_morning_qa": 22,
       "contacted": 82,
-      "n": 173,
-      "outbound": 0,
-      "stl": 0
+      "n": 173
     },
     {
-      "at": "2026-09-21T10:20:00-05:00",
       "actor": "Lane (Growth) under Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T10:20:00-05:00",
       "passId": "mon-2026-09-21-discovery-topup",
       "status": "OK",
-      "summary": "Discovery top-up Wed buffer: +2 Yes+email (named rows private), +3 Hold+email; 7/7 deepen still not_found; Tue 15 locked untouched; Decatur confidence Low→Medium; 0 STL; 0 outbound."
+      "summary": "Discovery top-up Wed buffer: +2 Yes+email (named rows private), +3 Hold+email; 7/7 deepen still not_found; Tue 15 locked untouched; Decatur confidence Low\u2192Medium; 0 STL; 0 outbound.",
+      "shortfallVs15": 0
     },
     {
-      "at": "2026-09-21T08:08:00-05:00",
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T08:08:00-05:00",
+      "summary": "Weekday morning ops: Capital trial clock 19 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Morning QA 15/15 PASS \u2192 ready_for_send (10 EXP-02-a + 5 EXP-01 v3-a holdout); Absolutes reserve ready_for_morning_qa; click health PASS. Controlled Send 15/15 accepted via Resend SMTP thomas@gigaweave.io (0 failed, 0 STL) @08:00 CT. Contacted=82; ready_for_send=0; ready_for_morning_qa=1; day first-touch accepted=15/failed=0. Warm=[scrubbed] (no disclosure). EXCEPTION \u2014 next-day runway: qualifying unsent Yes+email on active Coverage=1 (AbsoLutes only) vs \u226515 required; shortfall=14; afternoon/Lane+Kit hunt owns restock. Coverage peoria/springfield/BN/CU active; STL hard-stopped. Brand GigaWeave; Hearthlight only. Wells republish requested for console.elephantharbor.com/harbor-local/.",
       "passId": "mon-2026-09-21-morning-ops",
       "status": "OPS",
-      "summary": "Weekday morning ops: Capital trial clock 19 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Morning QA 15/15 PASS → ready_for_send (10 EXP-02-a + 5 EXP-01 v3-a holdout); Absolutes reserve ready_for_morning_qa; click health PASS. Controlled Send 15/15 accepted via Resend SMTP thomas@gigaweave.io (0 failed, 0 STL) @08:00 CT. Contacted=82; ready_for_send=0; ready_for_morning_qa=1; day first-touch accepted=15/failed=0. Warm=Spoon River, Klughart, Astoria, Griffin, Montefusco, Johnson (no disclosure). EXCEPTION — next-day runway: qualifying unsent Yes+email on active Coverage=1 (AbsoLutes only) vs ≥15 required; shortfall=14; afternoon/Lane+Kit hunt owns restock. Coverage peoria/springfield/BN/CU active; STL hard-stopped. Brand GigaWeave; Hearthlight only. Wells republish requested for console.elephantharbor.com/harbor-local/.",
+      "contacted": 82,
+      "ready_for_send": 0,
       "ready_for_morning_qa": 1,
-      "contacted": 82
+      "shortfallVs15": 14,
+      "capitalTrialDaysLeft": 19,
+      "warm": 6
     },
     {
-      "at": "2026-09-21T08:00:31-05:00",
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T08:00:31-05:00",
+      "summary": "Mon Controlled Send (weekday auto-send @08:00 CT): 15/15 accepted via Resend SMTP thomas@gigaweave.io \u00b7 0 failed \u00b7 0 STL. Mix 10 EXP-02-a (exp02-a-plain-personal) + 5 EXP-01 v3-a holdout. Absolutes reserve NOT sent. SoR Contacted+previewSent on all 15. Day tally first-touch accepted=15 / failed=0. Contacted=82; ready_for_send=0. Wells republish requested for console.elephantharbor.com/harbor-local/.",
       "passId": "mon-2026-09-21-controlled-send",
       "status": "SENT",
-      "summary": "Mon Controlled Send (weekday auto-send @08:00 CT): 15/15 accepted via Resend SMTP thomas@gigaweave.io · 0 failed · 0 STL. Mix 10 EXP-02-a (exp02-a-plain-personal) + 5 EXP-01 v3-a holdout. Absolutes reserve NOT sent. SoR Contacted+previewSent on all 15. Day tally first-touch accepted=15 / failed=0. Contacted=82; ready_for_send=0. Wells republish requested for console.elephantharbor.com/harbor-local/.",
-      "contacted": 82
+      "accepted": 15,
+      "failed": 0,
+      "contacted": 82,
+      "ready_for_send": 0
     },
     {
-      "at": "2026-09-21T06:49:40-05:00",
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T06:49:40-05:00",
+      "summary": "Mon morning QA 2026-09-21: click health PASS; Warm=6 (named rows private); locked cohort 15/15 PASS\u2192ready_for_send (10 EXP-02-a / 5 EXP-01 v3-a); reserve absolutes stays ready_for_morning_qa; drops=0; shortfall=0 (no Lane/Kit top-up). 0 STL. Capital trial ~19d left. No prospect send this pass.",
       "passId": "mon-2026-09-21-morning-qa",
       "status": "READY",
-      "summary": "Mon morning QA 2026-09-21: click health PASS; Warm=6 (Griffin+Montefusco+Johnson+Spoon River+Klughart+Astoria); locked cohort 15/15 PASS→ready_for_send (10 EXP-02-a / 5 EXP-01 v3-a); reserve absolutes stays ready_for_morning_qa; drops=0; shortfall=0 (no Lane/Kit top-up). 0 STL. Capital trial ~19d left. No prospect send this pass."
+      "ready_for_send": 15,
+      "shortfallVs15": 0
     },
     {
-      "at": "2026-09-21T06:15:00-05:00",
       "actor": "Grok Bot under Blair (Harbor Local - CEO)",
+      "at": "2026-09-21T06:15:00-05:00",
+      "summary": "Mon 2026-09-21 Fri5+Klaus stage: READY_FOR_MORNING_QA=6 (EXP-02-a); runway 6/15 (shortfall 9); BN adjacent hunt in flight; 0 outbound. Named prospect rows and private emails remain in the authenticated desk only.",
       "passId": "mon-2026-09-21-fri5-stage",
       "status": "EXCEPTION",
-      "summary": "Mon 2026-09-21 Fri5+Klaus stage: READY_FOR_MORNING_QA=6 (EXP-02-a); runway 6/15 (shortfall 9); BN adjacent hunt in flight; 0 outbound. Named prospect rows and private emails remain in the authenticated desk only."
+      "shortfallVs15": 9
     },
     {
+      "actor": "Blair (Harbor Local - CEO)",
       "at": "2026-09-18T08:07:00-05:00",
-      "actor": "Blair (Harbor Local - CEO)",
-      "passId": null,
-      "status": null,
-      "summary": "Weekday morning ops: Capital trial clock 22 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Morning QA 15/15 PASS → ready_for_send (10 EXP-02-a + 5 EXP-01 v3-a holdout); klaus reserve ready_for_morning_qa; click health PASS. Controlled Send 15/15 accepted via Resend SMTP thomas@gigaweave.io (0 failed, 0 STL) @07:42 CT; routine confirm @07:56. Contacted=67; ready_for_send=0; day first-touch accepted=15/failed=0. Warm=Griffin HVAC, Montefusco HVAC, Johnson HVACR (no disclosure). EXCEPTION — next-day runway: qualifying unsent Yes+email on active Coverage=1 (Klaus only) vs ≥15 required; afternoon hunt owns restock. Coverage peoria-il:hvac + springfield-il:hvac; STL hard-stopped. Brand GigaWeave; Hearthlight only. Wells republish requested for console.elephantharbor.com/harbor-local/."
-    },
-    {
-      "at": "2026-09-18T07:56:00-05:00",
-      "actor": "Blair (Harbor Local - CEO)",
-      "passId": null,
-      "status": null,
-      "summary": "Fri Controlled Send (Thomas GO @07:42 CT; routine confirm @07:56): 15/15 accepted via Resend SMTP thomas@gigaweave.io · 0 failed · 0 STL. Mix 10 EXP-02-a (exp02-a-plain-personal) + 5 EXP-01 v3-a holdout. Klaus reserve NOT sent. SoR Contacted+previewSent on all 15. Day tally first-touch accepted=15 / failed=0. Coverage peoria-il:hvac + springfield-il:hvac. Wells republish requested for console.elephantharbor.com/harbor-local/."
-    },
-    {
-      "at": "2026-09-17T08:22:46-05:00",
-      "actor": "Lane (Harbor Local - Growth)",
-      "passId": null,
-      "status": null,
-      "summary": "Thomas same-day override: sep17-same-day-send 5/5 accepted via Resend SMTP (exp01-v3-a Hearthlight, build c7d89d70). Slugs: gills-heating, corey-heating, canton-heating, bob-bergen-heating, collins-heating. 0 STL. Funnel→Contacted + previewSent. Failed=0."
-    },
-    {
-      "at": "2026-09-17T08:00:00-05:00",
-      "actor": "Blair (Harbor Local - CEO)",
-      "passId": null,
-      "status": null,
-      "summary": "Weekday morning ops: Capital trial clock 23 days left (window 2026-09-10→2026-10-10; not a ≤14 milestone). Morning QA 0/0 ready_for_send (no staged packs); Controlled Send 0/0 quiet exit. Contacted=37; active-Coverage qualifying unsent Yes+email=5 (Hearthlight/pack blocked); ready_for_send=0. Warm=Griffin HVAC (preview_viewed). Scored n=94 (Yes 56 / Hold 28 / No 10); emails 71/94. STL hard-stopped. Brand GigaWeave; Hearthlight only. Kit+Lane refill already queued from Morning QA. Wells republish requested for console.elephantharbor.com/harbor-local/. Thomas not notified (no trial milestone; short runway already surfaced at Morning QA)."
-    },
-    {
-      "at": "2026-09-17T07:50:00-05:00",
-      "actor": "Blair (Harbor Local - CEO)",
-      "passId": null,
-      "status": null,
-      "summary": "Thu Controlled Send: READY_FOR_SEND=0 → accepted 0 / failed 0 (quiet exit). Coverage peoria-il:hvac + springfield-il:hvac; STL hard-stopped. 5 Found Yes+email still BLOCKED_AWAITING_HEARTHLIGHT (Gill's, Corey, Canton, Bob Bergen, Collins). No prospect outbound; no Wells Contacted republish."
-    },
-    {
-      "at": "2026-09-17T06:45:00-05:00",
-      "actor": "Blair (Harbor Local - CEO)",
-      "passId": null,
-      "status": null,
-      "summary": "Morning engagement + send QA: staged packs=0 → ready_for_send=0 (cap 15). Warm=Griffin HVAC (preview_viewed). Coverage peoria-il:hvac QA/Gap Sweep·Medium + springfield-il:hvac Scoring·Medium; STL hard-stopped. Inventory: 5 Found Yes+email lacking Hearthlight/packs (Gill's, Corey, Canton, Bob Bergen, Collins) after 9/16 afternoon hunt failure. Kit+Lane asks queued via parent. No prospect outbound."
+      "summary": "Weekday morning ops: Capital trial clock 22 days left (window 2026-09-10\u21922026-10-10; not a \u226414 milestone). Morning QA 15/15 PASS \u2192 ready_for_send (10 EXP-02-a + 5 EXP-01 v3-a holdout); klaus reserve ready_for_morning_qa; click health PASS. Controlled Send 15/15 accepted via Resend SMTP thomas@gigaweave.io (0 failed, 0 STL) @07:42 CT; routine confirm @07:56. Contacted=67; ready_for_send=0; day first-touch accepted=15/failed=0. Warm=[scrubbed] HVAC, [scrubbed] HVAC, [scrubbed] HVACR (no disclosure). EXCEPTION \u2014 next-day runway: qualifying unsent Yes+email on active Coverage=1 (Klaus only) vs \u226515 required; afternoon hunt owns restock. Coverage peoria-il:hvac + springfield-il:hvac; STL hard-stopped. Brand GigaWeave; Hearthlight only. Wells republish requested for console.elephantharbor.com/harbor-local/."
     }
   ]
 }

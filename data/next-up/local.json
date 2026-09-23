@@ -1,26 +1,26 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-23T05:58:00-05:00",
+  "lastUpdated": "2026-09-23T07:40:36-05:00",
   "items": [
     {
-      "id": "controlled-send-0700",
-      "title": "Controlled Send ~7:00 — fire ready_for_send=15 (EXP-02-v2×10 / EXP-01×5)",
+      "id": "wells-console-republish",
+      "title": "Wells: console auth republish after Wed Controlled Send",
       "priority": "high",
-      "note": "Morning QA PASS. Cap 15. ready_for_morning_qa reserve=0. 0 STL."
+      "note": "Private-local sync done; Contacted=112. Do not claim console live until Wells deploys."
+    },
+    {
+      "id": "afternoon-capacity-hunt",
+      "title": "Afternoon hunt / runway restock if ready_for_morning_qa thin",
+      "priority": "normal",
+      "note": "Post-send ready_for_send=0; ready_for_morning_qa=0. Cap 15 tomorrow."
     },
     {
       "id": "warm-internal-prioritize",
       "title": "Internal: prioritize Warm overlay follow-ups (do not disclose engagement)",
       "priority": "normal",
-      "note": "Warm=7 after overnight +1 preview_viewed. Never disclose clicks to prospects."
-    },
-    {
-      "id": "mailbox-spotcheck-runway",
-      "title": "Human QA spot-check ICC-sourced mailbox tone (one runway row)",
-      "priority": "normal",
-      "note": "ICC-sourced mailbox; first-party site broken — human spot-check only."
+      "note": "Warm=7. Never disclose clicks to prospects."
     }
   ],
-  "headline": "ready_for_send=15 · reserve morning_qa=0 · Warm=7 · Controlled Send next · Capital ~17d"
+  "headline": "Contacted=112 · ready_for_send=0 · Warm=7 · Wells republish needed · Capital 17d"
 }
