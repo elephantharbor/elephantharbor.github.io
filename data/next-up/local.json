@@ -1,19 +1,23 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-23T07:40:36-05:00",
+  "lastUpdated": "2026-09-23T13:30:00-05:00",
+  "headline": "Contacted=112 \u00b7 ready_for_morning_qa=16 \u00b7 Warm=7 \u00b7 n=197 \u00b7 Capital 17d",
+  "updatedAt": "2026-09-23T13:30:00-05:00",
+  "primary": "Thu 2026-09-24 Morning QA on ready_for_morning_qa=16 (prefer 10 EXP-02-a + 5 EXP-01); then Controlled Send.",
+  "secondary": [
+    "Warm overlay internal only \u2014 never disclose clicks.",
+    "Capital trial 17 days left (Sep 10\u2013Oct 10 2026) \u2014 glance only.",
+    "STL hard-stopped."
+  ],
+  "blocked": [],
+  "stl": "hard-stopped",
   "items": [
     {
-      "id": "wells-console-republish",
-      "title": "Wells: console auth republish after Wed Controlled Send",
+      "id": "thu-morning-qa",
+      "title": "Thu 2026-09-24 Morning QA \u2014 lock fire-list from ready_for_morning_qa=16",
       "priority": "high",
-      "note": "Private-local sync done; Contacted=112. Do not claim console live until Wells deploys."
-    },
-    {
-      "id": "afternoon-capacity-hunt",
-      "title": "Afternoon hunt / runway restock if ready_for_morning_qa thin",
-      "priority": "normal",
-      "note": "Post-send ready_for_send=0; ready_for_morning_qa=0. Cap 15 tomorrow."
+      "note": "Prefer 10 EXP-02-a + 5 EXP-01 holdout; work-ahead available. Mailbox flags for Morning QA (directory/ICC/EFS class)."
     },
     {
       "id": "warm-internal-prioritize",
@@ -22,5 +26,9 @@
       "note": "Warm=7. Never disclose clicks to prospects."
     }
   ],
-  "headline": "Contacted=112 · ready_for_send=0 · Warm=7 · Wells republish needed · Capital 17d"
+  "notes": [
+    "Mailbox flags present for Morning QA spot-check (no named rows on public).",
+    "Do not promote STL. Do not Hold\u2192Yes.",
+    "Kit deploy 3f13adb3 live on www."
+  ]
 }
