@@ -1,9 +1,26 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-24T07:17:16.148185-05:00",
-  "updatedAt": "2026-09-24T07:17:16.148185-05:00",
+  "lastUpdated": "2026-09-24T12:27:47.020549-05:00",
+  "updatedAt": "2026-09-24T12:27:47.020549-05:00",
   "entries": [
+    {
+      "actor": "Grok Bot for Blair (Harbor Local - CEO)",
+      "at": "2026-09-24T12:27:47.020549-05:00",
+      "passId": "thu-2026-09-24-runway-fill",
+      "status": "SUCCESS",
+      "summary": "Runway fill SUCCESS: Fri EXP-03 fire list 15/15 READY_FOR_MORNING_QA; Contacted=127 unchanged; 0 send · 0 STL; n 197→211; ready_for_morning_qa 1→22; ready_for_send 0→30 (SoR headline). 3 Coverage cells opened (aggregate). Wells Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609 console republish.",
+      "ready_for_morning_qa": 22,
+      "ready_for_send": 30,
+      "fri_cohort_rfmq": 15,
+      "contacted": 127,
+      "warm": 7,
+      "n": 211,
+      "capitalTrialDaysLeft": 16,
+      "accepted": 0,
+      "failed": 0,
+      "stl": 0
+    },
     {
       "actor": "Grok Bot for Blair (Harbor Local - CEO)",
       "at": "2026-09-24T07:17:16.148185-05:00",

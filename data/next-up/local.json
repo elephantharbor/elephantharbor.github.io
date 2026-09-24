@@ -1,23 +1,23 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-24T07:17:16.148185-05:00",
-  "updatedAt": "2026-09-24T07:17:16.148185-05:00",
-  "headline": "Contacted=127 · ready_for_send=0 · ready_for_morning_qa=1 · Warm=7 · n=197 · Capital 16d",
-  "primary": "Lane runway refill toward Fri capacity. Work-ahead ready_for_morning_qa=1 held private (aggregate only).",
+  "lastUpdated": "2026-09-24T12:27:47.020549-05:00",
+  "updatedAt": "2026-09-24T12:27:47.020549-05:00",
+  "headline": "Contacted=127 · ready_for_send=30 · ready_for_morning_qa=22 · Warm=7 · n=211 · Capital 16d",
+  "primary": "Blair Morning QA on Fri EXP-03 cohort (15 RFMQ → promote ready_for_send). NO SEND until QA. Aggregate only.",
   "secondary": [
     "Warm overlay internal only — never disclose clicks.",
     "Capital trial 16 days left (Sep 10–Oct 10 2026) — glance only.",
-    "Console auth republished after Controlled Send catch-up."
+    "Console auth republished after thu-2026-09-24-runway-fill (Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609)."
   ],
   "blocked": [],
   "stl": "hard-stopped",
   "items": [
     {
-      "id": "lane-runway-refill",
-      "title": "Lane: runway refill toward Fri Morning QA capacity",
+      "id": "fri-morning-qa-exp03",
+      "title": "Fri Morning QA: EXP-03 cohort 15/15 READY_FOR_MORNING_QA",
       "priority": "high",
-      "note": "Post-send ready_for_send=0; ready_for_morning_qa=1 (aggregate). Cap 15 Fri."
+      "note": "fri_cohort_rfmq=15; total ready_for_morning_qa=22; ready_for_send=30 (pre-existing). Cap 15 Fri."
     },
     {
       "id": "warm-internal-prioritize",
@@ -27,8 +27,8 @@
     }
   ],
   "notes": [
-    "Named prospect rows/slugs never on public github.io (including reserve morning_qa).",
+    "Named prospect rows/slugs never on public github.io (including RFMQ cohort).",
     "Do not promote STL. Do not Hold→Yes.",
-    "Wells Worker f2d18272-ab9f-4b88-ab18-b9e4e9c77418 live on console.elephantharbor.com/harbor-local/."
+    "Wells Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609 live on console.elephantharbor.com/harbor-local/."
   ]
 }
