@@ -7,19 +7,19 @@
     "milestoneAlert": false
   },
   "capitalTrialDaysLeft": 16,
-  "contacted": 112,
-  "currentObjective": "Controlled Send (~7:00) owns outbound on ready_for_send=15. Work-ahead ready_for_morning_qa=1. Console republished.",
-  "currentStatusBrief": "thu-2026-09-24-morning-qa 2026-09-24T05:58:00-05:00: ready_for_send=15 (was 0); ready_for_morning_qa=1; Contacted=112; Warm=7 (no overnight delta); healthcheck PASS; drops=0; shortfall=0; 0 STL; NO SEND; Wells Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9; github.io a3d6654b6401. Capital trial ~16d left.",
+  "contacted": 127,
+  "currentObjective": "Post-send: runway refill for Fri. ready_for_morning_qa=1 (aggregate). Contacted=127. Console republished.",
+  "currentStatusBrief": "thu-2026-09-24-controlled-send 2026-09-24T07:17:16.148185-05:00: SAME-DAY CATCH-UP (missed ~6:13 CT). 15/15 ESP-accepted via Resend SMTP · 0 failed · 0 STL. Mix 10 EXP-02-a + 5 EXP-01 v3-a. Reserve 1 NOT sent. Contacted=127; ready_for_send=0; ready_for_morning_qa=1; Warm=7; n=197. Wells Worker f2d18272-ab9f-4b88-ab18-b9e4e9c77418. Capital trial ~16d left.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-24T05:58:00-05:00 morning QA + Wells publish: ready_for_send=15; Contacted=112; Warm=7; n=197; 0 STL; Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9; github.io a3d6654b6401",
+  "freshnessNote": "2026-09-24T07:17:16.148185-05:00 Controlled Send catch-up: accepted=15; Contacted=127; ready_for_send=0; ready_for_morning_qa=1; Warm=7; n=197; 0 STL; Worker f2d18272-ab9f-4b88-ab18-b9e4e9c77418",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
-      "value": 15
+      "value": 0
     },
     {
       "label": "ready_for_morning_qa",
@@ -27,7 +27,7 @@
     },
     {
       "label": "contacted",
-      "value": 112
+      "value": 127
     },
     {
       "label": "warmProspects",
@@ -43,12 +43,12 @@
     },
     {
       "label": "status",
-      "value": "SEND=15"
+      "value": "SENT=15"
     }
   ],
   "humanAction": null,
-  "lastPass": "thu-2026-09-24-morning-qa",
-  "lastUpdated": "2026-09-24T05:58:00-05:00",
+  "lastPass": "thu-2026-09-24-controlled-send",
+  "lastUpdated": "2026-09-24T07:17:16.148185-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -57,13 +57,13 @@
     "originationDate": "2026-09-12"
   },
   "n": 197,
-  "nextUp": "Controlled Send fire ready_for_send=15 (10 EXP-02-a + 5 EXP-01). Capital trial 16d left.",
-  "note": "thu-2026-09-24-morning-qa READY + Wells publish: Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9; github.io a3d6654b6401; ready_for_send=15; ready_for_morning_qa=1; Contacted=112; Warm=7; n=197; Capital trial 16d left (not a milestone).",
+  "nextUp": "Lane runway refill toward Fri capacity. Work-ahead ready_for_morning_qa=1 (aggregate). Capital trial 16d left.",
+  "note": "thu-2026-09-24-controlled-send CATCH-UP + Wells publish: Worker f2d18272-ab9f-4b88-ab18-b9e4e9c77418; ready_for_send=0; ready_for_morning_qa=1; Contacted=127; Warm=7; n=197; Capital trial 16d left (not a milestone). Sanitized public stub. Named prospect rows never on public github.io.",
   "ready_for_morning_qa": 1,
-  "ready_for_send": 15,
-  "status": "SEND=15",
-  "statusDetail": "thu-2026-09-24-morning-qa 2026-09-24T05:58:00-05:00: ready_for_send=15 (was 0); ready_for_morning_qa=1; Contacted=112; Warm=7 (no overnight delta); healthcheck PASS; drops=0; shortfall=0; 0 STL; NO SEND; Wells Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9; github.io a3d6654b6401. Capital trial ~16d left.",
+  "ready_for_send": 0,
+  "status": "SENT=15",
+  "statusDetail": "thu-2026-09-24-controlled-send 2026-09-24T07:17:16.148185-05:00: SAME-DAY CATCH-UP. 15/15 accepted · 0 failed · 0 STL. Contacted=127; ready_for_send=0; ready_for_morning_qa=1; Warm=7; n=197. Wells Worker f2d18272-ab9f-4b88-ab18-b9e4e9c77418.",
   "stlHardStop": true,
-  "updatedAt": "2026-09-24T05:58:00-05:00",
+  "updatedAt": "2026-09-24T07:17:16.148185-05:00",
   "warmProspects": 7
 }
