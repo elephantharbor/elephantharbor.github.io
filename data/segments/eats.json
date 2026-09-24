@@ -38,12 +38,12 @@
   },
   "needsHumanAction": false,
   "humanAction": null,
-  "dashboardUrl": "https://app.notion.com/p/3e582029ae68815594aeda9f52e61044",
+  "dashboardUrl": "https://elephantharbor.github.io/harbor-eats/",
   "dashboardState": "live",
   "publicLinks": [
     {
-      "label": "Harbor Eats Operating Desk (Notion)",
-      "url": "https://app.notion.com/p/3e582029ae68815594aeda9f52e61044"
+      "label": "Harbor Eats operating dashboard",
+      "url": "https://elephantharbor.github.io/harbor-eats/"
     }
   ],
   "freshnessNote": "Notion-only desk v1 · counters from Cora local SoR remirror"
