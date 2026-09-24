@@ -1,20 +1,29 @@
 {
-  "currentObjective": "Thu 2026-09-24 Morning QA on ready_for_morning_qa=16 (prefer 10 EXP-02-a + 5 EXP-01). Wells console republish needed. No outbound this pass.",
-  "currentStatusBrief": "wed-2026-09-23-runway-fill 2026-09-23T13:30:00-05:00: ready_for_morning_qa=16 (was 0); n=197 (was 181); +16 Yes+email; opened dekalb/joliet/freeport/jacksonville/sterling-rock-falls (Scoring\u00b7Low); deepen rockford/kankakee/quincy; Kit deploy 3f13adb3; /r/ 16/16 PASS; Contacted=112; ready_for_send=0; Warm=7; 0 STL; NO SEND; Wells republish needed.",
+  "areaId": "local",
+  "areaName": "Harbor Local",
+  "capitalTrial": {
+    "window": "2026-09-10..2026-10-10",
+    "daysLeft": 16,
+    "milestoneAlert": false
+  },
+  "capitalTrialDaysLeft": 16,
+  "contacted": 112,
+  "currentObjective": "Controlled Send (~7:00) owns outbound on ready_for_send=15. Work-ahead ready_for_morning_qa=1. Console republished.",
+  "currentStatusBrief": "thu-2026-09-24-morning-qa 2026-09-24T05:58:00-05:00: ready_for_send=15 (was 0); ready_for_morning_qa=1; Contacted=112; Warm=7 (no overnight delta); healthcheck PASS; drops=0; shortfall=0; 0 STL; NO SEND; Wells Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9. Capital trial ~16d left.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-23T13:30:00-05:00 runway fill: ready_for_morning_qa=16; Contacted=112; n=197; deploy 3f13adb3; 0 STL; Wells republish needed",
+  "freshnessNote": "2026-09-24T05:58:00-05:00 morning QA + Wells publish: ready_for_send=15; Contacted=112; Warm=7; n=197; 0 STL; Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
-      "value": 0
+      "value": 15
     },
     {
       "label": "ready_for_morning_qa",
-      "value": 16
+      "value": 1
     },
     {
       "label": "contacted",
@@ -30,15 +39,16 @@
     },
     {
       "label": "capitalTrialDaysLeft",
-      "value": 17
+      "value": 16
     },
     {
       "label": "status",
-      "value": "QA=16"
+      "value": "SEND=15"
     }
   ],
-  "humanAction": "Wells: console auth republish after wed-2026-09-23 runway fill. No outbound today.",
-  "lastUpdated": "2026-09-23T13:30:00-05:00",
+  "humanAction": null,
+  "lastPass": "thu-2026-09-24-morning-qa",
+  "lastUpdated": "2026-09-24T05:58:00-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -46,24 +56,14 @@
     "learning": "Promote the outreach-hook variant in-place; lift a loud lock with slow heat/cool atmosphere, not a new family member.",
     "originationDate": "2026-09-12"
   },
-  "capitalTrial": {
-    "window": "2026-09-10..2026-10-10",
-    "daysLeft": 17,
-    "milestoneAlert": false
-  },
-  "status": "READY FOR MORNING QA \u2014 ready_for_morning_qa=16 \u00b7 Contacted=112 \u00b7 n=197",
-  "statusDetail": "wed-2026-09-23-runway-fill 2026-09-23T13:30:00-05:00: ready_for_morning_qa=16 (was 0); n=197 (was 181); +16 Yes+email; opened dekalb/joliet/freeport/jacksonville/sterling-rock-falls (Scoring\u00b7Low); deepen rockford/kankakee/quincy; Kit deploy 3f13adb3; /r/ 16/16 PASS; Contacted=112; ready_for_send=0; Warm=7; 0 STL; NO SEND; Wells republish needed.",
-  "nextUp": "Thu 2026-09-24 Morning QA fire-list prefer 10 EXP-02-a + 5 EXP-01 (runway 16). Wells console republish needed. Capital trial 17d left.",
-  "areaId": "local",
-  "areaName": "Harbor Local",
-  "updatedAt": "2026-09-23T13:30:00-05:00",
-  "lastPass": "wed-2026-09-23-runway-fill",
-  "ready_for_send": 0,
-  "ready_for_morning_qa": 16,
-  "contacted": 112,
-  "warmProspects": 7,
   "n": 197,
-  "capitalTrialDaysLeft": 17,
+  "nextUp": "Controlled Send fire ready_for_send=15 (10 EXP-02-a + 5 EXP-01). Capital trial 16d left.",
+  "note": "thu-2026-09-24-morning-qa READY + Wells publish: Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9; ready_for_send=15; ready_for_morning_qa=1; Contacted=112; Warm=7; n=197; Capital trial 16d left (not a milestone).",
+  "ready_for_morning_qa": 1,
+  "ready_for_send": 15,
+  "status": "SEND=15",
+  "statusDetail": "thu-2026-09-24-morning-qa 2026-09-24T05:58:00-05:00: ready_for_send=15 (was 0); ready_for_morning_qa=1; Contacted=112; Warm=7 (no overnight delta); healthcheck PASS; drops=0; shortfall=0; 0 STL; NO SEND; Wells Worker 29f3b40e-aa92-4292-940b-a5a8e37e56b9. Capital trial ~16d left.",
   "stlHardStop": true,
-  "note": "Sanitized public stub. Private desk lives behind console auth. Named prospect rows never on public github.io."
+  "updatedAt": "2026-09-24T05:58:00-05:00",
+  "warmProspects": 7
 }
