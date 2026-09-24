@@ -57,7 +57,16 @@ function actionsHtml(s) {
 }
 
 function tileHtml(s) {
-  const metrics = (s.headlineMetrics || [])
+  const rawMetrics = s.headlineMetrics;
+  const metricsList = Array.isArray(rawMetrics)
+    ? rawMetrics
+    : rawMetrics && typeof rawMetrics === "object"
+      ? Object.entries(rawMetrics).map(([label, value]) => ({
+          label,
+          value: value == null ? "" : String(value),
+        }))
+      : [];
+  const metrics = metricsList
     .map(
       (m) =>
         `<li title="${escapeHtml(m.hint || "")}"><span class="label">${escapeHtml(
