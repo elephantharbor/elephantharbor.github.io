@@ -1,14 +1,14 @@
 {
   "areaId": "local",
   "areaName": "Harbor Local",
-  "lastUpdated": "2026-09-24T12:27:47.020549-05:00",
-  "updatedAt": "2026-09-24T12:27:47.020549-05:00",
-  "headline": "Contacted=127 · ready_for_send=30 · ready_for_morning_qa=22 · Warm=7 · n=211 · Capital 16d",
-  "primary": "Blair Morning QA on Fri EXP-03 cohort (15 RFMQ → promote ready_for_send). NO SEND until QA. Aggregate only.",
+  "lastUpdated": "2026-09-24T12:32:04-05:00",
+  "updatedAt": "2026-09-24T12:32:04-05:00",
+  "headline": "Contacted=127 \u00b7 ready_for_send=0 \u00b7 ready_for_morning_qa=15 \u00b7 Warm=7 \u00b7 n=211 \u00b7 Capital 16d",
+  "primary": "Blair Morning QA on Fri EXP-03 cohort (15 RFMQ \u2192 promote ready_for_send). NO SEND until QA. Aggregate only.",
   "secondary": [
-    "Warm overlay internal only — never disclose clicks.",
-    "Capital trial 16 days left (Sep 10–Oct 10 2026) — glance only.",
-    "Console auth republished after thu-2026-09-24-runway-fill (Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609)."
+    "Warm overlay internal only \u2014 never disclose clicks.",
+    "Capital trial 16 days left (Sep 10\u2013Oct 10 2026) \u2014 glance only.",
+    "Chip correction: live queue excluding Contacted = ready_for_send=0; Fri fire list = RFMQ 15 only."
   ],
   "blocked": [],
   "stl": "hard-stopped",
@@ -17,7 +17,7 @@
       "id": "fri-morning-qa-exp03",
       "title": "Fri Morning QA: EXP-03 cohort 15/15 READY_FOR_MORNING_QA",
       "priority": "high",
-      "note": "fri_cohort_rfmq=15; total ready_for_morning_qa=22; ready_for_send=30 (pre-existing). Cap 15 Fri."
+      "note": "fri_cohort_rfmq=15; total ready_for_morning_qa=15; ready_for_send=0. Cap 15 Fri."
     },
     {
       "id": "warm-internal-prioritize",
@@ -28,7 +28,7 @@
   ],
   "notes": [
     "Named prospect rows/slugs never on public github.io (including RFMQ cohort).",
-    "Do not promote STL. Do not Hold→Yes.",
-    "Wells Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609 live on console.elephantharbor.com/harbor-local/. github.io d261ce9."
+    "Do not promote STL. Do not Hold\u2192Yes.",
+    "Wells Worker f726f6fd-ed9d-420b-bb1a-e20e7b13c552 live on console.elephantharbor.com/harbor-local/. Chip correction: rfs=0; rfmq=15; Contacted=127; n=211."
   ]
 }

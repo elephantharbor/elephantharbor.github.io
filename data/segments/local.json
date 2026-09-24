@@ -8,22 +8,22 @@
   },
   "capitalTrialDaysLeft": 16,
   "contacted": 127,
-  "currentObjective": "Fri EXP-03 runway MIME drafted. fri_cohort_rfmq=15/15. Total ready_for_morning_qa=22. NO SEND; Blair Morning QA next.",
-  "currentStatusBrief": "thu-2026-09-24-runway-fill 2026-09-24T12:27:47.020549-05:00: Fri EXP-03 runway fill SUCCESS. fri_cohort_rfmq=15/15 READY_FOR_MORNING_QA · 0 send · 0 STL. Contacted=127; ready_for_send=30; ready_for_morning_qa=22; Warm=7; n=211. Wells Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609; github.io d261ce9. Capital trial ~16d left. NO LIVE SEND; Blair Morning QA next.",
+  "currentObjective": "Fri EXP-03 fire list ready_for_morning_qa=15. ready_for_send=0. Contacted=127. n=211. NO SEND; Blair Morning QA next.",
+  "currentStatusBrief": "2026-09-24T12:32:04-05:00: thu runway-fill chip correction \u2014 live send queue excluding Contacted = ready_for_send=0; Fri EXP-03 fire list = ready_for_morning_qa=15 only. Contacted=127; Warm=7; n=211. Prior remirror overcounted dryRun.status leftovers on Contacted rows. NO LIVE SEND; Blair Morning QA owns Fri promote.",
   "customerBrand": "GigaWeave",
   "dashboardState": "console-auth",
   "dashboardUrl": "https://console.elephantharbor.com/harbor-local/",
   "description": "Agent-operated digital presence for local service businesses (GigaWeave WaaS).",
   "experimentsCount": 1,
-  "freshnessNote": "2026-09-24T12:27:47.020549-05:00 thu-2026-09-24-runway-fill: Fri EXP-03 RFMQ=15/15; Contacted=127; ready_for_send=30; ready_for_morning_qa=22; Warm=7; n=211; 0 STL; Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609; github.io d261ce9",
+  "freshnessNote": "2026-09-24T12:32:04-05:00 thu runway-fill chip correction: rfs=0; Fri EXP-03 RFMQ=15; Contacted=127; n=211; Warm=7; Worker f726f6fd-ed9d-420b-bb1a-e20e7b13c552",
   "headlineMetrics": [
     {
       "label": "ready_for_send",
-      "value": 30
+      "value": 0
     },
     {
       "label": "ready_for_morning_qa",
-      "value": 22
+      "value": 15
     },
     {
       "label": "contacted",
@@ -46,9 +46,9 @@
       "value": "FriRFMQ=15"
     }
   ],
-  "humanAction": null,
-  "lastPass": "thu-2026-09-24-runway-fill",
-  "lastUpdated": "2026-09-24T12:27:47.020549-05:00",
+  "humanAction": "None required for runway. Fri Morning QA owns promote on 15 EXP-03 RFMQ.",
+  "lastPass": "thu-2026-09-24-runway-fill-chip-correction",
+  "lastUpdated": "2026-09-24T12:32:04-05:00",
   "latestLesson": {
     "change": "Action Heating primary is trade-color; Modern Bold remains in the family. Outreach draft preview points at trade-color.",
     "evidence": "Gallery primary flip + hero wash/grid/orb with prefers-reduced-motion + journey sim PASS.",
@@ -57,25 +57,26 @@
     "originationDate": "2026-09-12"
   },
   "n": 211,
-  "nextUp": "Blair Morning QA on Fri EXP-03 cohort (15 RFMQ). Cap promote→ready_for_send. Contacted=127 unchanged. Capital trial 16d left. Wells Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609 live.",
-  "note": "thu-2026-09-24-runway-fill + Wells publish: Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609; github.io d261ce908731ee31ac071eb88499f9c1166be5d5; ready_for_send=30; ready_for_morning_qa=22; Contacted=127; Warm=7; n=211; Capital trial 16d left (not a milestone). Sanitized public stub. Named prospect rows never on public github.io.",
-  "ready_for_morning_qa": 22,
-  "ready_for_send": 30,
-  "status": "FriRFMQ=15",
-  "statusDetail": "thu-2026-09-24-runway-fill 2026-09-24T12:27:47.020549-05:00: Fri EXP-03 runway fill SUCCESS. fri_cohort_rfmq=15/15 READY_FOR_MORNING_QA · 0 send · 0 STL. Contacted=127; ready_for_send=30; ready_for_morning_qa=22; Warm=7; n=211. Wells Worker c64e35d9-9e33-4c60-9cc3-4a99273c7609; github.io d261ce9. Capital trial ~16d left. NO LIVE SEND; Blair Morning QA next.",
+  "nextUp": "Fri Morning QA (5:15 CT) on 15 EXP-03 RFMQ packs \u2192 Controlled Send (6:13 CT). Capital trial 16d left.",
+  "note": "thu-2026-09-24-runway-fill chip correction: ready_for_send=0; ready_for_morning_qa=15; Contacted=127; Warm=7; n=211; Capital trial 16d left (not a milestone). Sanitized public stub. Named prospect rows never on public github.io; Wells Worker f726f6fd-ed9d-420b-bb1a-e20e7b13c552.",
+  "ready_for_morning_qa": 15,
+  "ready_for_send": 0,
+  "status": "RUNWAY_READY",
+  "statusDetail": "2026-09-24T12:32:04-05:00: thu runway-fill chip correction \u2014 live send queue excluding Contacted = ready_for_send=0; Fri EXP-03 fire list = ready_for_morning_qa=15 only. Contacted=127; Warm=7; n=211. Prior remirror overcounted dryRun.status leftovers on Contacted rows. NO LIVE SEND; Blair Morning QA owns Fri promote.",
   "stlHardStop": true,
-  "updatedAt": "2026-09-24T12:27:47.020549-05:00",
+  "updatedAt": "2026-09-24T12:32:04-05:00",
   "warmProspects": 7,
-  "mission": "Agent-operated digital presence and automation for established local service businesses — Website-as-a-Service first (HVAC wedge).",
+  "mission": "Agent-operated digital presence and automation for established local service businesses \u2014 Website-as-a-Service first (HVAC wedge).",
   "needsHumanAction": false,
   "publicLinks": [
     {
       "label": "Local operating desk (auth)",
-      "note": "Authenticated console — Prospects + desk-previews. Not public github.io.",
+      "note": "Authenticated console \u2014 Prospects + desk-previews. Not public github.io.",
       "url": "https://console.elephantharbor.com/harbor-local/"
     }
   ],
   "owner": "Blair (Harbor Local - CEO)",
   "segmentId": "local",
-  "segmentName": "Harbor Local"
+  "segmentName": "Harbor Local",
+  "prospectTableN": 211
 }
