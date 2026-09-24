@@ -1,23 +1,23 @@
 {
   "areaId": "foundry",
   "areaName": "Harbor Foundry",
-  "lastUpdated": "2026-09-24T08:28:00-05:00",
+  "lastUpdated": "2026-09-24T08:50:00-05:00",
   "items": [
     {
-      "title": "Harbor Scout weekday hunt",
-      "nextRunAt": "2026-09-24T08:09:00-05:00",
-      "scheduleLabel": "Weekdays 8:09 AM CT (resumed)",
+      "title": "Nico execute TEST SMALL×2 (upfitops, lowvoltops) at $0",
+      "nextRunAt": "2026-09-24T10:00:00-05:00",
+      "scheduleLabel": "Today / soon (pending Cheap Test execute)",
       "owner": "Nico (Harbor Scout)"
     },
     {
-      "title": "Setaside shop health check",
-      "nextRunAt": "2026-09-24T09:00:00-05:00",
-      "scheduleLabel": "Weekdays 9:00 AM CT",
-      "owner": "Sable (Harbor Foundry - Setaside)"
+      "title": "Harbor Scout weekday hunt",
+      "nextRunAt": "2026-09-25T08:09:00-05:00",
+      "scheduleLabel": "Weekdays 8:09 AM CT (next Fri)",
+      "owner": "Nico (Harbor Scout)"
     },
     {
-      "title": "Powdercoatops HOLD \u2014 watch only; no Wren or memo",
-      "nextRunAt": "2026-09-24T08:09:00-05:00",
+      "title": "Powdercoatops HOLD — watch only; no Wren or memo",
+      "nextRunAt": "2026-09-25T08:09:00-05:00",
       "scheduleLabel": "With the next weekday Scout hunt",
       "owner": "Calder (Harbor Foundry - CEO)"
     },
@@ -26,6 +26,12 @@
       "nextRunAt": "2026-09-25T08:02:00-05:00",
       "scheduleLabel": "Weekdays 8:02 AM CT",
       "owner": "Calder (Harbor Foundry - CEO)"
+    },
+    {
+      "title": "Setaside shop health check",
+      "nextRunAt": "2026-09-25T09:00:00-05:00",
+      "scheduleLabel": "Weekdays 9:00 AM CT",
+      "owner": "Sable (Harbor Foundry - Setaside)"
     }
   ]
 }

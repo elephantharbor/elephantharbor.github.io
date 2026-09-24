@@ -4,18 +4,20 @@
   "description": "Software venture creation.",
   "mission": "Find weak or dated incumbent software markets, validate opportunities to replace them, and build substantial new software businesses where evidence warrants it.",
   "status": "Operating",
-  "statusDetail": "Weekday Scout hunts resumed; next routine fire Thu 2026-09-24 at 8:09 AM CT. REJECT Closed\u00d77; Powdercoatops HOLD; ACT=0; ShopWorks WATCH; HOLD\u00d74 prior untouched; Latch paused; Setaside Operating; $0.",
+  "statusDetail": "Thu Scout lock: TEST SMALL×2 (upfitops, lowvoltops) pending; HOLD×2 (taxidermyops, backflowops); ACT=0; Powdercoatops HOLD; ShopWorks WATCH; HOLD×4 prior; Closed×7 crowding; Latch paused; Setaside Operating; $0.",
   "owner": "Calder (Harbor Foundry - CEO)",
-  "lastUpdated": "2026-09-23T09:47:00-05:00",
+  "lastUpdated": "2026-09-24T08:50:00-05:00",
   "headlineMetrics": {
     "cheapTestsActive": 0,
+    "cheapTestsPending": 2,
+    "cheapTestsHold": 7,
     "cheapTestsWatch": 1,
     "cheapTestsClosed": 19,
     "setasideSales": "$0",
     "spend": "$0"
   },
-  "currentObjective": "Run Nico's next weekday Scout hunt with crowding kill themes; keep Powdercoatops HOLD/watch only. No Wren or memo; Latch paused; $0.",
-  "currentStatusBrief": "Thomas reopened weekday Scout hunts. Calder resumed the routine; next normal weekday fire is Thu 2026-09-24 at 8:09 AM CT, with no same-day catch-up hunt. ACT=0; Powdercoatops HOLD; Latch paused; Setaside Operating; $0.",
+  "currentObjective": "Nico execute TEST SMALL×2 (upfitops, lowvoltops) at $0. HOLD taxidermyops+backflowops (not Closed). Powdercoatops HOLD watch. ACT=0. No Wren or memo. Latch paused; $0.",
+  "currentStatusBrief": "First hunt after reopen. Calder advanced upfitops+lowvoltops TEST SMALL; held taxidermyops+backflowops; ACT still 0; Latch paused; $0; quiet toward Thomas.",
   "latestLesson": {
     "id": "occupancy-as-kill-under-crowding",
     "title": "Named vertical SoR that ships our wedge is a kill under crowding pressure",
@@ -35,23 +37,23 @@
   "nextUp": {
     "areaId": "foundry",
     "areaName": "Harbor Foundry",
-    "lastUpdated": "2026-09-24T08:28:00-05:00",
+    "lastUpdated": "2026-09-24T08:50:00-05:00",
     "items": [
       {
-        "title": "Harbor Scout weekday hunt",
-        "nextRunAt": "2026-09-24T08:09:00-05:00",
-        "scheduleLabel": "Weekdays 8:09 AM CT (resumed)",
+        "title": "Nico execute TEST SMALL×2 (upfitops, lowvoltops) at $0",
+        "nextRunAt": "2026-09-24T10:00:00-05:00",
+        "scheduleLabel": "Today / soon (pending Cheap Test execute)",
         "owner": "Nico (Harbor Scout)"
       },
       {
-        "title": "Setaside shop health check",
-        "nextRunAt": "2026-09-24T09:00:00-05:00",
-        "scheduleLabel": "Weekdays 9:00 AM CT",
-        "owner": "Sable (Harbor Foundry - Setaside)"
+        "title": "Harbor Scout weekday hunt",
+        "nextRunAt": "2026-09-25T08:09:00-05:00",
+        "scheduleLabel": "Weekdays 8:09 AM CT (next Fri)",
+        "owner": "Nico (Harbor Scout)"
       },
       {
-        "title": "Powdercoatops HOLD \u2014 watch only; no Wren or memo",
-        "nextRunAt": "2026-09-24T08:09:00-05:00",
+        "title": "Powdercoatops HOLD — watch only; no Wren or memo",
+        "nextRunAt": "2026-09-25T08:09:00-05:00",
         "scheduleLabel": "With the next weekday Scout hunt",
         "owner": "Calder (Harbor Foundry - CEO)"
       },
@@ -60,9 +62,15 @@
         "nextRunAt": "2026-09-25T08:02:00-05:00",
         "scheduleLabel": "Weekdays 8:02 AM CT",
         "owner": "Calder (Harbor Foundry - CEO)"
+      },
+      {
+        "title": "Setaside shop health check",
+        "nextRunAt": "2026-09-25T09:00:00-05:00",
+        "scheduleLabel": "Weekdays 9:00 AM CT",
+        "owner": "Sable (Harbor Foundry - Setaside)"
       }
     ]
   },
-  "headline": "Weekday Scout hunts resumed \u2014 REJECT\u00d77 / HOLD Powdercoatops / ACT=0",
-  "currentStatus": "Thomas reopened weekday Scout hunts. Calder resumed the routine Harbor Scout hunt; next normal weekday fire is Thu 2026-09-24 at 8:09 AM CT, with no same-day catch-up hunt. REJECT Closed\u00d77 (Cabinetmillops, SurveyOps, Signshop, Snowops, Fenceops, Pavingops, Concreteops). Powdercoatops HOLD (watch only); ACT=0. ShopWorks WATCH. HOLD\u00d74 prior untouched. Latch Paused. Setaside Operating. $0."
+  "headline": "Thu Scout lock — TEST SMALL×2 upfitops+lowvoltops; HOLD×2 taxidermy+backflow; ACT=0",
+  "currentStatus": "First weekday Scout hunt after reopen. Deepened 4; Calder advanced upfitops+lowvoltops to TEST SMALL (pending execute); held taxidermyops+backflowops (not Closed). ACT still 0. Powdercoatops HOLD; ShopWorks WATCH; HOLD×4 prior untouched. Closed REJECT×7 crowding + prior Closed unchanged. Latch Paused. Setaside Operating. $0. Quiet toward Thomas."
 }
