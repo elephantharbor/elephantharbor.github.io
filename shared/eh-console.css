@@ -38,6 +38,7 @@ html[data-theme="dark"] {
   --presence: #a78bfa;
   --foundry: #d4a05a;
   --local: #2ec4a8;
+  --eats: #e08a5c;
 
   /* Capital markets — related family, mutually distinct */
   --market-securities: #60a5fa;
@@ -71,6 +72,7 @@ html[data-theme="light"] {
   --presence: #6d4fc4;
   --foundry: #a67a2e;
   --local: #0f8f78;
+  --eats: #b85f35;
   --market-securities: #2563eb;
   --market-options: #7c3aed;
   --market-event: #15803d;
@@ -85,6 +87,7 @@ body.eh-capital { --segment: var(--capital); --atmosphere: var(--capital); --atm
 body.eh-presence { --segment: var(--presence); --atmosphere: var(--presence); --atmosphere-rgb: 167, 139, 250; }
 body.eh-foundry { --segment: var(--foundry); --atmosphere: var(--foundry); --atmosphere-rgb: 212, 160, 90; }
 body.eh-local { --segment: var(--local); --atmosphere: var(--local); --atmosphere-rgb: 46, 196, 168; }
+body.eh-eats { --segment: var(--eats); --atmosphere: var(--eats); --atmosphere-rgb: 224, 138, 92; }
 
 body.eh-market-securities { --atmosphere: var(--market-securities); --atmosphere-rgb: 96, 165, 250; --segment: var(--market-securities); }
 body.eh-market-options { --atmosphere: var(--market-options); --atmosphere-rgb: 192, 132, 252; --segment: var(--market-options); }
@@ -195,6 +198,7 @@ button { font: inherit; cursor: pointer; }
 .wayhome a[data-segment="presence"], .wayhome a[href*="harbor-presence"] { color: color-mix(in srgb, var(--presence) 75%, var(--muted)); }
 .wayhome a[data-segment="foundry"], .wayhome a[href*="harbor-foundry"] { color: color-mix(in srgb, var(--foundry) 75%, var(--muted)); }
 .wayhome a[data-segment="local"], .wayhome a[href*="harbor-local"], .wayhome a[href="#local"] { color: color-mix(in srgb, var(--local) 75%, var(--muted)); }
+.wayhome a[data-segment="eats"], .wayhome a[href*="harbor-eats"] { color: color-mix(in srgb, var(--eats) 75%, var(--muted)); }
 .wayhome a[data-segment="portfolio"], .wayhome a.active[href="/"], .wayhome a.active[href="./"] {
   color: color-mix(in srgb, var(--portfolio) 80%, var(--text));
 }
@@ -237,6 +241,7 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
 .badge-presence { color: var(--presence); border-color: #4a3a68; }
 .badge-foundry { color: var(--foundry); border-color: #5a4020; }
 .badge-local { color: var(--local); border-color: #2a5a50; }
+.badge-eats { color: var(--eats); border-color: #5a3a28; }
 .badge-portfolio { color: var(--portfolio); border-color: #2a5a58; }
 .badge-paper { color: var(--paper); border-color: #5a4a20; background: #241e10; }
 
@@ -472,6 +477,7 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
 .tile[data-segment="presence"], .tile.seg-presence { --tile-accent: var(--presence); border-top-color: var(--presence); }
 .tile[data-segment="foundry"], .tile.seg-foundry { --tile-accent: var(--foundry); border-top-color: var(--foundry); }
 .tile[data-segment="local"], .tile.seg-local { --tile-accent: var(--local); border-top-color: var(--local); }
+.tile[data-segment="eats"], .tile.seg-eats { --tile-accent: var(--eats); border-top-color: var(--eats); }
 .tile[data-segment="portfolio"], .tile.seg-portfolio { --tile-accent: var(--portfolio); border-top-color: var(--portfolio); }
 
 .mark {

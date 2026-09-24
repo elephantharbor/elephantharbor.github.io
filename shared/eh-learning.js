@@ -62,6 +62,7 @@
     presence: "Presence",
     foundry: "Foundry",
     local: "Local",
+    eats: "Eats",
     portfolio: "Portfolio",
     cross: "Cross",
   };
@@ -253,7 +254,7 @@
         items: items,
         emptyReason:
           opts.emptyWhy ||
-          "No lessons across Capital, Presence, Foundry, or Local.",
+          "No lessons across Capital, Presence, Foundry, Local, or Eats.",
       },
       { title: opts.title || "Learning (portfolio)" }
     );

@@ -1,18 +1,19 @@
 {
   "title": "Elephant Harbor",
   "subtitle": "Portfolio operating console",
-  "statusBrief": "Four operating segments on shared authenticated console (console.elephantharbor.com). Harbor Local desk live behind auth; outbound still blocked pending brand/entity/ESP.",
+  "statusBrief": "Five operating surfaces on shared authenticated console (console.elephantharbor.com). Harbor Local desk live behind auth; Harbor Eats desk is Notion-only for v1; outbound Local still blocked pending brand/entity/ESP.",
   "publicSiteUrl": "https://elephantharbor.com",
   "publicSiteNote": "elephantharbor.com is the public-facing company site (Harbor Presence). This github.io site is the internal operating console.",
   "segments": [
     "capital",
     "presence",
     "foundry",
-    "local"
+    "local",
+    "eats"
   ],
-  "lastUpdated": "2026-09-11T09:27:34-05:00",
+  "lastUpdated": "2026-09-24T14:12:45-05:00",
   "stats": {
-    "activeSegments": 4,
+    "activeSegments": 5,
     "segmentsNeedingHumanAction": 1,
     "activeSprints": 1,
     "operatingVentures": 1

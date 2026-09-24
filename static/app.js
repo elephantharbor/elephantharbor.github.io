@@ -153,7 +153,7 @@ function renderStats(portfolio, segments) {
 
 
 async function loadActiveVentureAreas() {
-  const areaIds = ["capital", "presence", "foundry", "local"];
+  const areaIds = ["capital", "presence", "foundry", "local", "eats"];
   const docs = [];
   for (const id of areaIds) {
     try {
@@ -186,7 +186,7 @@ function renderOrgLearning(doc) {
 }
 
 async function loadNextUpAreas() {
-  const areaIds = ["portfolio", "capital", "presence", "foundry", "local"];
+  const areaIds = ["portfolio", "capital", "presence", "foundry", "local", "eats"];
   const areas = [];
   for (const id of areaIds) {
     try {
