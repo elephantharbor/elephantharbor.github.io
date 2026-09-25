@@ -15,13 +15,13 @@
     },
     {
       "label": "Bankroll (C)",
-      "value": "$200",
+      "value": "$500",
       "hint": "Funded starting bankroll for display"
     },
     {
       "label": "Net trading P&L",
       "value": "$-0.12",
-      "hint": "Funding excess above $200 sits in reserve \u2014 not performance"
+      "hint": "Fills-only trading P&L \u2014 $0 until first fill"
     },
     {
       "label": "Open positions",
@@ -45,7 +45,7 @@
   "freshness": {
     "source": "last_reconciled_ibkr_ct",
     "reconcileStampPresent": true,
-    "generatedAtCt": "2026-09-22 09:52:26 CT",
+    "generatedAtCt": "2026-09-25 17:08:42 CT",
     "lastReconciledIbkrCt": "2026-09-11 09:35:20 CT",
     "viabilityClock": "IN_PROGRESS",
     "automatedExecution": "HUMAN_AUTH"
@@ -53,27 +53,27 @@
   "nextUp": {
     "areaId": "capital",
     "areaName": "Harbor Capital",
-    "lastUpdated": "2026-09-22T09:52:26-05:00",
+    "lastUpdated": "2026-09-25T17:08:42-05:00",
     "items": [
+      {
+        "id": "viability-evidence",
+        "title": "Viability evidence (Day 16 \u00b7 15d left)",
+        "nextRunAt": "2026-09-28T09:30:00-05:00",
+        "scheduleLabel": "Weekdays \u2014 evidence checklist (banner SoT)",
+        "owner": "Holt"
+      },
       {
         "id": "ibit-research",
         "title": "IBIT research (COREBETA live)",
-        "nextRunAt": "2026-09-22T10:00:00-05:00",
+        "nextRunAt": "2026-09-28T10:00:00-05:00",
         "scheduleLabel": "Weekdays \u2014 next-dollar after COREBETA",
         "owner": "Cole"
       },
       {
         "id": "eod-reconcile",
         "title": "End-of-day reconcile",
-        "nextRunAt": "2026-09-22T16:00:00-05:00",
+        "nextRunAt": "2026-09-28T16:00:00-05:00",
         "scheduleLabel": "Weekdays 4:00 PM CT",
-        "owner": "Holt"
-      },
-      {
-        "id": "viability-evidence",
-        "title": "Viability evidence (Day 13 \u00b7 18d left)",
-        "nextRunAt": "2026-09-23T09:30:00-05:00",
-        "scheduleLabel": "Weekdays \u2014 evidence checklist (banner SoT)",
         "owner": "Holt"
       }
     ]
