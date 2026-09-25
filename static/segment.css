@@ -25,3 +25,4 @@ body.eh-portfolio { font-size: 14px; }
 .attention li[data-segment="foundry"] .seg { color: var(--foundry); }
 .attention li[data-segment="local"] .seg { color: var(--local); }
 .attention li[data-segment="eats"] .seg { color: var(--eats); }
+.attention li[data-segment="reach"] .seg { color: var(--reach); }
