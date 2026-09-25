@@ -63,6 +63,7 @@
     foundry: "Foundry",
     local: "Local",
     eats: "Eats",
+    reach: "Harbor Reach",
     portfolio: "Portfolio",
     cross: "Cross",
   };

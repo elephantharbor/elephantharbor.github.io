@@ -1,0 +1,57 @@
+{
+  "segmentId": "reach",
+  "segmentName": "Harbor Reach",
+  "description": "Growth and market-learning engine for Osprey (Nisana LLC). Elephant Harbor operates Reach on Nisana's behalf; EH does not own Osprey.",
+  "mission": "Acquire retained Osprey users while learning which audiences, pain points, messages, channels, and product experiences create adoption \u2014 on behalf of Nisana LLC.",
+  "status": "active",
+  "statusDetail": "Auth desk live at console.elephantharbor.com/harbor-reach/. SoR under /workspace/harbor-reach/. No live campaigns. Human gates open (BACB NRA, product analytics, Activation Event).",
+  "owner": "Reef (Harbor Reach - CEO)",
+  "lastUpdated": "2026-09-25T09:35:30-05:00",
+  "headlineMetrics": [
+    {
+      "label": "Activated users",
+      "value": "\u2014",
+      "hint": "Awaiting Activation Event + product analytics"
+    },
+    {
+      "label": "D7 retained",
+      "value": "\u2014",
+      "hint": "Not measurable yet"
+    },
+    {
+      "label": "Live campaigns",
+      "value": "0",
+      "hint": "None launched"
+    },
+    {
+      "label": "BACB NRA",
+      "value": "Awaiting approval",
+      "hint": "~$200 US BCBA-tier; once-per-resource"
+    },
+    {
+      "label": "Attribution",
+      "value": "Not wired",
+      "hint": "Plausible on marketing site only"
+    }
+  ],
+  "currentObjective": "Lock measurement spine before spend: Activation Event with Nisana + UTM stamp discipline; then first approved channel tests.",
+  "currentStatusBrief": "Desk chrome live (auth-private). Cass: 7 Discovered BCBA org clusters (research-only). Iris: 12 Week-1 BCBA product signals (9 repeated_signal, 3 opinion). Vance: UTM checklist + Activation taxonomy drafted. Quill: landing SoR locked; nothing live. Portfolio homepage tile publishing.",
+  "latestLesson": null,
+  "needsHumanAction": true,
+  "humanAction": "1) Approve/reject BACB New Resource Announcement (~$200). 2) Grant aggregate Osprey product analytics access (no learner content). 3) Confirm Activation Event definition.",
+  "dashboardUrl": "https://console.elephantharbor.com/harbor-reach/",
+  "dashboardState": "live",
+  "publicLinks": [
+    {
+      "label": "Osprey marketing site",
+      "url": "https://osprey.education",
+      "note": "Nisana-owned product site \u2014 not EH brand"
+    },
+    {
+      "label": "Osprey for BCBAs",
+      "url": "https://osprey.education/for/bcba/",
+      "note": "Primary BCBA landing"
+    }
+  ],
+  "freshnessNote": "Desk auth live confirmed by Wells 2026-09-25T09:35:30-05:00. No invented acquisition metrics."
+}
