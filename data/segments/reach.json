@@ -2,20 +2,20 @@
   "segmentId": "reach",
   "segmentName": "Harbor Reach",
   "description": "Growth and market-learning engine for Osprey (Nisana LLC). Elephant Harbor operates Reach on Nisana's behalf; EH does not own Osprey.",
-  "mission": "Acquire retained Osprey users while learning which audiences, pain points, messages, channels, and product experiences create adoption — on behalf of Nisana LLC.",
-  "status": "Initializing",
-  "statusDetail": "Foundation up: team, doctrine, schemas, channel seeds, Source Policy pack v2026-09-25 (16 policies; BACB registry prohibited; BACB Mass Email human-gated), BACB NRA packet prepared. No live campaigns. No spend. Funnel metrics intentionally empty until product analytics access and Activation Event are approved.",
+  "mission": "Acquire retained Osprey users while learning which audiences, pain points, messages, channels, and product experiences create adoption \u2014 on behalf of Nisana LLC.",
+  "status": "active",
+  "statusDetail": "Auth desk live at console.elephantharbor.com/harbor-reach/. SoR under /workspace/harbor-reach/. No live campaigns. Human gates open (BACB NRA, product analytics, Activation Event).",
   "owner": "Reef (Harbor Reach - CEO)",
-  "lastUpdated": "2026-09-25T09:30:23-05:00",
+  "lastUpdated": "2026-09-25T09:35:30-05:00",
   "headlineMetrics": [
     {
       "label": "Activated users",
-      "value": "—",
+      "value": "\u2014",
       "hint": "Awaiting Activation Event + product analytics"
     },
     {
       "label": "D7 retained",
-      "value": "—",
+      "value": "\u2014",
       "hint": "Not measurable yet"
     },
     {
@@ -34,8 +34,8 @@
       "hint": "Plausible on marketing site only"
     }
   ],
-  "currentObjective": "Finish machine: desk chrome with Wells, product-analytics access, Activation Event lock, then first BCBA experiments only after human gates clear.",
-  "currentStatusBrief": "Init progressing. Cass: Source Policy pack live + research-only BCBA cluster discovery next. Quill/Vance/Iris online. Human gates still open: BACB spend, analytics access, Activation Event. No invented funnel numbers.",
+  "currentObjective": "Lock measurement spine before spend: Activation Event with Nisana + UTM stamp discipline; then first approved channel tests.",
+  "currentStatusBrief": "Desk chrome live (auth-private). Cass: 7 Discovered BCBA org clusters (research-only). Iris: 12 Week-1 BCBA product signals (9 repeated_signal, 3 opinion). Vance: UTM checklist + Activation taxonomy drafted. Quill: landing SoR locked; nothing live. Portfolio homepage tile publishing.",
   "latestLesson": null,
   "needsHumanAction": true,
   "humanAction": "1) Approve/reject BACB New Resource Announcement (~$200). 2) Grant aggregate Osprey product analytics access (no learner content). 3) Confirm Activation Event definition.",
@@ -45,7 +45,7 @@
     {
       "label": "Osprey marketing site",
       "url": "https://osprey.education",
-      "note": "Nisana-owned product site — not EH brand"
+      "note": "Nisana-owned product site \u2014 not EH brand"
     },
     {
       "label": "Osprey for BCBAs",
@@ -53,5 +53,5 @@
       "note": "Primary BCBA landing"
     }
   ],
-  "freshnessNote": "Source Policy pack 2026-09-25 recorded 2026-09-25T09:30:23-05:00. No live acquisition metrics."
+  "freshnessNote": "Desk auth live confirmed by Wells 2026-09-25T09:35:30-05:00. No invented acquisition metrics."
 }
