@@ -1,7 +1,7 @@
 {
   "title": "Elephant Harbor",
   "subtitle": "Portfolio operating console",
-  "statusBrief": "Six operating surfaces on shared authenticated console (console.elephantharbor.com). Harbor Reach auth desk live at harbor-reach/; Harbor Local desk live behind auth; Harbor Eats desk is Notion-only for v1; outbound Local still blocked pending brand/entity/ESP.",
+  "statusBrief": "Seven operating surfaces on shared authenticated console (console.elephantharbor.com). Harbor Gaming founding and initializing at harbor-gaming/; Harbor Reach auth desk live at harbor-reach/; Harbor Local desk live behind auth; Harbor Eats desk is Notion-only for v1; outbound Local still blocked pending brand/entity/ESP.",
   "publicSiteUrl": "https://elephantharbor.com",
   "publicSiteNote": "elephantharbor.com is the public-facing company site (Harbor Presence). This github.io site is the internal operating console.",
   "segments": [
@@ -10,12 +10,13 @@
     "foundry",
     "local",
     "eats",
-    "reach"
+    "reach",
+    "gaming"
   ],
-  "lastUpdated": "2026-09-25T09:36:41-05:00",
+  "lastUpdated": "2026-09-26T09:17:00-05:00",
   "stats": {
-    "activeSegments": 6,
-    "segmentsNeedingHumanAction": 2,
+    "activeSegments": 7,
+    "segmentsNeedingHumanAction": 3,
     "activeSprints": 1,
     "operatingVentures": 1
   }
