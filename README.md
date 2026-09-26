@@ -19,6 +19,7 @@ Source of truth: [`shared/eh-console.css`](shared/eh-console.css) — loaded by 
 | `/harbor-presence/` | Harbor Presence (separate repo) |
 | `/harbor-foundry/` | Harbor Foundry (separate repo) |
 | `/harbor-local/` | Harbor Local (planned — separate repo) |
+| `/harbor-eats/` | Harbor Eats operating desk (snapshot SPA) |
 | `/docs/organization.html` | How EH is organized |
 | `/shared/` | Design system |
 

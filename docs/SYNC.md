@@ -38,6 +38,7 @@ Canonical flow: segment desk `data/segment-summary.json` → `elephantharbor.git
 | Presence | Maren (Rowan validates X/site truth) |
 | Foundry | Calder / Fernando (Ops) |
 | Local | Blair — SoR under `harbor-local`; Wells remirrors auth + public on material Local ops |
+| Eats | Cora — SoR local + Notion; public desk at `harbor-eats/` (snapshot in repo); remirror `data/segments/eats.json` when segment-summary changes |
 | Reach | Reef — SoR under `/workspace/harbor-reach/`; auth desk at `console.elephantharbor.com/harbor-reach/` via `eh-console-gate` private assets; **public github.io tile only** (no `/harbor-reach/` desk pages); named practitioners never on github.io; Wells remirrors tile from `segment-summary.json` on material change |
 | Gaming | Gage — SoR under `/workspace/harbor-gaming/`; auth desk at `console.elephantharbor.com/harbor-gaming/` via `eh-console-gate` private assets; **public github.io tile only** (no `/harbor-gaming/` desk pages); Wells remirrors tile from `segment-summary.json` on material change |
 | Portfolio tile copy | Wells when a segment publishes an updated segment-summary |

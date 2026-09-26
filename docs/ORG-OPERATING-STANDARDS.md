@@ -68,6 +68,8 @@ Sortable, filterable desk tables (prospects, ventures, positions, etc.) must sha
 **Shared implementation:** [`shared/eh-desk-grid.js`](../shared/eh-desk-grid.js) + `.eh-desk-grid` in [`shared/eh-console.css`](../shared/eh-console.css).  
 **Contract & adoption:** [DESK-GRID.md](DESK-GRID.md) — Local Prospects is the exemplar; Capital / Foundry / Presence adopt when ready. Do not freeze daily ops to wait for migration.
 
+**Desk surfaces (all segments):** Readable content must use opaque panels/cards on `var(--bg2)` — never bare text on the atmosphere grid. Capital is the layout exemplar; shared `.eh-desk-panel` / `.eh-desk-card` in `eh-console.css`. Checklist: [NEW-SEGMENT-DESK.md](NEW-SEGMENT-DESK.md).
+
 ## OS v2 (durable canon)
 
 Portfolio Operating System v2 is standing law. Read and follow:
