@@ -14,24 +14,28 @@ Keep `static/segment.css` **thin**: segment accent leftovers and room-specific l
 
 **Desk surfaces:** Use shared `.eh-desk-panel`, `.eh-desk-card`, `.eh-desk-table-wrap`, and `.eh-desk-empty` in `eh-console.css` so readable content never sits on the atmosphere grid. Checklist: [NEW-SEGMENT-DESK.md](../docs/NEW-SEGMENT-DESK.md).
 
+## Main content width
+
+All desks inherit the **Local-wide** `main` / `.foot` column from `eh-console.css` (1280px default; 1680px at ≥1400px; 1840px at ≥1800px). Do not set `main { max-width }` in segment CSS.
+
 ## Way-home nav (required on every desk)
 
+**Single source of truth:** [`eh-wayhome.js`](eh-wayhome.js) — Portfolio · Capital · Presence · Foundry · Local · Eats · Reach · Gaming (console URLs).
+
 ```html
-<nav class="wayhome" aria-label="Elephant Harbor">
-  <a href="https://elephantharbor.github.io/">Elephant Harbor / Portfolio</a>
-  <span class="sep" aria-hidden="true">/</span>
-  <a href="https://elephantharbor.github.io/harbor-capital-desk/">Capital</a>
-  <a href="https://elephantharbor.github.io/harbor-presence/">Presence</a>
-  <a href="https://elephantharbor.github.io/harbor-foundry/">Foundry</a>
-</nav>
+<nav class="wayhome" aria-label="Elephant Harbor"></nav>
+<script src="https://elephantharbor.github.io/shared/eh-wayhome.js?v=…"></script>
 ```
 
-Mark the current segment link with `class="active"` and `aria-current="page"`.
+On load, `EH.Wayhome.mount` fills the nav (idempotent). Active segment is inferred from `body.eh-<segment>`, `data-eh-segment` on `<body>` or `<nav>`, or pass `{ active: "foundry" }`. Opt out of auto-mount with `data-eh-wayhome="off"` on the nav.
+
+Adding a segment: edit the `LINKS` list in `eh-wayhome.js` and add wayhome accent tokens in `eh-console.css` if needed.
 
 ## Shared JS modules
 
 | Module | Purpose | Doc |
 |--------|---------|-----|
+| `eh-wayhome.js` | Portfolio way-home nav | [NEW-SEGMENT-DESK.md](../docs/NEW-SEGMENT-DESK.md) |
 | `eh-theme.js` | Dark/light toggle | [CONSOLE-THEME.md](../docs/CONSOLE-THEME.md) |
 | `eh-session-log.js` | Session log + date helpers | [SESSION-LOG-CONTRACT.md](../docs/SESSION-LOG-CONTRACT.md) |
 | `eh-active-ventures.js` | Active ventures cards | [ACTIVE-VENTURES.md](../docs/ACTIVE-VENTURES.md) |
