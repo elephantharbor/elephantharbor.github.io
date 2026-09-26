@@ -3,41 +3,41 @@
   "segmentName": "Harbor Eats",
   "description": "Adaptive meal-planning OS for Tom and Renata — on-demand plans, preference learning, recipe library.",
   "mission": "Adaptive meal-planning OS for Tom and Renata — on-demand plans, preference learning, recipe library.",
-  "status": "Operating",
-  "statusDetail": "On-demand model live (2026-09-24). Noon routine deleted. Two Unselected plans in queue (6 meal options). Notion Operating Desk stood up under Elephant Harbor HQ and seeded with historical plans/recipes. Cashews permitted; other nuts prohibited. Awaiting first selections and ratings.",
+  "status": "active",
+  "statusDetail": "Maturity: Instrumented (Hayes 2026-09-26). Week batch HE-WEEK-2026-09-26 ready: three Unselected plans (9 meal options). Meal 1/2 reused from queue; Meal 3 newly generated. Native github.io desk primary. Rated meals 0 — next evidence is household selection/cook/rating. Email workflow: DraftExternalMessage to Tom+Renata (never silent-send); shopping list after selection.",
   "owner": "Cora (Harbor Eats - Lead)",
-  "lastUpdated": "2026-09-24T19:11:23Z",
+  "lastUpdated": "2026-09-26T15:41:00Z",
   "headlineMetrics": [
     {
       "label": "Plans generated",
-      "value": "2"
+      "value": "3"
     },
     {
       "label": "Awaiting selection",
-      "value": "2",
-      "hint": "HE-2026-09-23-P01, HE-2026-09-24-P01"
+      "value": "3",
+      "hint": "HE-2026-09-23-P01, HE-2026-09-24-P01, HE-2026-09-26-P01 (week batch HE-WEEK-2026-09-26)"
     },
     {
       "label": "Rated meals",
       "value": "0",
-      "hint": "Preference discovery — no post-meal ratings yet"
+      "hint": "Next maturity evidence"
     },
     {
-      "label": "Mode",
-      "value": "On-demand",
-      "hint": "No standing noon routine"
+      "label": "Maturity",
+      "value": "Instrumented",
+      "hint": "MVO: stay minimal"
     }
   ],
   "currentObjective": "Learn Tom and Renata preferences via on-demand N×3 meal plans, selections, and separate 1–10 ratings while keeping dietary hard locks.",
-  "currentStatusBrief": "On-demand model live (2026-09-24). Noon routine deleted. Two Unselected plans in queue (6 meal options). Notion Operating Desk stood up under Elephant Harbor HQ and seeded with historical plans/recipes. Cashews permitted; other nuts prohibited. Awaiting first selections and ratings.",
+  "currentStatusBrief": "Maturity: Instrumented (Hayes 2026-09-26). Week batch HE-WEEK-2026-09-26 ready: three Unselected plans (9 meal options). Meal 1/2 reused from queue; Meal 3 newly generated. Native github.io desk primary. Rated meals 0 — next evidence is household selection/cook/rating. Email workflow: DraftExternalMessage to Tom+Renata (never silent-send); shopping list after selection.",
   "latestLesson": {
-    "experience": "Standing daily noon generation was replaced with on-demand bulk plans.",
-    "evidence": "Thomas directive 2026-09-24: cancel noon routine; N plans × 3 options; Plan/Meal Option IDs; Notion desk as SoR sync target.",
-    "learning": "Harbor Eats should generate only when prompted; desk sync is mandatory same-turn; cashews are an explicit exception to the nut ban.",
-    "change": "Deleted daily routine; dual-write local /home/box/harbor-eats + Notion desk; dietary model updated for cashews."
+    "experience": "Week N×3 on-demand batch can reuse Unselected queue plans instead of regenerating.",
+    "evidence": "2026-09-26 week batch HE-WEEK-2026-09-26 reused HE-2026-09-23-P01 and HE-2026-09-24-P01; only Meal 3 newly designed.",
+    "learning": "Reuse active Unselected options when asked; diversify new plans vs the whole queue; email via DraftExternalMessage; shopping list is follow-on after selection.",
+    "change": "Documented week-batch + reuse + email practices in harbor-eats-on-demand-plans skill."
   },
-  "needsHumanAction": false,
-  "humanAction": null,
+  "needsHumanAction": true,
+  "humanAction": "Select one option from each of the three week-batch plans (or skip), then cook and rate — unlocks External Validation evidence. Email draft ready for Tom+Renata.",
   "dashboardUrl": "https://elephantharbor.github.io/harbor-eats/",
   "dashboardState": "live",
   "publicLinks": [
@@ -46,5 +46,7 @@
       "url": "https://elephantharbor.github.io/harbor-eats/"
     }
   ],
-  "freshnessNote": "Notion-only desk v1 · counters from Cora local SoR remirror"
+  "freshnessNote": null,
+  "maturityStage": "Instrumented",
+  "maturityNextMilestone": "Household outcome evidence (selections + ratings + cooked meals)"
 }

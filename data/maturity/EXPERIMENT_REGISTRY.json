@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "directive": "Organisational Maturity — Thomas, 2026-09-26",
+  "lastReviewed": "2026-09-26",
+  "ownerAggregator": "Hayes (Portfolio CEO)",
+  "statusEnum": ["Running", "Complete", "Paused", "Killed", "Forming"],
+  "rule": "Material experiments only. Do not invent results. Omit or Forming when not live.",
+  "experiments": [
+    {
+      "id": "local-exp-03-mockup-lead",
+      "segment": "local",
+      "hypothesis": "Short mockup-lead first-touch (screenshot + copper CTA + /p/ preview) lifts unique preview_loaded vs prior plain/personal variants.",
+      "owner": "Blair",
+      "startDate": "2026-09-23",
+      "experiment": "EXP-03 mockup-lead — production default for Harbor Local first-touch outbound as of 2026-09-24 Thomas lock; Morning QA → Controlled Send pipeline",
+      "evidenceExpected": "Unique preview_loaded per delivered email; eventual reply/conversation rate",
+      "status": "Running",
+      "result": null,
+      "behaviorChange": "EXP-03 is production default; no new first-touch on EXP-01/EXP-02 unless Thomas reopens A/B"
+    },
+    {
+      "id": "local-exp-02-short-conversational",
+      "segment": "local",
+      "hypothesis": "Short conversational plain-personal first-touch improves engagement vs longer EXP-01 templates.",
+      "owner": "Blair",
+      "startDate": "2026-09-16",
+      "experiment": "EXP-02-a / exp02-v2 short conversational — used in Controlled Sends (often mixed with EXP-01 v3-a holdout) prior to EXP-03 default",
+      "evidenceExpected": "Preview / reply signals vs EXP-01 holdout",
+      "status": "Paused",
+      "result": null,
+      "behaviorChange": "Superseded as first-touch default by EXP-03; retained as historical baseline — do not delete templates"
+    },
+    {
+      "id": "presence-go-hard-persona",
+      "segment": "presence",
+      "hypothesis": "Elevating go-hard as core @elephantharbor X persona (Falcons/Saints NOW ship tone) produces more authentic engagement than prior voice.",
+      "owner": "Maren",
+      "startDate": "2026-09-21",
+      "experiment": "Go-hard persona locked as core X voice; weekday pass cadence (~8–15; voice 5; ≥1 Falcons/Saints)",
+      "evidenceExpected": "Repeatable replies / engagement under go-hard cadence",
+      "status": "Running",
+      "result": null,
+      "behaviorChange": "Persona on channel; Learning/AV human-voice → go-hard (Thomas-approved)"
+    },
+    {
+      "id": "presence-exp-02-voice-format",
+      "segment": "presence",
+      "hypothesis": "Voice/format shift (EXP-02) after EXP-01 FAIL improves engagement on next reply cohort.",
+      "owner": "Maren",
+      "startDate": "2026-09-16",
+      "experiment": "Presence EXP-02 voice/format — short conversational / format shift on reply cohort",
+      "evidenceExpected": "Engagement vs prior voice on measured reply set",
+      "status": "Running",
+      "result": null,
+      "behaviorChange": null
+    },
+    {
+      "id": "foundry-cheap-tests-act-set",
+      "segment": "foundry",
+      "hypothesis": "Agent-runnable Cheap Tests (ACT keep-alive / TEST SMALL / REJECT Closed) surface kill or advance signals before spend or Thomas proposals.",
+      "owner": "Calder",
+      "startDate": "2026-09-16",
+      "experiment": "Portfolio Cheap Test stage — ACT×4 keep-alive through 2026-10-08 (upfitops, dentallabops, landscapeyardops, kitchenhoodops); Fri 2026-09-25 TEST SMALL beerlineops+motorops REJECT Closed; HOLD deepeners; Setaside Operating (experiments deferred); Latch paused; $0",
+      "evidenceExpected": "Falsifier results → Closed/advance; eventual first sale or clear external venture signal",
+      "status": "Running",
+      "result": null,
+      "behaviorChange": "Appetite reset / foundation lock: kill rigor stays; no Wren/memo/spend without approval; Upfit+Setaside deferred (no re-ask storm)"
+    },
+    {
+      "id": "capital-corebeta-tiny-live",
+      "segment": "capital",
+      "hypothesis": "Tiny live whole-market beta (SGOV reserve + VTI COREBETA) produces operable live evidence and learning under the 30-day viability clock without forced risk.",
+      "owner": "Holt",
+      "startDate": "2026-09-10",
+      "experiment": "S-COREBETA tiny live — hold SGOV + experimental VTI fill; EOD reconcile; no-force-risk; viability window to 2026-10-10",
+      "evidenceExpected": "Reconciled fills, drawdown discipline, Day-30 memo distinguishing beta vs edge",
+      "status": "Running",
+      "result": null,
+      "behaviorChange": null
+    }
+  ],
+  "omittedOrForming": [
+    {
+      "segment": "reach",
+      "note": "No live campaigns yet — measurement/outreach readiness gated (BACB NRA, analytics, Activation Event). Omit live experiment rows until first external campaign."
+    },
+    {
+      "segment": "gaming",
+      "note": "No playable build / playtest yet — Formation only. Omit until POC/playtest experiment is explicitly contracted."
+    },
+    {
+      "segment": "eats",
+      "note": "On-demand household utility instrumented; not yet a material external experiment. Preference learning ratings pending."
+    }
+  ],
+  "dataGaps": [
+    "Local EXP-04: directive mentioned EXP-03/04; no EXP-04 canonical found under harbor-local/growth as of 2026-09-26 — confirm label vs EXP-02 cohort before adding a row.",
+    "Exact numeric engagement/P&L results intentionally null until CEOs publish evidence."
+  ]
+}

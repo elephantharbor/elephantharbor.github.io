@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "directive": "Organisational Maturity \u2014 Thomas, 2026-09-26",
+  "lastReviewedPortfolio": "2026-09-26",
+  "ownerAggregator": "Hayes (Portfolio CEO)",
+  "stageEnum": [
+    "Formation",
+    "Instrumented",
+    "External Validation",
+    "Repeatable Execution",
+    "Economic Validation",
+    "Scaling",
+    "Paused",
+    "Pivoting",
+    "Exiting"
+  ],
+  "segments": [
+    {
+      "id": "capital",
+      "name": "Harbor Capital",
+      "stage": "External Validation",
+      "evidenceSupportingStage": [
+        "Live tiny SGOV + VTI fills under COREBETA (S-COREBETA) activation",
+        "30-day viability clock active: 2026-09-10 \u2192 2026-10-10 CT",
+        "Real-money path exists; economic proof still weak (tiny size / early P&L)"
+      ],
+      "nextMilestone": "Material P&L evidence and/or more live markets beyond tiny COREBETA beta",
+      "evidenceRequiredForNext": [
+        "Documented fills + reconcile trail showing learning and controlled risk (not forced Day-30 profit)",
+        "Day-30 memo recommendation (Continue / Continue With Changes / Reduce / Restructure / Pause / Terminate)",
+        "Clear separation of beta vs proprietary edge claims"
+      ],
+      "ttfeDays": 0,
+      "firstEvidenceEvent": "First live order filled 2026-09-10 CT (viability clock start; SGOV reserve + subsequent tiny VTI COREBETA)",
+      "notes": "TTFE ~same-day / days from live authorization to first fills. Viability clock end 2026-10-10. Do not invent P&L beyond known desk truth. Automated execution historically HUMAN_AUTH / Holt-gated.",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Holt"
+    },
+    {
+      "id": "presence",
+      "name": "Harbor Presence",
+      "stage": "External Validation",
+      "evidenceSupportingStage": [
+        "Public X (@elephantharbor) + website (elephantharbor.com) live",
+        "Go-hard persona locked as core X voice (Thomas-approved)",
+        "Engagement still weak relative to outbound cadence"
+      ],
+      "nextMilestone": "Repeatable engagement / audience response (not just publish cadence)",
+      "evidenceRequiredForNext": [
+        "Measurable reply/engagement pattern under go-hard / short conversational voice",
+        "Desk freshness restored (public tile not stale vs real ops)"
+      ],
+      "ttfeDays": null,
+      "firstEvidenceEvent": "Public channel live (X + site) \u2014 exact authorization\u2192first-public-post TTFE not re-measured in this baseline",
+      "notes": "Desk freshness issue: segment summary lastUpdated ~2026-09-21 while ops continued; treat as operating incident (see OPERATING_INCIDENTS.md). Do not invent follower/engagement counts.",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Maren"
+    },
+    {
+      "id": "foundry",
+      "name": "Harbor Foundry",
+      "stage": "Instrumented",
+      "evidenceSupportingStage": [
+        "Cheap Test pipeline instrumented (ACT keep-alive, HOLD, TEST SMALL, REJECT Closed)",
+        "Setaside shop Operating (experiments deferred; $0 sales known)",
+        "Foundation / appetite reset active (kill rigor stays; appetite rises; $0 spend lock)"
+      ],
+      "nextMilestone": "First sale or clear external venture signal (bordering External Validation)",
+      "evidenceRequiredForNext": [
+        "External customer/pay signal OR clear venture-validation event beyond internal Cheap Test process",
+        "Or agent-executable Upfit/Setaside path when Thomas picks up deferred proposals (no re-ask storm)"
+      ],
+      "ttfeDays": null,
+      "firstEvidenceEvent": null,
+      "notes": "Stage bordering External Validation via Cheap Tests / Setaside, but no first sale / external venture signal yet. ACT Cheap Tests keep-alive through 2026-10-08 per Calder locks. Latch paused. Afterfee dead. Do not invent sales or validation days.",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Calder"
+    },
+    {
+      "id": "local",
+      "name": "Harbor Local",
+      "stage": "External Validation",
+      "evidenceSupportingStage": [
+        "Contacted ~142 private (public tile lag \u2014 github.io last known Contacted\u2248127)",
+        "EXP-03 mockup-lead production default; prior EXP-02 short conversational + EXP-01 holdout sends",
+        "Preview clicks observed; no replies / conversations yet",
+        "Strong instrumented pipeline (Coverage \u2192 Morning QA \u2192 Controlled Send \u2192 Contacted)"
+      ],
+      "nextMilestone": "First reply / conversation",
+      "evidenceRequiredForNext": [
+        "At least one real prospect reply or booked conversation attributable to outbound",
+        "Then path to Repeatable Execution = repeatable reply\u2192conversation\u2192close loop"
+      ],
+      "ttfeDays": null,
+      "firstEvidenceEvent": "First Controlled Send / preview path live (exact day-count TTFE not recomputed in this baseline; evidence class = external send + preview)",
+      "notes": "Public/private Contacted lag is an operating incident. EXP-04 as a distinct labeled variant was not found in growth canons \u2014 treat as data gap (see EXPERIMENT_REGISTRY). Brand GigaWeave / Hearthlight. STL hard-stopped in known coverage.",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Blair"
+    },
+    {
+      "id": "eats",
+      "name": "Harbor Eats",
+      "stage": "Instrumented",
+      "evidenceSupportingStage": [
+        "On-demand meal planning operational for household (Tom/Renata)",
+        "Plans generated with Plan/Meal Option IDs; preference learning model defined",
+        "Internal utility \u2014 desk/OS exists; household outcome ratings still thin"
+      ],
+      "nextMilestone": "External/household outcome evidence that proves value beyond ops existence",
+      "evidenceRequiredForNext": [
+        "Selections + post-meal ratings showing preference learning works",
+        "Household outcome (used meals / satisfaction) \u2014 keep MVO small"
+      ],
+      "ttfeDays": null,
+      "firstEvidenceEvent": null,
+      "notes": "Authorization ~2026-09-23. TTFE pending (see TIME_TO_FIRST_EVIDENCE.md). Rated meals were 0 as of last known segment summary. Keep MVO small \u2014 do not expand scope without outcome evidence.",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Cora"
+    },
+    {
+      "id": "reach",
+      "name": "Harbor Reach",
+      "stage": "Formation",
+      "evidenceSupportingStage": [
+        "Desk live (console.elephantharbor.com/harbor-reach/; SoR under /workspace/harbor-reach/)",
+        "Growth events view + reader path designed; live Harbor SELECT still blocked (stable egress IP + reader secret copy)",
+        "Activation/Engaged/TTFV definitions locked; adoption baseline extracted; campaign dims not live in public prod",
+        "Outreach-readiness eng recommendation yes-with-watchouts \u2014 live outreach still needs smoke + Thomas GO; no live campaigns"
+      ],
+      "nextMilestone": "First meaningful external evidence (authorized campaign/send with measurable external reaction) after measurement spine + outreach readiness unlock",
+      "evidenceRequiredForNext": [
+        "harbor-reach-egress sticky IP allowlisted + reader secret on box; SELECT on growth.osprey_growth_events works",
+        "Outreach-readiness human GO (smoke + Thomas) \u2014 eng yes-with-watchouts is not unlock alone",
+        "First authorized external campaign send with measurable outcome (Exp B/D or equivalent)"
+      ],
+      "ttfeDays": null,
+      "firstEvidenceEvent": null,
+      "notes": "Formation (early Instrumented) per Hayes 2026-09-26 baseline. Desk + prep exist; TTFE clock running; no first external evidence yet. MVO: do not add agents/routines/dashboards until measurement + outreach readiness unlock external evidence. SPK for Exp B/D/BACB when gated work opens. Critical path remains measurement + outreach-readiness (Thomas human gates). PR #3136 merged master as code only \u2014 not public API/app publish. Preparing behind the gate.",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Reef"
+    },
+    {
+      "id": "gaming",
+      "name": "Harbor Gaming",
+      "stage": "Formation",
+      "evidenceSupportingStage": [
+        "Founding team + desk stand up (Road to 270)",
+        "Option A empty spike merged to main; stack working hypothesis (browser-first)",
+        "No playable build / no external playtest yet"
+      ],
+      "nextMilestone": "First playable build / external playtest evidence",
+      "evidenceRequiredForNext": [
+        "Playable POC under explicit contract",
+        "Logged external or structured playtest evidence (not internal scaffold only)"
+      ],
+      "ttfeDays": null,
+      "firstEvidenceEvent": null,
+      "notes": "Authorized 2026-09-26. Option A empty/spike MERGED; ADR-0002 still Proposed. MVO already 6 agents justified by discipline split \u2014 do NOT expand without evidence. OQ-0017 + POC local-save still pending Thomas. SPK before scale spend. TTFE \u2192 first playable / external playtest (scaffold \u2260 evidence).",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Gage"
+    },
+    {
+      "id": "systems",
+      "name": "Portfolio Systems",
+      "stage": "Instrumented",
+      "evidenceSupportingStage": [
+        "Shared authenticated console infra (console.elephantharbor.com) live across segments",
+        "Worker republish / desk chrome patterns in use",
+        "Not a P&L segment \u2014 supporting function"
+      ],
+      "nextMilestone": "Freshness alarms + maturity / experiment desk surfaces on Portfolio console",
+      "evidenceRequiredForNext": [
+        "Automated freshness warnings for stale segment tiles",
+        "Surfaces that render SEGMENT_MATURITY + EXPERIMENT_REGISTRY usefulness for Hayes"
+      ],
+      "ttfeDays": null,
+      "firstEvidenceEvent": null,
+      "notes": "Supporting function \u2014 stage is platform reliability (Instrumented / approaching Repeatable for shared chrome), not venture P&L. N/A for economic stages. Wells owns shared chrome/reliability; CEOs own business correctness.",
+      "lastReviewed": "2026-09-26",
+      "ownerCeo": "Wells"
+    }
+  ]
+}

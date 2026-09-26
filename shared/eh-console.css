@@ -1184,3 +1184,139 @@ html[data-theme="light"] .lrn-card {
 html[data-theme="light"] .eh-desk-grid {
   box-shadow: 0 1px 2px rgba(16, 38, 44, 0.06);
 }
+
+/* —— Portfolio Maturity desk (2026-09-26) —— */
+.mat-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  font-size: 12px;
+}
+.mat-strip-empty { color: var(--muted); }
+.mat-strip-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--dim);
+  font-weight: 650;
+}
+.mat-stage-chip {
+  font-size: 11px;
+  font-weight: 650;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--border));
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg3));
+  color: var(--text);
+  white-space: nowrap;
+}
+.mat-next { color: var(--muted); line-height: 1.35; flex: 1 1 12rem; min-width: 0; }
+.mat-next-k { color: var(--dim); font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+.mat-stale-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--danger);
+  border: 1px solid color-mix(in srgb, var(--danger) 55%, var(--border));
+  background: color-mix(in srgb, var(--danger) 18%, var(--bg2));
+  padding: 1px 6px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+.mat-stale-secondary {
+  color: var(--eh-signal-brass);
+  border-color: color-mix(in srgb, var(--eh-signal-brass) 50%, var(--border));
+  background: color-mix(in srgb, var(--eh-signal-brass) 15%, var(--bg2));
+}
+
+.maturity-rollup { margin: 0 0 18px; }
+.mat-rollup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+.mat-rollup-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  border-top: 3px solid var(--border);
+}
+.mat-rollup-card[data-segment="capital"] { border-top-color: var(--capital); }
+.mat-rollup-card[data-segment="presence"] { border-top-color: var(--presence); }
+.mat-rollup-card[data-segment="foundry"] { border-top-color: var(--foundry); }
+.mat-rollup-card[data-segment="local"] { border-top-color: var(--local); }
+.mat-rollup-card[data-segment="eats"] { border-top-color: var(--eats); }
+.mat-rollup-card[data-segment="reach"] { border-top-color: var(--reach); }
+.mat-rollup-card[data-segment="gaming"] { border-top-color: var(--gaming); }
+.mat-rollup-card[data-segment="systems"] { border-top-color: var(--portfolio); }
+.mat-rollup-head { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; justify-content: space-between; }
+.mat-rollup-name { font-size: 13px; font-weight: 650; color: var(--text); }
+.mat-rollup-next { margin: 8px 0 0; font-size: 12px; color: var(--muted); line-height: 1.4; }
+.mat-rollup-meta { margin: 6px 0 0; font-size: 11px; color: var(--dim); }
+
+.experiment-registry { margin: 0 0 18px; }
+.mat-exp-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg2);
+}
+.mat-exp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.mat-exp-table th,
+.mat-exp-table td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.mat-exp-table th {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--dim);
+  background: var(--bg3);
+}
+.mat-exp-table tbody tr:last-child td { border-bottom: 0; }
+.mat-exp-title { font-weight: 550; color: var(--text); max-width: 22ch; }
+.mat-exp-hypo { color: var(--muted); max-width: 28ch; }
+.mat-exp-status {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+.mat-exp-running { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
+.mat-exp-complete { color: var(--success, #3d9a6a); }
+.mat-exp-paused { color: var(--eh-signal-brass); }
+.mat-exp-killed { color: var(--danger); }
+.mat-exp-forming { color: var(--muted); }
+.mat-exp-seg { font-weight: 650; font-size: 11px; }
+.mat-seg-capital { color: var(--capital); }
+.mat-seg-presence { color: var(--presence); }
+.mat-seg-foundry { color: var(--foundry); }
+.mat-seg-local { color: var(--local); }
+.mat-seg-eats { color: var(--eats); }
+.mat-seg-reach { color: var(--reach); }
+
+.mat-omitted { margin-top: 10px; padding: 10px 12px; border-radius: 6px; background: var(--bg2); border: 1px dashed var(--border); }
+.mat-omitted-title { margin: 0 0 6px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--dim); }
+.mat-omitted-list { margin: 0; padding-left: 1.1rem; font-size: 12px; color: var(--muted); }
+.mat-omitted-seg { font-weight: 600; color: var(--text); }

@@ -56,7 +56,40 @@ function actionsHtml(s) {
   return `<div class="actions">${bits.join("")}</div>`;
 }
 
-function tileHtml(s) {
+function maturityStripForSegment(maturityDoc, segmentId) {
+  if (window.EH && EH.findSegment && EH.renderMaturityStrip) {
+    return EH.renderMaturityStrip(EH.findSegment(maturityDoc, segmentId));
+  }
+  return "";
+}
+
+function tileStaleMeta(s, maturityDoc) {
+  if (!window.EH || !EH.isTileStale) return { stale: false, badge: "" };
+  const stale = EH.isTileStale(s.lastUpdated);
+  let badge = stale && EH.renderStaleBadge ? EH.renderStaleBadge(s.lastUpdated) : "";
+  if (maturityDoc && EH.findSegment && s.lastUpdated) {
+    const mat = EH.findSegment(maturityDoc, s.segmentId);
+    if (mat && mat.lastReviewed) {
+      try {
+        const tileTs = new Date(s.lastUpdated).getTime();
+        const revTs = new Date(mat.lastReviewed + "T12:00:00-05:00").getTime();
+        if (tileTs > revTs) {
+          const gapDays = Math.floor((tileTs - revTs) / 86400000);
+          if (gapDays >= 3) {
+            badge =
+              (badge || "") +
+              ' <span class="mat-stale-badge mat-stale-secondary" title="Segment tile lastUpdated is newer than maturity lastReviewed — confirm maturity baseline.">Maturity lag</span>';
+          }
+        }
+      } catch (_) {
+        /* optional secondary signal */
+      }
+    }
+  }
+  return { stale, badge };
+}
+
+function tileHtml(s, maturityDoc) {
   const rawMetrics = s.headlineMetrics;
   const metricsList = Array.isArray(rawMetrics)
     ? rawMetrics
@@ -76,20 +109,31 @@ function tileHtml(s) {
     .join("");
   const status = s.status || "—";
   const badgeClass = /wait|paused|action/i.test(status) ? "warn" : "operating";
-  const actionFlag = s.needsHumanAction
-    ? `<p class="meta"><span>Action needed:</span> ${escapeHtml(s.humanAction || "Human decision required")}</p>`
-    : "";
-  return `<article class="tile" id="${escapeHtml(s.segmentId)}" data-segment="${escapeHtml(s.segmentId)}">
+  const { stale, badge: staleBadge } = tileStaleMeta(s, maturityDoc);
+  const staleClass = stale ? " tile-stale" : "";
+  const actionFlag =
+    s.needsHumanAction && !stale
+      ? `<p class="meta"><span>Action needed:</span> ${escapeHtml(s.humanAction || "Human decision required")}</p>`
+      : s.needsHumanAction && stale
+        ? `<p class="meta tile-stale-action"><span>Action noted (tile stale — verify before acting):</span> ${escapeHtml(
+            s.humanAction || "Human decision required"
+          )}</p>`
+        : "";
+  const matStrip = maturityStripForSegment(maturityDoc, s.segmentId);
+  return `<article class="tile${staleClass}" id="${escapeHtml(s.segmentId)}" data-segment="${escapeHtml(s.segmentId)}"${
+    stale ? ' data-tile-stale="true"' : ""
+  }>
     <div class="tile-head">
       <div>
         <h2>${escapeHtml(s.segmentName)}</h2>
         <p class="mission">${escapeHtml(s.mission || s.description || "")}</p>
       </div>
-      <span class="badge ${badgeClass}">${escapeHtml(status)}</span>
+      <span class="badge ${badgeClass}${stale ? " badge-stale-soft" : ""}">${escapeHtml(status)}</span>
     </div>
+    ${matStrip}
     <p class="meta">Owner: <span>${escapeHtml(s.owner)}</span> · Updated <span>${escapeHtml(
     fmtWhen(s.lastUpdated)
-  )}</span></p>
+  )}</span>${staleBadge ? ` · ${staleBadge}` : ""}</p>
     ${s.freshnessNote ? `<p class="meta"><span>${escapeHtml(s.freshnessNote)}</span></p>` : ""}
     <ul class="metrics">${metrics}</ul>
     <div>
@@ -109,7 +153,7 @@ function tileHtml(s) {
   </article>`;
 }
 
-function renderAttention(segments) {
+function renderAttention(segments, maturityDoc) {
   const el = document.getElementById("attention");
   const needs = segments.filter((s) => s.needsHumanAction);
   if (!needs.length) {
@@ -117,16 +161,25 @@ function renderAttention(segments) {
     el.textContent = "Nothing needs your attention right now.";
     return;
   }
-  el.className = "attention hot";
+  const anyStale = needs.some(
+    (s) => window.EH && EH.isTileStale && EH.isTileStale(s.lastUpdated)
+  );
+  el.className = "attention hot" + (anyStale ? " attention-stale-soft" : "");
   el.innerHTML =
-    "<strong>Action needed</strong><ul>" +
+    (anyStale
+      ? "<strong>Action noted</strong><p class=\"attention-stale-note\">One or more items below have stale segment tiles — confirm desk truth before acting.</p>"
+      : "<strong>Action needed</strong>") +
+    "<ul>" +
     needs
-      .map(
-        (s) =>
-          `<li data-segment="${escapeHtml(s.segmentId)}"><span class="seg">${escapeHtml(s.segmentName)}</span> — ${escapeHtml(
-            s.humanAction || "Human decision required"
-          )}</li>`
-      )
+      .map((s) => {
+        const stale =
+          window.EH && EH.isTileStale ? EH.isTileStale(s.lastUpdated) : false;
+        return `<li class="${stale ? "attention-item-stale" : ""}" data-segment="${escapeHtml(
+          s.segmentId
+        )}"><span class="seg">${escapeHtml(s.segmentName)}</span>${
+          stale ? ' <span class="mat-stale-badge">Stale tile</span>' : ""
+        } — ${escapeHtml(s.humanAction || "Human decision required")}</li>`;
+      })
       .join("") +
     "</ul>";
 }
@@ -259,9 +312,32 @@ function renderOrgNextUp(areas) {
     "</ol>";
 }
 
+function renderMaturitySurfaces(maturityDoc, registryDoc) {
+  const expHost = document.getElementById("experiment-registry-host");
+  if (expHost && window.EH && EH.renderExperimentRegistry) {
+    expHost.innerHTML = EH.renderExperimentRegistry(registryDoc);
+  }
+  const rollHost = document.getElementById("maturity-rollup-host");
+  if (rollHost && window.EH && EH.renderMaturityRollup) {
+    rollHost.innerHTML = EH.renderMaturityRollup(maturityDoc);
+  }
+}
+
 async function main() {
   try {
     const portfolio = await loadJSON("data/portfolio.json");
+    let maturityDoc = null;
+    let registryDoc = null;
+    try {
+      maturityDoc = await loadJSON("data/maturity/SEGMENT_MATURITY.json");
+    } catch (_) {
+      maturityDoc = null;
+    }
+    try {
+      registryDoc = await loadJSON("data/maturity/EXPERIMENT_REGISTRY.json");
+    } catch (_) {
+      registryDoc = null;
+    }
     document.getElementById("status-brief").textContent = portfolio.statusBrief;
     (document.getElementById("updated-text") || document.getElementById("updated")).textContent = "Updated " + fmtWhen(portfolio.lastUpdated);
     document.getElementById("public-note").innerHTML = `<strong>Public vs operating:</strong> ${escapeHtml(
@@ -284,8 +360,15 @@ async function main() {
       if (tcHost && window.EH && EH.renderTrialClock) tcHost.innerHTML = EH.renderTrialClock(null);
     }
 
-    renderAttention(segments);
-    document.getElementById("tiles").innerHTML = segments.map(tileHtml).join("");
+    renderAttention(segments, maturityDoc);
+    document.getElementById("tiles").innerHTML = segments
+      .map((s) => tileHtml(s, maturityDoc))
+      .join("");
+    try {
+      renderMaturitySurfaces(maturityDoc, registryDoc);
+    } catch (_) {
+      /* maturity surfaces optional */
+    }
     try {
       const nextAreas = await loadNextUpAreas();
       renderOrgNextUp(nextAreas);

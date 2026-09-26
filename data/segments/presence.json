@@ -4,38 +4,38 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "Go-hard persona locked; posts 101; next Tue Sep 22 full pass.",
+  "statusDetail": "Desk catch-up done; posts 133; followers 2; go-hard week; EXP-02 2nd age; hold EXP-03; next Mon Sep 28.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-21T14:06:00-05:00",
+  "lastUpdated": "2026-09-26T10:30:00-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
-      "value": "0",
-      "hint": "Unchanged"
+      "value": "2",
+      "hint": "Was 0 before go-hard week"
     },
     {
       "label": "X posts",
-      "value": "101",
-      "hint": "After Falcons/Saints NOW ship"
+      "value": "133",
+      "hint": "101 \u2192 133 Tue\u2013Fri"
     },
     {
       "label": "Persona",
       "value": "Go hard",
-      "hint": "Thomas-approved 2026-09-21"
+      "hint": "Voice compliance clean"
     },
     {
-      "label": "Public website",
-      "value": "Live (elevated)",
-      "hint": "Gmail temporary"
+      "label": "EXP-02",
+      "value": "2nd age Q18 \u00b7 D14.5",
+      "hint": "Testing \u2014 hold EXP-03"
     }
   ],
-  "currentObjective": "Go-hard is core @elephantharbor X persona. Weekday ~8–15 busy-room + voice 5 + ≥1 pro-Falcons/anti-Saints hard hit. Hard, human, one punch — no soft both-sides. 2nd EXP-02 age Wed ~11:15; hold EXP-03.",
-  "currentStatusBrief": "Thomas locked go-hard as core X voice. Falcons/Saints NOW ship was the tone target. Tue full pass next. Nothing needs Thomas.",
+  "currentObjective": "Keep weekday ~8\u201315 busy-room under go-hard persona + voice 5 + \u22651 Falcons/Saints. EXP-02 Learning stays Testing (2nd age: Q18 vs D14.5; engagement half unsupported). Hold EXP-03. MVO: no new agents/routines without evidence. Desk freshness is a standing operating requirement.",
+  "currentStatusBrief": "External Validation. Desk freshness restored after ~5d lag. Go-hard Tue\u2013Fri: posts \u2192133, followers 2. EXP-03 held. Nothing needs Thomas.",
   "latestLesson": {
     "id": "go-hard-persona",
     "title": "Go hard is core X persona",
     "originationDate": "2026-09-21",
-    "oneLiner": "Hard, human, side-taking — not polite commentary or AI templates."
+    "oneLiner": "First follower movement (0\u21922) under go-hard week \u2014 age before claiming win."
   },
   "needsHumanAction": false,
   "humanAction": null,
@@ -49,7 +49,7 @@
     {
       "label": "Public website",
       "url": "https://elephantharbor.com",
-      "note": "Public-facing company site — not the operating dashboard"
+      "note": "Public-facing company site \u2014 not the operating dashboard"
     },
     {
       "label": "X",
@@ -58,7 +58,7 @@
   ],
   "experimentsCount": 0,
   "channelsCount": 2,
-  "freshnessNote": "Manual Presence ops feed. Content refreshed 2026-09-07 after publish. Follower count still 0. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Desk freshness restored 2026-09-26 after INC-20260926-presence-desk-staleness. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "presence",
     "areaName": "Harbor Presence",
@@ -82,20 +82,27 @@
     {
       "id": "human-voice-rules",
       "title": "Go-hard persona + human voice rules",
-      "status": "Active — Testing",
-      "nextMilestone": "Tue 2026-09-22 full pass under go-hard persona"
+      "status": "Active \u2014 Testing",
+      "nextMilestone": "Mon 2026-09-28 pass; spot-check aged views on go-hard week replies"
     },
     {
       "id": "exp-02-voice-shift",
-      "title": "EXP-02 — Voice/form shift (questions & disagreement)",
-      "status": "Active — provisional closeout; Testing / confidence weakened",
-      "nextMilestone": "Wed 2026-09-24 ~11:15 CT 2nd age pass; human-voice overlay live Tue"
+      "title": "EXP-02 \u2014 Voice/form shift (questions & disagreement)",
+      "status": "Closed \u2014 Testing (2nd age done; hold EXP-03)",
+      "nextMilestone": "Review 2026-10-03; no EXP-03 until clearer success metric"
     },
     {
       "id": "x-volume-bar",
-      "title": "X volume bar — ~8–15 replies/day with busy-room gate",
+      "title": "X volume bar \u2014 ~8\u201315 replies/day with busy-room gate",
       "status": "Active",
-      "nextMilestone": "Tue 2026-09-22 go-hard pass"
+      "nextMilestone": "Mon 2026-09-28 weekday pass"
     }
-  ]
+  ],
+  "maturity": {
+    "stage": "External Validation",
+    "assignedBy": "Hayes",
+    "assignedAt": "2026-09-26",
+    "mvo": "Justify current structure; no added agents/routines without evidence.",
+    "gapClosed": "Desk freshness restored 2026-09-26"
+  }
 }
