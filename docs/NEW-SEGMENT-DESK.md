@@ -24,7 +24,13 @@
 <body class="eh-<segment>">
 ```
 
-Keep `static/segment.css` **thin** — badges, room-specific layout, segment accent leftovers only. Do not fork tokens, topbar, wayhome, or desk surfaces.
+Keep `static/segment.css` **thin** — badges, room-specific layout, segment accent leftovers only. Do not fork tokens, topbar, wayhome, desk surfaces, or **`main` max-width**.
+
+## Main content width
+
+Grid-heavy segment desks use the **Local-wide** `main` column from [`shared/eh-console.css`](../shared/eh-console.css) (`body.eh-local`, `body.eh-gaming`, `body.eh-reach`, `body.eh-eats` at ≥1400px / ≥1800px breakpoints). Do **not** set `main { max-width: … }` in segment CSS — that overrides the shared rule and leaves desks stuck at 1100px or 1280px.
+
+When standing up a new segment desk that needs wide tables/grids, add `body.eh-<segment>` to that wide-main block in `eh-console.css` instead of narrowing locally.
 
 ## Shared desk surface classes (`eh-console.css`)
 
