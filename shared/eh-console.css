@@ -228,31 +228,24 @@ button { font: inherit; cursor: pointer; }
   color: var(--text); background: var(--bg3); border-color: var(--border);
 }
 
+/* Main content width — Local-wide column for every desk (≤1399: ~1280).
+   Segment CSS must NOT set a competing main { max-width }. */
 main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
-
-/* Wide main column — grid-heavy segment desks (canonical: Harbor Local).
-   Default 1280px remains for Capital, Portfolio, Presence, Foundry.
-   New segment operating desks: add body.eh-<segment> here; do not cap main in segment.css. */
+.foot {
+  border-top: 1px solid var(--border); padding: 8px 16px;
+  color: var(--dim); font-size: 11px; max-width: 1280px; margin: 0 auto 12px;
+}
 @media (min-width: 1400px) {
-  body.eh-local main,
-  body.eh-gaming main,
-  body.eh-reach main,
-  body.eh-eats main {
+  main,
+  .foot {
     max-width: min(1680px, calc(100vw - 48px));
   }
 }
 @media (min-width: 1800px) {
-  body.eh-local main,
-  body.eh-gaming main,
-  body.eh-reach main,
-  body.eh-eats main {
+  main,
+  .foot {
     max-width: min(1840px, calc(100vw - 64px));
   }
-}
-
-.foot {
-  border-top: 1px solid var(--border); padding: 8px 16px;
-  color: var(--dim); font-size: 11px; max-width: 1280px; margin: 0 auto 12px;
 }
 
 .badge {

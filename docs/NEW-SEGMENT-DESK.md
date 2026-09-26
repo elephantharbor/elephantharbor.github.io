@@ -19,18 +19,18 @@
 
 ```html
 <link rel="stylesheet" href="../shared/eh-console.css?v=…" />
+<script src="../shared/eh-wayhome.js?v=…"></script>
 <script src="../shared/eh-theme.js?v=…"></script>
 <link rel="stylesheet" href="static/segment.css" />
 <body class="eh-<segment>">
+<nav class="wayhome" aria-label="Elephant Harbor"></nav>
 ```
 
-Keep `static/segment.css` **thin** — badges, room-specific layout, segment accent leftovers only. Do not fork tokens, topbar, wayhome, desk surfaces, or **`main` max-width**.
+Keep `static/segment.css` **thin** — badges, room-specific layout, segment accent leftovers only. Do not fork tokens, topbar, wayhome markup, desk surfaces, or **`main` max-width**.
 
 ## Main content width
 
-Grid-heavy segment desks use the **Local-wide** `main` column from [`shared/eh-console.css`](../shared/eh-console.css) (`body.eh-local`, `body.eh-gaming`, `body.eh-reach`, `body.eh-eats` at ≥1400px / ≥1800px breakpoints). Do **not** set `main { max-width: … }` in segment CSS — that overrides the shared rule and leaves desks stuck at 1100px or 1280px.
-
-When standing up a new segment desk that needs wide tables/grids, add `body.eh-<segment>` to that wide-main block in `eh-console.css` instead of narrowing locally.
+**Global shared CSS** — every desk gets the Local-wide `main` / `.foot` column from [`shared/eh-console.css`](../shared/eh-console.css): ~1280px by default; `min(1680px, calc(100vw - 48px))` at ≥1400px; `min(1840px, calc(100vw - 64px))` at ≥1800px. Do **not** set `main { max-width: … }` in segment CSS — that overrides the shared rule and leaves desks stuck at 1100px or 1280px.
 
 ## Shared desk surface classes (`eh-console.css`)
 
@@ -46,7 +46,7 @@ Legacy `.card` / `.empty` in `eh-console.css` remain valid; prefer `.eh-desk-*` 
 
 ## Way-home nav (required)
 
-Every desk includes portfolio way-home with **all** segments linked; mark current segment `class="active"` + `aria-current="page"`. Pattern: [shared/README.md](../shared/README.md).
+**Single source of truth:** [`shared/eh-wayhome.js`](../shared/eh-wayhome.js) (`EH.Wayhome.mount`). Leave an empty `<nav class="wayhome">`; the script fills Portfolio · Capital · Presence · Foundry · Local · Eats · Reach · Gaming with console URLs and marks the active segment (`body.eh-<segment>` or `data-eh-segment`). Adding a segment = edit that one list + wayhome accent tokens in `eh-console.css`. Details: [shared/README.md](../shared/README.md).
 
 ## Checklist before first publish
 
