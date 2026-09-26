@@ -64,6 +64,7 @@
     local: "Local",
     eats: "Eats",
     reach: "Harbor Reach",
+    gaming: "Harbor Gaming",
     portfolio: "Portfolio",
     cross: "Cross",
   };

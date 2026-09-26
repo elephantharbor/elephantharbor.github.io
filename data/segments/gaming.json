@@ -1,0 +1,41 @@
+{
+  "segmentId": "gaming",
+  "segmentName": "Harbor Gaming",
+  "description": "Elephant Harbor game-development segment. First product: Road to 270 (browser strategy/sim).",
+  "mission": "Build and learn from browser-native strategy/sim games under Elephant Harbor — starting with Road to 270.",
+  "status": "Initializing",
+  "statusDetail": "Org founded 2026-09-26. Auth desk URL at console.elephantharbor.com/harbor-gaming/. SoR under /workspace/harbor-gaming/. No playable build yet. Human gate: founding brief and phase lock with Thomas.",
+  "owner": "Gage (Harbor Gaming - CEO)",
+  "lastUpdated": "2026-09-26T09:17:00-05:00",
+  "headlineMetrics": [
+    {
+      "label": "Current build",
+      "value": "—",
+      "hint": "No playable build yet"
+    },
+    {
+      "label": "Phases",
+      "value": "foundation",
+      "hint": "Org + desk wiring; pre-production"
+    },
+    {
+      "label": "Open decisions",
+      "value": "—",
+      "hint": "Founding brief / phase lock pending Thomas"
+    },
+    {
+      "label": "Playtests",
+      "value": "0",
+      "hint": "None scheduled"
+    }
+  ],
+  "currentObjective": "Lock founding brief and phase plan with Thomas; stand up auth desk and segment SoR before first vertical slice.",
+  "currentStatusBrief": "Segment founded 2026-09-26. Working title Road to 270 (browser strategy/sim). No playable build; metrics intentionally empty until a build exists.",
+  "latestLesson": null,
+  "needsHumanAction": true,
+  "humanAction": "Founding brief and phase lock with Thomas — scope, success criteria, and first milestone for Road to 270.",
+  "dashboardUrl": "https://console.elephantharbor.com/harbor-gaming/",
+  "dashboardState": "live",
+  "publicLinks": [],
+  "freshnessNote": "Portfolio tile published 2026-09-26T09:17:00-05:00. No invented build or playtest metrics."
+}

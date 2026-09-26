@@ -40,6 +40,7 @@ html[data-theme="dark"] {
   --local: #2ec4a8;
   --eats: #e08a5c;
   --reach: #1a8fa8;
+  --gaming: #9b5de5;
 
   /* Capital markets — related family, mutually distinct */
   --market-securities: #60a5fa;
@@ -75,6 +76,7 @@ html[data-theme="light"] {
   --local: #0f8f78;
   --eats: #b85f35;
   --reach: #2eb8d4;
+  --gaming: #c77dff;
   --market-securities: #2563eb;
   --market-options: #7c3aed;
   --market-event: #15803d;
@@ -91,6 +93,7 @@ body.eh-foundry { --segment: var(--foundry); --atmosphere: var(--foundry); --atm
 body.eh-local { --segment: var(--local); --atmosphere: var(--local); --atmosphere-rgb: 46, 196, 168; }
 body.eh-eats { --segment: var(--eats); --atmosphere: var(--eats); --atmosphere-rgb: 224, 138, 92; }
 body.eh-reach { --segment: var(--reach); --atmosphere: var(--reach); --atmosphere-rgb: 26, 143, 168; }
+body.eh-gaming { --segment: var(--gaming); --atmosphere: var(--gaming); --atmosphere-rgb: 155, 93, 229; }
 
 body.eh-market-securities { --atmosphere: var(--market-securities); --atmosphere-rgb: 96, 165, 250; --segment: var(--market-securities); }
 body.eh-market-options { --atmosphere: var(--market-options); --atmosphere-rgb: 192, 132, 252; --segment: var(--market-options); }
@@ -203,6 +206,7 @@ button { font: inherit; cursor: pointer; }
 .wayhome a[data-segment="local"], .wayhome a[href*="harbor-local"], .wayhome a[href="#local"] { color: color-mix(in srgb, var(--local) 75%, var(--muted)); }
 .wayhome a[data-segment="eats"], .wayhome a[href*="harbor-eats"] { color: color-mix(in srgb, var(--eats) 75%, var(--muted)); }
 .wayhome a[data-segment="reach"], .wayhome a[href*="harbor-reach"] { color: color-mix(in srgb, var(--reach) 75%, var(--muted)); }
+.wayhome a[data-segment="gaming"], .wayhome a[href*="harbor-gaming"] { color: color-mix(in srgb, var(--gaming) 75%, var(--muted)); }
 .wayhome a[data-segment="portfolio"], .wayhome a.active[href="/"], .wayhome a.active[href="./"] {
   color: color-mix(in srgb, var(--portfolio) 80%, var(--text));
 }
@@ -247,6 +251,7 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
 .badge-local { color: var(--local); border-color: #2a5a50; }
 .badge-eats { color: var(--eats); border-color: #5a3a28; }
 .badge-reach { color: var(--reach); border-color: #2a5058; }
+.badge-gaming { color: var(--gaming); border-color: #4a3560; }
 .badge-portfolio { color: var(--portfolio); border-color: #2a5a58; }
 .badge-paper { color: var(--paper); border-color: #5a4a20; background: #241e10; }
 
@@ -484,6 +489,7 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
 .tile[data-segment="local"], .tile.seg-local { --tile-accent: var(--local); border-top-color: var(--local); }
 .tile[data-segment="eats"], .tile.seg-eats { --tile-accent: var(--eats); border-top-color: var(--eats); }
 .tile[data-segment="reach"], .tile.seg-reach { --tile-accent: var(--reach); border-top-color: var(--reach); }
+.tile[data-segment="gaming"], .tile.seg-gaming { --tile-accent: var(--gaming); border-top-color: var(--gaming); }
 .tile[data-segment="portfolio"], .tile.seg-portfolio { --tile-accent: var(--portfolio); border-top-color: var(--portfolio); }
 
 .mark {
@@ -696,6 +702,12 @@ html[data-theme="light"] .mark.eh-logo { background: var(--eh-canvas); }
   border-color: color-mix(in srgb, var(--reach) 45%, var(--border));
   background: color-mix(in srgb, var(--reach) 14%, transparent);
 }
+.av-stamp-segment.av-segment-gaming,
+.av-stamp-segment[data-segment="gaming"] {
+  color: var(--gaming);
+  border-color: color-mix(in srgb, var(--gaming) 45%, var(--border));
+  background: color-mix(in srgb, var(--gaming) 14%, transparent);
+}
 .av-stamp-segment.av-segment-portfolio,
 .av-stamp-segment[data-segment="portfolio"] {
   color: var(--portfolio);
@@ -743,6 +755,7 @@ html[data-theme="light"] .mark.eh-logo { background: var(--eh-canvas); }
 .av-card.av-accent-segment-foundry { border-left-color: var(--foundry); }
 .av-card.av-accent-segment-local { border-left-color: var(--local); }
 .av-card.av-accent-segment-reach { border-left-color: var(--reach); }
+.av-card.av-accent-segment-gaming { border-left-color: var(--gaming); }
 .av-card.av-accent-segment-portfolio { border-left-color: var(--portfolio); }
 .av-card.av-accent-market-securities { border-left-color: var(--market-securities); }
 .av-card.av-accent-market-options { border-left-color: var(--market-options); }
@@ -876,6 +889,7 @@ html[data-theme="light"] .av-card {
 .lrn-accent-segment-foundry { border-left-color: var(--foundry); --segment: var(--foundry); }
 .lrn-accent-segment-local { border-left-color: var(--local); --segment: var(--local); }
 .lrn-accent-segment-reach { border-left-color: var(--reach); --segment: var(--reach); }
+.lrn-accent-segment-gaming { border-left-color: var(--gaming); --segment: var(--gaming); }
 .lrn-accent-segment-portfolio { border-left-color: var(--portfolio); --segment: var(--portfolio); }
 .lrn-accent-segment-cross { border-left-color: var(--accent); --segment: var(--accent); }
 
