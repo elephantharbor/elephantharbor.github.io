@@ -135,6 +135,7 @@ See the comment block at the bottom of `shared/eh-desk-grid.js` for a copy-paste
 
 ## Related canon
 
+- [NEW-SEGMENT-DESK.md](NEW-SEGMENT-DESK.md) — opaque card/panel surfaces (Capital model) before grid adoption
 - [ORG-OPERATING-STANDARDS.md](ORG-OPERATING-STANDARDS.md) §6
 - [OS-V2-DOCTRINE.md](OS-V2-DOCTRINE.md)
 - [shared/README.md](../shared/README.md)

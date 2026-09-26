@@ -259,6 +259,98 @@ main { padding: 12px 16px 40px; max-width: 1280px; margin: 0 auto; }
   border: 1px solid var(--border); border-radius: 8px; background: var(--bg2);
   padding: 12px 14px;
 }
+
+/* —— Desk surface primitives (Harbor Capital card model) ——
+   Readable desk content must sit on opaque var(--bg2), never on the atmosphere grid.
+   Adopters: segment desks (Eats, Gaming, Reach, …). See docs/NEW-SEGMENT-DESK.md */
+.eh-desk-view {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.eh-desk-panel,
+.eh-desk-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg2);
+  padding: 12px 14px;
+}
+.eh-desk-panel__title,
+.eh-desk-card__title {
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 650;
+  color: var(--text);
+}
+.eh-desk-panel__help,
+.eh-desk-card__help {
+  margin: 0 0 12px;
+  font-size: 12px;
+  color: var(--muted);
+  max-width: 72ch;
+}
+.eh-desk-panel__body,
+.eh-desk-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.eh-desk-card--inset {
+  background: var(--bg3);
+}
+.eh-desk-table-wrap,
+.card.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 4px;
+}
+table.data,
+table.eh-desk-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+table.data th,
+table.data td,
+table.eh-desk-table th,
+table.eh-desk-table td {
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+table.data th,
+table.eh-desk-table th {
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--dim);
+  background: var(--bg3);
+  white-space: nowrap;
+}
+table.data tbody tr:last-child td,
+table.eh-desk-table tbody tr:last-child td {
+  border-bottom: none;
+}
+table.data tbody tr:hover td,
+table.eh-desk-table tbody tr:hover td {
+  background: color-mix(in srgb, var(--segment, var(--accent)) 6%, transparent);
+}
+.eh-desk-empty {
+  padding: 18px 14px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: var(--bg2);
+}
+.eh-desk-empty strong {
+  display: block;
+  color: var(--text);
+  margin-bottom: 4px;
+}
 .callout.info { border-color: #3a5a78; }
 .callout.warn { border-color: #5a4020; }
 .section-title {
@@ -525,7 +617,10 @@ html[data-theme="light"] .card,
 html[data-theme="light"] .tile,
 html[data-theme="light"] .attention,
 html[data-theme="light"] .next-up,
-html[data-theme="light"] .session-log {
+html[data-theme="light"] .session-log,
+html[data-theme="light"] .eh-desk-panel,
+html[data-theme="light"] .eh-desk-card,
+html[data-theme="light"] .eh-desk-empty {
   background: var(--bg2);
   border: 1px solid var(--border);
   box-shadow: 0 1px 2px rgba(16, 38, 44, 0.06);

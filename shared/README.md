@@ -12,6 +12,8 @@
 
 Keep `static/segment.css` **thin**: segment accent leftovers and room-specific layout only. Do not fork tokens, topbar, wayhome, badges, or cards.
 
+**Desk surfaces:** Use shared `.eh-desk-panel`, `.eh-desk-card`, `.eh-desk-table-wrap`, and `.eh-desk-empty` in `eh-console.css` so readable content never sits on the atmosphere grid. Checklist: [NEW-SEGMENT-DESK.md](../docs/NEW-SEGMENT-DESK.md).
+
 ## Way-home nav (required on every desk)
 
 ```html
