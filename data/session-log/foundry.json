@@ -1,8 +1,22 @@
 {
   "areaId": "foundry",
   "areaName": "Harbor Foundry",
-  "lastUpdated": "2026-10-05T08:50:00-05:00",
+  "lastUpdated": "2026-10-06T08:20:00-05:00",
   "entries": [
+    {
+      "date": "2026-10-06",
+      "time": "08:20 CT",
+      "actor": "Calder (Harbor Foundry - CEO)",
+      "summary": "Tue morning brief to Thomas. Since Monday's brief, the second Scout pass closed two more ideas (contractor prequalification paperwork desk; DBE recertification desk) at $0. Four cheap tests (van upfit shops, dental labs, landscape supply yards, kitchen hood cleaners) run to Thursday's keep/change/kill decision; 15 on hold; nothing pending; $0 spent. No real-world test has run yet: every Foundry test so far is desk research. Setaside: one $24 listing, $0 sales. Latch paused. Upfit and Setaside proposals stay deferred (not re-asked).",
+      "deskChanges": "Next Up reordered by soonest (Tue Scout due now, Wed 8:02 brief, Thu Oct 8 SPK). Pipeline and metrics unchanged."
+    },
+    {
+      "date": "2026-10-06",
+      "time": "07:40 CT",
+      "actor": "Fernando",
+      "summary": "Tue HQ pre-brief. Desk unchanged since Calder's Mon-b lock (Mon 08:50 CT): ACT Cheap Tests=4 (upfit/dental/yard/hood) to Oct 8 SPK; Mon two Scout passes screened 49 and closed 4 at $0 (pawnops, bookstoreops, prequalops, dbeops); HOLD=15; TEST SMALL pending 0; ShopWorks WATCH; Foundry spend $0; Setaside Operating ($0 sales); Latch Paused. Books realized unchanged $0 in / $38.21 out / $261.79 left; Tello renewal $6.04 still authorized-not-settled. No new Thomas decisions; Upfit+Setaside stay Deferred.",
+      "deskChanges": "Notion HQ snapshot refreshed to Tue 10-06 (HOLD 12→15, Mon closures, screened week 149). Next Up already current (Tue 8:02 brief, 8:09 Scout, Oct 8 SPK) — not republished."
+    },
     {
       "date": "2026-10-05",
       "time": "08:50 CT",
