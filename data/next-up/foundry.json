@@ -1,25 +1,31 @@
 {
   "areaId": "foundry",
   "areaName": "Harbor Foundry",
-  "lastUpdated": "2026-10-08T08:40:00-05:00",
+  "lastUpdated": "2026-10-08T09:20:00-05:00",
   "items": [
-    {
-      "title": "ACT×4 SPK gate — Scale / Pivot / Kill (upfit / dental / yard / hood)",
-      "nextRunAt": "2026-10-08T17:00:00-05:00",
-      "scheduleLabel": "SPK decision Thu 2026-10-08 (today)",
-      "owner": "Calder (Harbor Foundry - CEO) / Nico"
-    },
     {
       "title": "Foundry morning brief",
       "nextRunAt": "2026-10-09T08:02:00-05:00",
-      "scheduleLabel": "Weekdays 8:02 AM CT",
+      "scheduleLabel": "Weekdays 8:02 AM CT (Fri)",
       "owner": "Calder (Harbor Foundry - CEO)"
     },
     {
-      "title": "Scout hunt — occupant-weakness pass",
+      "title": "Scout hunt \u2014 occupant-weakness / regulator-data Candidate",
       "nextRunAt": "2026-10-09T08:09:00-05:00",
-      "scheduleLabel": "Weekdays 8:09 AM CT",
+      "scheduleLabel": "Weekdays 8:09 AM CT (Fri)",
       "owner": "Nico (Harbor Scout) / Calder"
+    },
+    {
+      "title": "igpops $0 census deadline \u2014 then demand-test if Thomas approved",
+      "nextRunAt": "2026-10-14T17:00:00-05:00",
+      "scheduleLabel": "Census due Wed 2026-10-14",
+      "owner": "Nico / Calder"
+    },
+    {
+      "title": "Proposal to Thomas \u2014 $150\u2013$250 igpops landing + search ads",
+      "nextRunAt": "2026-10-08T12:00:00-05:00",
+      "scheduleLabel": "Awaiting Thomas (conditional on Oct 14 census)",
+      "owner": "Thomas / Calder"
     }
   ]
 }
