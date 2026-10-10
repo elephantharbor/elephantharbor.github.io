@@ -44,6 +44,11 @@ function actionsHtml(s) {
   } else {
     bits.push(`<span class="planned">Detailed operating dashboard: planned</span>`);
   }
+  // Capital: direct entry to the Sports Predictions surface on the Capital desk (2026-10-10, Wells).
+  if (s.segmentId === "capital" && s.dashboardState === "live" && s.dashboardUrl) {
+    const base = String(s.dashboardUrl).replace(/#.*$/, "");
+    bits.push(`<a class="btn ghost" href="${escapeHtml(base + "#sports-predictions")}" rel="noopener">Sports Predictions</a>`);
+  }
   const links = Array.isArray(s.publicLinks) ? s.publicLinks : [];
   for (const link of links) {
     if (!link || !link.url) continue;
