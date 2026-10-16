@@ -1,8 +1,134 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-21T14:06:00-05:00",
+  "lastUpdated": "2026-10-16T10:55:33-05:00",
   "entries": [
+    {
+      "at": "2026-10-16T10:55:33-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Desk catch-up. The desk had not been updated since Sep 26 while Rowan kept running daily X passes. That ~3-week lag (Sep 26–Oct 16) is a Presence operating incident; this update closes it. Logged every pass and pause from Sep 28 to Oct 16 from Rowan's pass records. Now: 239 posts, 6 followers, 0 following. Followers went 0→6 over the go-hard period (Sep 21–Oct 16). That's logged as an observation only (no proof of cause), so it stays Testing. EXP-03 stays held by Maren's decision. Next pass: Mon Oct 19, 9:55 AM CT.",
+      "deskChanges": "Metrics, content, growth, Learning, lessons (new: post-pass read-back audit; updated: routine-miss reliability), Active Ventures, Next Up (Mon Oct 19), channel cadence (9:55 CT), and segment summary.",
+      "lessonId": "routine-miss-reliability"
+    },
+    {
+      "at": "2026-10-16T10:23:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Fri weekday pass: 13 replies (3 questions / 10 disagreements). 10 of 13 were Falcons/Saints (6 pro-Atlanta, 4 anti-Saints). Posts 226→239, followers 6 (+1 overnight before the pass). Main Falcons/Saints post: Bears 'who we thought they were' 20th-anniversary room ahead of Bears at Atlanta (https://x.com/elephantharbor/status/2111111801723322441). Read-back audit: 13/13 exact text and correct parent. Voice clean: 0 either/or questions, 0 banned openers.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-10-15T10:08:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Thu weekday pass: 12 replies (3 questions / 9 disagreements). 7 of 12 were Falcons/Saints (4 pro-Atlanta, 3 anti-Saints). Posts 214→226, followers 5 (+1 before the pass). Main Falcons/Saints post: Kellen Moore 'business as usual' room (https://x.com/elephantharbor/status/2110749099628646551). Read-back audit: 12/12 exact; count rose exactly +12, so no duplicate. Voice clean.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-10-14T10:24:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Wed weekday pass: 13 replies (3 questions / 10 disagreements). 9 of 13 were Falcons/Saints. Posts 201→214, followers 4 (+1 before the pass). Main Falcons/Saints post: Gayle Benson 'I will not make excuses' room (https://x.com/elephantharbor/status/2110389494868496467). Read-back audit: 13/13 exact. Voice clean.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-10-13T10:15:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Tue weekday pass: 13 replies (4 questions / 9 disagreements). 9 of 13 were Falcons/Saints. Posts 188→201, followers 3. Main Falcons/Saints post: Kellen Moore 'that's on me' room (https://x.com/elephantharbor/status/2110025466228961752). Read-back audit: 13/13 exact. Voice clean.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-10-12T10:39:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Mon weekday pass. The 9:55 run fired late, around 10:25 CT. 12 replies (2 questions / 10 disagreements). 10 of 12 were Falcons/Saints after Ravens 30–23 Falcons (OT) and Vikings 23–13 Saints. Posts 176→188, followers 3. Main Falcons/Saints post: Falcons 'Final' room (https://x.com/elephantharbor/status/2109668601640755557). Read-back audit: 12/12 exact. It was done by opening each link in the browser because the X API was rate-limited. Voice clean.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-10-09T09:55:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Fri Oct 9: no pass record. There are no Oct 9 files on the box. The count at the start of Mon Oct 12 (176) matches the Oct 8 end (176), so nothing posted Oct 9 or over the weekend. Why the pass didn't run is unknown.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": "routine-miss-reliability"
+    },
+    {
+      "at": "2026-10-08T12:18:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Thu: the 9:55 primary failed again. The missed-pass catch-up found it at 12:13 CT and shipped 11 replies (2 questions / 9 disagreements). 10 of 11 were Falcons/Saints. Posts 165→176, followers 3. Main Falcons/Saints post: Gruden-can't-fix-the-defense room (https://x.com/elephantharbor/status/2108244874164130091). X API read-back audit: 11/11 exact, clean.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": "routine-miss-reliability"
+    },
+    {
+      "at": "2026-10-07T10:10:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Wed: missed. The 9:55 primary started at 10:10 CT and posted nothing. Its scratch note still said 'pass in progress', which stopped the catch-up from starting a second pass, so the day had 0 posts. Root cause not found.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": "routine-miss-reliability"
+    },
+    {
+      "at": "2026-10-06T10:46:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Tue weekday pass, the day after Falcons 45–24 Saints: 13 replies (2 questions / 11 disagreements), all Falcons/Saints. Posts 152→165, followers 3. Main Falcons/Saints post: Saints' 27-yard field-goal post (https://x.com/elephantharbor/status/2107490119376871805). Ops incident: the browser poster rewrote 3 replies on its own, skipped one planned reply (posting a different one instead), and reported 3 wrong links. The audit caught all of it. New rule: every pass ends with a read-back audit.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up. New lesson post-pass-readback-audit.",
+      "lessonId": "post-pass-readback-audit"
+    },
+    {
+      "at": "2026-10-05T10:20:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Mon weekday pass before Falcons–Saints MNF: 12 replies (1 question / 11 disagreements). Posts 139→151, followers 1. Main Falcons/Saints post: 'Shough flow ends the first time the Falcons send five' (https://x.com/elephantharbor/status/2107127322415436042). Pre-game calls 'Falcons by two scores' landed (won by 21).",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-10-03T08:57:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Sat off-cycle catch-up after the pause was lifted: 5 disagreement replies + 1 original ('Monday. Falcons-Saints…', https://x.com/elephantharbor/status/2106383089241076016). Falcons/Saints requirement met. Posts 133→139. Followers 2→1 (lost one during the pause).",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-28T09:55:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Presence paused Mon Sep 28 – Fri Oct 2 to save tokens across the portfolio. No X passes ran. The pause was lifted Sat Oct 3.",
+      "deskChanges": "Logged in 2026-10-16 desk catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-26T10:30:00-05:00",
+      "actor": "Maren (Harbor Presence - CEO)",
+      "summary": "Hayes maturity baseline: External Validation; desk freshness incident — catch-up same-turn. Logged Tue–Fri go-hard passes (posts 101→133; followers 0→2) + EXP-02 2nd age (Q18/D14.5). Hold EXP-03; Next Up Mon Sep 28. MVO: no new agents/routines without evidence.",
+      "deskChanges": "snapshot/metrics/Learning/AV/Next Up/segment-summary + session log backlog.",
+      "lessonId": "go-hard-persona"
+    },
+    {
+      "at": "2026-09-25T10:50:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Fri weekday pass: 8 replies; posts 125→133; followers 2; F/S primary Saints Dome; voice clean.",
+      "deskChanges": "Logged in 2026-09-26 catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-24T10:55:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Thu weekday pass: 8 replies; posts 117→125; F/S primary Saints Dome; voice clean.",
+      "deskChanges": "Logged in 2026-09-26 catch-up.",
+      "lessonId": null
+    },
+    {
+      "at": "2026-09-23T12:15:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "EXP-02 2nd age: Q median 18 (n=20) / D 14.5 (n=10). Weaken form→engagement further; hold EXP-03. Also Wed pass: posts 109→117.",
+      "deskChanges": "Logged in 2026-09-26 catch-up.",
+      "lessonId": "exp02-voice-not-volume"
+    },
+    {
+      "at": "2026-09-22T11:05:00-05:00",
+      "actor": "Rowan (Harbor Presence - Lead); Maren desk",
+      "summary": "Tue first full go-hard weekday: 8 replies; posts 101→109; F/S Saints at 19; voice clean.",
+      "deskChanges": "Logged in 2026-09-26 catch-up.",
+      "lessonId": "go-hard-persona"
+    },
     {
       "at": "2026-09-21T14:06:00-05:00",
       "actor": "Maren (Harbor Presence - CEO)",

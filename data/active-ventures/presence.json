@@ -1,7 +1,7 @@
 {
   "areaId": "presence",
   "areaName": "Harbor Presence",
-  "lastUpdated": "2026-09-26T10:30:00-05:00",
+  "lastUpdated": "2026-10-16T10:55:33-05:00",
   "items": [
     {
       "id": "human-voice-rules",
@@ -13,10 +13,10 @@
       "startDate": "2026-09-22",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium",
-      "performance": "Tue–Fri Sep 22–25: 4 full passes; voice compliance clean; posts →133; followers 0→2. First follower movement under go-hard — age engagement before claiming win.",
-      "nextMilestone": "Mon 2026-09-28 pass; spot-check aged views on go-hard week replies",
+      "performance": "Sep 22–Oct 16 (paused Sep 28–Oct 2): 13 passes, voice clean every pass (0 either/or questions, 0 banned openers). Posts 101→239. Followers 0→6. Observation only: followers rose during the go-hard period, but there's no proof go-hard caused it. Stays Testing.",
+      "nextMilestone": "Mon 2026-10-19 9:55 CT pass; age a sample of October replies before claiming any win",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview",
-      "lastUpdated": "2026-09-26T10:30:00-05:00"
+      "lastUpdated": "2026-10-16T10:55:33-05:00"
     },
     {
       "id": "exp-02-voice-shift",
@@ -24,14 +24,14 @@
       "segment": "presence",
       "submarket": null,
       "description": "Next 30 published replies: ≥15 questions or explicit disagreements; ≤10 dry observational metaphors; ban AI cadences. Busy-room gate retained. Measure engagement events + median views vs prior observational 30.",
-      "status": "Closed — Testing (2nd age done; hold EXP-03)",
+      "status": "Closed — Testing (2nd age done; EXP-03 held)",
       "startDate": "2026-09-16",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium; ≤5 weekday passes or 30 replies",
-      "performance": "2nd age Q18 / D14.5; engagement ~2. Confidence weakened; no Confirmed.",
-      "nextMilestone": "Review 2026-10-03; no EXP-03 until clearer success metric",
+      "performance": "2nd age (2026-09-23): question median 18 views / disagreement 14.5; engagement ~2 events. Confidence weakened; no Confirmed.",
+      "nextMilestone": "EXP-03 held by Maren's decision until there's a clearer success metric; no review date set",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#experiments",
-      "lastUpdated": "2026-09-26T10:30:00-05:00"
+      "lastUpdated": "2026-10-16T10:55:33-05:00"
     },
     {
       "id": "x-volume-bar",
@@ -43,10 +43,10 @@
       "startDate": "2026-09-11",
       "owner": "Rowan (Harbor Presence - Lead); Maren (Harbor Presence - CEO)",
       "exposure": "$0 / no Premium",
-      "performance": "Tue–Fri: 8 replies/day; posts 101→133 under go-hard.",
-      "nextMilestone": "Mon 2026-09-28 weekday pass",
+      "performance": "October passes: 11–13 replies a day (Oct 3 Saturday catch-up: 5 replies + 1 original). Posts 133→239. Missed days: Oct 7, Oct 9.",
+      "nextMilestone": "Mon 2026-10-19 9:55 CT weekday pass",
       "detailLink": "https://elephantharbor.github.io/harbor-presence/#overview",
-      "lastUpdated": "2026-09-26T10:30:00-05:00"
+      "lastUpdated": "2026-10-16T10:55:33-05:00"
     }
   ],
   "emptyReason": null

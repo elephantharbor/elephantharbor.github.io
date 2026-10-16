@@ -4,38 +4,38 @@
   "description": "Audience and public presence.",
   "mission": "Build Elephant Harbor's audience, reputation, reach, and public communication through deliberate experimentation and learning.",
   "status": "Operating",
-  "statusDetail": "Desk catch-up done; posts 133; followers 2; go-hard week; EXP-02 2nd age; hold EXP-03; next Mon Sep 28.",
+  "statusDetail": "Desk caught up 2026-10-16 (lag Sep 26–Oct 16 closed); posts 239; followers 6; go-hard live; EXP-03 held; next Mon Oct 19.",
   "owner": "Maren (Harbor Presence - CEO)",
-  "lastUpdated": "2026-09-26T10:30:00-05:00",
+  "lastUpdated": "2026-10-16T10:55:33-05:00",
   "headlineMetrics": [
     {
       "label": "X followers",
-      "value": "2",
-      "hint": "Was 0 before go-hard week"
+      "value": "6",
+      "hint": "0 on Sep 21 → 6 on Oct 16 (observation, not proof)"
     },
     {
       "label": "X posts",
-      "value": "133",
-      "hint": "101 \u2192 133 Tue\u2013Fri"
+      "value": "239",
+      "hint": "133 → 239 Sep 26–Oct 16"
     },
     {
       "label": "Persona",
       "value": "Go hard",
-      "hint": "Voice compliance clean"
+      "hint": "Voice clean every pass"
     },
     {
       "label": "EXP-02",
-      "value": "2nd age Q18 \u00b7 D14.5",
-      "hint": "Testing \u2014 hold EXP-03"
+      "value": "2nd age Q18 · D14.5",
+      "hint": "Testing — EXP-03 held"
     }
   ],
-  "currentObjective": "Keep weekday ~8\u201315 busy-room under go-hard persona + voice 5 + \u22651 Falcons/Saints. EXP-02 Learning stays Testing (2nd age: Q18 vs D14.5; engagement half unsupported). Hold EXP-03. MVO: no new agents/routines without evidence. Desk freshness is a standing operating requirement.",
-  "currentStatusBrief": "External Validation. Desk freshness restored after ~5d lag. Go-hard Tue\u2013Fri: posts \u2192133, followers 2. EXP-03 held. Nothing needs Thomas.",
+  "currentObjective": "Run the weekday X pass (~8–15 replies in busy rooms) in the go-hard persona with the five voice rules and at least one Falcons/Saints hit. End every pass with a read-back audit. Keep the desk current the same day. Learning stays Testing; EXP-03 stays held. MVO: no new agents/routines without evidence.",
+  "currentStatusBrief": "External Validation. Desk lag Sep 26–Oct 16 (operating incident) closed 2026-10-16. Paused Sep 28–Oct 2; passes since Oct 3: posts →239, followers 6. Known ops item: 9:55 primary failed Oct 7–8, root cause unknown. EXP-03 held. Nothing needs Thomas.",
   "latestLesson": {
-    "id": "go-hard-persona",
-    "title": "Go hard is core X persona",
-    "originationDate": "2026-09-21",
-    "oneLiner": "First follower movement (0\u21922) under go-hard week \u2014 age before claiming win."
+    "id": "post-pass-readback-audit",
+    "title": "Read back every post after a pass",
+    "originationDate": "2026-10-06",
+    "oneLiner": "The poster rewrote and misreported posts on Oct 6, so every pass now ends with a read-back audit of what actually went live."
   },
   "needsHumanAction": false,
   "humanAction": null,
@@ -49,7 +49,7 @@
     {
       "label": "Public website",
       "url": "https://elephantharbor.com",
-      "note": "Public-facing company site \u2014 not the operating dashboard"
+      "note": "Public-facing company site — not the operating dashboard"
     },
     {
       "label": "X",
@@ -58,21 +58,21 @@
   ],
   "experimentsCount": 0,
   "channelsCount": 2,
-  "freshnessNote": "Desk freshness restored 2026-09-26 after INC-20260926-presence-desk-staleness. lastUpdated is publish time of this summary.",
+  "freshnessNote": "Manual Presence ops feed from Rowan's pass records. Desk caught up 2026-10-16 after a lag since Sep 26. lastUpdated is publish time of this summary.",
   "nextUp": {
     "areaId": "presence",
     "areaName": "Harbor Presence",
-    "lastUpdated": "2026-09-07T10:52:53-05:00",
+    "lastUpdated": "2026-10-16T10:55:33-05:00",
     "items": [
       {
         "title": "Weekday X pass",
-        "nextRunAt": "2026-09-08T10:00:00-05:00",
-        "scheduleLabel": "Weekdays 10:00 AM CT",
+        "nextRunAt": "2026-10-19T09:55:00-05:00",
+        "scheduleLabel": "Weekdays 9:55 AM CT (~8–15 replies; go-hard; voice 5; ≥1 Falcons/Saints; read-back audit)",
         "owner": "Rowan (Harbor Presence - Lead)"
       },
       {
         "title": "X missed-pass catch-up",
-        "nextRunAt": "2026-09-08T10:45:00-05:00",
+        "nextRunAt": "2026-10-19T10:45:00-05:00",
         "scheduleLabel": "Weekdays 10:45 AM CT (only if morning pass missed)",
         "owner": "Rowan (Harbor Presence - Lead)"
       }
@@ -82,20 +82,20 @@
     {
       "id": "human-voice-rules",
       "title": "Go-hard persona + human voice rules",
-      "status": "Active \u2014 Testing",
-      "nextMilestone": "Mon 2026-09-28 pass; spot-check aged views on go-hard week replies"
+      "status": "Active — Testing",
+      "nextMilestone": "Mon 2026-10-19 9:55 CT pass; age a sample of October replies before claiming any win"
     },
     {
       "id": "exp-02-voice-shift",
-      "title": "EXP-02 \u2014 Voice/form shift (questions & disagreement)",
-      "status": "Closed \u2014 Testing (2nd age done; hold EXP-03)",
-      "nextMilestone": "Review 2026-10-03; no EXP-03 until clearer success metric"
+      "title": "EXP-02 — Voice/form shift (questions & disagreement)",
+      "status": "Closed — Testing (2nd age done; EXP-03 held)",
+      "nextMilestone": "EXP-03 held by Maren's decision until there's a clearer success metric; no review date set"
     },
     {
       "id": "x-volume-bar",
-      "title": "X volume bar \u2014 ~8\u201315 replies/day with busy-room gate",
+      "title": "X volume bar — ~8–15 replies/day with busy-room gate",
       "status": "Active",
-      "nextMilestone": "Mon 2026-09-28 weekday pass"
+      "nextMilestone": "Mon 2026-10-19 9:55 CT weekday pass"
     }
   ],
   "maturity": {
@@ -103,6 +103,6 @@
     "assignedBy": "Hayes",
     "assignedAt": "2026-09-26",
     "mvo": "Justify current structure; no added agents/routines without evidence.",
-    "gapClosed": "Desk freshness restored 2026-09-26"
+    "gapClosed": "Desk freshness restored 2026-09-26; lag recurred Sep 26–Oct 16 and was closed 2026-10-16"
   }
 }
