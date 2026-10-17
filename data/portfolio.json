@@ -13,6 +13,19 @@
     "reach",
     "gaming"
   ],
+  "modelGovernance": {
+    "status": "amber",
+    "exceptions": {
+      "thirdPartyModelCalls": 1,
+      "bugbotRuns": 16,
+      "bugbotRunComments": 2,
+      "oldModelSettings": 23,
+      "newUnreviewedSetups": 0,
+      "cost": "Unavailable"
+    },
+    "lastChecked": "2026-10-17T07:40:58-05:00",
+    "summaryUrl": "data/governance/model-governance.json"
+  },
   "lastUpdated": "2026-10-10T08:10:00-05:00",
   "stats": {
     "activeSegments": 7,

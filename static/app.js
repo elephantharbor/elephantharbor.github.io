@@ -328,6 +328,77 @@ function renderMaturitySurfaces(maturityDoc, registryDoc) {
   }
 }
 
+// Model governance summary card (portfolio-level, not a segment tile). 2026-10-17, Wells.
+// Reads data/governance/model-governance.json (refreshed by the Portfolio Systems monitor); falls back to
+// portfolio.modelGovernance; degrades to a quiet "unavailable" note. Never blocks or breaks the segment tiles.
+const GOV_COUNT_LABELS = [
+  ["thirdPartyModelCalls", "Third-party model calls"],
+  ["bugbotRuns", "Bugbot runs"],
+  ["bugbotRunComments", "Bugbot run requests"],
+  ["oldModelSettings", "Old model settings to fix"],
+  ["newUnreviewedSetups", "New unreviewed agent setups"],
+  ["cost", "Cost"],
+];
+
+function govValue(v) {
+  if (v === null || v === undefined || v === "") return "—";
+  return String(v);
+}
+
+function govCardHtml(doc, fallbackNote) {
+  const status = String(doc.status || "").toLowerCase();
+  const badgeClass = status === "green" ? "operating" : "warn";
+  const label = doc.statusLabel || (status ? status[0].toUpperCase() + status.slice(1) : "—");
+  const ex = doc.exceptions && typeof doc.exceptions === "object" ? doc.exceptions : {};
+  const counts = GOV_COUNT_LABELS.filter(([k]) => k in ex)
+    .map(
+      ([k, l]) =>
+        `<li><span class="label">${escapeHtml(l)}</span><span class="value">${escapeHtml(govValue(ex[k]))}</span></li>`
+    )
+    .join("");
+  const lines = (Array.isArray(doc.lines) ? doc.lines : []).filter(Boolean);
+  const link = doc.summaryUrl
+    ? `<div class="actions"><a class="btn ghost" href="${escapeHtml(doc.summaryUrl)}" rel="noopener">Summary file</a></div>`
+    : "";
+  return `<article class="tile seg-portfolio gov-card" data-card="model-governance">
+    <div class="tile-head">
+      <div>
+        <h2>${escapeHtml(doc.title || "Model governance")}</h2>
+        <p class="mission">Which AI models agents may use, and anything that slipped past the rules.</p>
+      </div>
+      <span class="badge ${badgeClass}">${escapeHtml(label)}</span>
+    </div>
+    <p class="meta">Owner: <span>${escapeHtml(doc.owner || "Portfolio Systems")}</span> · Checked <span>${escapeHtml(
+      fmtWhen(doc.lastChecked)
+    )}</span></p>
+    ${counts ? `<ul class="metrics gov-counts">${counts}</ul>` : ""}
+    ${lines.length ? `<ul class="gov-lines">${lines.map((l) => `<li>${escapeHtml(l)}</li>`).join("")}</ul>` : ""}
+    ${fallbackNote ? `<p class="meta"><span>${escapeHtml(fallbackNote)}</span></p>` : ""}
+    ${doc.note ? `<p class="meta">${escapeHtml(doc.note)}</p>` : ""}
+    ${link}
+  </article>`;
+}
+
+async function renderModelGovernance(portfolio) {
+  const host = document.getElementById("model-governance-host");
+  if (!host) return;
+  const pointer = portfolio && portfolio.modelGovernance ? portfolio.modelGovernance : null;
+  const url = (pointer && pointer.summaryUrl) || "data/governance/model-governance.json";
+  try {
+    const doc = await loadJSON(url);
+    host.innerHTML = govCardHtml({ summaryUrl: url, ...doc });
+  } catch (_) {
+    if (pointer) {
+      host.innerHTML = govCardHtml(
+        { title: "Model governance", status: pointer.status, lastChecked: pointer.lastChecked, exceptions: pointer.exceptions },
+        "Detailed summary unavailable; showing last published snapshot."
+      );
+    } else {
+      host.innerHTML = "";
+    }
+  }
+}
+
 async function main() {
   try {
     const portfolio = await loadJSON("data/portfolio.json");
@@ -354,6 +425,9 @@ async function main() {
       segments.push(await loadJSON(`data/segments/${id}.json`));
     }
     renderStats(portfolio, segments);
+    renderModelGovernance(portfolio).catch(() => {
+      /* governance card optional; never blocks tiles */
+    });
     try {
       const tcHost = document.getElementById("trial-clock");
       if (tcHost && window.EH && EH.loadTrialClock) {

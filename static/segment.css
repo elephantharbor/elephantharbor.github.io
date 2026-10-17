@@ -34,3 +34,9 @@ body.eh-portfolio { font-size: 14px; }
 .tile-stale { opacity: 0.9; }
 .tile-stale .badge.badge-stale-soft { opacity: 0.65; filter: saturate(0.75); }
 .tile-stale-action { color: var(--muted); }
+
+/* Model governance summary card (portfolio-level, not a segment tile) — 2026-10-17, Wells */
+.gov-card { margin: 14px 0 0; }
+.gov-lines { margin: 0; padding-left: 18px; font-size: 13px; display: grid; gap: 4px; }
+.gov-lines li { color: var(--text); }
+.metrics.gov-counts { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); column-gap: 16px; }
