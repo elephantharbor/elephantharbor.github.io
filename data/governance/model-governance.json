@@ -4,7 +4,7 @@
   "owner": "Portfolio Systems (Wells)",
   "status": "red",
   "statusLabel": "Freeze breached",
-  "lastChecked": "2026-10-17T15:35:13-05:00",
+  "lastChecked": "2026-10-17T15:42:52-05:00",
   "freezeStart": "2026-10-16",
   "freezeReview": "2026-11-03",
   "exceptions": {
@@ -19,11 +19,10 @@
     "No Enterprise (Thomas, 10/17). Controls: instructions, daily monitor, Thomas's spend cap. Repo hooks are monitoring only.",
     "7 third-party helper calls since freeze (Osprey); latest 12:16 Oct 17 CDT.",
     "Breach times (CDT): Oct 16: 07:37 claude-4.5-sonnet, 10:10 claude-4.5-sonnet, 15:25 claude-4.5-sonnet, 17:06 claude-4.5-sonnet, 21:31 claude-4.5-sonnet; Oct 17: 12:03 claude-4.5-sonnet, 12:16 gemini-3.1-pro.",
-    "Monitor check UNVERIFIED: agent records could not be confirmed current, so this is not a clean result.",
     "Correction: the 12:10 Oct 17 check wrongly said nothing new. It read an out-of-date agent record and skipped late entries. Fixed.",
     "Bugbot: 16 runs since Oct 16 (Eats), none after 06:58 Oct 17 CDT. Bugbot is off and stays off.",
     "Old model settings still to fix: 0 items.",
-    "Osprey agent: still launched third-party helpers at 12:03 and 12:16 Oct 17 CDT; Thomas is deciding; still watched. Last activity in our copy of its log: 13:10 Oct 17 CDT.",
+    "Osprey agent: still launched third-party helpers at 12:03 and 12:16 Oct 17 CDT; Thomas is deciding; still watched. Last activity in our copy of its log: 15:40 Oct 17 CDT.",
     "Cost: Unavailable (no admin data).",
     "Live test: repo hooks did not block in cloud agents.",
     "The daily monitor checks the model every helper was launched on, in agent records copied to Portfolio Systems; agents whose records are not copied are not seen.",
@@ -80,8 +79,8 @@
       "title": "Review deletion page video"
     }
   ],
-  "monitorCheck": "UNVERIFIED",
-  "newSinceLastCheck": 6,
+  "monitorCheck": "verified",
+  "newSinceLastCheck": 0,
   "monitorErrors": 0,
   "note": "Counts since the freeze began (Oct 16). Unknowns show as \u2014 or Unavailable, not 0."
 }
