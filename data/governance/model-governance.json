@@ -4,7 +4,7 @@
   "owner": "Portfolio Systems (Wells)",
   "status": "amber",
   "statusLabel": "Watching",
-  "lastChecked": "2026-10-17T08:38:57-05:00",
+  "lastChecked": "2026-10-17T08:55:20-05:00",
   "freezeStart": "2026-10-16",
   "freezeReview": "2026-11-03",
   "exceptions": {
@@ -16,14 +16,15 @@
     "cost": "Unavailable"
   },
   "lines": [
+    "No Enterprise (Thomas, 10/17). Controls: instructions, daily monitor, Thomas's spend cap. Repo hooks are monitoring only.",
     "One third-party subagent call since freeze (Osprey, Oct 16).",
     "Bugbot: 16 runs since Oct 16 (Eats), none after 06:58 Oct 17 CDT. Bugbot is off and stays off.",
     "Old model settings still to fix: 0 items.",
     "Osprey agent: being moved to Grok 4.7-only helpers, or stopped (Brynn, Oct 17); still watched. Last activity in our copy of its log: 10:10 Oct 16 CDT.",
     "Cost: Unavailable (no admin data).",
-    "Live test: repo hooks did not block in cloud agents; account-level allowlist needed.",
-    "Freeze: Grok 4.7 default, Composer 2.5 only for small tasks, no third-party models without Thomas. Runs through at least Nov 3; does not end on its own.",
-    "Account-level model block: not in place yet (needs Thomas on the Cursor dashboard)."
+    "Live test: repo hooks did not block in cloud agents.",
+    "The daily monitor checks the model every helper was launched on, in agent records copied to Portfolio Systems; agents whose records are not copied are not seen.",
+    "Freeze: Grok 4.7 default, Composer 2.5 only for small tasks, no third-party models without Thomas. Runs through at least Nov 3; does not end on its own."
   ],
   "newSinceLastCheck": 0,
   "monitorErrors": 0,
