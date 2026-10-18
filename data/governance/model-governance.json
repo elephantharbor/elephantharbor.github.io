@@ -4,11 +4,11 @@
   "owner": "Portfolio Systems (Wells)",
   "status": "red",
   "statusLabel": "Freeze breached",
-  "lastChecked": "2026-10-17T17:03:51-05:00",
+  "lastChecked": "2026-10-18T07:05:01-05:00",
   "freezeStart": "2026-10-16",
   "freezeReview": "2026-11-03",
   "exceptions": {
-    "thirdPartyModelCalls": 9,
+    "thirdPartyModelCalls": 14,
     "bugbotRuns": 16,
     "bugbotRunComments": 2,
     "oldModelSettings": 0,
@@ -17,12 +17,12 @@
   },
   "lines": [
     "No Enterprise (Thomas, 10/17). Controls: instructions, daily monitor, Thomas's spend cap. Repo hooks are monitoring only.",
-    "9 third-party helper calls since freeze (Osprey); latest 16:46 Oct 17 CDT.",
-    "Breach times (CDT): Oct 16: 07:37 claude-4.5-sonnet, 10:10 claude-4.5-sonnet, 15:25 claude-4.5-sonnet, 17:06 claude-4.5-sonnet, 21:31 claude-4.5-sonnet; Oct 17: 12:03 claude-4.5-sonnet, 12:16 gemini-3.1-pro, 15:56 claude-4.5-sonnet, 16:46 claude-4.5-sonnet.",
+    "14 third-party helper calls since freeze (Osprey); latest 07:01 Oct 18 CDT.",
+    "Breach times (CDT): Oct 16: 07:37 claude-4.5-sonnet, 10:10 claude-4.5-sonnet, 15:25 claude-4.5-sonnet, 17:06 claude-4.5-sonnet, 21:31 claude-4.5-sonnet; Oct 17: 12:03 claude-4.5-sonnet, 12:16 gemini-3.1-pro, 15:56 claude-4.5-sonnet, 16:46 claude-4.5-sonnet, 16:55 claude-4.5-sonnet, 17:12 claude-4.5-sonnet, 17:18 claude-4.5-sonnet, 17:25 gemini-3.1-pro; Oct 18: 07:01 claude-4.5-sonnet.",
     "Correction: the 12:10 Oct 17 check wrongly said nothing new. It read an out-of-date agent record and skipped late entries. Fixed.",
     "Bugbot: 16 runs since Oct 16 (Eats), none after 06:58 Oct 17 CDT. Bugbot is off and stays off.",
     "Old model settings still to fix: 0 items.",
-    "Osprey agent: still launching third-party helpers (12:03, 12:16, 15:56, 16:46 Oct 17 CDT); Thomas is deciding; still watched. Last activity in our copy of its log: 16:55 Oct 17 CDT.",
+    "Osprey agent: still launching third-party helpers (see breach times above; latest 07:01 Oct 18 CDT); Thomas is deciding; still watched. Last activity in our copy of its log: 07:02 Oct 18 CDT.",
     "Cost: Unavailable (no admin data).",
     "Live test: repo hooks did not block in cloud agents.",
     "The daily monitor checks the model every helper was launched on, in agent records copied to Portfolio Systems; agents whose records are not copied are not seen.",
@@ -91,10 +91,45 @@
       "slug": "claude-4.5-sonnet",
       "timeCT": "16:46 Oct 17 CDT",
       "title": "Retry wizard and drafts"
+    },
+    {
+      "agent": "bc-5a937259",
+      "child": "bc-fc8370f8",
+      "slug": "claude-4.5-sonnet",
+      "timeCT": "16:55 Oct 17 CDT",
+      "title": "Retry save-and-exit and drafts"
+    },
+    {
+      "agent": "bc-5a937259",
+      "child": "bc-fc8370f8",
+      "slug": "claude-4.5-sonnet",
+      "timeCT": "17:12 Oct 17 CDT",
+      "title": "Exercise Save and exit dialog"
+    },
+    {
+      "agent": "bc-5a937259",
+      "child": "bc-fc8370f8",
+      "slug": "claude-4.5-sonnet",
+      "timeCT": "17:18 Oct 17 CDT",
+      "title": "Show saved drafts on screen"
+    },
+    {
+      "agent": "bc-5a937259",
+      "child": "bc-95b74e99",
+      "slug": "gemini-3.1-pro",
+      "timeCT": "17:25 Oct 17 CDT",
+      "title": "Review drafts smoke video"
+    },
+    {
+      "agent": "bc-5a937259",
+      "child": "bc-fc8370f8",
+      "slug": "claude-4.5-sonnet",
+      "timeCT": "07:01 Oct 18 CDT",
+      "title": "Frequency Leave Continue proof"
     }
   ],
   "monitorCheck": "verified",
-  "newSinceLastCheck": 2,
+  "newSinceLastCheck": 5,
   "monitorErrors": 0,
   "note": "Counts since the freeze began (Oct 16). Unknowns show as \u2014 or Unavailable, not 0."
 }
