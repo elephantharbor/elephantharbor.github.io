@@ -4,7 +4,7 @@
   "owner": "Portfolio Systems (Wells)",
   "status": "red",
   "statusLabel": "Freeze breached",
-  "lastChecked": "2026-10-18T12:13:13-05:00",
+  "lastChecked": "2026-10-18T17:11:39-05:00",
   "freezeStart": "2026-10-16",
   "freezeReview": "2026-11-03",
   "exceptions": {
@@ -22,7 +22,7 @@
     "Correction: the 12:10 Oct 17 check wrongly said nothing new. It read an out-of-date agent record and skipped late entries. Fixed.",
     "Bugbot: 16 runs since Oct 16 (Eats), none after 06:58 Oct 17 CDT. Bugbot is off and stays off.",
     "Old model settings still to fix: 0 items.",
-    "Osprey agent: still launching third-party helpers (see breach times above; latest 07:01 Oct 18 CDT); Thomas is deciding; still watched. Last activity in our copy of its log: 12:09 Oct 18 CDT.",
+    "Osprey agent: still launching third-party helpers (see breach times above; latest 07:01 Oct 18 CDT); Thomas is deciding; still watched. Last activity in our copy of its log: 16:43 Oct 18 CDT.",
     "Cost: Unavailable (no admin data).",
     "Live test: repo hooks did not block in cloud agents.",
     "The daily monitor checks the model every helper was launched on, in agent records copied to Portfolio Systems; agents whose records are not copied are not seen.",
